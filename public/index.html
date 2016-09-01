@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='Vinsanety'>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <script type="text/javascript" src="/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/angular/ui-router.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js" charset="utf-8"></script>
+    <script src="js/services.js" charset="utf-8"></script>
+
     <title>Vince Vahala</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body>
+
+  <body ng-cloak>
+
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Vahala Designs</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html">Resume</a></li>
+          <li><a href="badges.html">Projects</a></li>
+          <li><a href="collapsible.html">Mountaineering</a></li>
+          <li><a href="mobile.html">Mobile</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">Javascript</a></li>
+          <li><a href="mobile.html">Mobile</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <h1>Vince Vahala</h1>
     <h2>vincevahala@gmail.com</h2>
+
+    <div ui-view></div>
+
+
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    <!-- Angular Material Library -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
 </html>

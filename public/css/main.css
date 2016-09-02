@@ -2,6 +2,9 @@
   /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
   margin: 0;
 }
+hr{
+  margin: 5px 0 5px 0;
+}
 h1{
   color: black;
   display: flex;
@@ -30,6 +33,10 @@ body{
 
 /*BIO PAGE START*/
 #bio_pic{
-  
+
+}
+#card-title{
+  /*color: black;*/
+  /*font-weight: bold;*/
 }
 /*BIO PAGE END*/

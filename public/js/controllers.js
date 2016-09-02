@@ -6,8 +6,8 @@ app.controller('homeController', function($scope) {
   });
   // IMAGE POP UP ACTION
   $(document).ready(function(){
-      $('.materialboxed').materialbox();
-    });
+    $('.materialboxed').materialbox();
+  });
 
 })
 
@@ -19,8 +19,8 @@ app.controller('bioController', function($scope) {
   });
   // IMAGE POP UP ACTION
   $(document).ready(function(){
-      $('.materialboxed').materialbox();
-    });
+    $('.materialboxed').materialbox();
+  });
 
 })
 

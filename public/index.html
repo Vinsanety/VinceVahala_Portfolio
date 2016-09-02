@@ -26,23 +26,25 @@
 
     <nav>
       <div class="nav-wrapper">
-        <a ui-sref="home" class="brand-logo"><img src='../images/mountain.png' class="mountain"></img>Vahala Designs</a>
+        <a ui-sref="home" class="brand-logo"><img src='../images/Mountain.png' class="mountain"></img>Vahala Designs</a>
         <a ui-sref="home" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
+          <li><a ui-sref="bio">Meet Vince</a></li>
+          <li><a ui-sref="contact">Contact</a></li>
           <li><a ui-sref="resume">Resume</a></li>
           <li><a ui-sref="projects">Projects</a></li>
           <li><a ui-sref="mountaineering">Mountaineering</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
+          <li><a ui-sref="home">Home</a></li>
+          <li><a ui-sref="bio">Meet Vince</a></li>
+          <li><a ui-sref="contact">Contact</a></li>
           <li><a ui-sref="resume">Resume</a></li>
           <li><a ui-sref="projects">Projects</a></li>
           <li><a ui-sref="mountaineering">Mountaineering</a></li>
         </ul>
       </div>
     </nav>
-
-    <h1>Vince Vahala</h1>
-    <h2>vincevahala@gmail.com</h2>
 
     <div ui-view></div>
 

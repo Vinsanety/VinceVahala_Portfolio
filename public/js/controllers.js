@@ -4,6 +4,18 @@ app.controller('homeController', function($scope) {
 
 })
 
+app.controller('bioController', function($scope) {
+  $(".button-collapse").sideNav();
+  console.log('bio route hit');
+
+})
+
+app.controller('contactController', function($scope) {
+  $(".button-collapse").sideNav();
+  console.log('contact route hit');
+
+})
+
 app.controller('resumeController', function($scope) {
   $(".button-collapse").sideNav();
   console.log('resume route hit');

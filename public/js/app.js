@@ -9,6 +9,18 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
     controller: 'homeController',
     controllerAs: 'home'
   })
+  .state('bio', {
+    url: '/bio',
+    templateUrl: '/views/bio.html',
+    controller: 'bioController',
+    controllerAs: 'bio'
+  })
+  .state('contact', {
+    url: '/contact',
+    templateUrl: '/views/contact.html',
+    controller: 'contactController',
+    controllerAs: 'contact'
+  })
   .state('resume', {
     url: '/resume',
     templateUrl: '/views/resume.html',

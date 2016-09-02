@@ -30,6 +30,12 @@ body{
   height: 50px;
 }
 
+/*START HOME PAGE*/
+#home_row2{
+  width: auto;
+}
+/*END HOME PAGE*/
+
 
 /*BIO PAGE START*/
 #bio_pic{

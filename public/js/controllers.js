@@ -1,34 +1,68 @@
 app.controller('homeController', function($scope) {
-  $(".button-collapse").sideNav();
   console.log('home route hit');
+  // SIDE NAV ACTION
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  });
+  // IMAGE POP UP ACTION
+  $(document).ready(function(){
+      $('.materialboxed').materialbox();
+    });
 
 })
 
 app.controller('bioController', function($scope) {
-  $(".button-collapse").sideNav();
   console.log('bio route hit');
+  // SIDE NAV ACTION
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  });
+  // IMAGE POP UP ACTION
+  $(document).ready(function(){
+      $('.materialboxed').materialbox();
+    });
 
 })
 
 app.controller('contactController', function($scope) {
-  $(".button-collapse").sideNav();
   console.log('contact route hit');
+  // SIDE NAV ACTION
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  });
 
 })
 
 app.controller('resumeController', function($scope) {
-  $(".button-collapse").sideNav();
   console.log('resume route hit');
+  // SIDE NAVE ACTION
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  });
 
 })
 
 app.controller('projectsController', function($scope) {
-  $(".button-collapse").sideNav();
   console.log('projects route hit');
+  // SIDE NAV ACTION
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  });
+
+  // COLLAPSIBLE ACTION
+  $(document).ready(function(){
+   $('.collapsible').collapsible({
+     accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+   });
+ });
 
 })
 
 app.controller('mountaineeringController', function($scope) {
-  $(".button-collapse").sideNav();
   console.log('mountaineering route hit');
+  // SIDE NAV ACTION
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  });
+
 })

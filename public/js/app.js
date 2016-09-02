@@ -1,4 +1,4 @@
-var app = angular.module('Vinsanety', ['ui.router'])
+var app = angular.module('Vinsanety', ['ui.router', 'ngMaterial'])
 
 app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/')

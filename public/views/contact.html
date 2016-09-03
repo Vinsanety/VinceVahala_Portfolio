@@ -58,7 +58,7 @@
     <div class="row">
       <div class="input-field col s12">
          <textarea id="textarea1" class="materialize-textarea"></textarea>
-         <label for="textarea1">What's on your mind?</label>
+         <label for="textarea1">What may I create for you?</label>
        </div>
     </div>
     <div class="row">
@@ -67,5 +67,10 @@
         <label for="email">Email</label>
       </div>
     </div>
+    <a onclick="Materialize.toast('Message Sent', 4000)">
+      <button class="btn waves-effect waves-light" type="submit" name="action">Send
+        <i class="material-icons right">send</i>
+      </button>
+    </a>
   </form>
 </div>

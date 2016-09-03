@@ -41,6 +41,11 @@ body{
 #bioSubParagraph{
   text-align: center;
 }
+#spoilers-sub-paragraph{
+  height: 100px;
+  width: auto;
+  overflow: scroll;
+}
 #bio_pic{
 
 }

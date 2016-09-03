@@ -38,6 +38,9 @@ body{
 
 
 /*BIO PAGE START*/
+#bioSubParagraph{
+  text-align: center;
+}
 #bio_pic{
 
 }

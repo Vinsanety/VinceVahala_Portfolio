@@ -30,6 +30,9 @@ body{
 #home_row2{
   width: auto;
 }
+#homeHeaderIcons:hover{
+  color: white;
+}
 /*END HOME PAGE*/
 
 

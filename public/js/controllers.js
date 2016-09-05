@@ -1,11 +1,8 @@
 app.controller('homeController', function($scope) {
   console.log('home route hit');
-  // SIDE NAV ACTION
-  $(".button-collapse").sideNav({
-    closeOnClick: true
-  });
-  // IMAGE POP UP ACTION
-  $(document).ready(function(){
+
+  angular.element(document).ready(function () {
+    // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
   });
 
@@ -13,12 +10,9 @@ app.controller('homeController', function($scope) {
 
 app.controller('bioController', function($scope) {
   console.log('bio route hit');
-  // SIDE NAV ACTION
-  $(".button-collapse").sideNav({
-    closeOnClick: true
-  });
-  // IMAGE POP UP ACTION
-  $(document).ready(function(){
+
+  angular.element(document).ready(function () {
+    // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
   });
 
@@ -26,21 +20,18 @@ app.controller('bioController', function($scope) {
 
 app.controller('contactController', function($scope) {
   console.log('contact route hit');
-  // SIDE NAV ACTION
-  $(".button-collapse").sideNav({
-    closeOnClick: true
+
+  angular.element(document).ready(function () {
+
   });
 
 })
 
 app.controller('resumeController', function($scope) {
   console.log('resume route hit');
-  // SIDE NAVE ACTION
-  $(".button-collapse").sideNav({
-    closeOnClick: true
-  });
-  // MODAL ACTION
-  $(document).ready(function(){
+
+  angular.element(document).ready(function () {
+    // MODAL ACTION
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
   });
@@ -49,15 +40,11 @@ app.controller('resumeController', function($scope) {
 
 app.controller('projectsController', function($scope) {
   console.log('projects route hit');
-  // SIDE NAV ACTION
-  $(".button-collapse").sideNav({
-    closeOnClick: true
-  });
 
-  // COLLAPSIBLE ACTION
-  $(document).ready(function(){
-   $('.collapsible').collapsible({
-     accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+  angular.element(document).ready(function () {
+    // COLLAPSIBLE ACTION
+    $('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
    });
  });
 
@@ -65,9 +52,9 @@ app.controller('projectsController', function($scope) {
 
 app.controller('mountaineeringController', function($scope) {
   console.log('mountaineering route hit');
-  // SIDE NAV ACTION
-  $(".button-collapse").sideNav({
-    closeOnClick: true
+
+  angular.element(document).ready(function () {
+
   });
 
 })

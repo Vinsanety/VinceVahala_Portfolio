@@ -2,9 +2,6 @@
   /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
   margin: 0;
 }
-hr{
-  margin: 5px 0 5px 0;
-}
 h1{
   color: black;
   display: flex;
@@ -20,7 +17,6 @@ h2{
 body{
   width: 100%;
   height: 100vh;
-  /*background-image: url('../images/background1.jpg');*/
 }
 .nav-wrapper{
   background-color: #00c853;
@@ -38,6 +34,9 @@ body{
 
 
 /*BIO PAGE START*/
+#bioHr{
+  margin: 5px 0 5px 0;
+}
 #bioSubParagraph{
   text-align: center;
 }

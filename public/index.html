@@ -24,29 +24,58 @@
 
   <body ng-cloak>
 
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        <a ui-sref="home" class="brand-logo"><img src='../images/Mountain.png' class="mountain"></img>Vahala Designs</a>
-        <a ui-sref="home" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a ui-sref="bio">Meet Vince</a></li>
-          <li><a ui-sref="contact">Contact</a></li>
-          <li><a ui-sref="resume">Resume</a></li>
-          <li><a ui-sref="projects">Projects</a></li>
-          <li><a ui-sref="mountaineering">Mountaineering</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a ui-sref="home">Home</a></li>
-          <li><a ui-sref="bio">Meet Vince</a></li>
-          <li><a ui-sref="contact">Contact</a></li>
-          <li><a ui-sref="resume">Resume</a></li>
-          <li><a ui-sref="projects">Projects</a></li>
-          <li><a ui-sref="mountaineering">Mountaineering</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a ui-sref="home" class="brand-logo"><img src='../images/Mountain.png' class="mountain"></img>Vahala Designs</a>
+          <!-- OLD RESPONSIVE SIDE NAV -->
+          <!-- <a ui-sref="home" data-activates="mobile-Collapse" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a ui-sref="bio">Meet Vince</a></li>
+            <li><a ui-sref="contact">Contact</a></li>
+            <li><a ui-sref="resume">Resume</a></li>
+            <li><a ui-sref="projects">Projects</a></li>
+            <li><a ui-sref="mountaineering">Mountaineering</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-Collapse">
+            <li><a ui-sref="home">Home</a></li>
+            <li><a ui-sref="bio">Meet Vince</a></li>
+            <li><a ui-sref="contact">Contact</a></li>
+            <li><a ui-sref="resume">Resume</a></li>
+            <li><a ui-sref="projects">Projects</a></li>
+            <li><a ui-sref="mountaineering">Mountaineering</a></li>
+          </ul> -->
+
+          <!-- NEW RESPONSIVE SIDE NAV -->
+          <a ui-sref="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a ui-sref="bio">Meet Vince</a></li>
+            <li><a ui-sref="contact">Contact</a></li>
+            <li><a ui-sref="resume">Resume</a></li>
+            <li><a ui-sref="projects">Projects</a></li>
+            <li><a ui-sref="mountaineering">Mountaineering</a></li>
+          </ul>
+          <ul id="slide-out" class="side-nav">
+            <li>
+              <div class="userView">
+                <img class="background" src="images/Grand-Teton.jpg" height="200px" width="350px">
+                <a ui-sref="bio"><img class="circle" src="images/Vince-Zoom.jpg"></a>
+                <a ui-sref="bio"><span class="white-text name">Vince vahala</span></a>
+                <span class="white-text email">vincevahala@gmail.com</span>
+              </div>
+            </li>
+            <li><a class="waves-effect" ui-sref="home">Home</a></li>
+            <li><a class="waves-effect" ui-sref="bio">Meet Vince</a></li>
+            <li><a class="waves-effect" ui-sref="contact">Contact</a></li>
+            <li><a class="waves-effect" ui-sref="resume">Resume</a></li>
+            <li><a class="waves-effect" ui-sref="projects">Projects</a></li>
+            <!-- <li><div class="divider"></div></li>
+            <li><a class="subheader">Mountaineering</a></li> -->
+            <li><a class="waves-effect" ui-sref="mountaineering">Mountaineering</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
     <div ui-view></div>
 
@@ -67,20 +96,20 @@
           </div>
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Don't be shy</h5>
-          <ul>
-            <li class='white-text'>vincevahala@gmail.com</li>
-            <li><a class="grey-text text-lighten-3" href='https://www.linkedin.com/in/vincevahala' target='_blank'>in/vincevahala</a></li>
-            <li><a class="grey-text text-lighten-3" href='https://github.com/Vinsanety' target='_blank'>github.com/Vinsanety</a></li>
-          </ul>
+            <ul>
+              <li class='white-text'>vincevahala@gmail.com</li>
+              <li><a class="grey-text text-lighten-3" href='https://www.linkedin.com/in/vincevahala' target='_blank'>in/vincevahala</a></li>
+              <li><a class="grey-text text-lighten-3" href='https://github.com/Vinsanety' target='_blank'>github.com/Vinsanety</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-       © 2016 Vahala Designs
+      <div class="footer-copyright">
+        <div class="container">
+         © 2016 Vahala Designs
+        </div>
       </div>
-    </div>
-   </footer>
+    </footer>
 
 
     <!-- Angular Material requires Angular.js Libraries -->

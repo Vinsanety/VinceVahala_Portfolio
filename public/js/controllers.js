@@ -46,6 +46,10 @@ app.controller('projectsController', function($scope) {
     $('.collapsible').collapsible({
       accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
    });
+  //  MODAL ACTION
+   $('.modal-trigger').leanModal();
+   // IMAGE POP UP ACTION
+   $('.materialboxed').materialbox();
  });
 
 })

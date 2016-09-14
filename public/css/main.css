@@ -44,3 +44,18 @@ body{
   /*font-weight: bold;*/
 }
 /*BIO PAGE END*/
+
+
+/*MOUNTAINEERING PAGE START*/
+.mountaineering-container{
+  background-color:rgba(0, 0, 0, 0);
+}
+#mountaineering-top-parallax{
+  background-color:rgba(0, 0, 0, 0);
+  height: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*MOUNTAINEERING PAGE END*/

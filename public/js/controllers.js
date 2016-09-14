@@ -58,7 +58,7 @@ app.controller('mountaineeringController', function($scope) {
   console.log('mountaineering route hit');
 
   angular.element(document).ready(function () {
-
+    $('.parallax').parallax();
   });
 
 })

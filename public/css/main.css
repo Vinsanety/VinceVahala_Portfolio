@@ -46,6 +46,20 @@ body{
 /*BIO PAGE END*/
 
 
+/*RESUME PAGE START*/
+#resume-modal-btn{
+  margin-left: 5%;
+}
+#resume-modal1{
+  width: 75%;
+}
+#resume{
+  height: 100%;
+  width: 100%;
+}
+/*RESUME PAGE END*/
+
+
 /*PROJECTS PAGE START*/
 #projects-card-title{
   margin: 0;
@@ -61,6 +75,7 @@ body{
   background-color:rgba(0, 0, 0, 0);
 }
 #mountaineering-top-parallax{
+  z-index: 1;
   background-color:rgba(0, 0, 0, 0);
   height: 500px;
   width: 100%;

@@ -9,13 +9,13 @@
 </div>
 
 <!-- Modal Trigger -->
-  <a class="modal-trigger waves-effect waves-light btn" href="#modal1">PDF Resume</a>
+  <a id='resume-modal-btn' class="modal-trigger waves-effect waves-light btn" href="#resume-modal1">PDF Resume</a>
 
   <!-- Modal Structure -->
-  <div id="modal1" class="modal modal-fixed-footer">
+  <div id="resume-modal1" class="modal modal-fixed-footer">
     <div class="modal-content">
       <h4>Vince Vahala Resume</h4>
-      <!-- <img src='images/Vince-Vahala-Resume.pdf' alt='Resume Coming Soon'> -->
+      <iframe id='resume' src='images/Vince-Vahala-Resume.pdf' alt='Resume Coming Soon'></iframe>
     </div>
     <div class="modal-footer">
       <a ui-sref="resume" class="modal-action modal-close waves-effect waves-green btn-flat">Done</a>

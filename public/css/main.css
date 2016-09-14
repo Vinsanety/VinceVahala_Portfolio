@@ -46,6 +46,16 @@ body{
 /*BIO PAGE END*/
 
 
+/*PROJECTS PAGE START*/
+#projects-card-title{
+  margin-top: 0;
+  margin-bottom: 1%;
+  padding-top: 0;
+}
+
+/*PROJECTS PAGE END*/
+
+
 /*MOUNTAINEERING PAGE START*/
 .mountaineering-container{
   background-color:rgba(0, 0, 0, 0);
@@ -57,5 +67,4 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-
 /*MOUNTAINEERING PAGE END*/

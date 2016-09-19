@@ -15,6 +15,11 @@ body{
 }
 
 /*START HOME PAGE*/
+.home-parallax{
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+}
 #home_row2{
   width: auto;
 }

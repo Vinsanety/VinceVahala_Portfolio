@@ -4,6 +4,7 @@ app.controller('homeController', function($scope) {
   angular.element(document).ready(function () {
     // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
+    $('.parallax').parallax();
   });
 
 })

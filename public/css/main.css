@@ -66,7 +66,19 @@ body{
   margin-bottom: 5%;
   padding: 0;
 }
-
+#projects-badge{
+  width: 150px;
+  height: auto;
+  margin: 0;
+  margin-right: 3%;
+  padding: 0;
+  right: 10;
+}
+#projects-badge-icon{
+  margin: 0;
+  margin-left: 10%;
+  padding: 0;
+}
 /*PROJECTS PAGE END*/
 
 

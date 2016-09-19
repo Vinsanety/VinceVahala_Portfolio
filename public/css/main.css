@@ -18,6 +18,12 @@ body{
 #home_row2{
   width: auto;
 }
+.home-icons-container{
+  /*text-align: center;*/
+}
+#homeHeaderIcons{
+  /*padding-left: 1%;*/
+}
 #homeHeaderIcons:hover{
   color: white;
 }
@@ -48,7 +54,13 @@ body{
 
 /*RESUME PAGE START*/
 #resume-modal-btn{
-  margin-left: 5%;
+  /*margin-left: 5%;*/
+}
+.resume-thumbnails{
+  margin: 0;
+}
+#resume-modal-header{
+  color: black;
 }
 #resume-modal1{
   width: 75%;
@@ -60,6 +72,9 @@ body{
 #resume-download-pdf{
   padding: 0 1% 0 1%;
   float: left;
+}
+.resume-job-title{
+  font-size: 12px;
 }
 /*RESUME PAGE END*/
 
@@ -107,3 +122,50 @@ body{
   height: auto;
 }
 /*MOUNTAINEERING PAGE END*/
+
+
+/*FOOTER*/
+#footer{
+  margin: 0;
+}
+/*END FOOTER*/
+
+
+
+
+
+
+
+
+
+
+/*RESUME PARALLAX TESTING*/
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #resume-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width : 600px) {
+  #resume-banner .section {
+    top: 0;
+  }
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}

@@ -58,6 +58,7 @@ body{
   height: auto;
 }
 #resume-download-pdf{
+  padding: 0 1% 0 1%;
   float: left;
 }
 /*RESUME PAGE END*/

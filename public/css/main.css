@@ -57,6 +57,9 @@ body{
   width: 100%;
   height: auto;
 }
+#resume-download-pdf{
+  float: left;
+}
 /*RESUME PAGE END*/
 
 

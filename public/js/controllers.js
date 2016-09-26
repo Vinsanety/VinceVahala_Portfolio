@@ -53,9 +53,10 @@ app.controller('projectsController', function($scope) {
     // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
     // CAROUSEL
-    $('.carousel').carousel({ 
+    $('.carousel').carousel({
 
     });
+    
  });
 
 })

@@ -17,6 +17,10 @@ body{
 .brand-logo{
   margin-top: -3px;
 }
+.page-header{
+  font-family: 'Julius Sans One';
+}
+
 
 /*START HOME PAGE*/
 #home-welcome-text{

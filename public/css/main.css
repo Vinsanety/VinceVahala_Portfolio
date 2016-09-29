@@ -10,6 +10,9 @@ body{
 .nav-wrapper{
   background-color: #00c853;
 }
+.brand-logo{
+  margin-left: 1%;
+}
 .mountain{
   width: 50px;
   height: 50px;
@@ -31,25 +34,19 @@ body{
   font-family: 'Julius Sans One';
   letter-spacing: 6px;
 }
-.home-parallax{
-  min-height: 500px;
-  line-height: 0;
-  height: auto;
-}
-#home_row2{
-  width: auto;
-}
 .home-icons-container{
   /*text-align: center;*/
 }
 #homeHeaderIcons{
   /*padding-left: 1%;*/
   color: #4db6ac;
-
 }
 #homeHeaderIcons:hover{
   color: #4db6ac;
   color: #03a9f4;
+}
+#home_row2{
+  width: auto;
 }
 /*END HOME PAGE*/
 

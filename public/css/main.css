@@ -1,6 +1,7 @@
 *{
-  /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
   margin: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;;
 }
 body{
   width: 100%;
@@ -13,8 +14,15 @@ body{
   width: 50px;
   height: 50px;
 }
+.brand-logo{
+  margin-top: -3px;
+}
 
 /*START HOME PAGE*/
+#home-welcome-text{
+  font-family: 'Julius Sans One';
+  letter-spacing: 6px;
+}
 .home-parallax{
   min-height: 500px;
   line-height: 0;
@@ -28,9 +36,12 @@ body{
 }
 #homeHeaderIcons{
   /*padding-left: 1%;*/
+  color: #4db6ac;
+
 }
 #homeHeaderIcons:hover{
-  color: white;
+  color: #4db6ac;
+  color: #03a9f4;
 }
 /*END HOME PAGE*/
 
@@ -55,6 +66,16 @@ body{
   /*font-weight: bold;*/
 }
 /*BIO PAGE END*/
+
+
+/*CONTACT PAGE START*/
+#contact-list-items{
+  padding-top: 3%;
+}
+#contact-send-btn{
+  margin: 0 5% 0 0;
+}
+/*CONTACT PAGE END*/
 
 
 /*RESUME PAGE START*/
@@ -105,7 +126,7 @@ body{
 }
 .projects-modal-btn{
   margin: 0 0 10% 0;
-  padding: 0 5% 0 5%;
+  padding: 0 3% 0 3%;
 }
 .carousel {
   width: 100% !important;

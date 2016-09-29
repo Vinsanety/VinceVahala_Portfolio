@@ -10,40 +10,36 @@
 
 
 <div class="row">
-  <ul class="collection col s12 m6 l6">
-    <li class="collection-item avatar">
+  <ul class="collection col s12 m5 l5">
+    <li class="collection-item avatar" id="contact-list-items">
       <i class="material-icons circle green">home</i>
       <span class="title">Location</span>
       <p>Denver, CO</p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
     </li>
-    <li class="collection-item avatar">
+    <li class="collection-item avatar" id="contact-list-items">
       <i class="material-icons circle green">email</i>
       <span class="title">Email</span>
       <p>vincevahala@gmail.com</p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
     </li>
-    <li class="collection-item avatar">
+    <li class="collection-item avatar" id="contact-list-items">
       <i class="material-icons circle">phone</i>
       <span class="title">Phone</span>
       <p>574-xxx-xxxx</p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
     </li>
-    <li class="collection-item avatar">
+    <li class="collection-item avatar" id="contact-list-items">
       <i class="material-icons circle green">portrait</i>
       <span class="title">LinkedIn</span>
       <p><a href='https://www.linkedin.com/in/vincevahala' target='_blank'>/in/vincevahala</a></p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
     </li>
-    <li class="collection-item avatar">
+    <li class="collection-item avatar" id="contact-list-items">
       <i class="material-icons circle green">code</i>
       <span class="title">GitHub</span>
       <p><a href='https://github.com/Vinsanety' target='_blank'>/Vinsanety</a></p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
     </li>
   </ul>
 
-  <form class="col s12 m6 l6">
+  <form class="col s12 m7 l7">
+    <br><br>
     <div class="row">
       <div class="input-field col s6">
         <input id="first_name" type="text" class="validate">
@@ -52,6 +48,7 @@
       <div class="input-field col s6">
         <input id="last_name" type="text" class="validate">
         <label for="last_name">Last Name</label>
+        <br>
       </div>
     </div>
     <div class="row">
@@ -67,7 +64,7 @@
       </div>
     </div>
     <a onclick="Materialize.toast('Message Sent', 4000)">
-      <button class="btn waves-effect waves-light" type="submit" name="action">Send
+      <button class="btn waves-effect waves-light right" id='contact-send-btn' type="submit" name="action">Send
         <i class="material-icons right">send</i>
       </button>
     </a>

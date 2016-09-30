@@ -8,8 +8,7 @@
   </div>
 </div> -->
 
-<h1 class="header center teal-text text-lighten-2 page-header">Contact Vince</h1>
-
+<h1 class="header center page-header">Contact Vince</h1>
 
 <div class="row">
   <ul class="collection col s12 m5 l5">
@@ -44,31 +43,36 @@
     <br><br>
     <div class="row">
       <div class="input-field col s6">
-        <input id="first_name" type="text" class="validate">
-        <label for="first_name">First Name</label>
+        <i class="material-icons prefix" id="contact-form-icons">account_circle</i>
+        <input id="name" type="text" class="validate">
+        <label for="name">Name</label>
       </div>
       <div class="input-field col s6">
-        <input id="last_name" type="text" class="validate">
-        <label for="last_name">Last Name</label>
+        <i class="material-icons prefix" id="contact-form-icons">phone</i>
+        <input id="phone_number" type="text" class="validate">
+        <label for="phone_number">Phone Number</label>
         <br>
       </div>
     </div>
     <div class="row">
       <div class="input-field col s12">
-         <textarea id="textarea1" class="materialize-textarea"></textarea>
-         <label for="textarea1">What may I create for you?</label>
-       </div>
+        <i class="material-icons prefix" id="contact-form-icons">create</i>
+        <textarea id="textarea1" class="materialize-textarea"></textarea>
+        <label for="textarea1">What may I create for you?</label>
+      </div>
     </div>
     <div class="row">
       <div class="input-field col s12">
+        <i class="material-icons prefix" id="contact-form-icons">email</i>
         <input id="email" type="email" class="validate">
-        <label for="email">Email</label>
+        <label for="email" data-error="Please Enter Valid Email" data-success="Boom">Email</label>
       </div>
     </div>
-    <a onclick="Materialize.toast('Message Sent', 4000)">
+    <a onclick="Materialize.toast('Signed, Sealed, Delivered', 4000)">
       <button class="btn waves-effect waves-light right" id='contact-send-btn' type="submit" name="action">Send
         <i class="material-icons right">send</i>
       </button>
     </a>
   </form>
 </div>
+<br><br>

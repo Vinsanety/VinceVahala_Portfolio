@@ -23,9 +23,12 @@ body{
 .page-header{
   font-family: 'Julius Sans One';
   letter-spacing: 6px;
+  /*WAS THE OLD COLOR teal-text text-lighten-2*/
+  color: #00c853;
 }
 .section-header{
   font-family: 'Julius Sans One';
+  color: #00c853;
 }
 
 
@@ -46,7 +49,7 @@ body{
 }
 #homeHeaderIcons{
   /*padding-left: 1%;*/
-  color: #2196f3;
+  /*color: #2196f3;*/
 }
 #homeHeaderIcons:hover{
   color: #00c853;
@@ -85,6 +88,28 @@ body{
 }
 #contact-send-btn{
   margin: 0 5% 0 0;
+  background-color: #0882B7;
+}
+#contact-form-icons{
+  color: #0882B7;
+}
+/* label input focus color */
+.input-field input:focus + label {
+  color: #FF8700 !important;
+ }
+/* label input underline focus color */
+.row .input-field input:focus {
+  border-bottom: 1px solid #FF8700 !important;
+  box-shadow: 0 1px 0 0 #FF8700 !important
+}
+/* label textarea focus color */
+.input-field textarea:focus + label {
+  color: #FF8700 !important;
+ }
+/* label textarea underline focus color */
+.row .input-field textarea:focus {
+  border-bottom: 1px solid #FF8700 !important;
+  box-shadow: 0 1px 0 0 #FF8700 !important
 }
 /*CONTACT PAGE END*/
 
@@ -110,6 +135,9 @@ body{
 #resume-download-pdf{
   padding: 0 1% 0 1%;
   float: left;
+}
+.resume-icons{
+  color: #00c853;
 }
 .resume-job-title{
   font-size: 12px;
@@ -178,6 +206,9 @@ body{
 /*FOOTER*/
 #footer{
   margin: 0;
+  background-color: #0882B7;
+  background-color: #00C851;
+  /*background-color: #FF8700;*/
 }
 /*END FOOTER*/
 

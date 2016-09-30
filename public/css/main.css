@@ -28,8 +28,10 @@ body{
 }
 .section-header{
   font-family: 'Julius Sans One';
-  color: #00c853;
+  /*color: #00c853;*/
 }
+
+
 
 
 /*START HOME PAGE*/
@@ -116,7 +118,8 @@ body{
 
 /*RESUME PAGE START*/
 #resume-modal-btn{
-  /*margin-left: 5%;*/
+  background-color: #0882B7;
+  /*background-color: #FF8700;*/
 }
 .resume-thumbnails{
   margin: 0;
@@ -137,7 +140,11 @@ body{
   float: left;
 }
 .resume-icons{
-  color: #00c853;
+  color: #FF8700;
+  /*color: #0882B7;*/
+}
+#resume-exp-card{
+  background-color: #0882B7;
 }
 .resume-job-title{
   font-size: 12px;
@@ -176,6 +183,9 @@ body{
 .carousel-item {
   width: 500px !important;
   height: 500px !important;
+}
+#projects-view-btn{
+  background-color: #0882B7;
 }
 /*PROJECTS PAGE END*/
 

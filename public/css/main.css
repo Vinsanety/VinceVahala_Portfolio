@@ -1,13 +1,3 @@
-.home-screen-parallax{
-  background-image: url(/images/Home-Mountain-Para.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  height: 40vh;
-}
-
-
-
 *{
   margin: 0;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -46,6 +36,13 @@ body{
 }
 .home-icons-container{
   /*text-align: center;*/
+}
+.home-screen-parallax{
+  background-image: url(/images/Home-Mountain-Para.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 40vh;
 }
 #homeHeaderIcons{
   /*padding-left: 1%;*/

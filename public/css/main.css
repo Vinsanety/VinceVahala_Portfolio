@@ -1,7 +1,17 @@
+.home-screen-parallax{
+  background-image: url(/images/Home-Mountain-Para.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 40vh;
+}
+
+
+
 *{
   margin: 0;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
 }
 body{
   width: 100%;
@@ -39,11 +49,10 @@ body{
 }
 #homeHeaderIcons{
   /*padding-left: 1%;*/
-  color: #4db6ac;
+  color: #2196f3;
 }
 #homeHeaderIcons:hover{
-  color: #4db6ac;
-  color: #03a9f4;
+  color: #00c853;
 }
 #home_row2{
   width: auto;

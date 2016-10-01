@@ -10,6 +10,9 @@ body{
 .nav-wrapper{
   background-color: #00c853;
 }
+#small-nav-icon{
+  margin-left: 2%;
+}
 .brand-logo{
   margin-left: 1%;
 }

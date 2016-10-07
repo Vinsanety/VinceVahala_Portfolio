@@ -29,40 +29,40 @@
     </li>
   </ul>
 
-  <form class="col s12 m7 l7">
+  <form class="col s12 m7 l7" method="POST" action="https://formspree.io/vincevahala@gmail.com">
     <br><br>
     <div class="row">
-      <div class="input-field col s6">
+      <div class="input-field col s12 m12 l6">
         <i class="material-icons prefix" id="contact-form-icons">account_circle</i>
-        <input id="name" type="text" class="validate">
+        <input id="name" type="text" class="validate" name="Name">
         <label for="name">Name</label>
       </div>
-      <div class="input-field col s6">
-        <i class="material-icons prefix" id="contact-form-icons">phone</i>
-        <input id="phone_number" type="text" class="validate">
-        <label for="phone_number">Phone Number</label>
+      <div class="input-field col s12 m12 l6">
+        <i class="material-icons prefix" id="contact-form-icons">email</i>
+        <input id="email" type="email" class="validate" name="Email">
+        <label for="email" data-error="Please Enter Valid Email" data-success="Valid Email">Email</label>
         <br>
       </div>
     </div>
     <div class="row">
       <div class="input-field col s12">
-        <i class="material-icons prefix" id="contact-form-icons">create</i>
-        <textarea id="textarea1" class="materialize-textarea"></textarea>
-        <label for="textarea1">What may I create for you?</label>
+        <i class="material-icons prefix" id='contact-form-icons'>info</i>
+        <input id="subject" type="text" class="validate" name="Subject">
+        <label for="subject">Subject</label>
       </div>
     </div>
     <div class="row">
       <div class="input-field col s12">
-        <i class="material-icons prefix" id="contact-form-icons">email</i>
-        <input id="email" type="email" class="validate">
-        <label for="email" data-error="Please Enter Valid Email" data-success="Boom">Email</label>
+        <i class="material-icons prefix" id="contact-form-icons">create</i>
+        <textarea id="textarea1" class="materialize-textarea" name="Message"></textarea>
+        <label for="textarea1">What may I create for you?</label>
       </div>
     </div>
-    <a onclick="Materialize.toast('Signed, Sealed, Delivered', 4000)">
-      <button class="btn waves-effect waves-light right" id='contact-send-btn' type="submit" name="action">Send
-        <i class="material-icons right">send</i>
-      </button>
-    </a>
+    <button class="btn waves-effect waves-light right" id='contact-send-btn' type="submit">
+      <input type='submit' value='Send' onclick="Materialize.toast('Sent, Baby!', 4000)">
+      <i class="material-icons right">send</i>
+    </button>
+    <input type="hidden" name="_next" value="/#/contact"/>
   </form>
 </div>
 <br><br>

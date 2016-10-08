@@ -45,6 +45,15 @@ body{
 .home-icons-container{
   /*text-align: center;*/
 }
+
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px) {
+    .home-screen-parallax-container{
+      display: none;
+    }
+}
+
 .home-screen-parallax{
   background-image: url(/images/Home-Mountain-Para.jpg);
   background-attachment: fixed;

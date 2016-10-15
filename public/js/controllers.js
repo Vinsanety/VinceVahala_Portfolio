@@ -23,7 +23,7 @@ app.controller('contactController', function($scope) {
   console.log('contact route hit');
 
   angular.element(document).ready(function () {
-  
+
   });
 
 })

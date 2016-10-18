@@ -51,7 +51,7 @@ app.controller('projectsController', function($scope) {
     $('.carousel').carousel({
 
     });
-    // $('.carousel.carousel-slider').carousel({full_width: true});
+    $('.carousel.carousel-slider').carousel({full_width: true});
 
  });
 

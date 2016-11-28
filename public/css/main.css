@@ -277,3 +277,63 @@ body{
 .icon-block .material-icons {
   font-size: inherit;
 }
+
+
+
+/*TEST*/
+.bio-container{
+  height: auto;
+}
+#bio-card-header{
+  color: #0882B7;
+}
+.bio-intro-card{
+  width: auto;
+  height: auto;
+  overflow: scroll;
+}
+.bio-card-content{
+  font-size: 16px;
+}
+#VinceImg{
+  height: auto;
+}
+#vince-card-title-subheader{
+  font-size: 16px;
+}
+hr.bio-intro-paragraph-card-hr {
+  padding: 0;
+  border: none;
+  border-top: medium double #0882B7;
+  text-align: center;
+  color: #FF8700;
+}
+hr.bio-intro-paragraph-card-hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #FAFAFA;
+}
+.intro-sub-text{
+  color: #FF8700;
+  background-color: #FAFAFA;
+  font-size: 24px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.bio-mountains-para-container {
+  background-image: url(/images/Sneffels.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 40vh;
+}
+.bio-mountains-para-content{
+  height: 25vh;
+  margin: 0;
+}
+/*END TEST*/

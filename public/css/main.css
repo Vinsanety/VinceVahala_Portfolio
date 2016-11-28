@@ -310,12 +310,21 @@ hr.bio-intro-paragraph-card-hr:after {
   padding: 0 0.25em;
   background: #FAFAFA;
 }
-.bio-mountains-para-container {
+.bio-mountain-para-container {
   background-image: url(/images/Sneffels.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   height: 40vh;
+}
+@media screen and (max-width: 400px) {
+  .bio-mountain-para-container {
+    background-image: url(/images/Sneffels.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+  }
 }
 .bio-mountain-parallax-text{
   margin-left: auto;
@@ -325,7 +334,7 @@ hr.bio-intro-paragraph-card-hr:after {
   color: #FF8700;
 }
 .bio-mountains-para-content{
-  height: 40vh;
+  height: 25vh;
   margin: 0;
 }
 /*END TEST*/

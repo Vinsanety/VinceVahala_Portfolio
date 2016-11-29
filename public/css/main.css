@@ -102,7 +102,7 @@ body{
   border-style: none;
 }
 #contact-list-items{
-  padding-top: 3%;
+  /*padding-top: 3%;*/
   background-color: #FAFAFA;
   /*font-size: 18px;*/
 }

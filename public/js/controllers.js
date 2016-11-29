@@ -13,6 +13,14 @@ app.controller('bioController', function($scope) {
   angular.element(document).ready(function () {
     // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
+    var options = [
+      {
+        selector: '#bio-ScrollFire-Inititator', offset: 400, callback: function(el) {
+          Materialize.showStaggeredList($(el));
+        }
+      }
+    ];
+   Materialize.scrollFire(options);
   });
 
 })

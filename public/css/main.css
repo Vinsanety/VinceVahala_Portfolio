@@ -321,10 +321,9 @@ hr.bio-intro-paragraph-card-hr:after {
   .bio-mountain-para-container {
     background-image: url(/images/Sneffels.jpg);
     background-attachment: fixed;
-    background-size: 750px 378px;
-    /*background-repeat: no-repeat;*/
+    background-size: 850px 427px;
     background-position: center center;
-    height: 350px;
+    height: 250px;
   }
 }
 .bio-mountain-parallax-text{
@@ -333,6 +332,9 @@ hr.bio-intro-paragraph-card-hr:after {
   font-size: 24px;
   font-weight: bolder;
   color: #FF8700;
+}
+.bio-mountain-ScrollFire{
+  opacity: 1;
 }
 .bio-mountains-para-content{
   height: 25vh;

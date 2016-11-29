@@ -97,8 +97,14 @@ body{
 
 
 /*CONTACT PAGE START*/
+#contact-list{
+  background-color: #FAFAFA;
+  border-style: none;
+}
 #contact-list-items{
   padding-top: 3%;
+  background-color: #FAFAFA;
+  /*font-size: 18px;*/
 }
 #contact-send-btn{
   margin: 0 5% 0 0;
@@ -280,7 +286,7 @@ body{
 
 
 
-/*TEST*/
+/*TEST NEW BIO PAGE*/
 .bio-container{
   height: auto;
 }
@@ -340,4 +346,4 @@ hr.bio-intro-paragraph-card-hr:after {
   height: 25vh;
   margin: 0;
 }
-/*END TEST*/
+/*END TEST NEW BIO PAGE*/

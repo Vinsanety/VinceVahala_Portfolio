@@ -97,12 +97,14 @@ body{
 
 
 /*CONTACT PAGE START*/
+#contact-icon{
+  
+}
 #contact-list{
   background-color: #FAFAFA;
   border-style: none;
 }
 #contact-list-items{
-  padding-top: 0;
   background-color: #FAFAFA;
   /*font-size: 18px;*/
 }

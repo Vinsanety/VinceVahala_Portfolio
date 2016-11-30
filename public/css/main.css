@@ -156,6 +156,9 @@ body{
   padding: 0 1% 0 1%;
   float: left;
 }
+#resume-skills-pipe{
+  color: #0882B7;
+}
 .resume-icons{
   color: #FF8700;
   /*color: #0882B7;*/

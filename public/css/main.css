@@ -163,6 +163,9 @@ body{
   color: #FF8700;
   /*color: #0882B7;*/
 }
+#resume-current-job-card{
+  background-color: #FF8700;
+}
 #resume-exp-card{
   background-color: #0882B7;
 }

@@ -97,6 +97,9 @@ body{
 
 
 /*CONTACT PAGE START*/
+.contact-container{
+  padding: 0 2% 0 2%;
+}
 #contact-list{
   background-color: #FAFAFA;
   border-style: none;

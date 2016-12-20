@@ -1,7 +1,8 @@
 var app = angular.module('Vinsanety', ['ui.router', 'ngMaterial'])
 
-app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/home')
+app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
+  $urlRouterProvider.otherwise('home');
+  $locationProvider.html5Mode(true);
   $stateProvider
   .state('home', {
     url: '/home',

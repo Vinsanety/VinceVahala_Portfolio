@@ -1,6 +1,7 @@
 app.controller('homeController', function($scope) {
 
   angular.element(document).ready(function () {
+    $(this).scrollTop(0);
     // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
     $('.parallax').parallax();
@@ -11,6 +12,7 @@ app.controller('homeController', function($scope) {
 app.controller('bioController', function($scope) {
 
   angular.element(document).ready(function () {
+    $(this).scrollTop(0);
     // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
     var options = [
@@ -28,6 +30,7 @@ app.controller('bioController', function($scope) {
 app.controller('contactController', function($scope) {
 
   angular.element(document).ready(function () {
+    $(this).scrollTop(0);
 
   });
 
@@ -36,6 +39,7 @@ app.controller('contactController', function($scope) {
 app.controller('resumeController', function($scope) {
 
   angular.element(document).ready(function () {
+    $(this).scrollTop(0);
     // MODAL ACTION
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
@@ -47,6 +51,7 @@ app.controller('resumeController', function($scope) {
 app.controller('projectsController', function($scope) {
 
   angular.element(document).ready(function () {
+    $(this).scrollTop(0);
     // COLLAPSIBLE ACTION
     $('.collapsible').collapsible({
       accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
@@ -67,6 +72,7 @@ app.controller('projectsController', function($scope) {
 app.controller('mountaineeringController', function($scope) {
 
   angular.element(document).ready(function () {
+    $(this).scrollTop(0);
     $('.parallax').parallax();
   });
 

@@ -281,6 +281,10 @@ hr.bio-intro-paragraph-card-hr:after {
 
 
 /*RESUME PAGE START*/
+.resume-skills-container{
+  min-height: 92vh;
+  height: auto;
+}
 #resume-modal-btn{
   background-color: #0882B7;
 }

@@ -217,6 +217,7 @@ hr.bio-intro-paragraph-card-hr:after {
 .bio-mountain-parallax-text{
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   font-size: 44px;
   font-weight: 300;
   color: white;

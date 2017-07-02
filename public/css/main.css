@@ -92,7 +92,13 @@ body{
 .img-hover-text:hover{
   border-bottom: 1px solid white;
 }
-/*SITE WIDE CSS*/
+/*END SITE WIDE CSS*/
+
+/*OVERRIDES !important*/
+.drag-target{
+  width: 0 !important;
+}
+/*ENDOVERRIDES !important*/
 
 
 /*START HOME PAGE*/

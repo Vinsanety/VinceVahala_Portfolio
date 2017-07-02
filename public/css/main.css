@@ -1,3 +1,4 @@
+/*SITE WIDE CSS*/
 *{
   margin: 0;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -33,8 +34,65 @@ body{
   font-family: 'Julius Sans One';
   /*color: #00c853;*/
 }
-
-
+.img-hover-container {
+  position: relative;
+}
+.img-hover {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.img-overlay-right {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgba(3,155,229,0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.img-overlay-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  background-color: rgba(3,155,229,0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.img-hover-container:hover .img-overlay-right {
+  width: 100%;
+  left: 0;
+}
+.img-hover-container:hover .img-overlay-left {
+  width: 100%;
+  right: 0;
+}
+.img-hover-text {
+  white-space: nowrap;
+  color: white;
+  font-size: 36px;
+  font-weight: 200;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 667px) {
+  .img-hover-text{
+    white-space: pre-wrap;
+  }
+}
+.img-hover-text:hover{
+  border-bottom: 1px solid white;
+}
+/*SITE WIDE CSS*/
 
 
 /*START HOME PAGE*/
@@ -45,7 +103,6 @@ body{
 .home-icons-container{
   /*text-align: center;*/
 }
-
 @media only screen
   and (min-device-width : 768px)
   and (max-device-width : 1024px) {
@@ -53,17 +110,42 @@ body{
       display: none;
     }
 }
-
 .home-screen-parallax{
-  background-image: url(/images/Home-Mountain-Para.jpg);
+  background-image: url(/images/SkyPond.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  height: 40vh;
+  height: 60vh;
+  position: relative;
+}
+.home-screen-parallax ul{
+  float:left;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  font-size: 24px;
+  color: white;
+}
+.home-screen-parallax2{
+  background-image: url(/images/Grand-Teton.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+  position: relative;
+}
+.home-screen-parallax2 ul{
+  float:left;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  font-size: 24px;
+  color: white;
 }
 #homeHeaderIcons{
-  /*padding-left: 1%;*/
-  /*color: #2196f3;*/
+  color: #2196f3;
 }
 #homeHeaderIcons:hover{
   color: #00c853;
@@ -71,27 +153,81 @@ body{
 #home_row2{
   width: auto;
 }
+.home-technology-section{
+  margin:1em 0 3em 0;
+}
+.home-technology-section img{
+  height: 150px;
+  width: 150px;
+  padding:1em;
+  transition: all .2s ease-in-out;
+}
+.home-technology-section img:hover{
+  transform: scale(1.5);
+}
 /*END HOME PAGE*/
 
 
 /*BIO PAGE START*/
-#bioHr{
-  margin: 5px 0 5px 0;
+.bio-container{
+  height: auto;
 }
-#bioSubParagraph{
-  text-align: center;
+#bio-card-header{
+  color: #0882B7;
 }
-#spoilers-sub-paragraph{
-  height: 100px;
+.bio-intro-card{
   width: auto;
-  overflow: scroll;
+  height: auto;
 }
-#bio_pic{
-
+.bio-card-content{
+  font-size: 16px;
 }
-#card-title{
-  /*color: black;*/
-  /*font-weight: bold;*/
+hr.bio-intro-paragraph-card-hr {
+  padding: 0;
+  border: none;
+  border-top: medium double #0882B7;
+  text-align: center;
+  color: #FF8700;
+}
+hr.bio-intro-paragraph-card-hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #FAFAFA;
+}
+.bio-mountain-para-container {
+  background-image: url(/images/Sneffels.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 45vh;
+}
+@media screen and (max-width: 400px) {
+  .bio-mountain-para-container {
+    background-image: url(/images/Sneffels.jpg);
+    background-attachment: fixed;
+    background-size: 850px 427px;
+    background-position: center center;
+    height: 250px;
+  }
+}
+.bio-mountain-parallax-text{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 44px;
+  font-weight: 300;
+  color: white;
+  text-shadow: #FF8700 2px 2px;
+}
+.bio-mountain-ScrollFire{
+  opacity: 1;
+}
+.bio-mountains-para-content{
+  height: 25vh;
+  margin: 0;
 }
 /*BIO PAGE END*/
 
@@ -147,7 +283,6 @@ body{
 /*RESUME PAGE START*/
 #resume-modal-btn{
   background-color: #0882B7;
-  /*background-color: #FF8700;*/
 }
 .resume-thumbnails{
   margin: 0;
@@ -172,7 +307,6 @@ body{
 }
 .resume-icons{
   color: #FF8700;
-  /*color: #0882B7;*/
 }
 #resume-current-job-card{
   background-color: #FF8700;
@@ -182,6 +316,23 @@ body{
 }
 .resume-job-title{
   font-size: 12px;
+}
+/*Res para test 5/28/17*/
+.resume-parallax1{
+  background-image: url(/images/Teton2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+  position: relative;
+}
+.resume-parallax2{
+  background-image: url(/images/Vince-Quandary.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 65vh;
+  position: relative;
 }
 /*RESUME PAGE END*/
 
@@ -196,9 +347,25 @@ body{
   width: 150px;
   height: auto;
   margin: 0;
-  margin-right: 3%;
+  margin-right: 15%;
   padding: 0;
   right: 10;
+}
+@media screen and (max-width: 668px) {
+  #projects-badge{
+    margin-right: 8%;
+  }
+}
+@media screen and (max-width: 376px) {
+  #projects-badge{
+    margin-right: 3%;
+  }
+}
+#projects-badge:hover{
+  color: #0882B7;
+}
+.collapsible-header:active{
+  color: black;
 }
 #projects-badge-icon{
   margin: 0;
@@ -248,118 +415,61 @@ body{
   width: 100%;
   height: auto;
 }
+.card-reveal-opaque{
+  background-color: rgba(232,232,232,0.5) !important;
+}
+.mountaineering-parallax1{
+  background-image: url(/images/La-Plata-Peak.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 92vh;
+  position: relative;
+  filter: opacity(.7);
+}
+.mountaineering-para-overlay{
+  position: absolute;
+  color:#ffffff;
+  top:50%;
+  left:50%;
+  text-align:center;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 78px;
+  font-weight: 200;
+}
+@media screen and (max-width: 667px) {
+  .mountaineering-parallax1{
+    background-image: url(/images/La-Plata-Peak-B.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 92vh;
+    position: relative;
+    filter: opacity(.7);
+  }
+}
+.travel-card-container .card-content > .halfway-fab {
+  margin-top: -2%;
+}
+.travel-card-container .card-content > .halfway-fab i{
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.travel-card-container .card-content > .halfway-fab:hover i {
+  transform: rotate(360deg);
+}
+.travel-card-link ~ span{
+  float: right;
+}
+.travel-card-link:hover{
+  color: #00c853
+}
 /*MOUNTAINEERING PAGE END*/
-
 
 /*FOOTER*/
 #footer{
   margin: 0;
   background-color: #0882B7;
   background-color: #00C851;
-  /*background-color: #FF8700;*/
 }
 /*END FOOTER*/
-
-
-
-
-
-
-
-
-
-
-/*RESUME PARALLAX TESTING*/
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-.parallax-container .section {
-  width: 100%;
-}
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #resume-banner .section {
-    top: 10%;
-  }
-}
-@media only screen and (max-width : 600px) {
-  #resume-banner .section {
-    top: 0;
-  }
-}
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-
-
-/*TEST NEW BIO PAGE*/
-.bio-container{
-  height: auto;
-}
-#bio-card-header{
-  color: #0882B7;
-}
-.bio-intro-card{
-  width: auto;
-  height: auto;
-}
-.bio-card-content{
-  font-size: 16px;
-}
-hr.bio-intro-paragraph-card-hr {
-  padding: 0;
-  border: none;
-  border-top: medium double #0882B7;
-  text-align: center;
-  color: #FF8700;
-}
-hr.bio-intro-paragraph-card-hr:after {
-  content: "§";
-  display: inline-block;
-  position: relative;
-  top: -0.7em;
-  font-size: 1.5em;
-  padding: 0 0.25em;
-  background: #FAFAFA;
-}
-.bio-mountain-para-container {
-  background-image: url(/images/Sneffels.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  height: 40vh;
-}
-@media screen and (max-width: 400px) {
-  .bio-mountain-para-container {
-    background-image: url(/images/Sneffels.jpg);
-    background-attachment: fixed;
-    background-size: 850px 427px;
-    background-position: center center;
-    height: 250px;
-  }
-}
-.bio-mountain-parallax-text{
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 24px;
-  font-weight: bolder;
-  color: #FF8700;
-}
-.bio-mountain-ScrollFire{
-  opacity: 1;
-}
-.bio-mountains-para-content{
-  height: 25vh;
-  margin: 0;
-}
-/*END TEST NEW BIO PAGE*/

@@ -5,6 +5,21 @@ app.controller('homeController', function($scope) {
     // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
     $('.parallax').parallax();
+    $('.carousel').carousel();
+    $('.tooltipped').tooltip({delay: 50});
+    var options = [
+      {
+        selector: '#home-ScrollFire-Inititator1', offset: 500, callback: function(el) {
+          Materialize.showStaggeredList($(el));
+        }
+      },
+      {
+        selector: '#home-ScrollFire-Inititator2', offset: 600, callback: function(el) {
+          Materialize.showStaggeredList($(el));
+        }
+      }
+    ];
+   Materialize.scrollFire(options);
   });
 
 })

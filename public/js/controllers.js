@@ -89,6 +89,11 @@ app.controller('mountaineeringController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
     $('.parallax').parallax();
+    $("#mountaineering-icon-nav").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#scroll-to-top_Mountaineering").offset().top},
+        'slow');
+});
   });
 
 })

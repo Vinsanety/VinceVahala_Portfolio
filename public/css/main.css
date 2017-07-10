@@ -446,7 +446,7 @@ hr.bio-intro-paragraph-card-hr:after {
   position: relative;
   filter: opacity(.7);
 }
-.mountaineering-para-overlay{
+.mountaineering-para-text-overlay{
   position: absolute;
   color:#ffffff;
   top:50%;
@@ -455,6 +455,22 @@ hr.bio-intro-paragraph-card-hr:after {
   transform: translateX(-50%) translateY(-50%);
   font-size: 78px;
   font-weight: 200;
+}
+.mountaineering-para-icon-overlay{
+  position: absolute;
+  top:94%;
+  left:50%;
+  transform: translateX(-50%) translateY(-90%);
+  height: 125px;
+  width: auto;
+  transition: all .5s ease;
+}
+.mountaineering-para-icon-overlay:hover{
+  position: absolute;
+  top:97%;
+  left:50%;
+  height: 150px;
+  width: auto;
 }
 @media screen and (max-width: 667px) {
   .mountaineering-parallax1{

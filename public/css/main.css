@@ -219,13 +219,13 @@ hr.bio-intro-paragraph-card-hr:after {
   background-position: center center;
   height: 45vh;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 667px) {
   .bio-mountain-para-container {
     background-image: url(/images/Sneffels.jpg);
     background-attachment: fixed;
     background-size: 850px 427px;
     background-position: center center;
-    height: 250px;
+    height: 305px;
   }
 }
 .bio-mountain-parallax-text{
@@ -474,9 +474,9 @@ hr.bio-intro-paragraph-card-hr:after {
 }
 @media screen and (max-width: 667px) {
   .mountaineering-parallax1{
-    background-image: url(/images/travel/La-Plata-Peak-B.jpeg);
+    background-image: url(/images/travel/Redcloud.jpeg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 375px 725px;
     background-position: center center;
     position: relative;
     height: 92vh;

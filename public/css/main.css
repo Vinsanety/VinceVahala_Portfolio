@@ -438,13 +438,14 @@ hr.bio-intro-paragraph-card-hr:after {
   background-color: rgba(232,232,232,0.75) !important;
 }
 .mountaineering-parallax1{
-  background-image: url(/images/La-Plata-Peak.jpeg);
+  background-image: url(/images/travel/Massive-Facing-Elbert-Sunrise.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   height: 92vh;
   position: relative;
-  filter: opacity(.7);
+  filter: opacity(.9);
+  /*filter: brightness(1.1);*/
 }
 .mountaineering-para-text-overlay{
   position: absolute;
@@ -456,6 +457,31 @@ hr.bio-intro-paragraph-card-hr:after {
   font-size: 78px;
   font-weight: 200;
 }
+
+/*.mountaineering-para-icon-circle-overlay{
+  position: absolute;
+  top:94%;
+  left:50%;
+  transform: translateX(-50%) translateY(-90%);
+  transition: all .5s ease-in-out;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: none;
+    border: 5px dotted #FF8700;
+}
+.mountaineering-para-icon-circle-overlay:hover{
+  position: absolute;
+  top:94%;
+  left:50%;
+  transform: rotate(360deg) translateX(-50%) translateY(-90%);
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    background: none;
+    border: 5px dotted #FF8700;
+}*/
+
 .mountaineering-para-icon-overlay{
   position: absolute;
   top:94%;

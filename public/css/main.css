@@ -499,7 +499,7 @@ hr.bio-intro-paragraph-card-hr:after {
   height: 150px;
   width: auto;
 }
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 400px) {
   .mountaineering-parallax1{
     background-image: url(/images/travel/Redcloud.jpeg);
     background-attachment: fixed;

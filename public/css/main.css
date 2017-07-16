@@ -503,7 +503,8 @@ hr.bio-intro-paragraph-card-hr:after {
   .mountaineering-parallax1{
     background-image: url(/images/travel/Massive-Facing-Elbert-Sunrise.jpg);
     background-attachment: fixed;
-    background-size: 675px 400px;
+    /*background-size: 675px 500px;*/
+    background-size: contain;
     background-position: center center;
     position: relative;
     height: 92vh;

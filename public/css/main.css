@@ -499,7 +499,18 @@ hr.bio-intro-paragraph-card-hr:after {
   height: 150px;
   width: auto;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 667px) {
+  .mountaineering-parallax1{
+    background-image: url(/images/travel/Massive-Facing-Elbert-Sunrise.jpg);
+    background-attachment: fixed;
+    background-size: 675px 400px;
+    background-position: center center;
+    position: relative;
+    height: 92vh;
+    filter: opacity(.7);
+  }
+}
+@media screen and (max-width: 375px) {
   .mountaineering-parallax1{
     background-image: url(/images/travel/Redcloud.jpeg);
     background-attachment: fixed;

@@ -93,7 +93,7 @@ app.controller('mountaineeringController', function($scope) {
     $('html,body').animate({
         scrollTop: $("#scroll-to-top_Mountaineering").offset().top},
         'slow');
-});
+      });
   });
 
 })

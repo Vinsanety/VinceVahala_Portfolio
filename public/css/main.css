@@ -544,6 +544,16 @@ hr.bio-intro-paragraph-card-hr:after {
 .travel-card-title:hover{
   color: #00C853;
 }
+.travel-card-current-container{
+  width: 70%;
+  margin:0 auto;
+}
+@media screen and (max-width: 1024px){
+  .travel-card-current-container{
+    width: auto;
+    margin: 0;
+  }
+}
 .travel-card-content-container{
   font-size: 24px;
   text-align: center;

@@ -415,25 +415,6 @@ hr.bio-intro-paragraph-card-hr:after {
 
 
 /*MOUNTAINEERING PAGE START*/
-.mountaineering-container{
-  background-color:rgba(0, 0, 0, 0);
-}
-#mountaineering-top-parallax{
-  z-index: 1;
-  background-color:rgba(0, 0, 0, 0);
-  height: 500px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-#mountaineering-la-plata{
-  width: 100%;
-  height: auto;
-}
-#mountaineering-grand-teton{
-  width: 100%;
-  height: auto;
-}
 .card-reveal-opaque{
   background-color: rgba(232,232,232,0.75) !important;
 }
@@ -458,7 +439,7 @@ hr.bio-intro-paragraph-card-hr:after {
   font-weight: 200;
 }
 
-/*Code to wrap the mountaineering icon nav*/
+/*Mountaineering icon nav circle overlay*/
 /*.mountaineering-para-icon-circle-overlay{
   position: absolute;
   top:94%;
@@ -492,6 +473,22 @@ hr.bio-intro-paragraph-card-hr:after {
   width: auto;
   transition: all .5s ease;
 }
+@media screen and (max-width: 667px){
+  .mountaineering-para-icon-overlay{
+    height: 75px;
+    top: 87%;
+    left: 50%;
+    transform: translateX(-50%) translateY(87%));
+  }
+}
+@media screen and (max-width: 375px){
+  .mountaineering-para-icon-overlay{
+    height: 155px;
+    top:99%;
+    left:50%;
+    transform: translateX(-50%) translateY(-99%);
+  }
+}
 .mountaineering-para-icon-overlay:hover{
   position: absolute;
   top:97%;
@@ -503,8 +500,8 @@ hr.bio-intro-paragraph-card-hr:after {
   .mountaineering-parallax1{
     background-image: url(/images/travel/Massive-Facing-Elbert-Sunrise.jpg);
     background-attachment: fixed;
-    background-size: contain;
-    background-position: center center;
+    background-size: 667px 420px;
+    background-position: center top;
     position: relative;
     height: 92vh;
     filter: opacity(.7);
@@ -512,13 +509,13 @@ hr.bio-intro-paragraph-card-hr:after {
 }
 @media screen and (max-width: 375px) {
   .mountaineering-parallax1{
-    background-image: url(/images/travel/Redcloud.jpeg);
+    background-image: url(/images/travel/Redcloud.jpg);
     background-attachment: fixed;
     background-size: 375px 725px;
-    background-position: center center;
+    background-position: center top;
     position: relative;
-    height: 92vh;
-    filter: opacity(.7);
+    min-height: 92vh;
+    filter: opacity(.8);
   }
 }
 #travel-card-current-img{
@@ -546,12 +543,11 @@ hr.bio-intro-paragraph-card-hr:after {
 }
 .travel-card-current-container{
   width: 70%;
-  margin:0 auto;
+  margin: auto;
 }
 @media screen and (max-width: 1024px){
   .travel-card-current-container{
     width: auto;
-    margin: 0;
   }
 }
 .travel-card-content-container{

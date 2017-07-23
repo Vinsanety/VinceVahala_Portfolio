@@ -94,6 +94,7 @@ app.controller('mountaineeringController', function($scope) {
         scrollTop: $("#scroll-to-top_Mountaineering").offset().top},
         'slow');
       });
+      $('.collapsible').collapsible();
   });
 
 })

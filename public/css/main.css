@@ -370,6 +370,16 @@ hr.bio-intro-paragraph-card-hr:after {
   padding: 0;
   right: 10;
 }
+@media screen and (min-width: 1450px){
+  #projects-badge{
+    margin-right: 21%;
+  }
+}
+@media screen and (min-width: 2150px){
+  #projects-badge{
+    margin-right: 25%;
+  }
+}
 @media screen and (max-width: 668px) {
   #projects-badge{
     margin-right: 8%;

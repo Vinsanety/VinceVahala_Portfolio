@@ -429,14 +429,14 @@ hr.bio-intro-paragraph-card-hr:after {
   background-color: rgba(232,232,232,0.75) !important;
 }
 .mountaineering-parallax1{
-  background-image: url(/images/travel/Massive-Facing-Elbert-Sunrise.jpg);
+  /*background-image: url(/images/travel/Massive-Facing-Elbert-Sunrise.jpg);*/
+  background-image: url(/images/travel/South-Maroon-Summit.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   height: 92vh;
   position: relative;
-  filter: opacity(.9);
-  /*filter: brightness(1.1);*/
+  filter: brightness(.95) contrast(120%) saturate(130%);
 }
 .mountaineering-para-text-overlay{
   position: absolute;
@@ -447,6 +447,7 @@ hr.bio-intro-paragraph-card-hr:after {
   transform: translateX(-50%) translateY(-50%);
   font-size: 78px;
   font-weight: 200;
+  text-shadow: 3px 3px 6px #000000;
 }
 
 /*Mountaineering icon nav circle overlay*/
@@ -482,6 +483,7 @@ hr.bio-intro-paragraph-card-hr:after {
   height: 125px;
   width: auto;
   transition: all .5s ease;
+  filter: drop-shadow(3px 3px 6px #000000);
 }
 @media screen and (max-width: 667px){
   .mountaineering-para-icon-overlay{
@@ -497,6 +499,7 @@ hr.bio-intro-paragraph-card-hr:after {
     top:99%;
     left:50%;
     transform: translateX(-50%) translateY(-99%);
+    filter: drop-shadow(2px 2px 5px #FFFFFF);
   }
 }
 .mountaineering-para-icon-overlay:hover{

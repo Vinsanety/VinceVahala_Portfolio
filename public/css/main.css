@@ -535,6 +535,24 @@ hr.bio-intro-paragraph-card-hr:after {
   width: 100%;
   height: auto;
 }
+@media screen and (min-width: 1200px){
+  .travel-card-main-img-container > img{
+  	min-height: 359.797px;
+    min-width: 481.5px;
+  }
+}
+@media screen and (min-width: 768px){
+  .travel-card-main-img-container > img{
+  	min-height: 229.031px;
+    min-width: 305.391px;
+  }
+}
+@media screen and (min-width: 375px){
+  .travel-card-main-img-container > img {
+    min-height: 236.422px;
+    min-width: 316.5px;
+  }
+}
 .travel-card-container .card-content > .halfway-fab {
   margin-top: -2%;
 }

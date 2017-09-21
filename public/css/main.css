@@ -391,7 +391,7 @@ hr.bio-intro-paragraph-card-hr:after {
     margin-right: 3%;
   }
 }
-#projects-badge:hover{
+.collapsible-header:hover,.collapsible-header:hover > #projects-badge{
   color: #0882B7;
 }
 .collapsible-header:active{

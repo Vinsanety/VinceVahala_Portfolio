@@ -83,6 +83,7 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  text-shadow: rgb(0, 0, 0) 3px 3px 6px;
 }
 @media screen and (max-width: 667px) {
   .img-hover-text{
@@ -100,6 +101,41 @@ body{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+/* Non-Materialize Tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
 /*END SITE WIDE CSS*/
 
 /*OVERRIDES !important*/
@@ -114,8 +150,8 @@ body{
   font-family: 'Julius Sans One';
   letter-spacing: 6px;
 }
-.home-icons-container{
-  /*text-align: center;*/
+.home-icons-container-large{
+  margin: 1em 0;
 }
 @media only screen
   and (min-device-width : 768px)
@@ -158,10 +194,11 @@ body{
   font-size: 24px;
   color: white;
 }
-#homeHeaderIcons{
+.homeHeaderIcons{
   color: #2196f3;
+  margin:0 .25em;
 }
-#homeHeaderIcons:hover{
+.homeHeaderIcons:hover{
   color: #00c853;
 }
 #home_row2{

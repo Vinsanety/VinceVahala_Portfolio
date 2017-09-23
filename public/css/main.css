@@ -120,7 +120,7 @@ body{
   left: 50%;
   margin-left: -60px;
   opacity: 0;
-  transition: opacity 300ms;
+  transition: opacity 700ms;
 }
 .tooltip .tooltip-text::after {
   content: "";

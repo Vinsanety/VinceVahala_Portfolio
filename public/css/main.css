@@ -150,6 +150,10 @@ body{
 	width: 100%;
 	height: 100%;
 }
+.disabled{
+  cursor: help !important;
+  background-color: #e0e0e0;
+}
 /*END SITE WIDE CSS*/
 
 /*OVERRIDES !important*/
@@ -175,7 +179,8 @@ body{
     }
 }
 .home-screen-parallax{
-  background-image: url(/images/SkyPond.jpg);
+  /*background-image: url(/images/SkyPond.jpg);*/
+  background-image: url(https://lh3.googleusercontent.com/zyjhcilamhq-tBVbbIUhysaZTmFCvapRVfkJ9RVJwSsQUgHuksCBeocl3u_sAym9NhGtpKyNXvFX2WCM1XIpzFDVXNFs0zaEiKEjZXcjbBQCf1Eu9xhS3-zq5gnqZjolgNTFVRezNIhqetLJmtLxy9yITyq1zRqtL1n_Nm48ogbHQLtHbIQXP21RqHqw5mc-x0SIwvpNvyq4Gl1SDmOCH16we9b6veNnX_a65KHBJH70QiX4GSuVMrnC7w5zRAv2nYrh3SwESaJxFTPsa-xG3bMMuEuIs5BkVwULBJBBRMn0oBePoFLra7abfddvtoMxEXxo4ngeTPP5uI7cOIVtz1AWPGXMGSiO-oGRZ5U0Xi7Sn8t8rV4RSCTThrbMN7Ci4KxfPVR606N9JfQjyil36tRWx-MZX8fDs8ox2U2dV6lwcMfRiFdke_CNASLq_RqwnAlA0c0aZjsoTlVs_nqA2WDTnf8q_YRNWh6HZcEb1CwfpbcFXbpok8_93I2cC2XvMbZUZudQdN9XQpl4ggNZuPut_q8PAw0dPrI2sv7sm6JmfTGEBnitkfNmixwzlFDRhOi3rXVyg_OSt57AkH0QfNpTUvNme0hf6tww6HJFnQ=w1385-h725-no);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -192,7 +197,8 @@ body{
   color: white;
 }
 .home-screen-parallax2{
-  background-image: url(/images/Grand-Teton.jpg);
+  /*background-image: url(/images/Grand-Teton.jpg);*/
+  background-image: url(https://lh3.googleusercontent.com/KoqpIaL3l5Uuj_geA4cT3OptsPoZDona6-GnIkmoxZA1b4S7C62GlG1tI_U6auO5ipEUOfRiGO32ngbFZ1kQwhx1uRsQ8xNZ1VoDpsUbTFmqJDu1_84wWTQOr2-SuLXOCs09lsYv03meqMhw88uhyVXymmQwuUTIfmXYcBQWRBZWk-cjXyaTAQWM9N3nILARpJW9wK5q5Gn7KUl3pTpKwSn0mEj8NU50aH8E4Zyk3a1pylszuZwGgdIDCtm6PryWUknOF-lT3YHmcKqQjxEzlSQpwk3N0CRHCZp50DkcIp6coYzsBPRKVWa_v1wgMA1zbN2cWPA2HU-ji5MA_7-0z1vhD_5KvMzB9YD_lP3udK9sxt05yZi43M47BCj_BVr5rfp-Hojf2Zj6R3-e3Z0yhfvs83AGi1a0vjsCi-RMVVWB94YHv_z1tKCRoxt3zx3nbNQt6rcW7ORtL35Sy4nA3RtrrbumpOUWUxxX-7XOh9pJpvgV7sQrpkjICDa1Gk7WNw0dQXlLAfpra3y2VImdJqzqg6gznqbjJRvQkA7_Yd--NuNxAWDo5jETwP96DbsEhuvTDg7yf6hROeXl0xJtVSCdMLqUrhhuQrE7de4NYg=w1200-h725-no);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;

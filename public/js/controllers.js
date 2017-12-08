@@ -59,6 +59,12 @@ app.controller('resumeController', function($scope) {
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
     $('.parallax').parallax();
+
+    $("#resume-icon-overlay").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#resume-current-job-card").offset().top - 135
+      }, 2500);
+    });
   });
 
 })
@@ -90,12 +96,24 @@ app.controller('mountaineeringController', function($scope) {
     $('.tooltipped').tooltip({delay: 50});
     $(this).scrollTop(0);
     $('.parallax').parallax();
-    $("#mountaineering-icon-nav").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#scroll-to-top_Mountaineering").offset().top},
-        'slow');
-      });
-      $('.collapsible').collapsible();
+    $('.collapsible').collapsible();
+
+    $("#travel-icon-overlay").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#travel-card-container").offset().top - 75
+      }, 1500);
+    });
+    $("#vahala-films-scroll-to").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#vahala-films-collection").offset().top - 75
+      }, 1500);
+    });
+    $("#photo-collections-scroll-to").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#photo-collections").offset().top - 75
+      }, 3000);
+    });
+
   });
 
 })

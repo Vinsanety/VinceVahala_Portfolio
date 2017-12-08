@@ -8,6 +8,24 @@ body{
   width: 100%;
   height: 100vh;
 }
+hr {
+  background: url("../images/Mountain.png");
+  padding: 0;
+  border: none;
+  border-top: medium double #0882B7;
+  text-align: center;
+  color: #FF8700;
+  position: relative;
+}
+hr:after,hr:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #FAFAFA;
+}
 .nav-wrapper{
   background-color: #00c853;
 }
@@ -253,24 +271,9 @@ body{
 .bio-card-content{
   font-size: 16px;
 }
-hr.bio-intro-paragraph-card-hr {
-  padding: 0;
-  border: none;
-  border-top: medium double #0882B7;
-  text-align: center;
-  color: #FF8700;
-}
-hr.bio-intro-paragraph-card-hr:after {
-  content: "§";
-  display: inline-block;
-  position: relative;
-  top: -0.7em;
-  font-size: 1.5em;
-  padding: 0 0.25em;
-  background: #FAFAFA;
-}
 .bio-mountain-para-container {
-  background-image: url(/images/Sneffels.jpg);
+  /*background-image: url(/images/Sneffels.jpg);*/
+  background-image: url(https://lh3.googleusercontent.com/Sz2SzUahO4QQqEGsPjtcOC1I97F5VNBU4h6U-hqfL8Xy9Wnoa2joLeAcv4fdmByz1-C4wLyKUZfuJzx-N3lj-db0x_sWIE0adFK9ZIDyJOAi8lizWX2CaMvlBbG_HwtRyUWgiTYJle739xigoWFNqH0WvecPLVkVDJ7FPkYr5IeFRoq1pnrVLHBKmXB2wGSViY1d2GQAs-3rUlU5xnRQo_d6ZFmT5iGmeaNSzSGMw47T1BsYM7yfH_E46I7AKssy3CwP0Jtnky1Brt0nBIT3Ow-nokR-YU8K5BGL_LFxRPDIJ3zbSmKPRpLckjilnoiu5DvtirBNgcJHg-dQc9HkODJPYGb5_qAeKUrL65q_1kPhNScI9rACoCuWmNoWg9_QK_rcMk2py19jhh67MkJU61AMo_7CkpK30E0htti2ek-XMbw6wzLzi2Nuzgl4H8KdvdNKVJztfec9NaUhp_q0gxJn1h_WocipzRh8YbF7iOGfMTlbLn-D8bg_d2_SQnThjB--1AkafK8ofqFE1unTysk0ptBeNX55fqsfrof5tED2MDyiX4bSqm9H72_KB0WArbf0ZdQevKeKznOmhR3yFVuUOExPoxY07E2fBBeUug=w1440-h724-no);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -278,7 +281,8 @@ hr.bio-intro-paragraph-card-hr:after {
 }
 @media screen and (max-width: 667px) {
   .bio-mountain-para-container {
-    background-image: url(/images/Sneffels.jpg);
+    /*background-image: url(/images/Sneffels.jpg);*/
+    background-image: url(https://lh3.googleusercontent.com/Sz2SzUahO4QQqEGsPjtcOC1I97F5VNBU4h6U-hqfL8Xy9Wnoa2joLeAcv4fdmByz1-C4wLyKUZfuJzx-N3lj-db0x_sWIE0adFK9ZIDyJOAi8lizWX2CaMvlBbG_HwtRyUWgiTYJle739xigoWFNqH0WvecPLVkVDJ7FPkYr5IeFRoq1pnrVLHBKmXB2wGSViY1d2GQAs-3rUlU5xnRQo_d6ZFmT5iGmeaNSzSGMw47T1BsYM7yfH_E46I7AKssy3CwP0Jtnky1Brt0nBIT3Ow-nokR-YU8K5BGL_LFxRPDIJ3zbSmKPRpLckjilnoiu5DvtirBNgcJHg-dQc9HkODJPYGb5_qAeKUrL65q_1kPhNScI9rACoCuWmNoWg9_QK_rcMk2py19jhh67MkJU61AMo_7CkpK30E0htti2ek-XMbw6wzLzi2Nuzgl4H8KdvdNKVJztfec9NaUhp_q0gxJn1h_WocipzRh8YbF7iOGfMTlbLn-D8bg_d2_SQnThjB--1AkafK8ofqFE1unTysk0ptBeNX55fqsfrof5tED2MDyiX4bSqm9H72_KB0WArbf0ZdQevKeKznOmhR3yFVuUOExPoxY07E2fBBeUug=w1440-h724-no);
     background-attachment: fixed;
     background-size: 850px 427px;
     background-position: center center;
@@ -378,6 +382,13 @@ hr.bio-intro-paragraph-card-hr:after {
 #resume-download-pdf{
   padding: 0 1% 0 1%;
   float: left;
+  /*border: none;
+  background-color: #fafafa;*/
+}
+#resume-download-pdf > button{
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
 }
 #resume-skills-pipe{
   color: #0882B7;
@@ -396,7 +407,8 @@ hr.bio-intro-paragraph-card-hr:after {
 }
 /*Res para test 5/28/17*/
 .resume-parallax1{
-  background-image: url(/images/Teton2.jpg);
+  /*background-image: url(/images/Teton2.jpg);*/
+  background-image: url(https://lh3.googleusercontent.com/vn0KHrHbsoyOvu77Y0RKqbDOr8-uFh4Xyaf9_nA924ji8NsQJkB7FdgjzxBfHnkwhzp7LYdL4ndqrc9pT0BVgGjytNg8bUUijFqx3S65v0l2bcchaQJt2YNoOpnSRowFONorjCxf1dhtsJ7p7LBDGyYhw0MU6nMf0uQpwnpUSVw94RbB1khgTT-cnAkddgYVjnSKLGG-YUsTxWL8wmIJePPJ-g8dIIoNdp5H8n20lnAF5pgGZf5FgsZ1se5I7CM7wPa4FvKH9SWuS9l_6l2AO5GqtWla7vM5EhOXXJ8aiFt-YNluAQD0sXq8_PKzHd8rfeyCSnHiaw0hCJ-GRvLTqHjkoftIXFWSxjLLOWDxKn2MQZDTtoe8y-RqiDY8U0fZbYh3ftz2OcCvuuC6CS2Zyu0_IYaCQANg3vxVXqNpWTIY13CTElExQk3CUWXQ_rkSS4_be5-Vay4frBezwgdEk25L9aQ8hkxHA7xW5t43XypyyHgkWUYQWlHV0eya-z9wizxiafV_Kkho0ut_UnISywSdJmORpVZZMxYh31ulU6uuGHmMtwMn-CHDlEp65AHRHLQe-pWUbm5-rKgeZnSi0FJzErAZs4wBf9CND1y0DQ=w967-h725-no);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -404,7 +416,8 @@ hr.bio-intro-paragraph-card-hr:after {
   position: relative;
 }
 .resume-parallax2{
-  background-image: url(/images/Vince-Yale.jpg);
+  /*background-image: url(/images/Vince-Yale.jpg);*/
+  background-image: url(https://lh3.googleusercontent.com/1Ls7KoMUQog4_CXJb0eaRQ_xw46tS9CS_8du1XapF_yt86UXTwQqVkzPVvGW3DCJFZhjjqYqFi9t6gyHoz5tgXgptA0spjcgfkRmORYd0yBMcLUv8vF4PCbkY3GsdcVUCQHT7B2BkXWKzaqgJRSE9_49s5zDFoH2nsHydJPM9EWnSoVYXsdIhkGg2eAMxaWZrOisZVo5JjhXKMQs_cR9k1FlZltUpCLcFUcfZUb4vTlwAnfJepSCSskvAKaDci8pMJPLjx5eYmiRHDjNuLL4bVGxF_P3yPFeYdLbIYUrfOt9Kt0UKI9S0a3aVmkuvB9gmUvq1XJ_Ef5F6tTPtjsrD2CaOZmmq3ZesCk1wQHTEHH0jVhf1lMkDWnasLUMOGlG1VWbIMUvJnfrz9eUy2ryUa9XRakFzNHxyG_I8wKvKCPhXdKzCM9N4dsKFf7W-IqP_M81pNfXn2HIm2KF1EGpjgd0F9XhITEf4L3N9Ixidbyf5zbBE9NJhMMuEebXPo8b_8Pz0lf9ZEGhH59dZxBVcWpVmdufvGujZ154AAWz0Pn_InyqJvfVkAkWgfgD9Qux-TRAp-di6W508ljpjjyYNA_NLCewUQ6ptLA3TN0KjQ=w968-h725-no);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -487,7 +500,8 @@ hr.bio-intro-paragraph-card-hr:after {
   background-color: rgba(232,232,232,0.75) !important;
 }
 .mountaineering-parallax1{
-  background-image: url(/images/travel/South-Maroon-Summit.jpg);
+  /*background-image: url(/images/travel/South-Maroon-Summit.jpg);*/
+  background-image: url(https://lh3.googleusercontent.com/Q13EaGcmGDeCKK_fZkgCM6rl0TqJcAhSRrAjiyvABcXDlly5YWtlAHX_Mf5u2PintRo9OzS7haUY2ntZF7jFXqPmXssr5VKJ2qtJTrgSyCCTjMALV7cvV4lzgc3f41IOUwSaae_xPUCfFV3iLxWPbF0U_wiVgS08P-TZhXec2lR044P677zYxaz6LBXuTgawRyD5aElnzpmNrNYpO1LXQQDgYnav5B_yDO81rjW4b6pVmvN8gd1vZmmb3PKvxrJjX2lzuelEPus7dQoyBy969T9d062Cu8DmEaprg9hjCvyQgZLZfcOH_PSvn3gb32eG5kC-LhaYPzbh4kuJPMJ2HBMnWo_sRyEpRXyjmFouMSh-FQ7GSYxrWbhLMtjk6GzfGGE78AGoQTvU0Ivf6k0xtc9Oj-ibcmjOflUUzi8iNrJwj3tYuE5RQZxyQ3CD7mXLz06eZQZ2au_mGRnnWQ0aQgkB6HJqK-NEKM8IwxIrLdHB5xQkkLEbhK9ckZMSFcFwnrdM400vzF_YVJBFEn1wL-x9P32IQ2dD-7sF9Jl4uvDHBJ6Mt3svEhh_MvpEceU9_d0a6iklu8ZRE0NFTtLALNA_YMYxrggz3wnk6_7yjw=w1386-h725-no);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -506,32 +520,6 @@ hr.bio-intro-paragraph-card-hr:after {
   font-weight: 200;
   text-shadow: 3px 3px 6px #000000;
 }
-
-/*Mountaineering icon nav circle overlay*/
-/*.mountaineering-para-icon-circle-overlay{
-  position: absolute;
-  top:94%;
-  left:50%;
-  transform: translateX(-50%) translateY(-90%);
-  transition: all .5s ease-in-out;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    background: none;
-    border: 5px dotted #FF8700;
-}
-.mountaineering-para-icon-circle-overlay:hover{
-  position: absolute;
-  top:94%;
-  left:50%;
-  transform: rotate(360deg) translateX(-50%) translateY(-90%);
-    border-radius: 50%;
-    width: 125px;
-    height: 125px;
-    background: none;
-    border: 5px dotted #FF8700;
-}*/
-
 .mountaineering-para-icon-overlay{
   position: absolute;
   top:94%;
@@ -541,6 +529,7 @@ hr.bio-intro-paragraph-card-hr:after {
   width: auto;
   transition: all .5s ease;
   filter: drop-shadow(3px 3px 6px #000000);
+  cursor: pointer;
 }
 @media screen and (max-width: 667px){
   .mountaineering-para-icon-overlay{
@@ -678,7 +667,16 @@ hr.bio-intro-paragraph-card-hr:after {
 /*FOOTER*/
 #footer{
   margin: 0;
-  background-color: #0882B7;
-  background-color: #00C851;
+  background-color: #101010;
+  /*background-color: #181818;*/
+}
+.footer-icons > img{
+  height: 40px;
+  width: 40px;
+  margin: 10px 5px 0 5px;
+  transition: all .2s ease-in-out;
+}
+.footer-icons > img:hover{
+  transform: scale(1.25);
 }
 /*END FOOTER*/

@@ -93,7 +93,7 @@ app.controller('projectsController', function($scope) {
 app.controller('mountaineeringController', function($scope) {
 
   angular.element(document).ready(function () {
-    $('.tooltipped').tooltip({delay: 50});
+    // $('.tooltipped').tooltip({delay: 50});
     $(this).scrollTop(0);
     $('.parallax').parallax();
     $('.collapsible').collapsible();
@@ -106,12 +106,12 @@ app.controller('mountaineeringController', function($scope) {
     $("#vahala-films-scroll-to").click(function() {
       $('html, body').animate({
         scrollTop: $("#vahala-films-collection").offset().top - 75
-      }, 1500);
+      }, 1000);
     });
     $("#photo-collections-scroll-to").click(function() {
       $('html, body').animate({
         scrollTop: $("#photo-collections").offset().top - 75
-      }, 3000);
+      }, 1500);
     });
 
   });

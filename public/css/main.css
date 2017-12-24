@@ -1,4 +1,4 @@
-/*SITE WIDE CSS*/
+/*GLOBAL CSS*/
 *{
   margin: 0;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -172,7 +172,44 @@ hr:after,hr:before {
   cursor: help !important;
   background-color: #e0e0e0;
 }
-/*END SITE WIDE CSS*/
+
+/****ANIMATIONS****/
+/*Vertical Wobble*/
+@keyframes verticalWobble {
+  16.65% {
+    transform: translateY(8px);
+  }
+  33.3% {
+    transform: translateY(-6px);
+  }
+  49.95% {
+    transform: translateY(4px);
+  }
+  66.6% {
+    transform: translateY(-2px);
+  }
+  83.25% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.verticalWobble {
+  display: inline-block;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.verticalWobble:hover {
+  animation-name: verticalWobble;
+  animation-duration: 900ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+/****END ANIMATIONS****/
+
+/*END GLOBAL CSS*/
 
 /*OVERRIDES !important*/
 .drag-target{

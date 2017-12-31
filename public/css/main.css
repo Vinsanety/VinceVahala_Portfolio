@@ -660,8 +660,34 @@ hr:after,hr:before {
 .travel-card-link:hover{
   color: #00c853
 }
-.travel-card-title:hover{
-  color: #00C853;
+.travel-card-close{
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 15%;
+}
+.travel-card-close > i {
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-right: -1%;
+  margin-top: -10%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.travel-card-close i:hover{
+  color: #00c853;
+  transform: rotate(360deg) scale(2);
+}
+@media screen and (max-width:667px){
+  .travel-card-close > i {
+    margin-right: -2%;
+  }
+}
+@media screen and (max-width: 375px){
+  .travel-card-close > i {
+    margin-right: -6%;
+  }
 }
 .travel-card-current-container{
   width: 70%;
@@ -676,10 +702,6 @@ hr:after,hr:before {
   font-size: 24px;
   text-align: center;
   overflow: scroll;
-  /*position: absolute;*/
-  /*left: 50%;
-  transform: translate(-50%);
-  -ms-transform: translate(-50%);*/
   padding:0 7%;
 }
 .travel-card-text{

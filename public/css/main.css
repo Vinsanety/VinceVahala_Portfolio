@@ -172,6 +172,16 @@ hr:after,hr:before {
   cursor: help !important;
   background-color: #e0e0e0;
 }
+.icon-overlay{
+  height: 125px;
+  width: auto;
+  transition: all .5s ease;
+  filter: drop-shadow(3px 3px 6px #000000);
+  cursor: pointer;
+}
+.icon-overlay:hover{
+  transform: scale(1.5);
+}
 
 /****ANIMATIONS****/
 /*Vertical Wobble*/
@@ -440,7 +450,7 @@ hr:after,hr:before {
   background-color: #0882B7;
 }
 .resume-job-title{
-  font-size: 12px;
+  font-size: 16px;
 }
 /*Res para test 5/28/17*/
 .resume-parallax1{

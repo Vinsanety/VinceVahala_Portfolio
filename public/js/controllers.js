@@ -59,8 +59,8 @@ app.controller('resumeController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
     // MODAL ACTION
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal-trigger').leanModal();
+    // the "href" attribute of modal must specify the modal ID that wants to be triggered
+    $('.modal').modal();
     $('.parallax').parallax();
 
     $("#resume-icon-overlay").click(function() {
@@ -81,7 +81,7 @@ app.controller('projectsController', function($scope) {
       accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
    });
     // MODAL ACTION
-    $('.modal-trigger').leanModal();
+    $('.modal').modal();
     // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
     // CAROUSEL

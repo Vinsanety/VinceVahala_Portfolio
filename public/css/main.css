@@ -410,8 +410,10 @@ hr:after,hr:before {
 
 /*RESUME PAGE START*/
 .resume-skills-container {
-  min-height: 92vh;
   height: auto;
+}
+#resume-banner {
+  margin-bottom: -3rem;
 }
 #resume-modal-btn {
   background-color: #0882B7;

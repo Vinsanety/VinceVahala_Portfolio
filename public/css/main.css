@@ -30,6 +30,13 @@ hr:after,hr:before {
   padding: 0 0.25em;
   background: #FAFAFA;
 }
+@media screen and (max-width: 667px) {
+  nav .brand-logo {
+    text-align: center;
+    width: 100%;
+    font-size: 1.75rem !important;
+  }
+}
 .nav-wrapper {
   background-color: #00c853;
 }
@@ -108,7 +115,7 @@ hr:after,hr:before {
   text-shadow: rgb(0, 0, 0) 3px 3px 6px;
 }
 @media screen and (max-width: 667px) {
-  .img-hover-text{
+  .img-hover-text {
     white-space: pre-wrap;
   }
 }

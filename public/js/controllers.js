@@ -7,6 +7,7 @@ app.controller('homeController', function($scope) {
     $('.parallax').parallax();
     $('.carousel').carousel();
     $('.tooltipped').tooltip({delay: 50});
+    $('.tabindex-hidden-link').attr('tabindex', '-1');
     var options = [
       {
         selector: '#home-ScrollFire-Inititator1', offset: 500, callback: function(el) {

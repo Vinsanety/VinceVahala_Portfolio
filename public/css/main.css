@@ -6,7 +6,8 @@
 }
 body {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  background-color: #FAFAFA;
 }
 hr {
   background: url("../images/Mountain.png");
@@ -286,8 +287,11 @@ hr:after,hr:before {
 .homeHeaderIcons:hover {
   color: #00c853;
 }
-#home_row2 {
+.home-welcome-images {
   width: auto;
+}
+.home-welcome-images .card {
+  /* border: 1px solid black; */
 }
 .home-technology-section {
   margin:1em 0 3em 0;

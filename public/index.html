@@ -1,94 +1,129 @@
 <!DOCTYPE html>
 <html ng-app='Vinsanety'>
-  <head>
-    <!-- FAVICON SUPPORT -->
-    <link rel="apple-touch-icon" sizes="57x57" href="Fav.ico/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="Fav.ico/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="Fav.ico/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="Fav.ico/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="Fav.ico/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="Fav.ico/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="Fav.ico/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="Fav.ico/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="Fav.ico/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="Fav.ico/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Fav.ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="Fav.ico/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Fav.ico/favicon-16x16.png">
-    <link rel="manifest" href="Fav.ico/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
 
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Angular Material style sheet -->
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<head>
+  <!-- FAVICON SUPPORT -->
+  <link rel="apple-touch-icon" sizes="57x57" href="Fav.ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="Fav.ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="Fav.ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="Fav.ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="Fav.ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="Fav.ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="Fav.ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="Fav.ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="Fav.ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="Fav.ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Fav.ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="Fav.ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Fav.ico/favicon-16x16.png">
+  <link rel="manifest" href="Fav.ico/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
-    <script type="text/javascript" src="/angular/angular.min.js"></script>
-    <script type="text/javascript" src="/angular/ui-router.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/controllers.js" charset="utf-8"></script>
-    <script src="js/services.js" charset="utf-8"></script>
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Roboto" rel="stylesheet">
-    <base href="/">
+  <title>Vince Vahala</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import Angular-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+  <!-- Import Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Questrial" rel="stylesheet">
+  <!-- Import ui-router-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.22/angular-ui-router.min.js"></script>
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Import Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script src="js/app.js"></script>
+  <script src="js/controllers.js" charset="utf-8"></script>
+  <base href="/">
+</head>
 
-    <title>Vince Vahala</title>
-  </head>
+<body ng-cloak>
 
-  <body ng-cloak>
-
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <!-- <a ui-sref="home" class="brand-logo"><img src='../images/Mountain.png' class="mountain"></img>Vahala Designs</a> -->
-          <a ui-sref="home" class="brand-logo"><img src='https://lh3.googleusercontent.com/5XDKw6Ws2G-yELHuj7fIU6R2MqTIxa0akBZrn4_paIzT1LgEVeZk8sGezYJZ5uassuhxwz_NCiuXbwh6GormJiwO4FL_LfFY-mDZq6fFrHVmZHLh9spQnXPhplTuF0oibG2oNGaQc_vzGK8QQjimF-VNuEXHS46Lr7lF46vxnHTrECPOgQoMzQdiUbmRnV-0L96Z674tKjGr9rj7isIeGbKimE0mheORNi9wrM20qYf9haZb-saJu5Vyj9DbCnUE2EgYGh6s3XEoQNz78JyDzR5NBBWpCbAvx8gqYOlGuTavpFi1HAsk4Fw9CVgJmU7ZDRraiNszzIUAspfYuJScpppknY8LnSw0NGhh2O3d1-ycvNx-pmppswZ7RlpYITAovk1fi2uLGidVI5J945pMB334xH5mprb_UZKoBEkRY6AstqBN8kJyFPXihcCMzQZuFa4h8ZdW9ChZwbgKnqY4HJ6hGgKn4gko3VNKN5vgBUiGldPBPy-LlPSzGJm8pp13dGBz3_HESktHf0t-kjcPOJaZbSwwLtvst_RZFmn671rDxQ9lvvtG64WTXzhwykfaOBBu5Z3o3_u_0q1DgK2OzQVYCYpYppx-V0ib_1Qvsg=s512-no' class="mountain"></img>Vahala Designs</a>
-
-          <!-- NEW RESPONSIVE SIDE NAV -->
-          <ul class="right hide-on-med-and-down">
-            <li><a ui-sref="bio">Meet Vince</a></li>
-            <li><a ui-sref="contact">Contact</a></li>
-            <li><a ui-sref="resume">Resume</a></li>
-            <li><a ui-sref="projects">Projects</a></li>
-            <li><a ui-sref="mountaineering">Mountaineering</a></li>
-          </ul>
-          <ul id="slide-out" class="side-nav">
-            <li>
-              <div class="userView">
-                <!-- <img class="background" src="images/Grand-Teton.jpg" height="200px" width="350px"> -->
-                <img class="background" src="https://lh3.googleusercontent.com/-jw4OyILWXnuk6mGpJACS1yFMtdFNbIC6k53OfUMf_MwP86KNdz3FjajJkb-4LObWwQIfCqfOlEgBsuhAVGDTgv1wsqz9JpFnRsp7EEs0wkdlwAp2abQys0Emvzlk-iFeJBAtQ3r91BSV05c-VWQDjbZka8_gUX2ZpW83CDaIhVHMnSZK9JNibrEhxhbAqaTwK2R4KLBYn70vflQPUF3KC3QzRfdr_Q0j2c0dDrfEq5PdJUhVqmAhkP4QF3G07ryTpjC_Mvn181eLMiaX5Ms38VnIG3nPND2hp8sJxZPvTDw84cR9aNNLqJXhbpL9o_YbWriRR3nP_RRXINQIq7KLGKGZNpY9w3mKL5SXUao1gyqwljXCYgz_D3AVAUvjF4mX00wZT0yDYpPZhQWS_klXOyje_b84x0TBHNJKWxZgAnD4xxEb600MMXXEUVpWYNcWYndeadL2hEkBLE9EOadm7x2lHYiGoxf9YkwDfx3-9WHEkEd-tgLxndYLuqKHqbYoXhNUYpjukDqVUG0HpqVFCChWCYSj4lLGZnuv2jgbJjj72HYBllYWocej_oBxOXqMEf0HAk1MpAZmMuThbaVzcT_leN6bwX6VUk_mDzNag=w1200-h725-no" height="200px" width="350px">
-                <a ui-sref="bio"><img class="circle" src="images/Vince-Zoom.jpg"></a>
-                <a ui-sref="bio"><span class="white-text name">Vince Vahala</span></a>
-                <span class="white-text email">vincevahala@gmail.com</span>
-              </div>
-            </li>
-            <li><a class="waves-effect" ui-sref="home"><i class="material-icons">home</i>Home</a></li>
-            <li><a class="waves-effect" ui-sref="bio"><i class="material-icons">perm_identity</i>Meet Vince</a></li>
-            <li><a class="waves-effect" ui-sref="contact"><i class="material-icons">contact_phone</i>Contact</a></li>
-            <li><a class="waves-effect" ui-sref="resume"><i class="material-icons">view_list</i>Resume</a></li>
-            <li><a class="waves-effect" ui-sref="projects"><i class="material-icons">code</i>Projects</a></li>
-            <li><a class="waves-effect" ui-sref="mountaineering"><i class="material-icons">perm_media</i>Mountaineering</a></li>
-          </ul>
-          <a href="#" data-activates="slide-out" class="button-collapse" id='small-nav-icon' data-closeonclick="true"><i class="material-icons">menu</i></a>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <!-- <a ui-sref="home" class="brand-logo"><img src='../images/Mountain.png' class="mountain"></img>Vahala Designs</a> -->
+        <a ui-sref="home" class="brand-logo"><img src='https://lh3.googleusercontent.com/5XDKw6Ws2G-yELHuj7fIU6R2MqTIxa0akBZrn4_paIzT1LgEVeZk8sGezYJZ5uassuhxwz_NCiuXbwh6GormJiwO4FL_LfFY-mDZq6fFrHVmZHLh9spQnXPhplTuF0oibG2oNGaQc_vzGK8QQjimF-VNuEXHS46Lr7lF46vxnHTrECPOgQoMzQdiUbmRnV-0L96Z674tKjGr9rj7isIeGbKimE0mheORNi9wrM20qYf9haZb-saJu5Vyj9DbCnUE2EgYGh6s3XEoQNz78JyDzR5NBBWpCbAvx8gqYOlGuTavpFi1HAsk4Fw9CVgJmU7ZDRraiNszzIUAspfYuJScpppknY8LnSw0NGhh2O3d1-ycvNx-pmppswZ7RlpYITAovk1fi2uLGidVI5J945pMB334xH5mprb_UZKoBEkRY6AstqBN8kJyFPXihcCMzQZuFa4h8ZdW9ChZwbgKnqY4HJ6hGgKn4gko3VNKN5vgBUiGldPBPy-LlPSzGJm8pp13dGBz3_HESktHf0t-kjcPOJaZbSwwLtvst_RZFmn671rDxQ9lvvtG64WTXzhwykfaOBBu5Z3o3_u_0q1DgK2OzQVYCYpYppx-V0ib_1Qvsg=s512-no'
+            class="mountain"></img>Vahala Designs</a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a ui-sref="bio">Meet Vince</a></li>
+          <li><a ui-sref="contact">Contact</a></li>
+          <li><a ui-sref="resume">Resume</a></li>
+          <li><a ui-sref="projects">Projects</a></li>
+          <li><a ui-sref="mountaineering">Mountaineering</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <!-- <img class="background" src="images/Grand-Teton.jpg" height="200px" width="350px"> -->
+          <img src="https://lh3.googleusercontent.com/-jw4OyILWXnuk6mGpJACS1yFMtdFNbIC6k53OfUMf_MwP86KNdz3FjajJkb-4LObWwQIfCqfOlEgBsuhAVGDTgv1wsqz9JpFnRsp7EEs0wkdlwAp2abQys0Emvzlk-iFeJBAtQ3r91BSV05c-VWQDjbZka8_gUX2ZpW83CDaIhVHMnSZK9JNibrEhxhbAqaTwK2R4KLBYn70vflQPUF3KC3QzRfdr_Q0j2c0dDrfEq5PdJUhVqmAhkP4QF3G07ryTpjC_Mvn181eLMiaX5Ms38VnIG3nPND2hp8sJxZPvTDw84cR9aNNLqJXhbpL9o_YbWriRR3nP_RRXINQIq7KLGKGZNpY9w3mKL5SXUao1gyqwljXCYgz_D3AVAUvjF4mX00wZT0yDYpPZhQWS_klXOyje_b84x0TBHNJKWxZgAnD4xxEb600MMXXEUVpWYNcWYndeadL2hEkBLE9EOadm7x2lHYiGoxf9YkwDfx3-9WHEkEd-tgLxndYLuqKHqbYoXhNUYpjukDqVUG0HpqVFCChWCYSj4lLGZnuv2jgbJjj72HYBllYWocej_oBxOXqMEf0HAk1MpAZmMuThbaVzcT_leN6bwX6VUk_mDzNag=w1200-h725-no"
+            height="200px" width="350px">
         </div>
-      </nav>
-    </div>
+        <a class="tabindex-hidden-link" ui-sref="bio">
+          <img class="circle" src="images/Vince-Zoom.jpg">
+        </a>
+        <a class="tabindex-hidden-link" ui-sref="bio">
+          <span class="white-text name">Vince Vahala</span>
+        </a>
+        <a class="white-text email tabindex-hidden-link" href="mailto:VinceVahala@gmail.com">VinceVahala@gmail.com</a>
+      </div>
+    </li>
+    <li>
+      <a class="waves-effect tabindex-hidden-link" ui-sref="home">
+        <i class="material-icons">home</i>
+        Home
+      </a>
+    </li>
+    <li>
+      <a class="waves-effect tabindex-hidden-link" ui-sref="bio">
+        <i class="material-icons">perm_identity</i>
+        Meet Vince
+      </a>
+    </li>
+    <li>
+      <a class="waves-effect tabindex-hidden-link" ui-sref="contact">
+        <i class="material-icons">contact_phone</i>
+        Contact
+      </a>
+    </li>
+    <li>
+      <a class="waves-effect tabindex-hidden-link" ui-sref="resume">
+        <i class="material-icons">view_list</i>
+        Resume
+      </a>
+    </li>
+    <li>
+      <a class="waves-effect tabindex-hidden-link" ui-sref="projects">
+        <i class="material-icons">code</i>
+        Projects
+      </a>
+    </li>
+    <li>
+      <a class="waves-effect tabindex-hidden-link" ui-sref="mountaineering">
+        <i class="material-icons">perm_media</i>
+        Mountaineering
+      </a>
+    </li>
+  </ul>
 
-    <div ui-view></div>
+  <div ui-view></div>
 
-    <footer class="page-footer" id='footer'>
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Vahala Designs</h5>
-              <p class="grey-text text-lighten-4"><em>
+  <footer class="page-footer" id='footer'>
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Vahala Designs</h5>
+          <p class="grey-text text-lighten-4"><em>
               "Try to realise it's all within yourself
               <br>
               No one else can make you change
@@ -96,44 +131,44 @@
               And to see you're really only very small
               <br>
               And life flows on within you and without you"
-              </em></p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Don't be shy</h5>
-            <ul>
-              <li class='white-text'>vincevahala@gmail.com</li>
-              <li><a class="grey-text text-lighten-3" href='https://www.linkedin.com/in/vincevahala' target='_blank'>in/vincevahala</a></li>
-              <li><a class="grey-text text-lighten-3" href='https://github.com/Vinsanety' target='_blank'>github.com/Vinsanety</a></li>
-            </ul>
-            <a href="https://www.strava.com/athletes/19835017" class="footer-icons" target="_blank">
-              <img src="https://lh3.googleusercontent.com/FlKmYthwT1nf12eoAdmT-e3qU8Lyke_JzpNrjh3CzVl7Kxblsl1yaPT9RbSzhTaIBusvs7p_l1vEQ0rGFQH2fCcK7AWYq3pKt2uRgIbg64Wd1JAIlqeZ_DqGE5ZSzYTPQ4k_tFVDsv6Pk50oovbLGj8LAV_Nm7h7lmRYlbBApUuoxCMv2ddOqsM1YZvgSb_iMmC1fVVcULcI7i8Fpb0-oojBQsmHTSwdRaUpLkNu8qMgpwkw7P7LaNMdGvAEo5xvYXmdzWHrqUBsGky8c5jhor05Xf7z3b55QV2kIuWksn1nV4JBALaOrieAIe-22A_Kvx9D2YorkRVmjjfymqfa75Upqc9DCx16Hu99lg7-PSW1YcWuY5sMzfijEEOvdRG2g2Xbr5rTPwmXO-kKUxJqi2UialMSqpsAruEqRBpML00L1KuGDLnVHZkw63EUEie9p9kUmMEfmmLzGALY7NcM09djeQ9n6HpM0KstR6iuNHW4GFHIT0SXL_A4D4tsbA6MkM1zl3ObRW6qOCxBYcY4T7df-Bn_1sjqMaN-hq-arkH_v2ThEcVTEmTtBhFLxkAPL3vVf9g7g9vGm8BcT78GfO4jFlsaJKySDlxyPirhow=s300-no" alt="Strava activity app">
-            </a>
-            <a href="https://www.instagram.com/vinsanety" class="footer-icons" target="_blank">
-              <img src="https://lh3.googleusercontent.com/c8_Ctcn__YqQ_eW5ay-On6YTNUcdBgnRs6VwOLBgU9oo0KcyRMm2rHkBBidCQKWwHnr9vTk50d2Q9XcuZLLKZ50ST-qaxShVP0Fc7hLktkvOFk05redzFqeLzHUZaPOPbtBz0b4LwhAWL1pPBnjF6Xzbuh0ZvayUsuDT-ppC8eax0_lLZXTl4SuINlpJKTOiST8XQfrFxkoZbIGQjAVeaeH-UCOSwFK-49UGDFDqB8Ju9-NPfXRLXAvy87NoQtmqgBBUI6NuMxcm0n3hVPPhlV4eR4JbtsqiZprnLDMJIKRaZx-zLwFbR9LnGFLrLBK2eTe76tiCfocOf8TTjr_IBtDW_M-sL7gcoTHSB1CbvxNulnxvb2L9VYd0wM-iwlFlLtVDr95c9kap33KTnAra3DbMKy68QAIsMtkWt2zNKLcNqdaxFd-F12wLBn-qWXpwixZvxjCsaah04_o1DPPrgdYI92mX5vrE9_rgCAXdhBw-rsdrMXy4dbRzivvezoLczhPtHb3kj3srup0QMyDJdna5Bg2GtLnZX6DbPJrWb-fOtehVBlzovQ-U9h-XAOmfGMywdHxW8wosh5YQC_3ng02F6ZCLbzI_k7u5fsrDnA=s512-no" alt="Instagram account">
-            </a>
-            <a href="https://www.youtube.com/channel/UCpodHBnc1iq3LgP92Lue4WQ?view_as=subscriber" class="footer-icons" target="_blank">
-              <img src="https://lh3.googleusercontent.com/RbFOMQPhXNW0KzBDYVKjRv7L8t8TbIDpLZlqsX2ElQjCKKpVmbTe4pRflnyp9D9gqQN7-a5dIpWPwKrvnBuxmDoAMBnfo0Fm3hDwmKzW46zHhQFKvENcyP_NekUqYiUb3RE7DA4dR8JCDGIq-0U7L4hMc5JcLxDETaTXXhclXj6ky9RIQ6yOJ--NfWvH0HxkNzAmBPpIuDvbXGv-zCaIWX5Buw9vfKvCrNCmh2ZWO3uTncoAwqrzmePi_ZyEcdY-U4ac_7mRjwUQY_w9YvphWJyvsqLqM68s6tHKcI7_2FbR2gUDO5SAmQebSnvO1WVrihdhuaia08fF-gcuMpUOIBgCG8pFJTJ-ivdzXxrNA9SdDg7iotITamN6-8KAwP7J29R0gcFi5pgL47WAG0GZelvGwoaeclJlvsb-wIMMTVNWqMMJs0Jf3uYB8tf2F98zOMg5LcIccUb0UnwDn6gXBeMG_YKWK-w5QD1XE9BhOqwrRvLgDhgXg1CEHAwNww8Ft9FN4x6Pi-687IdmCXn8tK09n2UBRGbObCInZYTh2zzJ6hRnPcoUXEG3ISVk0LN2Dic2Yw8gFELwIgp1CE7RldEHMubZ5AGYeKd4nQY6Zw=s512-no" alt="Youtube channel">
-            </a>
-          </div>
+            </em></p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Don't be shy</h5>
+          <ul>
+            <li class='white-text'>
+              <a href="mailto:VinceVahala@gmail.com">VinceVahala@gmail.com</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href='https://www.linkedin.com/in/vincevahala' target='_blank'>in/vincevahala</a></li>
+            <li><a class="grey-text text-lighten-3" href='https://github.com/Vinsanety' target='_blank'>github.com/Vinsanety</a></li>
+          </ul>
+          <a href="https://www.strava.com/athletes/19835017" class="footer-icons" target="_blank">
+            <img src="https://lh3.googleusercontent.com/FlKmYthwT1nf12eoAdmT-e3qU8Lyke_JzpNrjh3CzVl7Kxblsl1yaPT9RbSzhTaIBusvs7p_l1vEQ0rGFQH2fCcK7AWYq3pKt2uRgIbg64Wd1JAIlqeZ_DqGE5ZSzYTPQ4k_tFVDsv6Pk50oovbLGj8LAV_Nm7h7lmRYlbBApUuoxCMv2ddOqsM1YZvgSb_iMmC1fVVcULcI7i8Fpb0-oojBQsmHTSwdRaUpLkNu8qMgpwkw7P7LaNMdGvAEo5xvYXmdzWHrqUBsGky8c5jhor05Xf7z3b55QV2kIuWksn1nV4JBALaOrieAIe-22A_Kvx9D2YorkRVmjjfymqfa75Upqc9DCx16Hu99lg7-PSW1YcWuY5sMzfijEEOvdRG2g2Xbr5rTPwmXO-kKUxJqi2UialMSqpsAruEqRBpML00L1KuGDLnVHZkw63EUEie9p9kUmMEfmmLzGALY7NcM09djeQ9n6HpM0KstR6iuNHW4GFHIT0SXL_A4D4tsbA6MkM1zl3ObRW6qOCxBYcY4T7df-Bn_1sjqMaN-hq-arkH_v2ThEcVTEmTtBhFLxkAPL3vVf9g7g9vGm8BcT78GfO4jFlsaJKySDlxyPirhow=s300-no"
+              alt="Strava activity app">
+          </a>
+          <a href="https://www.instagram.com/vinsanety" class="footer-icons" target="_blank">
+            <img src="https://lh3.googleusercontent.com/c8_Ctcn__YqQ_eW5ay-On6YTNUcdBgnRs6VwOLBgU9oo0KcyRMm2rHkBBidCQKWwHnr9vTk50d2Q9XcuZLLKZ50ST-qaxShVP0Fc7hLktkvOFk05redzFqeLzHUZaPOPbtBz0b4LwhAWL1pPBnjF6Xzbuh0ZvayUsuDT-ppC8eax0_lLZXTl4SuINlpJKTOiST8XQfrFxkoZbIGQjAVeaeH-UCOSwFK-49UGDFDqB8Ju9-NPfXRLXAvy87NoQtmqgBBUI6NuMxcm0n3hVPPhlV4eR4JbtsqiZprnLDMJIKRaZx-zLwFbR9LnGFLrLBK2eTe76tiCfocOf8TTjr_IBtDW_M-sL7gcoTHSB1CbvxNulnxvb2L9VYd0wM-iwlFlLtVDr95c9kap33KTnAra3DbMKy68QAIsMtkWt2zNKLcNqdaxFd-F12wLBn-qWXpwixZvxjCsaah04_o1DPPrgdYI92mX5vrE9_rgCAXdhBw-rsdrMXy4dbRzivvezoLczhPtHb3kj3srup0QMyDJdna5Bg2GtLnZX6DbPJrWb-fOtehVBlzovQ-U9h-XAOmfGMywdHxW8wosh5YQC_3ng02F6ZCLbzI_k7u5fsrDnA=s512-no"
+              alt="Instagram account">
+          </a>
+          <a href="https://www.youtube.com/channel/UCpodHBnc1iq3LgP92Lue4WQ?view_as=subscriber" class="footer-icons" target="_blank">
+            <img src="https://lh3.googleusercontent.com/RbFOMQPhXNW0KzBDYVKjRv7L8t8TbIDpLZlqsX2ElQjCKKpVmbTe4pRflnyp9D9gqQN7-a5dIpWPwKrvnBuxmDoAMBnfo0Fm3hDwmKzW46zHhQFKvENcyP_NekUqYiUb3RE7DA4dR8JCDGIq-0U7L4hMc5JcLxDETaTXXhclXj6ky9RIQ6yOJ--NfWvH0HxkNzAmBPpIuDvbXGv-zCaIWX5Buw9vfKvCrNCmh2ZWO3uTncoAwqrzmePi_ZyEcdY-U4ac_7mRjwUQY_w9YvphWJyvsqLqM68s6tHKcI7_2FbR2gUDO5SAmQebSnvO1WVrihdhuaia08fF-gcuMpUOIBgCG8pFJTJ-ivdzXxrNA9SdDg7iotITamN6-8KAwP7J29R0gcFi5pgL47WAG0GZelvGwoaeclJlvsb-wIMMTVNWqMMJs0Jf3uYB8tf2F98zOMg5LcIccUb0UnwDn6gXBeMG_YKWK-w5QD1XE9BhOqwrRvLgDhgXg1CEHAwNww8Ft9FN4x6Pi-687IdmCXn8tK09n2UBRGbObCInZYTh2zzJ6hRnPcoUXEG3ISVk0LN2Dic2Yw8gFELwIgp1CE7RldEHMubZ5AGYeKd4nQY6Zw=s512-no"
+              alt="Youtube channel">
+          </a>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-         © 2019 Vahala Designs
-        </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2019 Vahala Designs
       </div>
-    </footer>
+    </div>
+  </footer>
 
+  <!--Import jQuery-->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <!--Import materialize.min.js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src='js/nav.js'></script>
+</body>
 
-    <!-- Angular Material requires Angular.js Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
-    <!-- Angular Material Library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
-    <!--Import jQuery before materialize.js-->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src='js/nav.js'></script>
-  </body>
 </html>

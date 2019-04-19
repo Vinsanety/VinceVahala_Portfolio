@@ -19,7 +19,8 @@ app.controller('homeController', function($scope) {
         }
       }
     ];
-   Materialize.scrollFire(options);
+    // Depricated, look at something new
+   // Materialize.scrollFire(options);
   });
 
 })
@@ -37,7 +38,8 @@ app.controller('bioController', function($scope) {
         }
       }
     ];
-   Materialize.scrollFire(options);
+    // Depricated, look at something new
+   // Materialize.scrollFire(options);
   });
 
 })

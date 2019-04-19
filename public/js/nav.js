@@ -1,5 +1,8 @@
 $( document ).ready(function(){
-  $(".button-collapse").sideNav({
-    closeOnClick: true
-  })
+  $('.sidenav')
+  .sidenav()
+  .on('click tap', 'li a', () => {
+      $('.sidenav').sidenav('close');
+  });
+  $('.tabindex-hidden-link').attr('tabindex', '-1');
 });

@@ -63,6 +63,12 @@ hr:after,hr:before {
   font-family: 'Nanum Gothic', sans-serif;
   /*color: #00c853;*/
 }
+.text-link {
+  color: inherit;
+}
+.text-link:hover {
+  color: #039BE5;
+}
 .img-hover-container {
   position: relative;
 }

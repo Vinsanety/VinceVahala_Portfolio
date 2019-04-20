@@ -4,13 +4,18 @@
 /*GLOBAL CSS*/
 * {
   margin: 0;
-  font-family: 'Nanum Gothic', sans-serif;
   font-family: 'Questrial', sans-serif;
 }
 body {
   width: 100%;
   min-height: 100vh;
   background-color: #FAFAFA;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+button {
+  font-family: 'Questrial', sans-serif !important;
 }
 hr {
   background: url("../images/Mountain.png");

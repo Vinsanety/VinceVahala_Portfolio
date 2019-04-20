@@ -84,11 +84,6 @@ app.controller('projectsController', function($scope) {
     $('.modal').modal();
     // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
-    // CAROUSEL
-    $('.carousel').carousel({
-
-    });
-
  });
 
 })

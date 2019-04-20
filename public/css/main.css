@@ -547,22 +547,8 @@ hr:after,hr:before {
   margin-left: 10%;
   padding: 0;
 }
-.projects-modal-btn-spoilers {
-  margin: -10% 0 6% 0;
-  padding: 0 3% 0 3%;
-}
 .projects-modal-btn {
-  margin: 0 0 5% 0;
-  padding: 0 3% 0 3%;
-}
-.carousel {
-  width: 100% !important;
-  height: 500px !important;
-
-}
-.carousel-item {
-  width: 500px !important;
-  height: 500px !important;
+  margin: 1.5rem 0;
 }
 #projects-view-btn {
   background-color: #0882B7;

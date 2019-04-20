@@ -242,6 +242,9 @@ hr:after,hr:before {
 .drag-target {
   width: 0 !important;
 }
+.modal-close:hover {
+  background-color: rgba(0,0,0,0.1);
+}
 /*END OVERRIDES !important*/
 
 
@@ -435,7 +438,7 @@ hr:after,hr:before {
   background-color: #0882B7;
 }
 .resume-thumbnails {
-  margin: 0;
+  margin-bottom: -2rem;
 }
 #resume-modal-header {
   color: black;
@@ -451,13 +454,16 @@ hr:after,hr:before {
 #resume-download-pdf {
   padding: 0 1% 0 1%;
   float: left;
-  /*border: none;
-  background-color: #fafafa;*/
 }
 #resume-download-pdf > button {
+  cursor: pointer;
   text-transform: uppercase;
   background-color: transparent;
   border: none;
+  padding-top: 0.5rem;
+}
+#resume-download-pdf:hover {
+  background-color: rgba(0,0,0,0.1);
 }
 #resume-skills-pipe {
   color: #0882B7;

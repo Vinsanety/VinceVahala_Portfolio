@@ -239,6 +239,10 @@ hr:after,hr:before {
 /*END GLOBAL CSS*/
 
 /*OVERRIDES !important*/
+.btn:hover {
+  color: #0882B7;
+  background-color: #FFF !important;
+}
 .drag-target {
   width: 0 !important;
 }

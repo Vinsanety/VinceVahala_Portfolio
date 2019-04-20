@@ -45,13 +45,11 @@ hr:after,hr:before {
 }
 .brand-logo {
   margin-left: 1%;
+  margin-top: -3px;
 }
 .mountain {
   width: 50px;
   height: 50px;
-}
-.brand-logo {
-  margin-top: -3px;
 }
 .page-header {
   font-family: 'Nanum Gothic', sans-serif;
@@ -512,40 +510,10 @@ hr:after,hr:before {
   margin-bottom: 5%;
   padding: 0;
 }
-#projects-badge {
-  width: 150px;
-  height: auto;
-}
-@media screen and (min-width: 1450px) {
-  #projects-badge {
-    margin-right: 21%;
-  }
-}
-@media screen and (min-width: 2150px) {
-  #projects-badge {
-    margin-right: 25%;
-  }
-}
-@media screen and (max-width: 668px) {
-  #projects-badge {
-    margin-right: 8%;
-  }
-}
-@media screen and (max-width: 376px) {
-  #projects-badge {
-    margin-right: 3%;
-  }
-}
-.collapsible-header:hover,.collapsible-header:hover > #projects-badge {
-  color: #0882B7;
-}
-.collapsible-header:active {
-  color: black;
-}
-#projects-badge-icon {
-  margin: 0;
-  margin-left: 10%;
-  padding: 0;
+.collapsible-header:hover, .collapsible > .active > .collapsible-header {
+  background-color: #0882B7;
+  color: #FFF;
+  background-color: rgba(8,130,183,0.75);
 }
 .projects-modal-btn {
   margin: 1.5rem 0;

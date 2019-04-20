@@ -685,6 +685,10 @@ hr:after,hr:before {
 .travel-card-container .card-content > .halfway-fab {
   margin-top: -2%;
 }
+/* Override Materialize card fab placement */
+.travel-card-container .card-content > .btn-floating.halfway-fab {
+    bottom: 5.75rem !important;
+}
 .travel-card-container .card-content > .halfway-fab i {
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;

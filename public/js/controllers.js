@@ -77,9 +77,7 @@ app.controller('projectsController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
     // COLLAPSIBLE ACTION
-    $('.collapsible').collapsible({
-      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-   });
+    $('.collapsible').collapsible();
     // MODAL ACTION
     $('.modal').modal();
     // IMAGE POP UP ACTION

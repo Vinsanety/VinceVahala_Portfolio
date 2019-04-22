@@ -89,8 +89,8 @@ app.controller('projectsController', function($scope) {
 app.controller('mountaineeringController', function($scope) {
 
   angular.element(document).ready(function () {
-    $('.tooltipped').tooltip({delay: 50});
     $(this).scrollTop(0);
+    $('.tooltipped').tooltip({delay: 50});
     $('.parallax').parallax();
     $('.collapsible').collapsible();
 

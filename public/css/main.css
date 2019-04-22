@@ -151,7 +151,7 @@ hr:after,hr:before {
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 0.25rem;
   position: absolute;
   z-index: 1;
   bottom: 125%;
@@ -259,14 +259,15 @@ hr:after,hr:before {
 #home-welcome-text {
   font-family: 'Nanum Gothic', sans-serif;
   letter-spacing: 6px;
+  margin-bottom: 2rem;
 }
-.home-icons-container-large{
-  margin: 1em 0;
+.home-icons-container, .home-icons-container-large {
+  margin: 2em 0 1rem 0;
 }
 @media only screen
   and (min-device-width : 768px)
   and (max-device-width : 1024px) {
-    .home-screen-parallax-container{
+    .home-screen-parallax-container {
       display: none;
     }
 }

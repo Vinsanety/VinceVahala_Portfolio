@@ -444,6 +444,7 @@ hr:after,hr:before {
 }
 #resume-modal-btn {
   background-color: #0882B7;
+  margin-bottom: 1rem;
 }
 .resume-thumbnails {
   margin-bottom: -2rem;
@@ -478,6 +479,9 @@ hr:after,hr:before {
 }
 .resume-icons {
   color: #FF8700;
+}
+.resume-education-header span {
+  color: #0882B7;
 }
 #resume-current-job-card {
   background-color: #FF8700;

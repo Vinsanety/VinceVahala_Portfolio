@@ -45,8 +45,8 @@ hr:after,hr:before {
 .nav-wrapper {
   background-color: #00c853;
 }
-#small-nav-icon {
-  margin-left: 2%;
+.sidenav-link i {
+  color: #0882B7 !important;
 }
 .brand-logo {
   margin-left: 1%;

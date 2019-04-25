@@ -6,7 +6,6 @@ app.controller('homeController', function($scope) {
     $('.materialboxed').materialbox();
     $('.parallax').parallax();
     $('.carousel').carousel();
-    $('.tooltipped').tooltip({delay: 50});
     $('.tabindex-hidden-link').attr('tabindex', '-1');
     var options = [
       {

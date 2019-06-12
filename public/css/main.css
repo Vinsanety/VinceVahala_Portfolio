@@ -743,13 +743,14 @@ hr:after,hr:before {
   background-color: #101010;
   /*background-color: #181818;*/
 }
-.footer-icons > img {
-  height: 40px;
-  width: 40px;
-  margin: 10px 5px 0 5px;
+.footer-icons > i {
+  height: 1rem;
+  width: 1rem;
+  margin-top: 1rem;
+  margin-right: 2.5rem;
   transition: all .2s ease-in-out;
 }
-.footer-icons > img:hover {
+.footer-icons > i:hover {
   transform: scale(1.25);
 }
 /*END FOOTER*/

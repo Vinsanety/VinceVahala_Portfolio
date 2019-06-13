@@ -14,8 +14,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Nanum Gothic', sans-serif;
 }
-button {
+button, .btn {
   font-family: 'Questrial', sans-serif !important;
+  background-color: #0882B7 !important;
+}
+.btn i {
+  font-size: inherit !important;
 }
 hr {
   background: url("../images/Mountain.png");
@@ -525,11 +529,59 @@ hr:after,hr:before {
   color: #FFF;
   background-color: rgba(8,130,183,0.75);
 }
-.projects-modal-btn {
-  margin: 1.5rem 0;
+.project-description p {
+  margin-bottom: 1rem;
 }
-#projects-view-btn {
-  background-color: #0882B7;
+.slider .slides {
+  background-color: #ECEFF1 !important;
+  /* background-color: rgba(8,130,183, 0.5) !important; */
+}
+.slider .slides li img {
+  width: 70% !important;
+  margin-left: 1rem !important;
+  background-size: contain !important;
+  background-position: right center !important;
+  background-repeat: no-repeat;
+}
+.slider .slides li .caption {
+  padding: 0.5rem;
+  transform: translateX(203%) translateY(0px) !important;
+  width: 28% !important;
+  color: #263238 !important;
+}
+@media screen and (max-width: 667px) {
+  .slider {
+    height: 190px !important;
+  }
+  .slides {
+    height: 150px !important;
+  }
+  .slider .slides li img {
+    background-size: cover !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .slider .slides li .caption {
+    display: none;
+  }
+}
+.projects-visit-app-btn {
+  margin-top: 1rem;
+  /* background-color: #FFF !important;
+  color: #0882B7 !important; */
+}
+.projects-visit-app-btn:hover {
+  /* background-color: #0882B7 !important;
+  color: #FFF !important; */
+}
+.slider .indicators {
+  bottom: 5px !important;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #0882B7 !important;
+}
+.slider-btn-group {
+  margin-top: 1rem;
 }
 /*PROJECTS PAGE END*/
 
@@ -736,6 +788,7 @@ hr:after,hr:before {
   font-weight: 300;
 }
 /*MOUNTAINEERING PAGE END*/
+
 
 /*FOOTER*/
 #footer {

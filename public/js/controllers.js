@@ -79,6 +79,25 @@ app.controller('projectsController', function($scope) {
     $('.collapsible').collapsible();
     // MODAL ACTION
     $('.modal').modal();
+
+    $('.slider').slider({
+      height: 420,
+      interval: 7500,
+    });
+    $('.runForecast-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://RunForecast.web.app' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
+    $('.projects-slider-next').click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $('.slider').slider('next');
+   })
+    $('.projects-slider-prev').click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $('.slider').slider('prev');
+    });
+    // Prevent Default Autoplay
+    // $('.slider').slider('pause');
+
     // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
  });

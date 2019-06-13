@@ -1,8 +1,6 @@
 app.controller('homeController', function($scope) {
-
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
-    // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
     $('.parallax').parallax();
     $('.carousel').carousel();
@@ -25,11 +23,10 @@ app.controller('homeController', function($scope) {
 
 })
 
-app.controller('bioController', function($scope) {
 
+app.controller('bioController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
-    // IMAGE POP UP ACTION
     $('.materialboxed').materialbox();
     var options = [
       {
@@ -41,51 +38,45 @@ app.controller('bioController', function($scope) {
     // Depricated, look at something new
    // Materialize.scrollFire(options);
   });
-
 })
+
 
 app.controller('contactController', function($scope) {
-
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
-
   });
-
 })
 
-app.controller('resumeController', function($scope) {
 
+app.controller('resumeController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
-    // MODAL ACTION
-    // the "href" attribute of modal must specify the modal ID that wants to be triggered
     $('.modal').modal();
     $('.parallax').parallax();
-
     $("#resume-icon-overlay").click(function() {
       $('html, body').animate({
         scrollTop: $("#resume-current-job-card").offset().top - 135
       }, 2500);
     });
   });
-
 })
 
-app.controller('projectsController', function($scope) {
 
+app.controller('projectsController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
-    // COLLAPSIBLE ACTION
     $('.collapsible').collapsible();
-    // MODAL ACTION
-    $('.modal').modal();
-
     $('.slider').slider({
       height: 420,
       interval: 7500,
     });
+    // Run Forecast Btn Add
     $('.runForecast-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://RunForecast.web.app' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
+    // Vahala Fitness Btn Add
     $('.vahalaFitness-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://vahalafitness-df5d3.web.app/' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
+    // Spoilers Btn Add
+    $('.spoilers-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://podcastspoilers-dd5b5.web.app/' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
+    // Next and Prev btns
     $('.projects-slider-next').click(function(e) {
       e.preventDefault();
       e.stopPropagation();
@@ -98,21 +89,16 @@ app.controller('projectsController', function($scope) {
     });
     // Prevent Default Autoplay
     // $('.slider').slider('pause');
-
-    // IMAGE POP UP ACTION
-    $('.materialboxed').materialbox();
  });
-
 })
 
-app.controller('mountaineeringController', function($scope) {
 
+app.controller('mountaineeringController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
     $('.tooltipped').tooltip({delay: 50});
     $('.parallax').parallax();
     $('.collapsible').collapsible();
-
     $("#travel-icon-overlay").click(function() {
       $('html, body').animate({
         scrollTop: $("#travel-card-container").offset().top - 75
@@ -128,7 +114,5 @@ app.controller('mountaineeringController', function($scope) {
         scrollTop: $("#photo-collections").offset().top - 75
       }, 1500);
     });
-
   });
-
 })

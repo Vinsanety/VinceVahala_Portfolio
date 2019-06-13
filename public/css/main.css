@@ -397,27 +397,24 @@ hr:after,hr:before {
 
 
 /*CONTACT PAGE START*/
-.contact-container {
-  padding: 0 2% 0 2%;
+.collection {
+  border: none !important;
 }
-#contact-list {
-  background-color: #FAFAFA;
-  border-style: none;
-}
-#contact-list-items {
-  background-color: #FAFAFA;
+.collection-item {
+  background-color: #FAFAFA !important;
   font-size: 1.125rem;
 }
-@media screen and (max-width: 400px) {
-  #contact-icon {
-    margin-top: 2%;
-  }
+.collection-item p {
+  margin-top: 0.65rem !important;
+}
+.contact-form {
+  padding-left: 2rem !important;
 }
 #contact-send-btn {
   margin: 0 5% 0 0;
   background-color: #0882B7;
 }
-#contact-form-icons {
+.contact-form-icons {
   color: #0882B7;
 }
 /* label input focus color */

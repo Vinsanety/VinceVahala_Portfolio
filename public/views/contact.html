@@ -1,61 +1,65 @@
-<div class="row container contact-container">
+<div class="container contact-container">
   <h1 class="header center page-header hide-on-med-and-down">Contact Vince</h1>
   <h3 class="header center green-text text-accent-4 hide-on-large-only">Contact Vince</h3>
-  <ul class="collection col s12 m5 l4" id='contact-list'>
-    <li class="collection-item avatar valign-wrapper" id="contact-list-items">
-      <i id='contact-icon' class="fas fa-home circle green valign"></i>
-      <p>Denver, CO</p>
-    </li>
-    <li class="collection-item avatar valign-wrapper" id="contact-list-items">
-      <i id='contact-icon' class="fas fa-envelope circle green valign"></i>
-      <a class="text-link" href="mailto:VinceVahala@gmail.com">VinceVahala@gmail.com</a>
-    </li>
-    <li class="collection-item avatar valign-wrapper" id="contact-list-items">
-      <i id='contact-icon' class="fas fa-phone circle valign"></i>
-      <p>574-xxx-xxxx</p>
-    </li>
-    <li class="collection-item avatar valign-wrapper" id="contact-list-items">
-      <i id='contact-icon' class="fab fa-linkedin circle green valign"></i>
-      <p><a class="text-link" href='https://www.linkedin.com/in/vincevahala' target='_blank'>/in/vincevahala</a></p>
-    </li>
-    <li class="collection-item avatar valign-wrapper" id="contact-list-items">
-      <i id='contact-icon' class="fab fa-github circle green valign"></i>
-      <p><a class="text-link" href='https://github.com/Vinsanety' target='_blank'>/Vinsanety</a></p>
-    </li>
-  </ul>
-  <br />
-  <form class="col s12 m7 l8" method="POST" action="https://formspree.io/vincevahala@gmail.com">
-    <div class="row">
-      <div class="input-field col s12 m12 l6">
-        <i class="fas fa-user-circle prefix" id="contact-form-icons"></i>
-        <input id="name" type="text" class="validate" name="Name">
-        <label for="name">Name</label>
+  <div class="row">
+    <ul class="collection col s12 m5 l4">
+      <li class="collection-item avatar">
+        <i class="fas fa-home circle green"></i>
+        <p>Denver, CO</p>
+      </li>
+      <li class="collection-item avatar">
+        <i class="fas fa-envelope circle green"></i>
+        <p>
+          <a class="text-link" href="mailto:VinceVahala@gmail.com">VinceVahala@gmail.com</a>
+        </p>
+      </li>
+      <li class="collection-item avatar">
+        <i class="fas fa-phone circle"></i>
+        <p>574-xxx-xxxx</p>
+      </li>
+      <li class="collection-item avatar">
+        <i class="fab fa-linkedin circle green"></i>
+        <p><a class="text-link" href='https://www.linkedin.com/in/vincevahala' target='_blank'>/in/vincevahala</a></p>
+      </li>
+      <li class="collection-item avatar">
+        <i class="fab fa-github circle green"></i>
+        <p><a class="text-link" href='https://github.com/Vinsanety' target='_blank'>/Vinsanety</a></p>
+      </li>
+    </ul>
+    <form class="col s12 m7 l8 contact-form" method="POST" action="https://formspree.io/vincevahala@gmail.com">
+      <h5>Send Vince a Message</h5>
+      <div class="row">
+        <div class="input-field col s12 m12 l6">
+          <i class="fas fa-user-circle prefix contact-form-icons"></i>
+          <input id="name" type="text" class="validate" name="Name">
+          <label for="name">Name</label>
+        </div>
+        <div class="input-field col s12 m12 l6">
+          <i class="fas fa-envelope prefix contact-form-icons"></i>
+          <input id="email" type="email" class="validate" name="Email">
+          <label for="email" data-error="Please Enter Valid Email" data-success="Valid Email">Email</label>
+          <br>
+        </div>
       </div>
-      <div class="input-field col s12 m12 l6">
-        <i class="fas fa-envelope prefix" id="contact-form-icons"></i>
-        <input id="email" type="email" class="validate" name="Email">
-        <label for="email" data-error="Please Enter Valid Email" data-success="Valid Email">Email</label>
-        <br>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="fas fa-info-circle prefix contact-form-icons"></i>
+          <input id="subject" type="text" class="validate" name="Subject">
+          <label for="subject">Subject</label>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="input-field col s12">
-        <i class="fas fa-info-circle prefix" id='contact-form-icons'></i>
-        <input id="subject" type="text" class="validate" name="Subject">
-        <label for="subject">Subject</label>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="fas fa-pen-square prefix contact-form-icons"></i>
+          <textarea id="textarea1" class="materialize-textarea" name="Message"></textarea>
+          <label for="textarea1">What may I create for you?</label>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="input-field col s12">
-        <i class="fas fa-pen-square prefix" id="contact-form-icons"></i>
-        <textarea id="textarea1" class="materialize-textarea" name="Message"></textarea>
-        <label for="textarea1">What may I create for you?</label>
-      </div>
-    </div>
-    <button class="btn waves-effect waves-light right" id='contact-send-btn' type="submit" onclick="Materialize.toast('Signed, Sealed, Delivered', 9000)">
-      <input type='submit' value=''>Send
-      <i class="fas fa-angle-double-right right"></i>
-    </button>
-    <input type="hidden" name="_next" value="/#/contact"/>
-  </form>
+      <button class="btn waves-effect waves-light right" id='contact-send-btn' type="submit" onclick="Materialize.toast('Signed, Sealed, Delivered', 9000)">
+        <input type='submit' value=''>Send
+        <i class="fas fa-angle-double-right right"></i>
+      </button>
+      <input type="hidden" name="_next" value="/#"/>
+    </form>
+  </div>
 </div>

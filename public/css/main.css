@@ -521,11 +521,6 @@ hr:after,hr:before {
 
 
 /*PROJECTS PAGE START*/
-#projects-card-title {
-  margin: 0;
-  margin-bottom: 5%;
-  padding: 0;
-}
 .collapsible-header:hover, .collapsible > .active > .collapsible-header {
   background-color: #0882B7;
   color: #FFF;
@@ -568,12 +563,6 @@ hr:after,hr:before {
 }
 .projects-visit-app-btn {
   margin-top: 1rem;
-  /* background-color: #FFF !important;
-  color: #0882B7 !important; */
-}
-.projects-visit-app-btn:hover {
-  /* background-color: #0882B7 !important;
-  color: #FFF !important; */
 }
 .slider .indicators {
   bottom: 5px !important;

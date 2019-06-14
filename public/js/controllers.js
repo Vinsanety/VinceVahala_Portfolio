@@ -44,6 +44,7 @@ app.controller('bioController', function($scope) {
 app.controller('contactController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
+    $('textarea#contact-textarea').characterCounter();
   });
 })
 

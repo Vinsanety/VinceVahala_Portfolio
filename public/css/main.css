@@ -281,7 +281,6 @@ hr:after,hr:before {
     }
 }
 .home-screen-parallax {
-  /*background-image: url(/images/SkyPond.jpg);*/
   background-image: url(https://lh3.googleusercontent.com/zyjhcilamhq-tBVbbIUhysaZTmFCvapRVfkJ9RVJwSsQUgHuksCBeocl3u_sAym9NhGtpKyNXvFX2WCM1XIpzFDVXNFs0zaEiKEjZXcjbBQCf1Eu9xhS3-zq5gnqZjolgNTFVRezNIhqetLJmtLxy9yITyq1zRqtL1n_Nm48ogbHQLtHbIQXP21RqHqw5mc-x0SIwvpNvyq4Gl1SDmOCH16we9b6veNnX_a65KHBJH70QiX4GSuVMrnC7w5zRAv2nYrh3SwESaJxFTPsa-xG3bMMuEuIs5BkVwULBJBBRMn0oBePoFLra7abfddvtoMxEXxo4ngeTPP5uI7cOIVtz1AWPGXMGSiO-oGRZ5U0Xi7Sn8t8rV4RSCTThrbMN7Ci4KxfPVR606N9JfQjyil36tRWx-MZX8fDs8ox2U2dV6lwcMfRiFdke_CNASLq_RqwnAlA0c0aZjsoTlVs_nqA2WDTnf8q_YRNWh6HZcEb1CwfpbcFXbpok8_93I2cC2XvMbZUZudQdN9XQpl4ggNZuPut_q8PAw0dPrI2sv7sm6JmfTGEBnitkfNmixwzlFDRhOi3rXVyg_OSt57AkH0QfNpTUvNme0hf6tww6HJFnQ=w1385-h725-no);
   background-attachment: fixed;
   background-size: cover;
@@ -299,7 +298,6 @@ hr:after,hr:before {
   color: white;
 }
 .home-screen-parallax2 {
-  /*background-image: url(/images/Grand-Teton.jpg);*/
   background-image: url(https://lh3.googleusercontent.com/KoqpIaL3l5Uuj_geA4cT3OptsPoZDona6-GnIkmoxZA1b4S7C62GlG1tI_U6auO5ipEUOfRiGO32ngbFZ1kQwhx1uRsQ8xNZ1VoDpsUbTFmqJDu1_84wWTQOr2-SuLXOCs09lsYv03meqMhw88uhyVXymmQwuUTIfmXYcBQWRBZWk-cjXyaTAQWM9N3nILARpJW9wK5q5Gn7KUl3pTpKwSn0mEj8NU50aH8E4Zyk3a1pylszuZwGgdIDCtm6PryWUknOF-lT3YHmcKqQjxEzlSQpwk3N0CRHCZp50DkcIp6coYzsBPRKVWa_v1wgMA1zbN2cWPA2HU-ji5MA_7-0z1vhD_5KvMzB9YD_lP3udK9sxt05yZi43M47BCj_BVr5rfp-Hojf2Zj6R3-e3Z0yhfvs83AGi1a0vjsCi-RMVVWB94YHv_z1tKCRoxt3zx3nbNQt6rcW7ORtL35Sy4nA3RtrrbumpOUWUxxX-7XOh9pJpvgV7sQrpkjICDa1Gk7WNw0dQXlLAfpra3y2VImdJqzqg6gznqbjJRvQkA7_Yd--NuNxAWDo5jETwP96DbsEhuvTDg7yf6hROeXl0xJtVSCdMLqUrhhuQrE7de4NYg=w1200-h725-no);
   background-attachment: fixed;
   background-size: cover;
@@ -489,7 +487,6 @@ hr:after,hr:before {
 }
 /*Res para test 5/28/17*/
 .resume-parallax1 {
-  /*background-image: url(/images/Teton2.jpg);*/
   background-image: url(https://lh3.googleusercontent.com/vn0KHrHbsoyOvu77Y0RKqbDOr8-uFh4Xyaf9_nA924ji8NsQJkB7FdgjzxBfHnkwhzp7LYdL4ndqrc9pT0BVgGjytNg8bUUijFqx3S65v0l2bcchaQJt2YNoOpnSRowFONorjCxf1dhtsJ7p7LBDGyYhw0MU6nMf0uQpwnpUSVw94RbB1khgTT-cnAkddgYVjnSKLGG-YUsTxWL8wmIJePPJ-g8dIIoNdp5H8n20lnAF5pgGZf5FgsZ1se5I7CM7wPa4FvKH9SWuS9l_6l2AO5GqtWla7vM5EhOXXJ8aiFt-YNluAQD0sXq8_PKzHd8rfeyCSnHiaw0hCJ-GRvLTqHjkoftIXFWSxjLLOWDxKn2MQZDTtoe8y-RqiDY8U0fZbYh3ftz2OcCvuuC6CS2Zyu0_IYaCQANg3vxVXqNpWTIY13CTElExQk3CUWXQ_rkSS4_be5-Vay4frBezwgdEk25L9aQ8hkxHA7xW5t43XypyyHgkWUYQWlHV0eya-z9wizxiafV_Kkho0ut_UnISywSdJmORpVZZMxYh31ulU6uuGHmMtwMn-CHDlEp65AHRHLQe-pWUbm5-rKgeZnSi0FJzErAZs4wBf9CND1y0DQ=w967-h725-no);
   background-attachment: fixed;
   background-size: cover;
@@ -498,7 +495,6 @@ hr:after,hr:before {
   position: relative;
 }
 .resume-parallax2 {
-  /*background-image: url(/images/Vince-Yale.jpg);*/
   background-image: url(https://lh3.googleusercontent.com/1Ls7KoMUQog4_CXJb0eaRQ_xw46tS9CS_8du1XapF_yt86UXTwQqVkzPVvGW3DCJFZhjjqYqFi9t6gyHoz5tgXgptA0spjcgfkRmORYd0yBMcLUv8vF4PCbkY3GsdcVUCQHT7B2BkXWKzaqgJRSE9_49s5zDFoH2nsHydJPM9EWnSoVYXsdIhkGg2eAMxaWZrOisZVo5JjhXKMQs_cR9k1FlZltUpCLcFUcfZUb4vTlwAnfJepSCSskvAKaDci8pMJPLjx5eYmiRHDjNuLL4bVGxF_P3yPFeYdLbIYUrfOt9Kt0UKI9S0a3aVmkuvB9gmUvq1XJ_Ef5F6tTPtjsrD2CaOZmmq3ZesCk1wQHTEHH0jVhf1lMkDWnasLUMOGlG1VWbIMUvJnfrz9eUy2ryUa9XRakFzNHxyG_I8wKvKCPhXdKzCM9N4dsKFf7W-IqP_M81pNfXn2HIm2KF1EGpjgd0F9XhITEf4L3N9Ixidbyf5zbBE9NJhMMuEebXPo8b_8Pz0lf9ZEGhH59dZxBVcWpVmdufvGujZ154AAWz0Pn_InyqJvfVkAkWgfgD9Qux-TRAp-di6W508ljpjjyYNA_NLCewUQ6ptLA3TN0KjQ=w968-h725-no);
   background-attachment: fixed;
   background-size: cover;
@@ -570,7 +566,6 @@ hr:after,hr:before {
   background-color: rgba(232,232,232,0.75) !important;
 }
 .mountaineering-parallax1 {
-  /*background-image: url(/images/travel/South-Maroon-Summit.jpg);*/
   background-image: url(https://lh3.googleusercontent.com/Q13EaGcmGDeCKK_fZkgCM6rl0TqJcAhSRrAjiyvABcXDlly5YWtlAHX_Mf5u2PintRo9OzS7haUY2ntZF7jFXqPmXssr5VKJ2qtJTrgSyCCTjMALV7cvV4lzgc3f41IOUwSaae_xPUCfFV3iLxWPbF0U_wiVgS08P-TZhXec2lR044P677zYxaz6LBXuTgawRyD5aElnzpmNrNYpO1LXQQDgYnav5B_yDO81rjW4b6pVmvN8gd1vZmmb3PKvxrJjX2lzuelEPus7dQoyBy969T9d062Cu8DmEaprg9hjCvyQgZLZfcOH_PSvn3gb32eG5kC-LhaYPzbh4kuJPMJ2HBMnWo_sRyEpRXyjmFouMSh-FQ7GSYxrWbhLMtjk6GzfGGE78AGoQTvU0Ivf6k0xtc9Oj-ibcmjOflUUzi8iNrJwj3tYuE5RQZxyQ3CD7mXLz06eZQZ2au_mGRnnWQ0aQgkB6HJqK-NEKM8IwxIrLdHB5xQkkLEbhK9ckZMSFcFwnrdM400vzF_YVJBFEn1wL-x9P32IQ2dD-7sF9Jl4uvDHBJ6Mt3svEhh_MvpEceU9_d0a6iklu8ZRE0NFTtLALNA_YMYxrggz3wnk6_7yjw=w1386-h725-no);
   background-attachment: fixed;
   background-size: cover;
@@ -633,7 +628,6 @@ hr:after,hr:before {
 }
 @media screen and (max-width: 667px) {
   .mountaineering-parallax1 {
-    /*background-image: url(/images/travel/Massive-Facing-Elbert-Sunrise.jpg);*/
     background-image: url(https://lh3.googleusercontent.com/szocO0Di0Bd-DfjbrkLh23hbuRr6m61-4GpNtmaZagjnAqTuo0Cs2mmm6HF3FNJRtNsii26DLb71pQhhbMZAiB2Rb0YdT5ykJonDPzfWb_usNhWghclTap0Nbb1nuCBpBdKzaUsNz12j94jQJteEnkhWGt95Xj0qAfQc8wUEvAEb4LsZf0JsMCDP29CiZGIOzDkVtzcC_K6gzgHHWpia6-NR8qmlTbTZApPNNe_pxkaCF0Tq8Yaa9kyDS6arIdIrdN2-4MKtvimEdIeMQ1LTh-S0Pl3pNEODDKM5EKS54LDF5rSTXfY7anHrjBb6BW-tN_f6tY4LIlnNdeH4f-z5OcNFsXnWR48DGwWOrum_6eeQGim6jGmFJXVF4DgxA3cH3SrVKvZK1_gFIzOBc4tvBY9C0OyuJRnrmlGUFjTC6sV76JF1ltyFy9xLs0paJmMqBzP1j4IvbxuIFuf0CV_0CWb72EyGdXC3pMmVdvOAAHfIWpoq2AZflG7vidUpG7oGnFBkUvvrYsnHW4YYEtpQGOyj1rdvUDXZYQm7zVhMkMiL3KLaeuzY9mEWcEy27oFymsfHA0o2Oz8Ma48dDnw0cIGUlVPL7vCIX7L9B1xWvA=w1341-h725-no);
     background-attachment: fixed;
     background-size: 667px 420px;
@@ -645,7 +639,6 @@ hr:after,hr:before {
 }
 @media screen and (max-width: 375px) {
   .mountaineering-parallax1 {
-    /*background-image: url(/images/travel/Redcloud.jpg);*/
     background-image: url(https://lh3.googleusercontent.com/_2VLrYW8-Iq0Q5vHJ8GDAs2NGuevqRGVDDuzZyYU9uga05Wnzv5VW1PjHPFm0cbN3DI7o1Qh7vsExaL2TqWvPPhsnIduniEsPdQYUVi35ZD2VG8t--zpN4RXPEIniMMZaExKqMCkN7XhVL9O0Tam8nDyJotl5_VTVeplFOA3luTVzyEJsXKe9ORoNCbUswxF0AFcZWrT-gJG1AJVdlVelu0SCq9T7c0RpW_LLGNl_bXJWv7188YyAJwZIyC5SbBx5RHgukyuC4oPNFN1TcOMr7Gh40TQiZ7VNJEf5PcrU8JfFc6-sE0rYc4465UvVCS3JWFdw1vGZuKgigMIVpl_9wsuLzrh9yEY21AVx0rXLBfzIkUAwJgmBd6zkjgPC0HRKQcHGvyfOVyx65Ba0Cs6OdNaic_HyJ00yMe8H2LAGnZgOdAvaAro3hE8F_OzzXb_QwiTCaOy93NI4rmEFHm5RNCmaUlWhmDOG8XNFv4mBqeUldzcZwRCW7bsDfU9znEWIrk-xnbtWlzVj5qsB1FA-MFMjKaY7VLrRE5_KkrQUt10xI7YAhGf6HhZyAPNoPVL4ZQypKjeh-OSpZ5xXBi5o4OwEW5wsTuEETrHWPdmEA=w580-h725-no);
     background-attachment: fixed;
     background-size: 375px 725px;
@@ -773,7 +766,6 @@ hr:after,hr:before {
 #footer {
   margin: 0;
   background-color: #101010;
-  /*background-color: #181818;*/
 }
 .footer-icons > i {
   height: 1rem;

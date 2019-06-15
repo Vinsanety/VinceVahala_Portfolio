@@ -57,15 +57,21 @@ hr:after,hr:before {
   color: #0882B7 !important;
 }
 .brand-logo {
+  position: absolute;
   padding: 0 1rem !important;
-  height: 100%;
+  height: inherit;
 }
 .brand-logo:hover {
   background-color: rgba(0,0,0,0.1);
 }
 .brand-logo img {
-  width: 50px;
-  height: auto;
+  position: relative;
+  height: 55px;
+  width: 55px;
+}
+.brand-logo span {
+  position: relative;
+  top: -0.75rem;
 }
 .page-header {
   font-family: 'Nanum Gothic', sans-serif;
@@ -75,7 +81,6 @@ hr:after,hr:before {
 }
 .section-header {
   font-family: 'Nanum Gothic', sans-serif;
-  /*color: #00c853;*/
 }
 .text-link {
   color: inherit;

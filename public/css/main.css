@@ -359,7 +359,6 @@ hr:after,hr:before {
   font-size: 16px;
 }
 .bio-mountain-para-container {
-  /*background-image: url(/images/Sneffels.jpg);*/
   background-image: url(https://lh3.googleusercontent.com/Sz2SzUahO4QQqEGsPjtcOC1I97F5VNBU4h6U-hqfL8Xy9Wnoa2joLeAcv4fdmByz1-C4wLyKUZfuJzx-N3lj-db0x_sWIE0adFK9ZIDyJOAi8lizWX2CaMvlBbG_HwtRyUWgiTYJle739xigoWFNqH0WvecPLVkVDJ7FPkYr5IeFRoq1pnrVLHBKmXB2wGSViY1d2GQAs-3rUlU5xnRQo_d6ZFmT5iGmeaNSzSGMw47T1BsYM7yfH_E46I7AKssy3CwP0Jtnky1Brt0nBIT3Ow-nokR-YU8K5BGL_LFxRPDIJ3zbSmKPRpLckjilnoiu5DvtirBNgcJHg-dQc9HkODJPYGb5_qAeKUrL65q_1kPhNScI9rACoCuWmNoWg9_QK_rcMk2py19jhh67MkJU61AMo_7CkpK30E0htti2ek-XMbw6wzLzi2Nuzgl4H8KdvdNKVJztfec9NaUhp_q0gxJn1h_WocipzRh8YbF7iOGfMTlbLn-D8bg_d2_SQnThjB--1AkafK8ofqFE1unTysk0ptBeNX55fqsfrof5tED2MDyiX4bSqm9H72_KB0WArbf0ZdQevKeKznOmhR3yFVuUOExPoxY07E2fBBeUug=w1440-h724-no);
   background-attachment: fixed;
   background-size: cover;
@@ -368,7 +367,6 @@ hr:after,hr:before {
 }
 @media screen and (max-width: 667px) {
   .bio-mountain-para-container {
-    /*background-image: url(/images/Sneffels.jpg);*/
     background-image: url(https://lh3.googleusercontent.com/Sz2SzUahO4QQqEGsPjtcOC1I97F5VNBU4h6U-hqfL8Xy9Wnoa2joLeAcv4fdmByz1-C4wLyKUZfuJzx-N3lj-db0x_sWIE0adFK9ZIDyJOAi8lizWX2CaMvlBbG_HwtRyUWgiTYJle739xigoWFNqH0WvecPLVkVDJ7FPkYr5IeFRoq1pnrVLHBKmXB2wGSViY1d2GQAs-3rUlU5xnRQo_d6ZFmT5iGmeaNSzSGMw47T1BsYM7yfH_E46I7AKssy3CwP0Jtnky1Brt0nBIT3Ow-nokR-YU8K5BGL_LFxRPDIJ3zbSmKPRpLckjilnoiu5DvtirBNgcJHg-dQc9HkODJPYGb5_qAeKUrL65q_1kPhNScI9rACoCuWmNoWg9_QK_rcMk2py19jhh67MkJU61AMo_7CkpK30E0htti2ek-XMbw6wzLzi2Nuzgl4H8KdvdNKVJztfec9NaUhp_q0gxJn1h_WocipzRh8YbF7iOGfMTlbLn-D8bg_d2_SQnThjB--1AkafK8ofqFE1unTysk0ptBeNX55fqsfrof5tED2MDyiX4bSqm9H72_KB0WArbf0ZdQevKeKznOmhR3yFVuUOExPoxY07E2fBBeUug=w1440-h724-no);
     background-attachment: fixed;
     background-size: 850px 427px;
@@ -377,21 +375,11 @@ hr:after,hr:before {
   }
 }
 .bio-mountain-parallax-text {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-size: 64px;
-  font-weight: 200;
-  color: white;
-  /*text-shadow: #FF8700 2px 2px;*/
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0 0 -12rem 1rem;
+  color: #FFF;
   text-shadow: 3px 3px 6px #000000;
-}
-.bio-mountain-ScrollFire {
-  opacity: 1;
-}
-.bio-mountains-para-content {
-  height: 25vh;
-  margin: 0;
 }
 /*BIO PAGE END*/
 

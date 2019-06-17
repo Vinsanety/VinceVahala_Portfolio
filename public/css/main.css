@@ -263,8 +263,8 @@ hr:after,hr:before {
   animation-iteration-count: 1;
 }
 /****END ANIMATIONS****/
-
 /*END GLOBAL CSS*/
+
 
 /*OVERRIDES !important*/
 .btn:hover {
@@ -465,9 +465,8 @@ hr:after,hr:before {
 .resume-job-title {
   font-size: 16px;
 }
-/*Res para test 5/28/17*/
 .resume-parallax1 {
-  background-image: url(https://lh3.googleusercontent.com/vn0KHrHbsoyOvu77Y0RKqbDOr8-uFh4Xyaf9_nA924ji8NsQJkB7FdgjzxBfHnkwhzp7LYdL4ndqrc9pT0BVgGjytNg8bUUijFqx3S65v0l2bcchaQJt2YNoOpnSRowFONorjCxf1dhtsJ7p7LBDGyYhw0MU6nMf0uQpwnpUSVw94RbB1khgTT-cnAkddgYVjnSKLGG-YUsTxWL8wmIJePPJ-g8dIIoNdp5H8n20lnAF5pgGZf5FgsZ1se5I7CM7wPa4FvKH9SWuS9l_6l2AO5GqtWla7vM5EhOXXJ8aiFt-YNluAQD0sXq8_PKzHd8rfeyCSnHiaw0hCJ-GRvLTqHjkoftIXFWSxjLLOWDxKn2MQZDTtoe8y-RqiDY8U0fZbYh3ftz2OcCvuuC6CS2Zyu0_IYaCQANg3vxVXqNpWTIY13CTElExQk3CUWXQ_rkSS4_be5-Vay4frBezwgdEk25L9aQ8hkxHA7xW5t43XypyyHgkWUYQWlHV0eya-z9wizxiafV_Kkho0ut_UnISywSdJmORpVZZMxYh31ulU6uuGHmMtwMn-CHDlEp65AHRHLQe-pWUbm5-rKgeZnSi0FJzErAZs4wBf9CND1y0DQ=w967-h725-no);
+  background-image: url(https://lh3.googleusercontent.com/ntmB0HzceU1l82DwEiEDktJFIQs0ZtSM77HgMHV46xpUU2QLFrGGacwJo7qrCgiqLfxMyjvfZMup7b6YFEv4SlXRmZg1gGzenUCI0hzdGuChUWImHwSpoeGKjdYttzBrr2fWQ6DTbvoQ9N_j_tK5cpTuxBJcLZl2yfNH4_kA-xzpxEYTDwF63npFwXhZtZI9XicOZY_evr7XNV0zy2r-aPjfOYRk_sCSRJerBkCl7jMnXkEJ-YoyJqh8e9rlEKpaHF_lrt6LlhyTUKh2jDTInsbKb7YWEJfiF-bGdx9Tl2zi9fYeYNrjfuTUcfKif-moW_sLps5SKfqYA_hJS4ebC1ZRQfCgo3MM68OYmxTRhNS_kNQufGYby3os63WT6p_qvsnb4GJkGXA-uwqr1ilkPmDZS_ai9llbbFHTMv42txNaxrSKf26qxWksDqc6Cw8gQNdZCag96PXypyQsEAaYKbvErKtm4l8F_hFsZnLk3D-TFChKuyr7UOAt_7JByZj7qrLGpPJ6m1qp40RSBtA8KSufTT96m3bPue-49nL988kBixS2kQnQAYhJU8bifN1hQdkgYwMRAGSa2JDDvaK6YkZ4ykWPQ45bXAjgkLsGOMbSpfUnBvuphBh2zSO8vWqQfswAVidMYWQr5Zk3yETJ-oAjDYCh7_w=w1052-h789-no);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;

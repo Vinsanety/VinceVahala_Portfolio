@@ -2,7 +2,6 @@ app.controller('homeController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
     $('.materialboxed').materialbox();
-    $('.parallax').parallax();
     $('.carousel').carousel();
     $('.tabindex-hidden-link').attr('tabindex', '-1');
   });
@@ -29,7 +28,6 @@ app.controller('resumeController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
     $('.modal').modal();
-    $('.parallax').parallax();
     $("#resume-icon-overlay").click(function() {
       $('html, body').animate({
         scrollTop: $("#resume-current-job-card").offset().top - 135

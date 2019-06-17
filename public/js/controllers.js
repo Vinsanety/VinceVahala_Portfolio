@@ -98,7 +98,6 @@ app.controller('mountaineeringController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
     $('.tooltipped').tooltip({delay: 50});
-    $('.parallax').parallax();
     $('.collapsible').collapsible();
     $("#travel-icon-overlay").click(function() {
       $('html, body').animate({
@@ -113,7 +112,7 @@ app.controller('mountaineeringController', function($scope) {
     $("#photo-collections-scroll-to").click(function() {
       $('html, body').animate({
         scrollTop: $("#photo-collections").offset().top - 75
-      }, 1500);
+      }, 1000);
     });
   });
 })

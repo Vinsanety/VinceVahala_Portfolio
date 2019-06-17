@@ -513,6 +513,9 @@ hr:after,hr:before {
 
 
 /*PROJECTS PAGE START*/
+.projects-container {
+  margin-bottom: 3rem !important;
+}
 .collapsible-header:hover, .collapsible > .active > .collapsible-header {
   background-color: #0882B7;
   color: #FFF;

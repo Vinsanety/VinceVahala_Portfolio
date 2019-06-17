@@ -75,6 +75,8 @@ app.controller('projectsController', function($scope) {
     $('.runForecast-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://RunForecast.web.app' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
     // Vahala Fitness Btn Add
     $('.vahalaFitness-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://vahalafitness-df5d3.web.app/' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
+    // E Source Btn Add
+    $('.eSource-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://www.ESource.com' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
     // Spoilers Btn Add
     $('.spoilers-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://podcastspoilers-dd5b5.web.app/' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
     // Next and Prev btns

@@ -5,22 +5,7 @@ app.controller('homeController', function($scope) {
     $('.parallax').parallax();
     $('.carousel').carousel();
     $('.tabindex-hidden-link').attr('tabindex', '-1');
-    var options = [
-      {
-        selector: '#home-ScrollFire-Inititator1', offset: 500, callback: function(el) {
-          Materialize.showStaggeredList($(el));
-        }
-      },
-      {
-        selector: '#home-ScrollFire-Inititator2', offset: 600, callback: function(el) {
-          Materialize.showStaggeredList($(el));
-        }
-      }
-    ];
-    // Depricated, look at something new
-   // Materialize.scrollFire(options);
   });
-
 })
 
 
@@ -28,15 +13,6 @@ app.controller('bioController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
     $('.materialboxed').materialbox();
-    var options = [
-      {
-        selector: '#bio-ScrollFire-Inititator', offset: 400, callback: function(el) {
-          Materialize.showStaggeredList($(el));
-        }
-      }
-    ];
-    // Depricated, look at something new
-   // Materialize.scrollFire(options);
   });
 })
 

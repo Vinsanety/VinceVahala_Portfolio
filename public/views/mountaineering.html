@@ -1,21 +1,21 @@
-<div class="col s12 m6 l6" style="width:50%;">
-  <div ng-controller="mountaineeringController" class="card large travel-card">
+<div class="col s12 m6 l6" style="width:35%;">
+  <div class="card travel-card">
     <div class="card-image travel-card-main-img-container">
-      <img class="activator" src="https://lh3.googleusercontent.com/NDx7P3Qn7N8kI2oSN9I5aho9cL9brVwZBtyKIxLIuQS5d3adaijQt2E7zbwu9pogkBOdU5RIa04eLcOs_YGPlPP-Qb_YwEqBW9WWiYw-sMIxybPtGSxTWmpSGulSPH2juoFlGrBk9VF4Iha6NLI2cEc-ZygTItO2z-VVGVjWabxvDtOoxcsIGu2lxHqfcxEuldvNnuQMluZivBA1g_c5UXDITki_dalktjQDRYP03HEEqtjpMi-xkwG9jHtn1Bcimxqmw5NICEgfkj54BNAHKO8pgRZX1-z_ro8cAdXCB1NRtv9wejznITzrqs8hrvoFIEEIPhuX5uPEyJtS7Vacmo5D1BuzR8XqkXGwNZmhs-KfZqYj7arvs5gO0oMA9ilQG-IYWM1aDXR284uVkoUf9uSlPf2Bdi0mLe-NRk5gpfoDHZqxkmtxtaubEGbF8OECizFRj-ZFDIXqgVhB8JluI4C0BrgV6NwCVYhh5ricKzmoKD_Kxjv-Md0wSgtlPA19kv7ZZQaQjjL9mZy7hGUnZUfI1oTrbCP824NpSoGr-Q5uqYDyBhm2v4koPcfdtnSpZhSgYry2-UultLHOT-so0f-i4ZWtTscms888r7VJfOe0Z7iiZ_WeCSCzeJ_R4H5NJqm5mTm7Tsm1KayPQmrcDF6tU1-1jbM=w1054-h789-no">
+      <img class="activator" src="{{oxfordMainImg}}">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Belford/Oxford Traverse</span>
-      <a class="btn-floating activator halfway-fab blue right"><i class="material-icons">add</i></a>
+      <a class="btn-floating activator halfway-fab blue right"><i class="far fa-2x fa-image"></i></a>
       <p>
         <a class="travel-card-link" href="https://www.14ers.com/route.php?route=oxfo2&peak=Mt.+Belford+and+Mt.+Oxford" target="_blank">Mount Oxford from Belford</a>
         <span>June 2017</span>
       </p>
     </div>
     <div class="card-reveal card-reveal-opaque">
-      <span class="card-title travel-card-title">Elevation: 14,153'<i class="material-icons right">close</i></span>
-      <br>
+      <span class="card-title travel-card-title">Elevation: 14,153</span>
+      <span class="card-title travel-card-close"><i class="fas fa-times tooltipped" data-position="right" data-delay="50" data-tooltip="Close"></i></span>
+      <h6 class="travel-card-text hide-on-med-and-down">Me and my best bud, Garrett, crushed 2 in a day.</h6>
       <p class="travel-card-text hide-on-large-only">Me and my best bud, Garrett, crushed 2 in a day.</p>
-      <p class="travel-card-text hide-on-med-and-down">Me and my best bud, Garrett, crushed 2 in a day.</p>
       <div ng-repeat="x in oxfordData" class="travel-card-content-container">
         <img class="travel-card-image" src="{{x.img}}">
           <span class="travel-card-image-description">{{x.description}}</span>
@@ -29,14 +29,12 @@
 
 <div class="mountaineering-parallax1">
   <div class="mountaineering-para-text-overlay">TRAVEL</div>
-
-    <div class="hide-on-med-and-up center" style="padding:1rem;">
-      <iframe height='125' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/19835017/activity-summary/e7692096308fc2ed6d91e1608b19638ae8f0602e'></iframe>
-    </div>
-    <div class="hide-on-med-and-down" style="padding:1rem;">
-      <iframe height='420' width='auto' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/19835017/latest-rides/e7692096308fc2ed6d91e1608b19638ae8f0602e'></iframe>
-    </div>
-
+  <div class="hide-on-med-and-up center" style="padding:1rem;">
+    <iframe height='125' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/19835017/activity-summary/e7692096308fc2ed6d91e1608b19638ae8f0602e'></iframe>
+  </div>
+  <div class="hide-on-med-and-down" style="padding:1rem;">
+    <iframe height='420' width='auto' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/19835017/latest-rides/e7692096308fc2ed6d91e1608b19638ae8f0602e'></iframe>
+  </div>
   <a id="travel-icon-overlay">
     <img class="mountaineering-para-icon-overlay hide-on-med-and-up" src="https://lh3.googleusercontent.com/ienoNN2bLQoU1m7pJ1OKLrV7EKQy36GH__D6uHpueH16ZUstvKtd95fZSX1b109mxV7rsaHF41w7WKSYRHI_BZSGFgCvCdfCpavIwjqg6CXnMoDCqJgdvRJc88JdlATZ05JC0mDeyLVkcgdCFvcNJ-Ow0kkCPx7ROl2AoiqtcD36NL8FqTlNVa1tlhOBTjpC6fa-XsKjH0EvgrhBsXJnypbJkrnnaq_EbcRMV1MXqzjt7XyrvbfWV_8IAIwx5Vqejn_o91PJvdITMk5-puJOr_-ZBrBbjfBOcWN4m6fow9bSr_1PmTbWCof5_SliTrgPDPvyALeMzSZBh0tesxDUBNyJregGpVuSpgP7oq2Pzak1t7whMYlk0_GxIqvYo3wlNmBLrIaYYJw6O81aL06KygnPXBLdjF5KpuiHNRY55zF-u61ecgQ2mKMM7Uv2KA-Xx2Gr6IZP0422RvUmVb9TjrQYhGpBFAUMLTAQUWx2ZmqQFmNlg1dFd8Pd4wGpyiWr1izC5qmQ0Hld8z5JTrHrzWWo_UajIVn1pR6_cAd93h6gh5fra8Ay8tnkJ-IIOk3nnHzotDOtjmMCuodPMV4BWoH0hXDfCF2TX_oW-HWTMw=s512-no" alt="">
     <img class="mountaineering-para-icon-overlay hide-on-small-only" src="https://lh3.googleusercontent.com/OYvJK5cO-eYyzum3h7rQGIlrygqCNmLTLkAHxJ_xLVY5gL2O-CTXIBWRpFDi40xzhWXuj6ikrX-zhzZTPNkBxbJGBVYN02VOkN8wMnRaWQIfx6NHbSZfHxdq32-VcWZXImrSJlQlOJItcoq7gR3GlSaF0AGfUcWqgbJQoX7uKVZ7DVV7kbJYmkCw1T3UxJfBCenRjdoHEjRmLiHcI0DZrE1ZgFSs16xUe8U7I3XGgrs2wGREi_PlWuwZ8xFQSjB8NZZGBa1Ki4gvFUcq73wKlQIzaPpNh5Jx4l-xcsHnLaR0p76qEYvF5n0Tw_Ykl7RYMk4OJb_r4YKYZS5oxzsEc1WgtuiB7Y2GHUbJ-QqfDnXT_sKFDPYHdBzM9odKMMfLbWlKQqV7jpS-nK-3cZ8K2rrnZtmhT_-bwDfiSIknrK9GtvIk-noGi6vY_7y1N3OyciBCK-kl3j1Ac0SGeltJ61HC5hPQOaE6zVumtTUTVbirZefYGb-Jl1RJ8I4807Oa4SHJDOfyc0CfCC5s9OalNFBfPcyo5r6rnDdOzjhGVxG_9EQlIHMx1n2kHp0M1bsBddD0dPKfzbyKuGLrih34kv2RBVmfmMfH3HbwOSWR3A=s512-no" alt="">

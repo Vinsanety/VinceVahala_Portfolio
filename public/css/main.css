@@ -652,18 +652,18 @@ hr:after,hr:before {
     min-width: 316.5px;
   }
 }
-.travel-card-container .card-content > .halfway-fab {
+.halfway-fab {
   margin-top: -2%;
 }
 /* Override Materialize card fab placement */
-.travel-card-container .card-content > .btn-floating.halfway-fab {
+.btn-floating.halfway-fab {
     bottom: 5.75rem !important;
 }
-.travel-card-container .card-content > .halfway-fab i {
+.halfway-fab i {
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-.travel-card-container .card-content > .halfway-fab:hover i {
+.halfway-fab:hover i {
   transform: rotate(360deg);
 }
 .travel-card-link ~ span {

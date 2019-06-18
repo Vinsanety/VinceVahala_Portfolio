@@ -1,3 +1,32 @@
+<div class="col s12 m6 l6" style="width:50%;">
+  <div ng-controller="mountaineeringController" class="card large travel-card">
+    <div class="card-image travel-card-main-img-container">
+      <img class="activator" src="https://lh3.googleusercontent.com/NDx7P3Qn7N8kI2oSN9I5aho9cL9brVwZBtyKIxLIuQS5d3adaijQt2E7zbwu9pogkBOdU5RIa04eLcOs_YGPlPP-Qb_YwEqBW9WWiYw-sMIxybPtGSxTWmpSGulSPH2juoFlGrBk9VF4Iha6NLI2cEc-ZygTItO2z-VVGVjWabxvDtOoxcsIGu2lxHqfcxEuldvNnuQMluZivBA1g_c5UXDITki_dalktjQDRYP03HEEqtjpMi-xkwG9jHtn1Bcimxqmw5NICEgfkj54BNAHKO8pgRZX1-z_ro8cAdXCB1NRtv9wejznITzrqs8hrvoFIEEIPhuX5uPEyJtS7Vacmo5D1BuzR8XqkXGwNZmhs-KfZqYj7arvs5gO0oMA9ilQG-IYWM1aDXR284uVkoUf9uSlPf2Bdi0mLe-NRk5gpfoDHZqxkmtxtaubEGbF8OECizFRj-ZFDIXqgVhB8JluI4C0BrgV6NwCVYhh5ricKzmoKD_Kxjv-Md0wSgtlPA19kv7ZZQaQjjL9mZy7hGUnZUfI1oTrbCP824NpSoGr-Q5uqYDyBhm2v4koPcfdtnSpZhSgYry2-UultLHOT-so0f-i4ZWtTscms888r7VJfOe0Z7iiZ_WeCSCzeJ_R4H5NJqm5mTm7Tsm1KayPQmrcDF6tU1-1jbM=w1054-h789-no">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Belford/Oxford Traverse</span>
+      <a class="btn-floating activator halfway-fab blue right"><i class="material-icons">add</i></a>
+      <p>
+        <a class="travel-card-link" href="https://www.14ers.com/route.php?route=oxfo2&peak=Mt.+Belford+and+Mt.+Oxford" target="_blank">Mount Oxford from Belford</a>
+        <span>June 2017</span>
+      </p>
+    </div>
+    <div class="card-reveal card-reveal-opaque">
+      <span class="card-title travel-card-title">Elevation: 14,153'<i class="material-icons right">close</i></span>
+      <br>
+      <p class="travel-card-text hide-on-large-only">Me and my best bud, Garrett, crushed 2 in a day.</p>
+      <p class="travel-card-text hide-on-med-and-down">Me and my best bud, Garrett, crushed 2 in a day.</p>
+      <div ng-repeat="x in oxfordData" class="travel-card-content-container">
+        <img class="travel-card-image" src="{{x.img}}">
+          <span class="travel-card-image-description">{{x.description}}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 <div class="mountaineering-parallax1">
   <div class="mountaineering-para-text-overlay">TRAVEL</div>
 

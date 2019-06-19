@@ -27,6 +27,7 @@ code {
   background-color: #cfd8dc;
 }
 hr {
+  margin: 1rem 0;
   padding: 0;
   border: none;
   border-top: medium double #0882B7;

@@ -91,8 +91,12 @@ app.controller('mountaineeringController', function($scope, travelDataFactory) {
         scrollTop: $("#photo-collections").offset().top - 75
       }, 1000);
     });
-
     $scope.oxfordMainImg = travelDataFactory.oxfordMainImg();
     $scope.oxfordData = travelDataFactory.oxfordData();
 
+    $scope.northMaroonMainImg = travelDataFactory.northMaroonMainImg();
+    $scope.northMaroonData = travelDataFactory.northMaroonData();
+
+    $scope.sanJuan17MainImg = travelDataFactory.sanJuan17MainImg();
+    $scope.sanJuan17Data = travelDataFactory.sanJuan17Data();
 })

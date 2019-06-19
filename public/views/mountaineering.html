@@ -1,32 +1,3 @@
-<div class="col s12 m6 l6" style="width:35%;">
-  <div class="card travel-card">
-    <div class="card-image travel-card-main-img-container">
-      <img class="activator" src="{{oxfordMainImg}}">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Belford/Oxford Traverse</span>
-      <a class="btn-floating activator halfway-fab blue right"><i class="far fa-2x fa-image"></i></a>
-      <p>
-        <a class="travel-card-link" href="https://www.14ers.com/route.php?route=oxfo2&peak=Mt.+Belford+and+Mt.+Oxford" target="_blank">Mount Oxford from Belford</a>
-        <span>June 2017</span>
-      </p>
-    </div>
-    <div class="card-reveal card-reveal-opaque">
-      <span class="card-title travel-card-title">Elevation: 14,153</span>
-      <span class="card-title travel-card-close"><i class="fas fa-times tooltipped" data-position="right" data-delay="50" data-tooltip="Close"></i></span>
-      <h6 class="travel-card-text hide-on-med-and-down">Me and my best bud, Garrett, crushed 2 in a day.</h6>
-      <p class="travel-card-text hide-on-large-only">Me and my best bud, Garrett, crushed 2 in a day.</p>
-      <div ng-repeat="x in oxfordData" class="travel-card-content-container">
-        <img class="travel-card-image" src="{{x.img}}">
-          <span class="travel-card-image-description">{{x.description}}</span>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
 <div class="mountaineering-parallax1">
   <div class="mountaineering-para-text-overlay">TRAVEL</div>
   <div class="hide-on-med-and-up center" style="padding:1rem;">
@@ -58,9 +29,7 @@
       <span class="hide-on-med-and-up">Photos</span>
     </a>
   </div>
-
-  <br><br><hr><br>
-
+  <hr />
   <div class="row" id="vahala-films-collection">
     <h3 class="center page-header">Vahala Films</h3>
     <div class="center col s12 m12 l12">
@@ -201,11 +170,10 @@
       </ul>
     </div>
   </div>
-
-  <br><hr><br>
-
+  <hr />
   <!-- Most Recent Top? -->
   <h3 class="center page-header" id="photo-collections">Photo Collections</h3>
+  <!-- Most Recent (Collapsed) -->
   <div class="col s12 m12 l12">
     <div class="travel-card-current-container">
 
@@ -215,7 +183,7 @@
       </div>
       <div class="card-content">
         <span class="card-title grey-text text-darken-4">Summer 17 Road Trip</span>
-        <a class="btn-floating activator halfway-fab blue right"><i class="fas fa-plus"></i></a>
+        <a class="btn-floating activator halfway-fab blue right"><i class="fa fa-image"></i></a>
         <p>
           <a class="travel-card-link" href="https://www.google.com/maps/place/Grand+Canyon+National+Park/@36.1069652,-112.1129972,9z/data=!4m5!3m4!1s0x0:0x1f38a9bec9912029!8m2!3d36.1069652!4d-112.1129972?sa=X&ved=0ahUKEwiBpdfg-ovWAhWO-lQKHcL3AAAQ_BIIowEwEw" target="_blank">Grand Canyon National Park</a>
           <span>August 2017</span>
@@ -330,7 +298,6 @@
             <span class="travel-card-image-description"></span>
           <img class="travel-card-image" src="https://lh3.googleusercontent.com/ErE0B0RGUjkZqgBecbG2zsnhrbdfs3IlWB-Tf59OHju37BUH30vmnlGK16H_ZKzCLmq7Y21L3s1LkIp9F7ELo7O_JH9n9dq5gf1FooOF6uPfbGZWr138u2dhvlvRBe_U_QoPCVMzk6KSWVSHgidbKl-LOxiDqUNPczTD83oGmOLSQnit9sqxVlthnSz1UrEaYv23jTYFj7LjNyBZNGQxi6uV-qlcWjnHXt063_45RKr2wJAOcPKvfFdZs4yxcLGC5G2l6fBza4pZJ1Sux666eyRyTPWKLXb-um6reZUQhRERF7CXTejUftIbsUIzIlIf0fvIAeVu-T8A5r9PoeOXOV0kd0-c9Fa1S4iRR2zoxiiu6mSuboUWORorC_U13n-syX0PuNdqjcbmLwpZUIV_IlDFB8pTQnefIK0OWWz2Qvwd9WklXVBrfNnEAwH5hw_k4efV809jrSUjC3EW9tuFf4BgRSlkQ0Muuyw3XgvH6InX6RfL4Kyf2DeUgyIywUtGmonJ2_TTZhhcqj9S9WKy7a_XDXDk69I4zurvmegQBqOQ4W3KasqgPomKKw16xCDkm_zzO5Z1vU8qBg5kUAy8ggqOD5rbTEhdyWS9z4I=w1290-h725-no">
             <span class="travel-card-image-description"></span>
-          <br><br><br><br><br><br>
         </div>
       </div>
     </div>
@@ -338,71 +305,64 @@
     </div>
   </div>
 
-  <h5 class="center page-header">More to come.. stay tuned</h5>
-  <p class="center">In the process of migrating to a new image host. <br><br> The best things in life are worth the wait.  <br><br> Check back soon.<br><br></p>
-
-  <!-- <div class="col s12 m6 l6">
+  <div class="col s12 m6 l6">
     <div class="card travel-card">
-      <div class="card-image waves-effect waves-block waves-light travel-card-main-img-container">
-        <img class="activator" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells8.jpg">
+      <div class="card-image travel-card-main-img-container">
+        <img class="activator" src="{{northMaroonMainImg}}">
       </div>
       <div class="card-content">
-        <span class="card-title grey-text text-darken-4">South Maroon Peak</span>
-        <a class="btn-floating activator halfway-fab blue right"><i class="material-icons">add</i></a>
+        <span class="card-title activator grey-text text-darken-4">South Maroon Peak</span>
+        <a class="btn-floating activator halfway-fab blue right"><i class="far fa-2x fa-image"></i></a>
         <p>
           <a class="travel-card-link" href="https://www.google.com/maps/place/Maroon+Bells-Snowmass+Wilderness+-+White+River/@39.1109991,-107.01823,15z/data=!4m12!1m6!3m5!1s0x0:0x5d436e036dfee9c6!2sMaroon+Bells-Snowmass+Wilderness+-+White+River!8m2!3d39.1109991!4d-107.01823!3m4!1s0x0:0x5d436e036dfee9c6!8m2!3d39.1109991!4d-107.01823" target="_blank">Pitkin County, CO</a>
           <span>August 2017</span>
         </p>
       </div>
       <div class="card-reveal card-reveal-opaque">
-        <span class="card-title travel-card-title">Maroon Bells South Peak Summit Trip<i class="material-icons right">close</i></span>
-        <br>
-        <p class="travel-card-text hide-on-large-only">Where beautiful women instinctively flock like the salmon of Capistrano.</p>
-        <div class="travel-card-content-container">
-          <p class="travel-card-text hide-on-med-and-down">Where beautiful women instinctively flock like the salmon of Capistrano.</p>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells2.jpg">
-            <span class="travel-card-image-description">Backpacking in the night before to Crater Lake (approx 2 miles), I ran into some of these mule deer</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells3.jpg">
-            <span class="travel-card-image-description">Morning sun</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells4.jpg">
-            <span class="travel-card-image-description">Looking NorthEast back towards the trail</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells5.jpg">
-            <span class="travel-card-image-description">Selfies</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells6.jpg">
-            <span class="travel-card-image-description">Look closely to see some Mountain Doggos (goats)</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells7.jpg">
-            <span class="travel-card-image-description">Morning Panos looking SE</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells8.jpg">
-            <span class="travel-card-image-description">Snowmass in the distance, her majesty, South Maroon Peak to the right</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells9.jpg">
-            <span class="travel-card-image-description">E x p o s u r e</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells10.jpg">
-            <span class="travel-card-image-description">Looking towards the North Maroon Peak</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells11.jpg">
-            <span class="travel-card-image-description">Summit views</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells12.jpg">
-            <span class="travel-card-image-description">Which wich gives you a free sammy for this type of photo; why not?</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells13.jpg">
-            <span class="travel-card-image-description">Love these moves; exposure and class 3 climbing</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells14.jpg">
-            <span class="travel-card-image-description">Working my way back down</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells15.jpg">
-            <span class="travel-card-image-description">Heading back to camp</span>
-          <img class="travel-card-image" src="images/travel/Maroon-Bells-South-Summit/Maroon-Bells16.jpg">
-            <span class="travel-card-image-description">The iconic maroon bells photograph</span>
-          <br><br><br><br><br><br>
+        <span class="card-title travel-card-title">Maroon Bells South Peak Summit Trip</span>
+        <span class="card-title travel-card-close"><i class="fas fa-times tooltipped" data-position="right" data-delay="50" data-tooltip="Close"></i></span>
+        <p class="travel-card-text">Where beautiful women instinctively flock like the salmon of Capistrano.</p>
+        <div ng-repeat="x in northMaroonData" class="travel-card-content-container">
+          <img class="travel-card-image" src="{{x.img}}">
+            <span class="travel-card-image-description">{{x.description}}</span>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="col s12 m6 l6">
+    <div class="card travel-card">
+      <div class="card-image travel-card-main-img-container">
+        <img class="activator" src="{{sanJuan17MainImg}}">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">San Juan National Forest</span>
+        <a class="btn-floating activator halfway-fab blue right"><i class="far fa-2x fa-image"></i></a>
+        <p>
+          <a class="travel-card-link" href="https://www.google.com/maps/place/San+Juan+National+Forest/@37.5439282,-107.764023,15z/data=!4m5!3m4!1s0x0:0x8449191b182ce7fc!8m2!3d37.5439282!4d-107.764023" target="_blank">Lake City, Co</a>
+          <span>July 2017</span>
+        </p>
+      </div>
+      <div class="card-reveal card-reveal-opaque">
+        <span class="card-title travel-card-title">Redcloud, Sunshine, and Handies 14er summit camp trip</span>
+        <span class="card-title travel-card-close"><i class="fas fa-times tooltipped" data-position="right" data-delay="50" data-tooltip="Close"></i></span>
+        <p class="travel-card-text">The San Juans are my favorite Colorado range. Secluded, magestic, diverse, vast, and always full of adventure</p>
+        <div ng-repeat="x in sanJuan17Data" class="travel-card-content-container">
+          <img class="travel-card-image" src="{{x.img}}">
+            <span class="travel-card-image-description">{{x.description}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="col s12 m6 l6">
     <div class="card travel-card">
       <div class="card-image waves-effect waves-block waves-light travel-card-main-img-container">
-        <img class="activator" src="images/travel/Redcloud-Descent-06-30-2017.jpg">
+        <img class="activator" src="{{sanJuan17MainImg}}">
       </div>
       <div class="card-content">
         <span class="card-title grey-text text-darken-4">San Juan National Forest</span>
-        <a class="btn-floating activator halfway-fab blue right"><i class="material-icons">add</i></a>
+        <a class="btn-floating activator halfway-fab blue right"><i class="far fa-2x fa-image"></i></a>
         <p>
           <a class="travel-card-link" href="https://www.google.com/maps/place/San+Juan+National+Forest/@37.5439282,-107.764023,15z/data=!4m5!3m4!1s0x0:0x8449191b182ce7fc!8m2!3d37.5439282!4d-107.764023" target="_blank">Lake City, Co</a>
           <span>July 2017</span>
@@ -410,91 +370,80 @@
       </div>
       <div class="card-reveal card-reveal-opaque">
         <span class="card-title travel-card-title">Redcloud, Sunshine, and Handies 14er summit camp trip<i class="material-icons right">close</i></span>
-        <br>
-        <p class="travel-card-text hide-on-large-only">The San Juans are my favorite Colorado range. Secluded, magestic, diverse, vast, and always full of adventure.</p>
+        <p class="travel-card-text">The San Juans are my favorite Colorado range. Secluded, magestic, diverse, vast, and always full of adventure.</p>
         <div class="travel-card-content-container">
-          <p class="travel-card-text hide-on-med-and-down">The San Juans are my favorite Colorado range. Secluded, magestic, diverse, and vast.</p>
           <span class="travel-card-img-section-header">Redcloud Peak and Sunshine Peak Traverse</span>
           <img class="travel-card-image" src="images/travel/Redcloud-and-Sunshine/Redcloud-Sunshine1.jpg">
-            <span class="travel-card-image-description">6:00am looking back towards the trailhead</span>
+          <span class="travel-card-image-description">6:00am looking back towards the trailhead</span>
           <img class="travel-card-image" src="images/travel/Redcloud-and-Sunshine/Redcloud-Sunshine2.jpg">
-            <span class="travel-card-image-description">Morning sun</span>
+          <span class="travel-card-image-description">Morning sun</span>
           <img class="travel-card-image" src="images/travel/Redcloud-and-Sunshine/Redcloud-Sunshine3.jpg">
-            <span class="travel-card-image-description">Working up the trail</span>
+          <span class="travel-card-image-description">Working up the trail</span>
           <img class="travel-card-image" src="images/travel/Redcloud-and-Sunshine/Redcloud-Sunshine4.jpg">
-            <span class="travel-card-image-description">On the Summit of Redcloud Peak. Wetterhorn Peak(center) and Uncompahgre Peak(right) in the distance</span>
+          <span class="travel-card-image-description">On the Summit of Redcloud Peak. Wetterhorn Peak(center) and Uncompahgre Peak(right) in the distance</span>
           <img class="travel-card-image" src="images/travel/Redcloud-and-Sunshine/Redcloud-Sunshine5.jpg">
-            <span class="travel-card-image-description">Redcloud Peak summit looking toward Sunshine Peak</span>
+          <span class="travel-card-image-description">Redcloud Peak summit looking toward Sunshine Peak</span>
           <img class="travel-card-image" src="images/travel/Redcloud-and-Sunshine/Redcloud-Sunshine6.jpg">
-            <span class="travel-card-image-description">Redcloud looking on toward Sunshine Peak, different view</span>
+          <span class="travel-card-image-description">Redcloud looking on toward Sunshine Peak, different view</span>
           <img class="travel-card-image" src="images/travel/Redcloud-and-Sunshine/Redcloud-Sunshine7.jpg">
-            <span class="travel-card-image-description">Summit Beers on Sunshine Peak</span>
+          <span class="travel-card-image-description">Summit Beers on Sunshine Peak</span>
           <img class="travel-card-image" src="images/travel/Redcloud-and-Sunshine/Redcloud-Sunshine8.jpg">
-            <span class="travel-card-image-description">Exposure on the saddle between the peaks, heading back towards Redcloud from Sunshine Peak</span>
+          <span class="travel-card-image-description">Exposure on the saddle between the peaks, heading back towards Redcloud from Sunshine Peak</span>
           <img class="travel-card-image" src="images/travel/Redcloud-and-Sunshine/Redcloud-Sunshine9.jpg">
-            <span class="travel-card-image-description">working back down the trial towards the trailhead</span>
+          <span class="travel-card-image-description">working back down the trial towards the trailhead</span>
           <img class="travel-card-image" src="images/travel/Redcloud-and-Sunshine/Redcloud-Sunshine10.jpg">
-            <span class="travel-card-image-description">Runoff Creek in high country</span>
+          <span class="travel-card-image-description">Runoff Creek in high country</span>
           <br>
           <br>
           <span class="travel-card-img-section-header">Day 2: Handies Peak</span>
-            <img class="travel-card-image" src="images/travel/Handies/Handies1.jpg">
-              <span class="travel-card-image-description">Waking up with the mountains</span>
-            <img class="travel-card-image" src="images/travel/Handies/Handies2.jpg">
-              <span class="travel-card-image-description">The Forest Moon of Endor</span>
-            <img class="travel-card-image" src="images/travel/Handies/Handies3.jpg">
-              <span class="travel-card-image-description">Looking S.West heading up to Handies</span>
-            <img class="travel-card-image" src="images/travel/Handies/Handies4.jpg">
-              <span class="travel-card-image-description">No better sight than snow in the summer</span>
-            <img class="travel-card-image" src="images/travel/Handies/Handies6.jpg">
-              <span class="travel-card-image-description">Working my way up the couloir</span>
-            <img class="travel-card-image" src="images/travel/Handies/Handies7.jpg">
-              <span class="travel-card-image-description">Selfies at 13,500'</span>
-            <img class="travel-card-image" src="images/travel/Handies/Handies8.jpg">
-              <span class="travel-card-image-description">I love traversing mountain spines</span>
-            <img class="travel-card-image" src="images/travel/Handies/Handies9.jpg">
-              <span class="travel-card-image-description">Summit. Had a nice chat and tea with an older woman from Montrose, Co.</span>
-            <img class="travel-card-image" src="images/travel/Handies/Handies10.jpg">
-              <span class="travel-card-image-description">Working my way back towards the trailhead</span>
-          <br><br><br><br><br><br>
+          <img class="travel-card-image" src="images/travel/Handies/Handies1.jpg">
+          <span class="travel-card-image-description">Waking up with the mountains</span>
+          <img class="travel-card-image" src="images/travel/Handies/Handies2.jpg">
+          <span class="travel-card-image-description">The Forest Moon of Endor</span>
+          <img class="travel-card-image" src="images/travel/Handies/Handies3.jpg">
+          <span class="travel-card-image-description">Looking S.West heading up to Handies</span>
+          <img class="travel-card-image" src="images/travel/Handies/Handies4.jpg">
+          <span class="travel-card-image-description">No better sight than snow in the summer</span>
+          <img class="travel-card-image" src="images/travel/Handies/Handies6.jpg">
+          <span class="travel-card-image-description">Working my way up the couloir</span>
+          <img class="travel-card-image" src="images/travel/Handies/Handies7.jpg">
+          <span class="travel-card-image-description">Selfies at 13,500'</span>
+          <img class="travel-card-image" src="images/travel/Handies/Handies8.jpg">
+          <span class="travel-card-image-description">I love traversing mountain spines</span>
+          <img class="travel-card-image" src="images/travel/Handies/Handies9.jpg">
+          <span class="travel-card-image-description">Summit. Had a nice chat and tea with an older woman from Montrose, Co.</span>
+          <img class="travel-card-image" src="images/travel/Handies/Handies10.jpg">
+          <span class="travel-card-image-description">Working my way back towards the trailhead</span>
         </div>
       </div>
     </div>
   </div>
+
   <div class="col s12 m6 l6">
     <div class="card travel-card">
-      <div class="card-image waves-effect waves-block waves-light travel-card-main-img-container">
-        <img class="activator" src="images/travel/Oxford-Belford/Oxford-Belford1.jpg">
+      <div class="card-image travel-card-main-img-container">
+        <img class="activator" src="{{oxfordMainImg}}">
       </div>
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">Belford/Oxford Traverse</span>
-        <a class="btn-floating activator halfway-fab blue right"><i class="material-icons">add</i></a>
+        <a class="btn-floating activator halfway-fab blue right"><i class="far fa-2x fa-image"></i></a>
         <p>
           <a class="travel-card-link" href="https://www.14ers.com/route.php?route=oxfo2&peak=Mt.+Belford+and+Mt.+Oxford" target="_blank">Mount Oxford from Belford</a>
           <span>June 2017</span>
         </p>
       </div>
       <div class="card-reveal card-reveal-opaque">
-        <span class="card-title travel-card-title">Elevation: 14,153'<i class="material-icons right">close</i></span>
-        <br>
-        <p class="travel-card-text hide-on-large-only">Me and my best bud, Garrett, crushed 2 in a day.</p>
-        <div class="travel-card-content-container">
-          <p class="travel-card-text hide-on-med-and-down">Me and my best bud, Garrett, crushed 2 in a day.</p>
-          <img class="travel-card-image" src="images/travel/Oxford-Belford/Oxford-Belford2.jpg">
-            <span class="travel-card-image-description">Starting out for Mount Belford</span>
-          <img class="travel-card-image" src="images/travel/Oxford-Belford/Oxford-Belford4.jpg">
-            <span class="travel-card-image-description">Garrett dragging feet but in good spirits</span>
-          <img class="travel-card-image" src="images/travel/Oxford-Belford/Oxford-Belford3.jpg">
-            <span class="travel-card-image-description">Summit of Mount Belford; half the work done, onto Oxford</span>
-          <img class="travel-card-image" src="images/travel/Oxford-Belford/Oxford-Belford5.jpg">
-            <span class="travel-card-image-description">Traversing snowpack on the way to Oxford</span>
-          <img class="travel-card-image" src="images/travel/Oxford-Belford/Oxford-Belford6.jpg">
-            <span class="travel-card-image-description">Mount Oxford seen from Belford, working our way back</span>
-            <br><br><br><br><br><br>
+        <span class="card-title travel-card-title">Elevation: 14,153</span>
+        <span class="card-title travel-card-close"><i class="fas fa-times tooltipped" data-position="right" data-delay="50" data-tooltip="Close"></i></span>
+        <p class="travel-card-text">Me and my best bud, Garrett, crushed 2 in a day.</p>
+        <div ng-repeat="x in oxfordData" class="travel-card-content-container">
+          <img class="travel-card-image" src="{{x.img}}">
+            <span class="travel-card-image-description">{{x.description}}</span>
         </div>
       </div>
     </div>
   </div>
+
   <div class="col s12 m6 l6">
     <div class="card travel-card">
       <div class="card-image waves-effect waves-block waves-light travel-card-main-img-container">
@@ -533,7 +482,7 @@
             <span class="travel-card-image-description">Shaka in front of the Three Apostles from the summit</span>
           <img class="travel-card-image" src="images/travel/Huron/Huron10.jpg">
             <span class="travel-card-image-description">Notice the tent in the foreground</span>
-            <br><br><br><br><br><br>
+
         </div>
       </div>
     </div>
@@ -579,7 +528,7 @@
             <span class="travel-card-image-description">A better view of the deer</span>
           <img class="travel-card-image" src="images/travel/Grand-Teton/Jackson12.jpg">
             <span class="travel-card-image-description">Final look at the Tetons</span>
-            <br><br><br><br><br><br>
+
         </div>
       </div>
     </div>
@@ -630,4 +579,4 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>

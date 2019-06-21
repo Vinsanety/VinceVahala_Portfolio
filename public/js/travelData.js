@@ -1,70 +1,128 @@
 app.factory('travelDataFactory', function () {
-  const northMaroonData = [
+
+  const travelData = [
     {
-      description: null,
-      img: "https://lh3.googleusercontent.com/2YQ7EQIi9cv150AIPV0_dY-ZrMe3ql-1m7cxb_aMbTQTrsuSrPggQFQad0EyIKpVFM-RL0zFzqHLz-rybMR5ByDvD-yLIAdFPWZDSReeH3Oz6e6uSrkS8TwZjFtx5Vcpg6hq5JUzmqGRi2iUm7An_nJryrupwb6KtuXKyHSHOL-ZDF8cfNXZ_Yz7k8Mvjn4ICuk20H27pefgtnD1LOT3pG25pY1ySx_SzPeaczSpEYgFgTBAginJQE2RLfvOEFNf1kDBlvWodzmhVs5fQ5pmsQUpwo4J2vKnO_KJIm1-RC5lEv137-QNfP_dhRAdZMYo0Kihy9G7vsl4W0GvCCQMkeHBpnH3thN2OBG5HIL6mO5gtJsdBNM-oiTd4bcRn9D1LnAjP41B753FCXl9kv4oW30SQxahXtnYT_4joJ3nQVGLJqjeYitLZsJAzx83C4tIfs6OV2_38Zb5pk_r1FfaIoMineo9K2OltrwZIjzcziHIdSvTrzkgNjK9eO_e3cL8FyXPTYHtPFej5hj_6gZyvjv7cIJx7bVKNkL2VS6ioDecne9rg6gyStNgFRBknj3rQzlF_efvNPFnchsWvPys30KiVwg-U35ZW0Pb1yOgKfBI86LDV86OXo9SuCz0dXUqs8uCDXa3gphBgZsOlWgA3AVsM8peNhs=w1057-h789-no",
+      trip: {
+        cardTitle: "South Maroon Peak",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/2YQ7EQIi9cv150AIPV0_dY-ZrMe3ql-1m7cxb_aMbTQTrsuSrPggQFQad0EyIKpVFM-RL0zFzqHLz-rybMR5ByDvD-yLIAdFPWZDSReeH3Oz6e6uSrkS8TwZjFtx5Vcpg6hq5JUzmqGRi2iUm7An_nJryrupwb6KtuXKyHSHOL-ZDF8cfNXZ_Yz7k8Mvjn4ICuk20H27pefgtnD1LOT3pG25pY1ySx_SzPeaczSpEYgFgTBAginJQE2RLfvOEFNf1kDBlvWodzmhVs5fQ5pmsQUpwo4J2vKnO_KJIm1-RC5lEv137-QNfP_dhRAdZMYo0Kihy9G7vsl4W0GvCCQMkeHBpnH3thN2OBG5HIL6mO5gtJsdBNM-oiTd4bcRn9D1LnAjP41B753FCXl9kv4oW30SQxahXtnYT_4joJ3nQVGLJqjeYitLZsJAzx83C4tIfs6OV2_38Zb5pk_r1FfaIoMineo9K2OltrwZIjzcziHIdSvTrzkgNjK9eO_e3cL8FyXPTYHtPFej5hj_6gZyvjv7cIJx7bVKNkL2VS6ioDecne9rg6gyStNgFRBknj3rQzlF_efvNPFnchsWvPys30KiVwg-U35ZW0Pb1yOgKfBI86LDV86OXo9SuCz0dXUqs8uCDXa3gphBgZsOlWgA3AVsM8peNhs=w1057-h789-no",
+          cardLocationSrc: "https://www.google.com/maps/place/Maroon+Bells-Snowmass+Wilderness+-+White+River/@39.1109991,-107.01823,15z/data=!4m12!1m6!3m5!1s0x0:0x5d436e036dfee9c6!2sMaroon+Bells-Snowmass+Wilderness+-+White+River!8m2!3d39.1109991!4d-107.01823!3m4!1s0x0:0x5d436e036dfee9c6!8m2!3d39.1109991!4d-107.01823",
+          cardLocation: "Pitkin County, CO",
+          cardDate: "August 2017",
+          cardSubTitle: "Maroon Bells South Peak Summit Trip",
+          cardTagline: "Where beautiful women instinctively flock like the salmon of Capistrano.",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/zzjYngR6Y_DdwrfVupMRyrb4h24l0g4IG9qu7NeEOdB47FawwgQ-0OjhEhXjxXVemU4UyiqojOuaYREjDC2ZXOLRDxh4loUZamnngq6HHLPkmEgRXlG3zAJwA1VfWLFiv86Y3pGDLZRCaB1Be7IoeAfFSH7HxbPgCqj9J-0YT_19TDqErqY8ALTCRuE1A7Z_24t8C7ayohHHSWkfEYpth_8BLkeBkKnrpLwAoi2liPz5eelBqEuuPcjbB-Br0rColUfpwZ25864QgSir-EvPj0oYxE2McVvv4vdZixvOQmxvcMmAtq0LLsCpw3m7l09b1LwomCXZVL0Sy0RM5PmHzpwKz_wmoiOBno5b80NvrnR3ozF3ShnMfMauSqqNbyXlFODx668AVRj9lMpzl61QjFL3e1QpYZgY8fqA1imTjAbhufL7xW_XoBFX6iYytHky1AlY0heeBwo9O2ppCgi5psHy0VG9eI7NHF0t0aOaJ0S45pSG-hXAAEww9WcopuCjScgLdilAlu9ayvb2DT7h0vp2p55_m90rMiwKqHy_XEPcvkPo8rUnHJqC51azT-lZOreiyxzoMoPCjZ02YpVqOZ0wZ_XJEJFUOJDhPY9nTkKCkvIuDHeK2M4Aco_97S0fsLwCID3dbKGvWTuln4COjitHl6Yh5wM=w833-h789-no",
+            description: "Backpacking in the night before to Crater Lake (approx 2 miles), I ran into some of these mule deer",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/m0zp04FgCwNqT1llycsAfGojU1y_Jiuy94B12e3_9-HeJAaQgbOGih9Ke9UaiDuhsMScK5hT4ben2UVA3rQsh1467AH6fw1cbLketjJ2060aT-Bq3WWN4vcYXEvwiOBOXlRZyZkzpFDWDC10X68BsUum_XD4MUy9hd-fK6oc03zZ1ksiR3Rofnk9Y78IrDfVqEdk63g_nHw6vWD7Vjpy0nnrbYmAwGPQXuQYFpLRb8NCTRZSwJ_Gq1YFzsrgg9rpzwCKcwkXwD0TVZfIUp8eEyQjbzPPfnFEK3ISKqHTwO6uQQC5yS_PPV96AkFe-KqI0I1SqPlnyu3zQ_fi0SBt2CRy7eVpxIsmqZY1rHiA8h5IFK1wNHxQZOi9MuRtaD2w9yyuWPSPGCSuxvdrhI0pdmbqPTqLhGfyOqi_hwooBx8H0jrfoAZWC8CKR-eP85bKTxuBxka6ZUTVuayaGypJBc8GcfnpQNG9PTf9paVX04xNqSVzkqRqBBmKZbz7J4wUv3qBjZgqQjyS6W709tDYjA8ts_Pz7OQKd0QzQ5SoOR4fMZB2QF5CtEH06dMzDX4w2Bhpfv8e8VxDj28BkT4_t9-b8kCZrMGdv8odwrSGnkldwHargUv3uLqwnzJ-3R2ahr0BqTY6Y1GLFSquM0EbmzsWM9cWFmM=w1052-h789-no",
+            description: "Morning Sun",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/EgzV2iPdme92VZx9RIc3dIrNQswT04gyMLbIQMzcRn6wN0MW60o3MFbUVhBDW78Ty7uXZ9hOWLNBm4fP6NpSeysNgpuodS6KMkRDwNSo7eYrUUBOX0I0AlAISQskser5U5HIi2UFLaA_IZBJo_5ul2yAQc_Y3tZi456GiJfaa3JC2PBk264r9gwwpk-2_i1bD2BFiP1KwCl9qfWfPUGC7JwsQJ_LYOQBJhVHoDaHAcXPwn4kTkcy1anC6MSsnzC7UIH02jhmn96ybVw1vDNA-5bcnhlAvLcel615IyrNpb6cCUtL23BcST2sOgKwp6hpxixH9Ze_8u8HR9YAnmvcb1yYTaBOKaMZsyklV1Y_8Sao6wyUeNC2TTRHUtYRfJ8NKI8bvYVyhWmBwNxW76S1VbLkty5yxwll4z5B9fGrbqJUTdmtOmyHLk9NFg1-kA0mTaFcFUpsXp3mpWr71vG5bEXmPs8Ya1hx6cFiywO78EiuY1FYSlZ5Ki2MkkQPFPOVZ4rM5F8Uy_c7Diaz5KGPvYqrZd74pJL1bA2vNQtipQVVOXFmgeNTgABprUL-78ea5HGvDe6TjRTD9dipP9AnHqri7yEM0F9VBhNfM_5R5cSasy_Qot3UIcH_GS9SERnRVE__39VFZPdicIf7_Lap8J5TYb9xNto=w1052-h789-no",
+            description:  "Looking NorthEast back towards the trail",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/VnADUVZzUPYuxw-xi_3HNljWmJ2-uKWoc7DprPmXN1ZJpiUyX4ZVlHm8grJC-iIqBwvIxTAjHjR2v5O4_kzZPofg3uW0_fzNBPST2gPESfSrJ67LyN_MURdoFe5--uZBfwCANUdGo30BeHokqzph2NbbKPQTIQTQtz1trx-gLoNZs6VFr-pzwETTxoYyVB5WRXYoU9e0cTmqetCA66yvPkfwdDBt8bHoZVZu5XVxgsTFbhDkMWHs0GjlvEMYqeEYG3DHbmCPxzGFMUiqgujtl5ttFE7jeY4f2T8mptJm6_SI4VSBmi86PNuVb_vnC8ugYeSWW1joEdPIs4QOvFvYgxj1FM9Xsfe0SB6h7SQGdRSEIDpYoi1yJyCdFGqEwmSKCRa0xE8RIUjyfx40KeG34nJht68ubH4DzGv2sgrUCZj_dVIqqQwViDT3iRdVEOAOEpvlLD8kdG_EkI8nESm_2mrQYSSruHs7sPkv3rfnvRrzNKkOqgvut-Ji8ljKa65mJNVxikL3qQ5cQ4iy6xL4jO_Rmhhbzl3iwGwGGlCNINHGWDuYM2AAd-dhzoV7xcMQFdOXUz-nXgvXFz6J49OGcw51_UUOlwT_WhpNMomB8pq4KLrAQqh5jknHtayK4QThPOG1MSKCEoyOya1J6JV4HPY-3MThvD0=w1051-h789-no",
+            description: "Selfies",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/N5qqZZa1AyT7PBr3RxSj3G6wNGryGqzkcuEV2sc9C8VgKsT9DkvN5_bjwmb4mcuggDnpCFji1S2PDLG6gWGDoMcPQR9YSsZFSBZD0NawcYXwptMhGxq0t2Oto-CsL0kTKomXYZY-RMiqO-uyWkr90BPm2qSNcRPWgUZDMTwfH9ihaTMEtRdYpsvBztCUueELt7r7FQlguqJ5lscRKezisJ4WcLt9croG0CfF1vAVCQ1RLUE9ljHE7PJEHxVDslbZ5Dn6FsWqh83RzAD0el2eBqBVtTNWorKzWisXzf6U00J8bmeSuYXG6ybfFEuuGczyE8XygKc65IitildnX1LNcERnRIg958_5jRdJSxEFPUWrEyr13xkPnSfZKdt3jSpdp6IdjX-9L11ufeG9gm0RXkGKF9ODgxc1fTHBZxk0aT8bShJfr0Ed_NnY2sAI-N0s_4VKrouYif3wHS1-1SJt5aPY3hM6JxdfKwSw6zJo_EW152F5XLB2e92e0MWGPJUC-7Cn6L4_BIPD_4N4HYuG83WnJrhpm6PzQDVSKy886zrfKy3MDYNQiD5MxPyi-LvpCkylC__5Nk4fVEKNdzC2_uSiuQ5nGqzcATrP7AXqrV9vUY19YVQX3vMQxU-Q5e9SdgFpn4E55UB0DRdjDXOYgV1dn8X2ZcM=w1052-h789-no",
+            description: "Look closely to see some Mountain Doggos (goats)",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/N5qqZZa1AyT7PBr3RxSj3G6wNGryGqzkcuEV2sc9C8VgKsT9DkvN5_bjwmb4mcuggDnpCFji1S2PDLG6gWGDoMcPQR9YSsZFSBZD0NawcYXwptMhGxq0t2Oto-CsL0kTKomXYZY-RMiqO-uyWkr90BPm2qSNcRPWgUZDMTwfH9ihaTMEtRdYpsvBztCUueELt7r7FQlguqJ5lscRKezisJ4WcLt9croG0CfF1vAVCQ1RLUE9ljHE7PJEHxVDslbZ5Dn6FsWqh83RzAD0el2eBqBVtTNWorKzWisXzf6U00J8bmeSuYXG6ybfFEuuGczyE8XygKc65IitildnX1LNcERnRIg958_5jRdJSxEFPUWrEyr13xkPnSfZKdt3jSpdp6IdjX-9L11ufeG9gm0RXkGKF9ODgxc1fTHBZxk0aT8bShJfr0Ed_NnY2sAI-N0s_4VKrouYif3wHS1-1SJt5aPY3hM6JxdfKwSw6zJo_EW152F5XLB2e92e0MWGPJUC-7Cn6L4_BIPD_4N4HYuG83WnJrhpm6PzQDVSKy886zrfKy3MDYNQiD5MxPyi-LvpCkylC__5Nk4fVEKNdzC2_uSiuQ5nGqzcATrP7AXqrV9vUY19YVQX3vMQxU-Q5e9SdgFpn4E55UB0DRdjDXOYgV1dn8X2ZcM=w1052-h789-no",
+            description: "Look closely to see some Mountain Doggos (goats)",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/ZG0k35GiSCiEDRvwmYqvYyAsginnzGbWMGu1-8Bf1-fEKQb4eJmF2X1tN6diBaYGC_4z1eNCsERVNNgc8rueoPUz1hFPz6oTVF23qq3wma6jVNsDecm7X7O2yd91lIJfjjP0UqAzifgYhdpB99xCT01r2eQmxUr_HP1ncOeRGRZyH0istOlf2Tal-3ONF2r4yO0aeeyc12qBzoZGM3GlkQOiRqHgFim5RAo6BNYrADdR3jVoVjv39qerZGEaNn0G-7ilxMGqdGkij0z4LIKK1r7l9scAe_sxf14qCNpekbHTQoWymdjttb0yYMflty89Z0rqCnsFX91l-mLEsOF9eAVZrULsOjeUnHEn_aQ5KYCCSd-ZzGSfJr9idVLE9DS2jU-8RQuB2CLouaI0QAH3HY0bhE2HSebu_VjILk6LHq3RdNXpfD833n6t8aNVeoCma9FgamUuLan5i-bP9bFoEfmrBwjbCavF9UMoF7CbzNMKXBdsk5RRQH3HBVB82ndac08WPL6QWu7EsZK7JUQcDCZZIucBy8hs7KmrZxN0xxHJ8ih1nBm12qufgMCfDm4_YAkXSfzj5kpb0X3VmxKbLR0WuMW0rSH4lRHNv4xo5DAiBiObWBNatbL556v-m6Oeo3ArkSrKlbwybzO6fRes4RheH1kMkb0=w1440-h788-no",
+            description: "Morning Panos looking SE",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/2YQ7EQIi9cv150AIPV0_dY-ZrMe3ql-1m7cxb_aMbTQTrsuSrPggQFQad0EyIKpVFM-RL0zFzqHLz-rybMR5ByDvD-yLIAdFPWZDSReeH3Oz6e6uSrkS8TwZjFtx5Vcpg6hq5JUzmqGRi2iUm7An_nJryrupwb6KtuXKyHSHOL-ZDF8cfNXZ_Yz7k8Mvjn4ICuk20H27pefgtnD1LOT3pG25pY1ySx_SzPeaczSpEYgFgTBAginJQE2RLfvOEFNf1kDBlvWodzmhVs5fQ5pmsQUpwo4J2vKnO_KJIm1-RC5lEv137-QNfP_dhRAdZMYo0Kihy9G7vsl4W0GvCCQMkeHBpnH3thN2OBG5HIL6mO5gtJsdBNM-oiTd4bcRn9D1LnAjP41B753FCXl9kv4oW30SQxahXtnYT_4joJ3nQVGLJqjeYitLZsJAzx83C4tIfs6OV2_38Zb5pk_r1FfaIoMineo9K2OltrwZIjzcziHIdSvTrzkgNjK9eO_e3cL8FyXPTYHtPFej5hj_6gZyvjv7cIJx7bVKNkL2VS6ioDecne9rg6gyStNgFRBknj3rQzlF_efvNPFnchsWvPys30KiVwg-U35ZW0Pb1yOgKfBI86LDV86OXo9SuCz0dXUqs8uCDXa3gphBgZsOlWgA3AVsM8peNhs=w1057-h789-no",
+            description: "Snowmass in the distance, her majesty, South Maroon Peak to the right",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/W_-LYQ7iMN1V4mtH9jua4tCPRxMva8Gp4mxhIlpG6yLYxtGThtLdvo5cbnb5cqgu_qa5JG-b0iZXfj8cuo3ZoD6pMEkUJIevAiHI9YMBE98ijciHPYZL7c-B1ux9sV2DP24XUhGvfFhlOPyqCZK-9XbRQeeB2D4WmwneNXjDOQ8u4ITrExTyJ8TyLNrnuaglpDLNaJBauiSnB6UhBkarz948c8DSJ7MouJLNMMMVTHJkbuUEJPSCzyqhOhn2C_3agZ7YW9QwI7fC6SaQ31KAkkl18uaXEo3ihvlrzJEKp2cCUW0rAFaBCT7kfNHvn_eNScEncXXS0E7A2CpEh5c7xuylQel9PW8hLKNz06y2BvApulNNHFBPjjCnE6txzDlOA2se3j84oHyetCLuilxUK_4mUXf7x2iclkIE5oJ3BhIsszRcrsMcX54eVrp8_ENh4MQK6Tk77JzZccNlvG-xTiWnNg5WAo9_hSb5_j37e7-eYX5023cvgmbKjuwY0DgcPoeLZAg-Qu5nSN_aOOY2FRQrXH5rTL7lzHPXTKQ6l44wBwz9nIOnesGCbrXAiQ2DFDqxcnLuqOlPOiH3FUPDNIOLjFJji7qEn4-_Y3hFK9K5zsiqJdemB62TcOAQQ3v2y9tFMg_y6njHyEy2UFi75pOg1dEoPP0=w1052-h789-no",
+            description: "E x p o s u r e",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/b4uhR0PPrrB_s8p6rGnUbl8ebNlyj0ZNjrUhcaruwfVpFcm-_pP3I3ldD8Hz7lA3bigqmHf0wVjfe8HwvYhF1sgb9aRE1MHtk4h73e5scPiaGhvYoq1CF12POdHTEzU099Jpns_J6GxBUF780HA2Xty9JsCDkaz73LKtOojJSUzL2rZ6326PIijACH5v5JLvzQMullnEqtHWAU0ShGC1hKtZcWlefTrqHcLcU9FyvOAIVO-FpQhuYq0ifi-mSdhHACfYioVk8FoJLi3Fzmygt0SNHRI37fRwb8LaDG861eSkDVXvUdITcS9lk4wxQy-I00-zQm_XWKQMW2FTJtMmGhJ5__Z7iebdfSs5FshFmsYjMpLeNSmXUTllwryX-ar5LBcJCiHowEc28AbCPOdDDLyqGS9h1f4-AUtj3OIncBS3YELHvCEc4oWZ0gEMiqRtiv7vNvTV4L8paSnkEE4TPN82aiOBqBonHvwe9yu7bURxiAY44hu2V2T8TwNK7oW0_yRK3YtN9UQMpDObXXbyPTO0iQJYk8dnGhATsmSK4kcetRdPb5ERy2Grx1JGZW2LIY144k9ZapkFzXNdOMhChZnH2tng6qCU5FkU26iP1zXwSEti2Gr2OQPsxLreOBX2BNhYapEK5bZWQ3oZJ3cS_NJOxqekOec=w1052-h789-no",
+            description: "Looking towards the North Maroon Peak",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/tTXGCxcxeB1XnPnZ-0us8KlLYmtVRPGcLQreAKKVD4MCnIcu1R-aNUSA9V7dS8xgCVR5-I42J9ipzQY_jKjW8gO15Ho4obAfHTWgqOuZp-_DcTQQN66XczwTvu5lwDg9hGQRHnVfRI_NKsfx6PU1C6orpcNcjNsmsDADYpbu-VgASxyjrovzI_Hw4ZUIUS1GUta5bkTGYy2dHczEX_WkIXj3ybHvwig5Cjijm00hbE3JTRNwAQcItK6bEUhN3E7KMlKRYPAxyBEnoz16d9rd8uw6S6vDnoTEokXcClCzC8oBol2tfgjfPBhDe6ZtQGddMKv4lcY0iCx_ORbg3iYwmen5zARcRqUSunkj4ttrYGBRR1rRr-D_5vSDIl8h5DZcRMT1WJIwMU4n8txEeOnr3lnWZIky52hkpu1_6Ebsu9MztTHTk7j_nQ1gnMYkeEn3wxzeJ1KFGfhgyaybi6oihDwZ1hszN1O4QQGZ6xg07-tX6tYKSHxaEJOB39XG7YbQIQBLKWwo6s5DXc2qOmo3wLZU3xYIHSdRZexhbWRAIK731C5xtkBdzuPSq6fi3iOrXiq4iLRCCE_sHVWzi_ErZKTo7hTzteftCBT15vhdBhFsKZ94oMBpUZ044oMw4jyplMTaAEXXRW6sfciycKamWyIFA70S9Lk=w1440-h754-no",
+            description: "Summit views",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/lz6PtdPv_VCybTjDzbgwpunO4VuE-tmBMER_tk8_o2qEEnggAUFPOtfLgfWOb_6C6ZP0TLF-oTHCXImZheNMQfHsC9m4-xRfkPBp-_Wi3qd_lmlPcUyG1jjKCwiuSGt6HVy0sdrRp7t7M1XuccF98oE3ZlxGF1xDmm-jv8EfMWiVnYWRFKyHiqdk_KQDHLfGf3J1ZNKx_sX_rOoeflesUBKzmiRQ7d2kjhj2So0TyHihuzUxCecjWC3kTchVcrVN5eyt2MxdtgLvzcJu0ZCqwJOBeB2ofcFoMyiTh4EmPsQxOAt5vwlF-PTz8qolgRk1fJb6xxDsjnAG-YbIfxqzbcl0g6uo6X5_emOexK3EWTHGHMbClSD6MaIzZP9bPWWLfW7esxnyE0IJbXOfJDHLloak55MboDtTz7GUxNQhrj9is2P7108LsdufJOS-g_Oqu2NJP0CA1Z2mqrVdo6v2afqaUGC6jyPqXlHCORGnJjU2ZCGFRebFSP00nTvfkSnd_WP4yEqQdHK6L_w9WiAyRNlg54Ws-dEUrDOHQ_R8tKPQoVwN_sKTEouAthPUSd42fEujlkr7QjnsQeR6mm-AM1uAyRZe2G3oKixenzdsbSFSH69vvx3ezHfkfL5G2qWyEUMbTyOnMsXkApnLsPcLXAYQfHY_RiY=w592-h789-no",
+            description: "Which wich gives you a free sammy for this type of photo; why not?",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/LD5R7fHXfAbCuLKnznrxSb7zgo-JqgGVkVlqdh20HRuU4cxpkr3pIca_ouDgHofIp7_Y2F3BVVIcUpOq_VXD9xrvBLPRQ7QbTOPAKOSPyQl9kyojEjxrOgMjFNLRoaPUT8aboQPAz5o3nIeTHP97sR_95WsqBdNVBTpY2MhDhVomN3f5jCzwW6eIYTKW80wqqWEZodEqH_hp3BsoaKYbOR8r54OOWA2QNaiN8IG0EbNJ23rx29k4wdvITywE7zBOaz4dRaY6VkD9DEevU5DsYO60IotGerfLyoSwr2pb7LccbQEk_HeFJmVpYqRbLJYkp_wbUc6c37ubFkL-2l5LgSYD7N63t50X4ipyLc7T06TTWlKjKgJFN7eL7QCMFamFMIidGGcVw-jxqLxzJkBBlGBp7RATvFhx47sfVeIIgkyCSXqf-8PIHg7I7x9utnHXRNXXhYmb0jEEJM6y-s3TLPXq3R78kHciARwodcK8mDGfuACa5rlaT2nEiFokY9VHlnDnh9QL3wlVyTZIq70BL5Eut7Ofv1dFC3VwKmI_VMlv7OP5Rt6tQ-Lyp-Fmoec6FpFa9c_zr6WtNIGg9RmvgvKmDDlnHxrAa_v79thuQIyF8a6st2KTLB-3N9pPK5KGVA9K4NkpYmQQYK7ywonqf0pMdaA8lvw=w592-h789-no",
+            description: "Love these moves; exposure and class 3 climbing",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/WgAdYqaI_XmmHZPcnq95EF8xk7-XWfEC0DnAM1MJqRzT0LE6skYONHu7GU45j9wzT4wWGGGwIZlZx8A4D50cwxnQLzYk6giMjnqTXh4xi6CJlWDrCMXqAPCBOAi-RvpMGJGDEpW2egl6idp5dvNsKz26uCgjZN-0-rjvoY9GtgyR6voKQFfmjbFGnFY904CyLWsiiScDsMOlUM0yrLpQIcC7Fff1bLsjrxqu98YED-Jy05uLwjw6g0yz1TyPDhgZf38FM6fJk3f8MgcFK53uE6aMOU-9ztUB-MJ3LoY-XGo4aYJt9BzZ7YyNHXQSW-Hp2boZta0HuVblRWMCJjPgBnLOlil9ndHx0HMYN5fGHjsfHEi9D2xBKn-CT9uqcnNwdyMc_Cw0rDxz6SizJ4lF7jqnog5Z6VJtlc0D5JOj1kLB7bFSUSqnVI5s-ISectuyjX1beAxGa83eeeLOR0xjThBemshIlbLd7EsIgnd6kIeXCHjcqVjtihjtyQXnz68kBksNUrsjZiDmf5Xmn7iPAfUvehoK_7TLuO1zho51Lm0yECsZ0VpgFaeLFNSL4BOmLCuvKHLbjq0PYmAcp2TuEpDkVChQQApCqWPjhFc1lQxkHaerhF_G1yZ1PYfc0VHfjLjjkeU3p_tQdPQm3WL7I5qIqjtLQWM=w1052-h789-no",
+            description: "Working my way back down",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/k3uDBggBkESKA9D4c7sIO23F8NlRTYdtvbwY5_PViycvm2CTeMMjWG21_7w97EDQxsM1aqH737WNIjXmA5RYxoQcIfIMDDcKGtl3zTnQYFoopU2sMtEbEuHhe975qO1911rtNzkfgGF9Ev9Q5n1ylGh4NJukrhCZs_eSo9qRiNVNNwlG80eVOarOEPQzYWDXlz1sk5XJm5C9YrbSxG6yN3x3qUWr0r7LyO_lRlYGiZRmgyGpuiwM55XyXlBMOb84sWWPpZNJR1voFPulCP7lf_fG8Sp1FufmyfT6GUMETKiJWt4M8PQ60lIdNzYTcRUDGa6zHAAKUziTKdoNWOhZySQfwi5bhgfRTlmLppUn23cykIA7HHLHNmJI7w0YTYixkTDIqlWxXimWJgpdxhN9WlRwQYyfkZfBpZ3sOUQbH_Cn8SXCrPt1jwUA5vBp3fYr1BNjbkIL7Rob1_UpNFr2qbMllqXd-lh6z2XVa8_-XmsY45EZ3cILl9nr9Uw0M1FZV3xA0L7vCOziX_CL6ZCbx4nDFY905qJiVnSijw1-WtKGcdsws9vm7p2j7-vnjQUf4tH37rVAMVUgKBabrP3xfCwyR6myfZyN5pLYk9jJ9xvH-CSOadGjHxnOAT6gJ2hLGpopHa4yPB8fsyBS2DtLPFch__LSAwA=w1052-h789-no",
+            description: "Heading back to camp",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/x55Cvexo8ePiQdZBLi6_zBz2Tb1Mnv3jrsaECx_5G4V7rrleiUUQaogX2NaHyUByHhDO6YOoKAPS91P9QOL9_gKINhCVfhI1GZpyBRmWBWBdMkAcHh7ijQtNmpZebZDexM5hZG0HDMx4olq2RTCspiL5gAViGTWAFG27KRpoEgKm4l6MTIWjL3ZALY7ibNyH32VKOjPFoH1i8ifE4qLFxeFZV8J-kyQBfBoxRLhIy2gYdJ4zpBYZjusCPV9AV5h3Fsd1kkromorsHqGld9riIyG6ff7-XpQH2D9ZtuwAgf-mVxW2ipGj8uAl6hNzhGHA6KVSBkQLdssTheF-p54IwjscfF1M34aLAriLB7gaV8Uu7bDqoqFachXG3SBWIwOYk2VxVBtUjPwrTkKwxZ0T2--VDmK0H3jao0Ly9tiuhYwYkfmCGU7T6dNV1yX2un142a7jbAw1GZ5bIJpL6ags_Kox4Kz2qNndVco_wSEMPaPKvE4y9ueXyAlCbJOpMXmGodKLdSXdzXsm7H3Bk_35HvRyhbvBU8ZhKgQRfoY0LaCWFYP8MWQLneCPOspODAv_NW9tFCkUkiTdUvzn51_3zhivJ8k7wvJueuDY3r_dC1ZWHPyy2aIvdhA0t34X3usNy-MC-A88IOouYUit_aVBrt__Odnh5xU=w1068-h789-no",
+            description: "The iconic maroon bells photograph",
+          },
+        ],
+      },
     },
     {
-      description: "Backpacking in the night before to Crater Lake (approx 2 miles), I ran into some of these mule deer",
-      img: "https://lh3.googleusercontent.com/zzjYngR6Y_DdwrfVupMRyrb4h24l0g4IG9qu7NeEOdB47FawwgQ-0OjhEhXjxXVemU4UyiqojOuaYREjDC2ZXOLRDxh4loUZamnngq6HHLPkmEgRXlG3zAJwA1VfWLFiv86Y3pGDLZRCaB1Be7IoeAfFSH7HxbPgCqj9J-0YT_19TDqErqY8ALTCRuE1A7Z_24t8C7ayohHHSWkfEYpth_8BLkeBkKnrpLwAoi2liPz5eelBqEuuPcjbB-Br0rColUfpwZ25864QgSir-EvPj0oYxE2McVvv4vdZixvOQmxvcMmAtq0LLsCpw3m7l09b1LwomCXZVL0Sy0RM5PmHzpwKz_wmoiOBno5b80NvrnR3ozF3ShnMfMauSqqNbyXlFODx668AVRj9lMpzl61QjFL3e1QpYZgY8fqA1imTjAbhufL7xW_XoBFX6iYytHky1AlY0heeBwo9O2ppCgi5psHy0VG9eI7NHF0t0aOaJ0S45pSG-hXAAEww9WcopuCjScgLdilAlu9ayvb2DT7h0vp2p55_m90rMiwKqHy_XEPcvkPo8rUnHJqC51azT-lZOreiyxzoMoPCjZ02YpVqOZ0wZ_XJEJFUOJDhPY9nTkKCkvIuDHeK2M4Aco_97S0fsLwCID3dbKGvWTuln4COjitHl6Yh5wM=w833-h789-no",
+      trip: {
+        cardTitle: "",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/ErE0B0RGUjkZqgBecbG2zsnhrbdfs3IlWB-Tf59OHju37BUH30vmnlGK16H_ZKzCLmq7Y21L3s1LkIp9F7ELo7O_JH9n9dq5gf1FooOF6uPfbGZWr138u2dhvlvRBe_U_QoPCVMzk6KSWVSHgidbKl-LOxiDqUNPczTD83oGmOLSQnit9sqxVlthnSz1UrEaYv23jTYFj7LjNyBZNGQxi6uV-qlcWjnHXt063_45RKr2wJAOcPKvfFdZs4yxcLGC5G2l6fBza4pZJ1Sux666eyRyTPWKLXb-um6reZUQhRERF7CXTejUftIbsUIzIlIf0fvIAeVu-T8A5r9PoeOXOV0kd0-c9Fa1S4iRR2zoxiiu6mSuboUWORorC_U13n-syX0PuNdqjcbmLwpZUIV_IlDFB8pTQnefIK0OWWz2Qvwd9WklXVBrfNnEAwH5hw_k4efV809jrSUjC3EW9tuFf4BgRSlkQ0Muuyw3XgvH6InX6RfL4Kyf2DeUgyIywUtGmonJ2_TTZhhcqj9S9WKy7a_XDXDk69I4zurvmegQBqOQ4W3KasqgPomKKw16xCDkm_zzO5Z1vU8qBg5kUAy8ggqOD5rbTEhdyWS9z4I=w1290-h725-no",
+          cardLocation: "",
+          cardDate: "",
+          cardSubTitle: "",
+          cardTagline: "",
+        },
+        img: [
+          {
+            src: "",
+            description: "",
+          },
+        ]
+      },
     },
     {
-      description: "Morning sun",
-      img: "https://lh3.googleusercontent.com/m0zp04FgCwNqT1llycsAfGojU1y_Jiuy94B12e3_9-HeJAaQgbOGih9Ke9UaiDuhsMScK5hT4ben2UVA3rQsh1467AH6fw1cbLketjJ2060aT-Bq3WWN4vcYXEvwiOBOXlRZyZkzpFDWDC10X68BsUum_XD4MUy9hd-fK6oc03zZ1ksiR3Rofnk9Y78IrDfVqEdk63g_nHw6vWD7Vjpy0nnrbYmAwGPQXuQYFpLRb8NCTRZSwJ_Gq1YFzsrgg9rpzwCKcwkXwD0TVZfIUp8eEyQjbzPPfnFEK3ISKqHTwO6uQQC5yS_PPV96AkFe-KqI0I1SqPlnyu3zQ_fi0SBt2CRy7eVpxIsmqZY1rHiA8h5IFK1wNHxQZOi9MuRtaD2w9yyuWPSPGCSuxvdrhI0pdmbqPTqLhGfyOqi_hwooBx8H0jrfoAZWC8CKR-eP85bKTxuBxka6ZUTVuayaGypJBc8GcfnpQNG9PTf9paVX04xNqSVzkqRqBBmKZbz7J4wUv3qBjZgqQjyS6W709tDYjA8ts_Pz7OQKd0QzQ5SoOR4fMZB2QF5CtEH06dMzDX4w2Bhpfv8e8VxDj28BkT4_t9-b8kCZrMGdv8odwrSGnkldwHargUv3uLqwnzJ-3R2ahr0BqTY6Y1GLFSquM0EbmzsWM9cWFmM=w1052-h789-no",
-    },
-    {
-      description: "Looking NorthEast back towards the trail",
-      img: "https://lh3.googleusercontent.com/EgzV2iPdme92VZx9RIc3dIrNQswT04gyMLbIQMzcRn6wN0MW60o3MFbUVhBDW78Ty7uXZ9hOWLNBm4fP6NpSeysNgpuodS6KMkRDwNSo7eYrUUBOX0I0AlAISQskser5U5HIi2UFLaA_IZBJo_5ul2yAQc_Y3tZi456GiJfaa3JC2PBk264r9gwwpk-2_i1bD2BFiP1KwCl9qfWfPUGC7JwsQJ_LYOQBJhVHoDaHAcXPwn4kTkcy1anC6MSsnzC7UIH02jhmn96ybVw1vDNA-5bcnhlAvLcel615IyrNpb6cCUtL23BcST2sOgKwp6hpxixH9Ze_8u8HR9YAnmvcb1yYTaBOKaMZsyklV1Y_8Sao6wyUeNC2TTRHUtYRfJ8NKI8bvYVyhWmBwNxW76S1VbLkty5yxwll4z5B9fGrbqJUTdmtOmyHLk9NFg1-kA0mTaFcFUpsXp3mpWr71vG5bEXmPs8Ya1hx6cFiywO78EiuY1FYSlZ5Ki2MkkQPFPOVZ4rM5F8Uy_c7Diaz5KGPvYqrZd74pJL1bA2vNQtipQVVOXFmgeNTgABprUL-78ea5HGvDe6TjRTD9dipP9AnHqri7yEM0F9VBhNfM_5R5cSasy_Qot3UIcH_GS9SERnRVE__39VFZPdicIf7_Lap8J5TYb9xNto=w1052-h789-no",
-    },
-    {
-      description: "Selfies",
-      img: "https://lh3.googleusercontent.com/VnADUVZzUPYuxw-xi_3HNljWmJ2-uKWoc7DprPmXN1ZJpiUyX4ZVlHm8grJC-iIqBwvIxTAjHjR2v5O4_kzZPofg3uW0_fzNBPST2gPESfSrJ67LyN_MURdoFe5--uZBfwCANUdGo30BeHokqzph2NbbKPQTIQTQtz1trx-gLoNZs6VFr-pzwETTxoYyVB5WRXYoU9e0cTmqetCA66yvPkfwdDBt8bHoZVZu5XVxgsTFbhDkMWHs0GjlvEMYqeEYG3DHbmCPxzGFMUiqgujtl5ttFE7jeY4f2T8mptJm6_SI4VSBmi86PNuVb_vnC8ugYeSWW1joEdPIs4QOvFvYgxj1FM9Xsfe0SB6h7SQGdRSEIDpYoi1yJyCdFGqEwmSKCRa0xE8RIUjyfx40KeG34nJht68ubH4DzGv2sgrUCZj_dVIqqQwViDT3iRdVEOAOEpvlLD8kdG_EkI8nESm_2mrQYSSruHs7sPkv3rfnvRrzNKkOqgvut-Ji8ljKa65mJNVxikL3qQ5cQ4iy6xL4jO_Rmhhbzl3iwGwGGlCNINHGWDuYM2AAd-dhzoV7xcMQFdOXUz-nXgvXFz6J49OGcw51_UUOlwT_WhpNMomB8pq4KLrAQqh5jknHtayK4QThPOG1MSKCEoyOya1J6JV4HPY-3MThvD0=w1051-h789-no",
-    },
-    {
-      description: "Look closely to see some Mountain Doggos (goats)",
-      img: "https://lh3.googleusercontent.com/N5qqZZa1AyT7PBr3RxSj3G6wNGryGqzkcuEV2sc9C8VgKsT9DkvN5_bjwmb4mcuggDnpCFji1S2PDLG6gWGDoMcPQR9YSsZFSBZD0NawcYXwptMhGxq0t2Oto-CsL0kTKomXYZY-RMiqO-uyWkr90BPm2qSNcRPWgUZDMTwfH9ihaTMEtRdYpsvBztCUueELt7r7FQlguqJ5lscRKezisJ4WcLt9croG0CfF1vAVCQ1RLUE9ljHE7PJEHxVDslbZ5Dn6FsWqh83RzAD0el2eBqBVtTNWorKzWisXzf6U00J8bmeSuYXG6ybfFEuuGczyE8XygKc65IitildnX1LNcERnRIg958_5jRdJSxEFPUWrEyr13xkPnSfZKdt3jSpdp6IdjX-9L11ufeG9gm0RXkGKF9ODgxc1fTHBZxk0aT8bShJfr0Ed_NnY2sAI-N0s_4VKrouYif3wHS1-1SJt5aPY3hM6JxdfKwSw6zJo_EW152F5XLB2e92e0MWGPJUC-7Cn6L4_BIPD_4N4HYuG83WnJrhpm6PzQDVSKy886zrfKy3MDYNQiD5MxPyi-LvpCkylC__5Nk4fVEKNdzC2_uSiuQ5nGqzcATrP7AXqrV9vUY19YVQX3vMQxU-Q5e9SdgFpn4E55UB0DRdjDXOYgV1dn8X2ZcM=w1052-h789-no",
-    },
-    {
-      description: "Morning Panos looking SE",
-      img: "https://lh3.googleusercontent.com/ZG0k35GiSCiEDRvwmYqvYyAsginnzGbWMGu1-8Bf1-fEKQb4eJmF2X1tN6diBaYGC_4z1eNCsERVNNgc8rueoPUz1hFPz6oTVF23qq3wma6jVNsDecm7X7O2yd91lIJfjjP0UqAzifgYhdpB99xCT01r2eQmxUr_HP1ncOeRGRZyH0istOlf2Tal-3ONF2r4yO0aeeyc12qBzoZGM3GlkQOiRqHgFim5RAo6BNYrADdR3jVoVjv39qerZGEaNn0G-7ilxMGqdGkij0z4LIKK1r7l9scAe_sxf14qCNpekbHTQoWymdjttb0yYMflty89Z0rqCnsFX91l-mLEsOF9eAVZrULsOjeUnHEn_aQ5KYCCSd-ZzGSfJr9idVLE9DS2jU-8RQuB2CLouaI0QAH3HY0bhE2HSebu_VjILk6LHq3RdNXpfD833n6t8aNVeoCma9FgamUuLan5i-bP9bFoEfmrBwjbCavF9UMoF7CbzNMKXBdsk5RRQH3HBVB82ndac08WPL6QWu7EsZK7JUQcDCZZIucBy8hs7KmrZxN0xxHJ8ih1nBm12qufgMCfDm4_YAkXSfzj5kpb0X3VmxKbLR0WuMW0rSH4lRHNv4xo5DAiBiObWBNatbL556v-m6Oeo3ArkSrKlbwybzO6fRes4RheH1kMkb0=w1440-h788-no",
-    },
-    {
-      description: "Snowmass in the distance, her majesty, South Maroon Peak to the right",
-      img: "https://lh3.googleusercontent.com/2YQ7EQIi9cv150AIPV0_dY-ZrMe3ql-1m7cxb_aMbTQTrsuSrPggQFQad0EyIKpVFM-RL0zFzqHLz-rybMR5ByDvD-yLIAdFPWZDSReeH3Oz6e6uSrkS8TwZjFtx5Vcpg6hq5JUzmqGRi2iUm7An_nJryrupwb6KtuXKyHSHOL-ZDF8cfNXZ_Yz7k8Mvjn4ICuk20H27pefgtnD1LOT3pG25pY1ySx_SzPeaczSpEYgFgTBAginJQE2RLfvOEFNf1kDBlvWodzmhVs5fQ5pmsQUpwo4J2vKnO_KJIm1-RC5lEv137-QNfP_dhRAdZMYo0Kihy9G7vsl4W0GvCCQMkeHBpnH3thN2OBG5HIL6mO5gtJsdBNM-oiTd4bcRn9D1LnAjP41B753FCXl9kv4oW30SQxahXtnYT_4joJ3nQVGLJqjeYitLZsJAzx83C4tIfs6OV2_38Zb5pk_r1FfaIoMineo9K2OltrwZIjzcziHIdSvTrzkgNjK9eO_e3cL8FyXPTYHtPFej5hj_6gZyvjv7cIJx7bVKNkL2VS6ioDecne9rg6gyStNgFRBknj3rQzlF_efvNPFnchsWvPys30KiVwg-U35ZW0Pb1yOgKfBI86LDV86OXo9SuCz0dXUqs8uCDXa3gphBgZsOlWgA3AVsM8peNhs=w1057-h789-no",
-    },
-    {
-      description: "E x p o s u r e",
-      img: "https://lh3.googleusercontent.com/W_-LYQ7iMN1V4mtH9jua4tCPRxMva8Gp4mxhIlpG6yLYxtGThtLdvo5cbnb5cqgu_qa5JG-b0iZXfj8cuo3ZoD6pMEkUJIevAiHI9YMBE98ijciHPYZL7c-B1ux9sV2DP24XUhGvfFhlOPyqCZK-9XbRQeeB2D4WmwneNXjDOQ8u4ITrExTyJ8TyLNrnuaglpDLNaJBauiSnB6UhBkarz948c8DSJ7MouJLNMMMVTHJkbuUEJPSCzyqhOhn2C_3agZ7YW9QwI7fC6SaQ31KAkkl18uaXEo3ihvlrzJEKp2cCUW0rAFaBCT7kfNHvn_eNScEncXXS0E7A2CpEh5c7xuylQel9PW8hLKNz06y2BvApulNNHFBPjjCnE6txzDlOA2se3j84oHyetCLuilxUK_4mUXf7x2iclkIE5oJ3BhIsszRcrsMcX54eVrp8_ENh4MQK6Tk77JzZccNlvG-xTiWnNg5WAo9_hSb5_j37e7-eYX5023cvgmbKjuwY0DgcPoeLZAg-Qu5nSN_aOOY2FRQrXH5rTL7lzHPXTKQ6l44wBwz9nIOnesGCbrXAiQ2DFDqxcnLuqOlPOiH3FUPDNIOLjFJji7qEn4-_Y3hFK9K5zsiqJdemB62TcOAQQ3v2y9tFMg_y6njHyEy2UFi75pOg1dEoPP0=w1052-h789-no",
-    },
-    {
-      description: "Looking towards the North Maroon Peak",
-      img: "https://lh3.googleusercontent.com/b4uhR0PPrrB_s8p6rGnUbl8ebNlyj0ZNjrUhcaruwfVpFcm-_pP3I3ldD8Hz7lA3bigqmHf0wVjfe8HwvYhF1sgb9aRE1MHtk4h73e5scPiaGhvYoq1CF12POdHTEzU099Jpns_J6GxBUF780HA2Xty9JsCDkaz73LKtOojJSUzL2rZ6326PIijACH5v5JLvzQMullnEqtHWAU0ShGC1hKtZcWlefTrqHcLcU9FyvOAIVO-FpQhuYq0ifi-mSdhHACfYioVk8FoJLi3Fzmygt0SNHRI37fRwb8LaDG861eSkDVXvUdITcS9lk4wxQy-I00-zQm_XWKQMW2FTJtMmGhJ5__Z7iebdfSs5FshFmsYjMpLeNSmXUTllwryX-ar5LBcJCiHowEc28AbCPOdDDLyqGS9h1f4-AUtj3OIncBS3YELHvCEc4oWZ0gEMiqRtiv7vNvTV4L8paSnkEE4TPN82aiOBqBonHvwe9yu7bURxiAY44hu2V2T8TwNK7oW0_yRK3YtN9UQMpDObXXbyPTO0iQJYk8dnGhATsmSK4kcetRdPb5ERy2Grx1JGZW2LIY144k9ZapkFzXNdOMhChZnH2tng6qCU5FkU26iP1zXwSEti2Gr2OQPsxLreOBX2BNhYapEK5bZWQ3oZJ3cS_NJOxqekOec=w1052-h789-no",
-    },
-    {
-      description: "Summit views",
-      img: "https://lh3.googleusercontent.com/tTXGCxcxeB1XnPnZ-0us8KlLYmtVRPGcLQreAKKVD4MCnIcu1R-aNUSA9V7dS8xgCVR5-I42J9ipzQY_jKjW8gO15Ho4obAfHTWgqOuZp-_DcTQQN66XczwTvu5lwDg9hGQRHnVfRI_NKsfx6PU1C6orpcNcjNsmsDADYpbu-VgASxyjrovzI_Hw4ZUIUS1GUta5bkTGYy2dHczEX_WkIXj3ybHvwig5Cjijm00hbE3JTRNwAQcItK6bEUhN3E7KMlKRYPAxyBEnoz16d9rd8uw6S6vDnoTEokXcClCzC8oBol2tfgjfPBhDe6ZtQGddMKv4lcY0iCx_ORbg3iYwmen5zARcRqUSunkj4ttrYGBRR1rRr-D_5vSDIl8h5DZcRMT1WJIwMU4n8txEeOnr3lnWZIky52hkpu1_6Ebsu9MztTHTk7j_nQ1gnMYkeEn3wxzeJ1KFGfhgyaybi6oihDwZ1hszN1O4QQGZ6xg07-tX6tYKSHxaEJOB39XG7YbQIQBLKWwo6s5DXc2qOmo3wLZU3xYIHSdRZexhbWRAIK731C5xtkBdzuPSq6fi3iOrXiq4iLRCCE_sHVWzi_ErZKTo7hTzteftCBT15vhdBhFsKZ94oMBpUZ044oMw4jyplMTaAEXXRW6sfciycKamWyIFA70S9Lk=w1440-h754-no",
-    },
-    {
-      description: "Which wich gives you a free sammy for this type of photo; why not?",
-      img: "https://lh3.googleusercontent.com/lz6PtdPv_VCybTjDzbgwpunO4VuE-tmBMER_tk8_o2qEEnggAUFPOtfLgfWOb_6C6ZP0TLF-oTHCXImZheNMQfHsC9m4-xRfkPBp-_Wi3qd_lmlPcUyG1jjKCwiuSGt6HVy0sdrRp7t7M1XuccF98oE3ZlxGF1xDmm-jv8EfMWiVnYWRFKyHiqdk_KQDHLfGf3J1ZNKx_sX_rOoeflesUBKzmiRQ7d2kjhj2So0TyHihuzUxCecjWC3kTchVcrVN5eyt2MxdtgLvzcJu0ZCqwJOBeB2ofcFoMyiTh4EmPsQxOAt5vwlF-PTz8qolgRk1fJb6xxDsjnAG-YbIfxqzbcl0g6uo6X5_emOexK3EWTHGHMbClSD6MaIzZP9bPWWLfW7esxnyE0IJbXOfJDHLloak55MboDtTz7GUxNQhrj9is2P7108LsdufJOS-g_Oqu2NJP0CA1Z2mqrVdo6v2afqaUGC6jyPqXlHCORGnJjU2ZCGFRebFSP00nTvfkSnd_WP4yEqQdHK6L_w9WiAyRNlg54Ws-dEUrDOHQ_R8tKPQoVwN_sKTEouAthPUSd42fEujlkr7QjnsQeR6mm-AM1uAyRZe2G3oKixenzdsbSFSH69vvx3ezHfkfL5G2qWyEUMbTyOnMsXkApnLsPcLXAYQfHY_RiY=w592-h789-no",
-    },
-    {
-      description: "Love these moves; exposure and class 3 climbing",
-      img: "https://lh3.googleusercontent.com/LD5R7fHXfAbCuLKnznrxSb7zgo-JqgGVkVlqdh20HRuU4cxpkr3pIca_ouDgHofIp7_Y2F3BVVIcUpOq_VXD9xrvBLPRQ7QbTOPAKOSPyQl9kyojEjxrOgMjFNLRoaPUT8aboQPAz5o3nIeTHP97sR_95WsqBdNVBTpY2MhDhVomN3f5jCzwW6eIYTKW80wqqWEZodEqH_hp3BsoaKYbOR8r54OOWA2QNaiN8IG0EbNJ23rx29k4wdvITywE7zBOaz4dRaY6VkD9DEevU5DsYO60IotGerfLyoSwr2pb7LccbQEk_HeFJmVpYqRbLJYkp_wbUc6c37ubFkL-2l5LgSYD7N63t50X4ipyLc7T06TTWlKjKgJFN7eL7QCMFamFMIidGGcVw-jxqLxzJkBBlGBp7RATvFhx47sfVeIIgkyCSXqf-8PIHg7I7x9utnHXRNXXhYmb0jEEJM6y-s3TLPXq3R78kHciARwodcK8mDGfuACa5rlaT2nEiFokY9VHlnDnh9QL3wlVyTZIq70BL5Eut7Ofv1dFC3VwKmI_VMlv7OP5Rt6tQ-Lyp-Fmoec6FpFa9c_zr6WtNIGg9RmvgvKmDDlnHxrAa_v79thuQIyF8a6st2KTLB-3N9pPK5KGVA9K4NkpYmQQYK7ywonqf0pMdaA8lvw=w592-h789-no",
-    },
-    {
-      description: "Working my way back down",
-      img: "https://lh3.googleusercontent.com/WgAdYqaI_XmmHZPcnq95EF8xk7-XWfEC0DnAM1MJqRzT0LE6skYONHu7GU45j9wzT4wWGGGwIZlZx8A4D50cwxnQLzYk6giMjnqTXh4xi6CJlWDrCMXqAPCBOAi-RvpMGJGDEpW2egl6idp5dvNsKz26uCgjZN-0-rjvoY9GtgyR6voKQFfmjbFGnFY904CyLWsiiScDsMOlUM0yrLpQIcC7Fff1bLsjrxqu98YED-Jy05uLwjw6g0yz1TyPDhgZf38FM6fJk3f8MgcFK53uE6aMOU-9ztUB-MJ3LoY-XGo4aYJt9BzZ7YyNHXQSW-Hp2boZta0HuVblRWMCJjPgBnLOlil9ndHx0HMYN5fGHjsfHEi9D2xBKn-CT9uqcnNwdyMc_Cw0rDxz6SizJ4lF7jqnog5Z6VJtlc0D5JOj1kLB7bFSUSqnVI5s-ISectuyjX1beAxGa83eeeLOR0xjThBemshIlbLd7EsIgnd6kIeXCHjcqVjtihjtyQXnz68kBksNUrsjZiDmf5Xmn7iPAfUvehoK_7TLuO1zho51Lm0yECsZ0VpgFaeLFNSL4BOmLCuvKHLbjq0PYmAcp2TuEpDkVChQQApCqWPjhFc1lQxkHaerhF_G1yZ1PYfc0VHfjLjjkeU3p_tQdPQm3WL7I5qIqjtLQWM=w1052-h789-no",
-    },
-    {
-      description: "Heading back to camp",
-      img: "https://lh3.googleusercontent.com/k3uDBggBkESKA9D4c7sIO23F8NlRTYdtvbwY5_PViycvm2CTeMMjWG21_7w97EDQxsM1aqH737WNIjXmA5RYxoQcIfIMDDcKGtl3zTnQYFoopU2sMtEbEuHhe975qO1911rtNzkfgGF9Ev9Q5n1ylGh4NJukrhCZs_eSo9qRiNVNNwlG80eVOarOEPQzYWDXlz1sk5XJm5C9YrbSxG6yN3x3qUWr0r7LyO_lRlYGiZRmgyGpuiwM55XyXlBMOb84sWWPpZNJR1voFPulCP7lf_fG8Sp1FufmyfT6GUMETKiJWt4M8PQ60lIdNzYTcRUDGa6zHAAKUziTKdoNWOhZySQfwi5bhgfRTlmLppUn23cykIA7HHLHNmJI7w0YTYixkTDIqlWxXimWJgpdxhN9WlRwQYyfkZfBpZ3sOUQbH_Cn8SXCrPt1jwUA5vBp3fYr1BNjbkIL7Rob1_UpNFr2qbMllqXd-lh6z2XVa8_-XmsY45EZ3cILl9nr9Uw0M1FZV3xA0L7vCOziX_CL6ZCbx4nDFY905qJiVnSijw1-WtKGcdsws9vm7p2j7-vnjQUf4tH37rVAMVUgKBabrP3xfCwyR6myfZyN5pLYk9jJ9xvH-CSOadGjHxnOAT6gJ2hLGpopHa4yPB8fsyBS2DtLPFch__LSAwA=w1052-h789-no",
-    },
-    {
-      description: "The iconic maroon bells photograph",
-      img: "https://lh3.googleusercontent.com/x55Cvexo8ePiQdZBLi6_zBz2Tb1Mnv3jrsaECx_5G4V7rrleiUUQaogX2NaHyUByHhDO6YOoKAPS91P9QOL9_gKINhCVfhI1GZpyBRmWBWBdMkAcHh7ijQtNmpZebZDexM5hZG0HDMx4olq2RTCspiL5gAViGTWAFG27KRpoEgKm4l6MTIWjL3ZALY7ibNyH32VKOjPFoH1i8ifE4qLFxeFZV8J-kyQBfBoxRLhIy2gYdJ4zpBYZjusCPV9AV5h3Fsd1kkromorsHqGld9riIyG6ff7-XpQH2D9ZtuwAgf-mVxW2ipGj8uAl6hNzhGHA6KVSBkQLdssTheF-p54IwjscfF1M34aLAriLB7gaV8Uu7bDqoqFachXG3SBWIwOYk2VxVBtUjPwrTkKwxZ0T2--VDmK0H3jao0Ly9tiuhYwYkfmCGU7T6dNV1yX2un142a7jbAw1GZ5bIJpL6ags_Kox4Kz2qNndVco_wSEMPaPKvE4y9ueXyAlCbJOpMXmGodKLdSXdzXsm7H3Bk_35HvRyhbvBU8ZhKgQRfoY0LaCWFYP8MWQLneCPOspODAv_NW9tFCkUkiTdUvzn51_3zhivJ8k7wvJueuDY3r_dC1ZWHPyy2aIvdhA0t34X3usNy-MC-A88IOouYUit_aVBrt__Odnh5xU=w1068-h789-no",
+      trip: {
+        cardTitle: "",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/ErE0B0RGUjkZqgBecbG2zsnhrbdfs3IlWB-Tf59OHju37BUH30vmnlGK16H_ZKzCLmq7Y21L3s1LkIp9F7ELo7O_JH9n9dq5gf1FooOF6uPfbGZWr138u2dhvlvRBe_U_QoPCVMzk6KSWVSHgidbKl-LOxiDqUNPczTD83oGmOLSQnit9sqxVlthnSz1UrEaYv23jTYFj7LjNyBZNGQxi6uV-qlcWjnHXt063_45RKr2wJAOcPKvfFdZs4yxcLGC5G2l6fBza4pZJ1Sux666eyRyTPWKLXb-um6reZUQhRERF7CXTejUftIbsUIzIlIf0fvIAeVu-T8A5r9PoeOXOV0kd0-c9Fa1S4iRR2zoxiiu6mSuboUWORorC_U13n-syX0PuNdqjcbmLwpZUIV_IlDFB8pTQnefIK0OWWz2Qvwd9WklXVBrfNnEAwH5hw_k4efV809jrSUjC3EW9tuFf4BgRSlkQ0Muuyw3XgvH6InX6RfL4Kyf2DeUgyIywUtGmonJ2_TTZhhcqj9S9WKy7a_XDXDk69I4zurvmegQBqOQ4W3KasqgPomKKw16xCDkm_zzO5Z1vU8qBg5kUAy8ggqOD5rbTEhdyWS9z4I=w1290-h725-no",
+          cardLocation: "",
+          cardDate: "",
+          cardSubTitle: "",
+          cardTagline: "",
+        },
+        img: [
+          {
+            src: "",
+            description: "",
+          },
+        ],
+      },
     }
   ];
+  return {
+    travelData: function() {
+      return travelData;
+    }
+  }
+
   const sanJuan17Data = [
     {
       description: null,
@@ -173,25 +231,4 @@ app.factory('travelDataFactory', function () {
       img: "https://lh3.googleusercontent.com/1RoPUGlet6uLa1Z7QgojvIayJ3YgIDBFOiblkBvql05txQLBf4a9RXvo1NIO58g1wVQC4ud9vlr71O4OIiVz1MAhCzYlwmoM_gjrxdaxkdXkKX2ywM0Z4b-0YqgDN1K0M6imn7og0PHbeK5v74FBoeI_rZq2sD1oIBmvcrZfJnmXIjuHnNNblEpGIbtovNv4LDqw8IxsIuFx1ecEKB_67y2MLGOi48rxaP9gdUxl9SMiRJuRzMj8eUn55va9RqONnpT4zq2FqnNjpoafwxKfTi_O64DDuX56qVp5oZqLt3e_efs51zYh_NHsZsI1Khlr7MXTGWg5p0YbvE1G3izdGmunm85Pkt84v_luvWbgpvkS0lhcchY5BMWQ-Pr7-MB15hTNgoeknjHlEgX8UP3mWnlTwSvs5WFcU44Pu8UA8Flh1XpmiyPZPPohF0P0C8mJMentiwuq52ooCq-fE0MG3BYItwDzuLWQZs7Asm1Gvf3d1WbTBZfB0MTdoOR9carvr3Ir8nATzkq-stOxcBnNWDahcHWR2lDh6eP1yIYMHbYZynyXt7B8XeAeNdX4kgHBjQvMm4tg9AJVQo0whcAFLDJHu5JYVfvBQhk5NRugGm7kdQPUqxxY1EKt4uP19Gt_CXmNnVeis6ExTvaN6lIt4KO4_DNpsNU=w1083-h789-no",
     }
   ];
-
-  return {
-    northMaroonData: function() {
-      return northMaroonData.slice(1);
-    },
-    northMaroonMainImg: function() {
-      return northMaroonData[0].img;
-    },
-    sanJuan17Data: function() {
-      return sanJuan17Data.slice(1);
-    },
-    sanJuan17MainImg: function() {
-      return sanJuan17Data[0].img;
-    },
-    oxfordData: function() {
-      return oxfordData.slice(1);
-    },
-    oxfordMainImg: function() {
-      return oxfordData[0].img;
-    },
-  };
 })

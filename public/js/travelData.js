@@ -2,6 +2,7 @@ app.factory('travelDataFactory', function () {
 
   const travelData = [
     {
+      // S. Maroon Peak
       trip: {
         cardTitle: "South Maroon Peak",
         meta: {
@@ -81,37 +82,129 @@ app.factory('travelDataFactory', function () {
       },
     },
     {
+      // San Juan N.F. 2017
       trip: {
-        cardTitle: "",
+        cardTitle: "San Juan National Forest",
         meta: {
-          mainImgSrc: "https://lh3.googleusercontent.com/ErE0B0RGUjkZqgBecbG2zsnhrbdfs3IlWB-Tf59OHju37BUH30vmnlGK16H_ZKzCLmq7Y21L3s1LkIp9F7ELo7O_JH9n9dq5gf1FooOF6uPfbGZWr138u2dhvlvRBe_U_QoPCVMzk6KSWVSHgidbKl-LOxiDqUNPczTD83oGmOLSQnit9sqxVlthnSz1UrEaYv23jTYFj7LjNyBZNGQxi6uV-qlcWjnHXt063_45RKr2wJAOcPKvfFdZs4yxcLGC5G2l6fBza4pZJ1Sux666eyRyTPWKLXb-um6reZUQhRERF7CXTejUftIbsUIzIlIf0fvIAeVu-T8A5r9PoeOXOV0kd0-c9Fa1S4iRR2zoxiiu6mSuboUWORorC_U13n-syX0PuNdqjcbmLwpZUIV_IlDFB8pTQnefIK0OWWz2Qvwd9WklXVBrfNnEAwH5hw_k4efV809jrSUjC3EW9tuFf4BgRSlkQ0Muuyw3XgvH6InX6RfL4Kyf2DeUgyIywUtGmonJ2_TTZhhcqj9S9WKy7a_XDXDk69I4zurvmegQBqOQ4W3KasqgPomKKw16xCDkm_zzO5Z1vU8qBg5kUAy8ggqOD5rbTEhdyWS9z4I=w1290-h725-no",
-          cardLocation: "",
-          cardDate: "",
-          cardSubTitle: "",
-          cardTagline: "",
+          mainImgSrc: "https://lh3.googleusercontent.com/uUhSS9yhh92DNYGOYk5Le_btyGhXwPXmZOH07jsrNoWYttGhpBpcoaw47oIYBgcS0uGNjGFjnfCFhDs6dpE36ugNyjCv5cE9cozR2xaljwSBNAtNXwwq3IgM3PrCHs-SGdM35sb2TT4c6wR-CCgz2Cz8p7X1svpeniWhaV3PftAGRgsAd6Gu63a_Vl-bbQQi7VJJgH0GZ6OQ8d2yMUvHem8DKrHgmmiI1DoznjrCfCsi-csnvhEfjb1C26EeBH35FmQAbZRhEwgB0Sump2kWuAGoCFsyccXRgxMYrvFY0sNtFzXvH_H8CX_-3akTqal2tRcrlRtn4yKjv2T4CA_tbhqtxiUGSOEpZTQlKgRBYPYBljT9cX122Dw0jr3ba5XwDKJ7GX0MrjCcjTAKs4gfOzhQqRk6ur__IZtfaZ6fqjJVHgJPGi2pubLMrnypK-5TA93r57sRk1Aig5oRqHt-j2rGErqgA0vJjbv3--zXKyNzo6myDJCFhB62kz1Aed7z6YAYDRrCVMGxuzhrM3jEufLrESaTNglhEWSrdpT2DvfITsOvomotwzfiLCNGUSygrqUcAQ9fmRZBpI0DSIGZvOpfGwYKBjMk0LSzsWZFr1RmQFf0X4mv1AWJwRXPd4CjlnrC-pz75nVHtdbno9qIfiJggpJAXVk=w1056-h789-no",
+          cardLocationSrc: "https://www.google.com/maps/place/San+Juan+National+Forest/@37.5439282,-107.764023,15z/data=!4m5!3m4!1s0x0:0x8449191b182ce7fc!8m2!3d37.5439282!4d-107.764023",
+          cardLocation: "Lake City, Co",
+          cardDate: "July 2017",
+          cardSubTitle: "Redcloud, Sunshine, and Handies 14er summit camp trip",
+          cardTagline: "The San Juans are my favorite Colorado range. Secluded, magestic, diverse, vast, and always full of adventure",
         },
         img: [
           {
-            src: "",
-            description: "",
+            src: "https://lh3.googleusercontent.com/g52dNhAhvWY_IURDAcg0j0aAWtNPAo9vSC8xY6jToFIBVhGQfvbUA21mFSVS1SAqHUc0QdVoC_nQ48VTelR0vTAqZXzq8af2oyJDQsciI1hQHntaPzdVl4o6SXw5bN0S78CYDoOPBCcor9vdK1_B6eiwkFuhyqbGxV0Gw5UqQaUqkDRc68nRD8bDZ04U3hqpTBNyTVxmH-m_8a2Y2pKytkvG3mv-zcKHu7eOaNY1hZ8lUdAXHg1qX_0Y-pstjVAbmcIU0ZasMvWFCF8F9zFEYIeGOU6rJ6oT8bMINJShV9uEOwsrKet2YkYXZtZMdLM7qwBRPTbUk0BpD6M8xCANdB7sIv2X2tryhZupHYAYFikOVjKgxAyON0Nn_P0T5CYeeyVG7LOIWcvIVgxEGybt-kITPdR9WHU-cUkYZpQ21K5cC_t2StPUbs2YujfikrCSQ5dzEkD34Ej_yPcmeJhzEyJK1LEcyGRkgJ0yCruqsHO7m9XM6UnmHx3qIByO2zx4PPvgFS2YeQnROHE02xh-6EncPlC0airhiHTLyyzXCnWiK8x0QZF2snkohB7vWxiGBEx2C_2UztMEgXs20XMUEMXgJu1Bc7Zg-UI42Cn3GMOyTFwb82dMuFtt8QuNUNUnIM7pHexHUrRCWEj4duN1F7QQt4fhz4s=w1052-h789-no",
+            description: "6:00am looking back towards the trailhead",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/0DbidxX6OlZH1S2m6Aph5F1GQIyHGLtNa2mAkQqnCs38WuA6NqVT9unJbiIoGyO0bOTbG1eTYQizzoRSl5Uk8ZfLz-baX_VL6ViCZbSHcOCm6TU411Y8lOEwcwHjCqkUSX7Puxsey6BuDWJLQc_2CmcKNfEz89veDNZCw5-F2lathrkp2MZNu2wR_BNQSnsF5ltoypclpzbs-EoQsZ6bg9GAaRLFJpWhJlnE5rnj6_Mq8swPKItLIUanjdJ0LLS13PNcscLL3LMs9wZsP5xT48NE_FmtfjUJPXmN4H87D-T8M-sSy5PQN1bsFjZ13XMep9-PPpW1CaENOZeKjsfrRyFGv-ugx1neG6MMD7__VSIjdm0XltUM7kSUpwdw4Sxf95_kfrfpHoCOq4x6daS7qv86-cmrNxzt7ZGFHyeTa2-XRWV7gpdHhiXbjOPMu6Gq86Blh1LkIyXqbT59MgBqxxb0scIMIcvLoYqc729vTH6DMGrZG48Dt2bk_7_DD4ioZtSnHc0N4n-PdzRoEIAJfyc0lvpt6cZTsNUVlowYsftWJ9gLIa9r8tey_A9-jzTCIbXU_VnkaqjrDcH_CgQDCs7p5ble4D0lFDxXWG-A4KSY9NwO450TgDuMQi0EEkyPVLXUw4gZySOitip_RqAtLOd2K5L6Ua0=w1052-h789-no",
+            description: "Morning sun",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/vxTb4gR1TgZ3Aa4FYP21sLcsjfIEGdOJ4SZ66ZJcchg9ms8Su3rD9UqsAXQkEwDzgpa0IOw8nB_yJZQUC_SnpNKaCIKtcYp5RPhLy-oJPEdGwjA7jq1VHYChZ8bRBocxs_dcCA4Pc8jwHJnFRK4xbzHTcWCLyDT5G3-zmCGMOkFaP9jbErQ2qTOsCV9oIx2sx-JjsUbG5b50EBrY62SoOcFvk9gTRiH_qDtS0S7NNymu7YUC7L-OjTTwOKtWSUNdfECFISpCempeIgIZ08hb2lXSuFHfnZmTK1WWmLrrW0_UR5j0mnsOoMGO2wYt1q8Y0_QSnhWkdJSd4iORugw5aDa_wFrWA_QD2EWeAOurO81OoFKrE0czW6Or8byRicQwts9-uCTvCeefLWPs2fSL-yhiT-3ry4R1WFQizPvXh3z6yiPC5-QxTuaR8xf4U0EuoLzcdHm7gTdE57H3oziaMw10by9SC36PGz1uWIhDX-iIPVsaA3zBC73DdGsITBVQWQJkkUqDIq1B2cs-0FCXRqGca8N7bKCzmOUs20xZ9H_SZZ-iC042kLH8J71YrC7hSz_cZmiL4VZ-N1KWUH1yDJBwFZHaNNV15J29azzjeYZgd3ZZoTlqj7ZYfAz7J-qmD7wxTVo80UgizJSGDlGC7whgSFR_6mA=w1052-h789-no",
+            description: "Working up the trail",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/eWEIka_W2o_Q7BYoDItsJNKWTR6aOHnpV7wfVMnRlH8szGZUM6Qrw5TlT7pqN4dk_mZl95uOyHKC5pKlbRYimifBCmvjo1aDiI2V8lIAm9hX_0xi5dS0-J6V2Ll9UOZU629mCGaKmbbQZQjJOIkLkcCVaRs1jxL8uuTcUuqMV6U0um39H3K1d0Z6sFJDl7M9ewQgjLOgsFmwD_lI1g0FIVMDZQexcTSowj0M0-xNXppcXWaskD-tH0zw7ZKELRM-QANykkAhooopzvFvYzMsCqt7otn7GxthgF-S82ObMDMAj0nGFErhYvwtnFY4RjhBtLqTreyG0HzuJNP0aPNh4RmRgNgJJdxlYVvlnYFJ4ZPQDCsyjrQTcTOlwIlE7BRYEkmoeUWUvj9hd-bh738DQMtRLU7TGYSHAy5cEqpPAtnWDsSnH5RQ4-49tSaV48_0JHMm0Gijwvt9Sleit1arIRXJf0rS47Vo6ArrIzolWjLFJRJqJP4Ep7MqjgYdV_VezdSSTGAkoTQpnfxeU0YHJRIz3pmE9dKSH478dMtTclkS5ACHBq2va_yIjAQCIMTV5E25X59gbR6Q9lR6SViRe3hviV6f48bRqy9TJE8JrGVpVf4NUoP3uAOxAmgFNGqr9fRRI9YaDQFY4D5VZEcf9EYwliyFa9s=w1052-h789-no",
+            description: "On the Summit of Redcloud Peak. Wetterhorn Peak(center) and Uncompahgre Peak(right) in the distance",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/7PUOtrKUh5HlGD3x0ayjKNbFsiSnxng0fv0ztcLOO3PBFN_C9l93DBVIvw-228fxH_Qdac-WlVbvTkKZmgsiHZo4m_xI5p07dVvmeBmsfYmuSOVsQsNg-qRGyCkOh-L-U9pS0T3_UGcxa-KrYqH1Fu-ZhZq_BHL5ghbSBBHJRpl47d4bTxqw2zv_F3uVNWkvb_ruiwjO6314C3FDfMPpzsUTcDh4F_fu1ZFwQlirvdyXULuUdZ0EsDTqZmPJ7bPP3-Nim0JqK8bgJoNMYyY_UsQKJ9e8f6dhZpoGqhVcwDepYW6Dg6iP20yCuH9pmeEnoID9NCDbx9YJPZkqllHGrHDNsJYwNxJy6Alox56pybWWb0QmjNt9SE-QgFwRBANt9DOOEfqdnE5m0U4eMj8vZ_BGDHhhYTL-8oYup5FtW1cQMnToowLihgiQCyVn-TdWF7ecDlNajtnGVcrJe41VI9hGD3JW1O9xa60ksZ07quaOcEchROwBIfRks3fO-bEN99ZwxQGydH-kh3KjONaOK0gYakkhgtBg9lve-cnKyxRyxDbQCq3e820mrZBKFsycxGiF3dXd88n1IolJQYrbLLG9hzKV2Kkj3zDcOXoFyx1-q4Yrg6JpM8Tcw3uH7rBDxWTkbgMQ4knsx5Ak8em6JjWuG4Dpr7A=w1052-h789-no",
+            description: "Redcloud Peak summit looking toward Sunshine Peak",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/hzI0grKKWKvXaHur5M4DL_91ISblrKJptnTrlhpAqflLVF9aiYe3uGnQLpa93q2EQvbdLGz3apv8wzA2xSkoISxMV-kECq6YN2VfEKpDOsEo1Ag-96W9zdhsePZnlNtkApsw8Gr7LoQYvLecN737OpkietzN2nliXwoVVZSdvDhvLCF5KJ9j2_iaaWPg3B1Yl0MvETkxZwKVYGffClWgCJ4fbi2d5AwTLbuOkWftXjG39JJZyf_6JwlhwCL7lLa0rr0plaY9e6VtlWJl8h_pPTt4ag8uK3-0ynxd0uaT7PZ1p7zSpmBRk1JxAW6ZuzMmO6kTiquOHyRUndylE2eUnmUfDJoQBEb1NDMOVOTGQ4pTlyDsenHLcqwTESkN6DSm9-d7Uhs3crpuoxs9bFdZETbgIqkzwHO6o_WVwscGohw2ULd_BWka-q-QSW4f7RM0zd8WCTKjiPiBzaf4zWSmRMDwrPFEho6Ye3vGN82uBVmHqZOOjsKpOVLGkHU-5bE129352VxEEppUJaYpXJiGkqx4rw4dy9EixJgWyvLUEG_CNpMY1Tt4r8nARAdNSUKQzmdWAKxiKtLhH-F6nbkM3GjyJ2cMfU_JuHsRU6XWGfkcyXssOzVPLReodcYw1zxWn6btafSnTl2c_eXYLU2SIbJCpFLyi90=w1052-h789-no",
+            description: "Redcloud looking on toward Sunshine Peak, different view",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/6Cbylq7Pc37O6KM0xRZY_2Fg530PvI0spayghWKW3ZrD3A8bxZKe9MxgAdN65oZ9Ort21niLihVr6SZokOpeT78pH04-QxHStr_BZJyZ981Aep-CwLU7c2CnRAM5v7ZJbfcG6UgLTrW2Jby993YLVFyCpcVBaYXd3ltik9cDxmZHEBydasxU-zV7EQv5wfIHZjk3cXSGpHxDj_hx_QRwaQyGKaPD1zYgXtsKdrNeIi6pPfSY6wnBTWm6v41Q9R2b14GpekrV-OGT69Vb6s8UJNCNHfufmI673EsEJ1R4kzW1bdIuJh6WaHzB-OJtM1fQ78K6lUn5p33krf6I3uMr4rPfJMcgW5duwn3qtK8Ocmd1kRWbBNWMzZTSFKqS_M8x7BhrIuLq6ean87pHS-WU40FdtzJxqLSP627nyXi__BMIL0d-jlpVP6Efzhqk4ft3cjUgW6hd9aMLdqKgPxNVtLkDw3q21n1IBBvGReD7e9NWee8R5mrGduDwteUcvff3kNJWef3cZXdBqXTELythAHUGghaCUE93c5YtUQoT6w5AVjpGXcp1pZALwCd27RkHVeCTYorFfDrHvJZxapZZc_Ak87CdgFYzlBLoRAWz0Qpn8Up1u9DS4QFIJ3K4YGm22kyZeaXjsvGfkzKxMjGMiNCgz7h_AbU=w1054-h789-no",
+            description: "Summit Beers on Sunshine Peak",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/KX5pb9i2w9-11GcHO4L8XMUvzZ9W-y1t3Qpd1iBvYf4qnw89Qrpj4a3LM6hLxIHTBRGhHwDI0yhfkeFlda9WPeH5UbaDzht18OkBJMPTfRPrshfuUUtM-AX3But_kKS38yPTEgEqON5PbJt7exowFD2863fD84nVWQdtp_niXXsTcVgzOl6XUTP-IwNcizJBGDLX6IbDgZGYwOuuze5RI5EMQpOWrZj9noHblSvqaYRCibbobd-1J6SnrE_GML01SLziP66LxkFbs-5ZCBCb1lWSFta9FvLfnig79YUGNvOUtGwjiDNT0ZbB2GKUDXzxnuSf3gol4S6TZ8iNYrIHLbuNkL-PJP3IRL1jTm0MbpVieGAuFt6JrEvAbdrHqYi2kZNFymC1uFor-gQyiqr5jF_wKxnjTbv29RvZQHBBC-SZViKxQE5Ul1xhmx544_VPd0qRrddxQiIiPJ3zVWLdFnUrq9ox99Az-cm6DqevNELm8TdnFnSsGV5XIKpT6CBCohC4lYcgdZVRpeeH0zc7lvsmGpD1-M9LpWLXg00TntrjhLAT_J4Xz_yGYCP8e6qrCg7dgdnQozQT0KBVylyfsOOhfAHUD2vGuF0EIn_9EYTr9ArB2u-mNKcLu2KuFgnTVrQ43ICKi2wehsH3MCbLC5Lz-FdFcjM=w1052-h789-no",
+            description: "Exposure on the saddle between the peaks, heading back towards Redcloud from Sunshine Peak",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/RVj0qa7RMqxQsf-X_KVBfKesg_fTHfEvp_GzZP2JBmT39EciCuvGYTW0PcFofnY8Bcp100pYB_7wh5AJhlOvh8DOqsKZlt4L8adce95mga2eINHGRfE8BrfxRK-BjPitMVPE_1rEezV8x6SBMMgroDdsi8S4GJgkHlJOVY_t5tvrSW3C1Xh0WLda7OgqWGnDhfJbSzzRMApPFrH1CrSzL-aVMox1_gLn80Ys7HIiKqRqN0rRfXJK01ROXoLTRdsCYTUOIp8RYXLUb8fluwGNC5sB-asWbClrDZrUMI95oMTnqdyREDjEBKhXT1ogrBSGFef7TYuLjTxmIomDVUCHDd1qnd1BhFekSVGfNfjYI3Rhzb_qgILYfkz1sF_gT3fhHLsdOMytO4v6jgEfZTWMSPoWUQX13bsZ6_NoLkz2AkUJJaHkQDqQt0qekYmZpZdN79xPPuHEJQOMyRMNZu3ngl-PxjpM6HRzldKUwfLJhG13p43rtuWEs3TbxMEm7tJYy8neSqiiU9Hpd_uJo7HPomJazmLbjtFj-EhjikDF2mJE5oEv2NADCRfImve788AHKa80-H4eIh7y0hyRNBq20qEEn9J6TVSQJ_aIhTiGdlh_7kc36JuJuR4o0odV7zfhTYpJKyA4OJOufZcv_1Qm1gBRWEAgL9g=w1052-h789-no",
+            description: "Working back down the trail towards the trailhead",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/RVj0qa7RMqxQsf-X_KVBfKesg_fTHfEvp_GzZP2JBmT39EciCuvGYTW0PcFofnY8Bcp100pYB_7wh5AJhlOvh8DOqsKZlt4L8adce95mga2eINHGRfE8BrfxRK-BjPitMVPE_1rEezV8x6SBMMgroDdsi8S4GJgkHlJOVY_t5tvrSW3C1Xh0WLda7OgqWGnDhfJbSzzRMApPFrH1CrSzL-aVMox1_gLn80Ys7HIiKqRqN0rRfXJK01ROXoLTRdsCYTUOIp8RYXLUb8fluwGNC5sB-asWbClrDZrUMI95oMTnqdyREDjEBKhXT1ogrBSGFef7TYuLjTxmIomDVUCHDd1qnd1BhFekSVGfNfjYI3Rhzb_qgILYfkz1sF_gT3fhHLsdOMytO4v6jgEfZTWMSPoWUQX13bsZ6_NoLkz2AkUJJaHkQDqQt0qekYmZpZdN79xPPuHEJQOMyRMNZu3ngl-PxjpM6HRzldKUwfLJhG13p43rtuWEs3TbxMEm7tJYy8neSqiiU9Hpd_uJo7HPomJazmLbjtFj-EhjikDF2mJE5oEv2NADCRfImve788AHKa80-H4eIh7y0hyRNBq20qEEn9J6TVSQJ_aIhTiGdlh_7kc36JuJuR4o0odV7zfhTYpJKyA4OJOufZcv_1Qm1gBRWEAgL9g=w1052-h789-no",
+            description: "Fresh water",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/fwn6CkNL1SoXNAkqZMYgIjFUikNWBitptnnPTpRHH6U1hzRiEI3WGJgq7mOt11imd8td1DyZF7K1lRDouf8WW0LjjSj_kVLmdooubvkGeHBlpBqVAKOSIljcvZwA4nILwNFvwf2waWdVXVAG5d_At3tPEtMqrVYMwwSg9BwNC3UwvtlQ1p9HTHISiiTg8FSILYixNR6_2hJmSnzzOsDg1NWS2_LN9usSEBuUXSMxG0sPjWlCbnC9rJziXOWvhlrNpT2ttkMn1o_OYZTUy4N4dUUtWOISV9mB6k4QTEgzY-CRJXYUXtwNxCVRQyNAeMXEfUU-UV8oFV1gNSU_hvBKDX3EfDaLW5xLr3LI0XSDKHZOQHuwh1dxg1fekKxqFfIyflAsH52I84bGCHrzyW-tdmdbP-nJ2npiblLkVJyLd0ijE4XS3_HfoTE6nNujqxmEsXcDyCl-lw9S0qxQxyvXQB3lAL_TXmOWEIKs7V-_L0dth2ZXSN0s88u68giP_PRLaPsFVEv97NRGIZevI66ka-tohIcUe0c6_RRTuIdXhVYZRTqJa0sagPqtlCKH8XF_mnTXlza_hJxX3XHHH0tzpl8yolTnlF4Vv_fiQZpXnrWxcPwHPlHTLTb9Vtn5eEG4qr3d9Hbc3IPjpe6GunYRhFJgU6eIP04=w1052-h789-no",
+            description: "Waking up with the mountains",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/n_2efklohyprKVdXlcluIMek-c8pOilU1qeA7T7M5TY9eGUM5yprYFgEuK5WUigYU2soDTkVyoZHKA-2e97mveX8GWyVkLK9TrOGJ1JZ-5aCFP_fIfTjuBRbWlew4Q2z2q1wexy0INfgOE9jAvuDao5xsXMHVECBjM3prp3AFSQuyp46cZTtkcQUMX5M9BXGu1mEH1XxWC7tNcH6uO10UvYNQMQaLBRlVJA9xoIUIRapCQYHT6S1s4ryqY784D_jMtB7UBgYqGdutj9FSnS87y9tn9UuaBHfx5WyMohn7DEJ8bJPfGBSq5SV86HJeK_C8Eyx5X58PV7XDfoTNK8bvU79TgMrHYkej-xQ6DEul8YyUHGTdFFuPUafzxx4TdUG8kFA0briCpJn3UjBhP9VWeNgI8-eAoVmROl7Dlk7fXDanoBkSRUHnWadauZImqpMDGtm7JGCvvfFeDubSnN4CkSqt6upUyQ8ALiICitn5HzwMfT4uPQuzPbYPFkVviBcIP_09gC4HZ0ci9MhfAbg5Yw-8XZqxfyPF1AxWOEXl3L7WSOgXhNIyEzvRRUy4NzfOUstvdfX1qVS6FZPFq_C9_b3QrkRqIfqkRNhlOU3AbnUwuqMrE0zw69r1TRkKh7CgpK4w78HSAwCGzdWzY3j5q3gKdcbTUc=s789-no",
+            description: "The Forest Moon of Endor",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/fOZtbbkj1Jn5umMuRGYpWe0siglGqBZOfjGtcfYTo3Eii_5vJYi_7BoxD9tg8zDap383T28tLW_MNJUlgxX4G-l_uQPUIK0PuwOUjF_epFGMBOnbzopPwO7m5Qzye1uFWaCx183HsEHdJp2tQKfV0QdmQvm6zbatM3E82UjB81i2n8QXVu4nHrG41L4zQgz4HOMkQP7kXqmc_186rc_TWUZjIIYl6P9Yf26FfOY8wEi1ZX8Le54TcR8D_lRo8DvOi4O1TRZuyEkz5e9CSQPWqs39zWDHt8waqc7rPw2sW9XKBLrtMIkRJ_tyu7RjXDl32cy7SVsZhztTyr-dbPyYtdYV8yEnKxQM3Dwd7mUgbqdxTbo8jqwBxmsDmLA6UNuSVidROMWCJkZpocWeyjkD2dIYGi12sHtzzbFelMq9ydTe7he93VeeyVvvzSy-dIF1wTlsgPVwHDLcZnKIfSFSQImoyN3zwYy9c1xTxaYWv20tUrlhTnUgSod17z5iCiL0SeUrVdl5Rgedxt9fp37IE3Z6jHD4Ptj2zkrjEHsKfx1x47g5FUkLNdNSlb2zbMxyP-JYlC33jt7wCBATb-9MOxoRl_yexP_rXRecFpRPselrJcTlpU1DaEGUmo5Ny_6V1d5e-lNlgp2QiSiIIdiPfMVmPjJ9gf0=w1394-h789-no",
+            description: "Looking S.West heading up to Handies",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/JB8_nhpDKis8iJCBVpQvUtUD0ld4kDPr-1IbJjuj_nMKgGa9FtQqqK-rBASCz2PFIo3p3osTcjDPU2ojF-6zpiABHhvglSUr3aF9vdr4o1MBBDgx30qc3KQsnsOVVwBP6B0G4e0GdtYDu-N1T5k-WB5_bIq8oiTXemLw9LVJKyJPq5ln9dKumI6-58ibl8NCPx0YwknkwxhVpq9Hhm_w3IyiOH3jLSVhEQHXZ4LFlfDf_IU8_HfE4Qzv8KtxesU7UmrfABRdeY9LO3e-MqwecQnyORFMp2OiFV5zacZ0mnqmharP3xwvupdzqVtxvFFq-fz50Hpob2nspRotnYllxozNYfZ2Y0ehYl4urfbuB5cHoLRfTUErwHHNKOUEZU6R7xpyN9t4EoULjCWQ-mDmHNiKzgYtSHRm9R7bOvxW1kxh7V0j6tH9rNZ8j3vWQWEHj6XIvlstFt_BnXl_QmpfA1D90bMZuSSVXcqkPv4-Ah5oBrBgutiYwPegRtLZgoNcGMJF6ttE_q8aMN33n1U9908zzWsDd6e8qGyvT3Sqo8v6Erjopuh22Y9EnJaauxXBywbR2VVfwm0TuExHM3BuAzsrcJxVn_M3z7LlIBGaj2XP1k5wSuDNkn_ERVVXpXlwFFSjCNLF62Ij-oA6hFx53YJxwOK4fmg=w1052-h789-no",
+            description: "Love summer snow",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/JB8_nhpDKis8iJCBVpQvUtUD0ld4kDPr-1IbJjuj_nMKgGa9FtQqqK-rBASCz2PFIo3p3osTcjDPU2ojF-6zpiABHhvglSUr3aF9vdr4o1MBBDgx30qc3KQsnsOVVwBP6B0G4e0GdtYDu-N1T5k-WB5_bIq8oiTXemLw9LVJKyJPq5ln9dKumI6-58ibl8NCPx0YwknkwxhVpq9Hhm_w3IyiOH3jLSVhEQHXZ4LFlfDf_IU8_HfE4Qzv8KtxesU7UmrfABRdeY9LO3e-MqwecQnyORFMp2OiFV5zacZ0mnqmharP3xwvupdzqVtxvFFq-fz50Hpob2nspRotnYllxozNYfZ2Y0ehYl4urfbuB5cHoLRfTUErwHHNKOUEZU6R7xpyN9t4EoULjCWQ-mDmHNiKzgYtSHRm9R7bOvxW1kxh7V0j6tH9rNZ8j3vWQWEHj6XIvlstFt_BnXl_QmpfA1D90bMZuSSVXcqkPv4-Ah5oBrBgutiYwPegRtLZgoNcGMJF6ttE_q8aMN33n1U9908zzWsDd6e8qGyvT3Sqo8v6Erjopuh22Y9EnJaauxXBywbR2VVfwm0TuExHM3BuAzsrcJxVn_M3z7LlIBGaj2XP1k5wSuDNkn_ERVVXpXlwFFSjCNLF62Ij-oA6hFx53YJxwOK4fmg=w1052-h789-no",
+            description: "Working my way up",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/84uJzgO9chlGJqS4kqezPVAoTOwju2-RtxUNlCmwV8ehSYAPGrUA7-GXFiD0bMt4f17tddZ0egOyEPvXmek3FFUZG28s1iKaw_ZtaUYP-b1YgkMDrGcv-MT8-oYJgPgfIsZ17LY_FD2DudQKBunMUuPgypUOZOesrEHf9ayuJ4SI5ZCRdqpLVec3tJQl_AQegDybwj64KjVlGLPTU-mm_umvsOC0Vh8ry0xr6LdLChWDDfG_t77sS0z7XYdkgrTdorEUr8z2t-2WyWP-gpwS3xX3el1pIaQbh6jqHGLW1Cq_P1ctMIRcEaTaN7ZHE6ZDoP42Z8g1XmA1ctb0Qa18gYvTu83g8KDO8f5iD3NEQjIzgdBm9tzIZ_k6pmSlvAuzwK6W9q0S7ytmEHLPV2i70Cvrft8QaTCl5BL6DYBUriMUAFDezxxy7Kejbn6rv8-Z5Mzpu48dB12VI6LFF5pnTwSvxsy5zAaob4FjcgJ45d4kgpCj6cdgK1ihpmURJ4QDzMSBlla5FlsGXF1Jut_hWn58OinVhMMP7ty_OQSsynkts3obuRIDsALsMdhqJqGHsxKcja8lTQWNxR1kbzJsJReI5VaSHAj01VhR7tUVnGxEOtCQGJa4IgGD79rdioW8yFG3nFPXcyR5V2SvZcWvzYdjkhulbFo=w1052-h789-no",
+            description: "Selfies at 13,500'",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/yVEAAzsWsyb8RnaqrCJ79Ogfh70764D-T68pvXuR465SEKGVdHi22D3RfNfEP4UGbHKpm14KCvPgoXPMsTZmcbP7An6s99BL_ynoNtVwtIH6scOC742t7j2DTvChyVkFFxWbTvTTTwyqBJdIXWHsUe-Ii46duxtUW36B47anHK424pls5IEcCbPW6WTeRFRRxDrYwAWytt4oSbtkQwmnoVALhFemren0tEkM2uSfS_C572-jMN7cnGg8a0DxKhtUe5FO3axNv66R7fFUN-n3BTx6cwwJ9zLiezUl8KTzb0_onQEjyvKTqHVhb3zaJkTz8wvv-fA8CJOl3taGCn-tT8cIndlsVBopaxAYrC9trHo6TEQ9mjhyvUQDQl6NMmW0jlv8qzEVdw4C8g9Dym8MoqsQkGQy5NF_U-DxqMIEI0sJBfyRH4LHlVruRufAZbXLDGYTMWuNJX-3EvhSuViOqzYqyqdYRUnyHmyylEXTxk4dFon6t8swKWeyl6UCFuHlmvEBa_XZpG5Nk6-dpZBM6JY8f6qsqKweCORZlwBJyFz-5i-LRRtoqzlkcEDkBOZP_SLeWdnrjQK_EGNy_rzWkqITHjiBgE-OG6ywQQAKO0hHMBKbmU64jDI4JUCIh7wPXJJ1G0-6KUoGg6-mEdhvFQTEc6LSXtI=w1052-h789-no",
+            description: "Love travesing",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/SSppxFEnnxelMl9G3orkZchvI3FWgSduKzV2MS29hrnSNbizGV5mxlIBMJfZ9Hkc-sVpPYNLMcERr5cKHPk7OMjC3isFP7QHC0LSsrttLvwyGLZO_o--icHMMTneGCDNLG0QCnC4iDou3Vvg5EDv3Y-NaVI736fnkzB9iOU_WKe1fkLPPJaXy29RUE4_iqSd4KrKNyeYDuSj5ytT1jIMjBV4YfmWiarlIqgw9P8SfpgFDfJtU0UQWgjqQOW1MWUCtnuSzxt28ZDWbwJAtiDg9Wix6OcwslNUHFz4x1Qh5jSZO7SP6zsUyaxRuKsSlzEdYBXY5T-17V6rqL6ZSJIumQs-XpHlYU0cC27nVbmLP-RE-s4xsoQaO6U8DoHoWnRz-xKU1Dprc7Drt-6txfhT4bKQyay_pE7In_GpQQo4tgtIh4ynISQtlpF_EPDEcYdItsiOvcrUHhJIe4isaQLIcybFvl5lC-oQ1WZcWV3DAa13OYkEvYPSEAexSIwgekApvkCt2ZLDvFmhk4LC0HpjkVY9yQcjLRJoerAavekxTaZ352__klaXwqtB0cjqHWdoEtQzH22HlejQF563604jQdCokSdC3DLNPkrCbTZOWu5ONBDnQdVbYmLuGCOQyuGf73B1mRdzbX90Bt-_lbXX8Fr0u6SojdQ=s789-no",
+            description: "Summit. Had a nice chat and tea with an older woman from Montrose, Co.",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/zA5ysEodQSG0JROBDwaVRXAVIQGAm5rxMUqEv-hsA47nf_j2PK8NVfVNTRD9WvNdHz9kEzeZlqm2N5UE5OF5RAHAKQilFITsXfiLDw2LkR2mZYnVBiwYin15MQIzNpnOaVsxNZGsfVOtb2KJNcWvP-HDIFJwGKo8M8nZ5woeC8Cf-nHbLgy5HzKYjiglkP2w78w40G-YXN6i5HPIbx5Bb1_U5iRJduTvm7PUNCwGROneleRm9hmiDJYEsuhMrsl0--mOhWLNJxAVfXyqNmFzad1o-e9ZJPVDkFbcm_NNSCKYLZToqtb2VliwIHAAJMGLEp0MeJvVo06RHhgM5UWr2Rn5VwvBj2sy7Jy3xh1fIs-aOm7VVhg-06IbBVGUWtCjpy-ODUPkxPN4yml3D60mGf0Qfps7Y6kOc7uBmX1BekNE_DV9obPRqBJ5dPHpLI32UOwnlzkjG5PASiNcVDPHaQIcDxf_pKZ0QY-MCzaaa7eI53CSsIob9JO8Sa0Qq4Vt_NiPvMx_4nt9j5dHzGrOGf03i1S7F_uFvz3QTo2eu8WJr7c3G87nM8MhV5WO02B4q86tGcUKFRbL-taHtDgKKQW8NSOrxQuDXn2iMMgngfdt4ebJjQLMyHVL8BOFdH1ew30She9uFmLVTwNFZTjshb4s4ivvrc0=w1052-h789-no",
+            description: "Working my way back towards the trailhead",
           },
         ]
       },
     },
     {
+      // Mount Belford/Oxford Traverse 2017
       trip: {
-        cardTitle: "",
+        cardTitle: "Belford/Oxford Traverse",
         meta: {
-          mainImgSrc: "https://lh3.googleusercontent.com/ErE0B0RGUjkZqgBecbG2zsnhrbdfs3IlWB-Tf59OHju37BUH30vmnlGK16H_ZKzCLmq7Y21L3s1LkIp9F7ELo7O_JH9n9dq5gf1FooOF6uPfbGZWr138u2dhvlvRBe_U_QoPCVMzk6KSWVSHgidbKl-LOxiDqUNPczTD83oGmOLSQnit9sqxVlthnSz1UrEaYv23jTYFj7LjNyBZNGQxi6uV-qlcWjnHXt063_45RKr2wJAOcPKvfFdZs4yxcLGC5G2l6fBza4pZJ1Sux666eyRyTPWKLXb-um6reZUQhRERF7CXTejUftIbsUIzIlIf0fvIAeVu-T8A5r9PoeOXOV0kd0-c9Fa1S4iRR2zoxiiu6mSuboUWORorC_U13n-syX0PuNdqjcbmLwpZUIV_IlDFB8pTQnefIK0OWWz2Qvwd9WklXVBrfNnEAwH5hw_k4efV809jrSUjC3EW9tuFf4BgRSlkQ0Muuyw3XgvH6InX6RfL4Kyf2DeUgyIywUtGmonJ2_TTZhhcqj9S9WKy7a_XDXDk69I4zurvmegQBqOQ4W3KasqgPomKKw16xCDkm_zzO5Z1vU8qBg5kUAy8ggqOD5rbTEhdyWS9z4I=w1290-h725-no",
-          cardLocation: "",
-          cardDate: "",
-          cardSubTitle: "",
-          cardTagline: "",
+          mainImgSrc: "https://lh3.googleusercontent.com/NDx7P3Qn7N8kI2oSN9I5aho9cL9brVwZBtyKIxLIuQS5d3adaijQt2E7zbwu9pogkBOdU5RIa04eLcOs_YGPlPP-Qb_YwEqBW9WWiYw-sMIxybPtGSxTWmpSGulSPH2juoFlGrBk9VF4Iha6NLI2cEc-ZygTItO2z-VVGVjWabxvDtOoxcsIGu2lxHqfcxEuldvNnuQMluZivBA1g_c5UXDITki_dalktjQDRYP03HEEqtjpMi-xkwG9jHtn1Bcimxqmw5NICEgfkj54BNAHKO8pgRZX1-z_ro8cAdXCB1NRtv9wejznITzrqs8hrvoFIEEIPhuX5uPEyJtS7Vacmo5D1BuzR8XqkXGwNZmhs-KfZqYj7arvs5gO0oMA9ilQG-IYWM1aDXR284uVkoUf9uSlPf2Bdi0mLe-NRk5gpfoDHZqxkmtxtaubEGbF8OECizFRj-ZFDIXqgVhB8JluI4C0BrgV6NwCVYhh5ricKzmoKD_Kxjv-Md0wSgtlPA19kv7ZZQaQjjL9mZy7hGUnZUfI1oTrbCP824NpSoGr-Q5uqYDyBhm2v4koPcfdtnSpZhSgYry2-UultLHOT-so0f-i4ZWtTscms888r7VJfOe0Z7iiZ_WeCSCzeJ_R4H5NJqm5mTm7Tsm1KayPQmrcDF6tU1-1jbM=w1054-h789-no",
+          cardLocationSrc: "https://www.14ers.com/route.php?route=oxfo2&peak=Mt.+Belford+and+Mt.+Oxford",
+          cardLocation: "Mount Oxford from Belford",
+          cardDate: "June 2017",
+          cardSubTitle: "Elevation: 14,153",
+          cardTagline: "Me and my best bud, Garrett, crushed 2 in a day.",
         },
         img: [
           {
-            src: "",
-            description: "",
+            src: "https://lh3.googleusercontent.com/ueiE0FUcZBMjNJic-cRkECqwAIlpnwobiyXGay6TftBCKrkTGt0D9WG-6pXM5SCbjfXZND_weKNOWuaAyisJtN_kUNedXZ83l2KMJgL2mKTuNwRFnPf10hzCFt_pCf0xl4u855_KrFbfe-p6upbdZcYL5Lxx7cIaA2TzPodS8wBASQGwR17tzck5B9RmSDQqQkcFiiQfxHBHoNzYJT2rXjlDaYsRw_Q2UDnKwTzab1XgX7oEFXD6z6CC0dTidpVzd2AapwcEqjEG8OgkmyIjYLgvqDtTN8F8Sm9DjhkcgCDRGIBD20v74gEh1JqAsPjP1a7hCMPzshDLFoX_vh6r97cN2wzKgV-JCSTNk7845KpC--Px-Y5Glc0GLBADSk8FPsjP3dT9izyJ0EfStDGqqnvvSCVXPpTCXAkDmCk205_iQ4xhWQ2rGegcELY_t7y72dsJ0gAJGkuwFRBNij26QoAbXdr_4emMG7sCrElx3yzXZxqW9JapU-vUMemcbhigJp01_0LTkm3r1jVZuFvlHSNmDkoGnzijGxxwQQl_Eaqq-tNg_4e_QpIfEtXYpsZwlZ96ANw4g_-F2dFtfX8K2Xd5OviLpUp0X8ddhYEYMjwBUnBgTLjxmEU67uKD3oNN1SJtTlshQBAHOHzcIPDSVlI09iuvw_k=w1052-h789-no",
+            description: "Starting out for Mount Belford",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/VAO65FZasVNzxjAvbY8Qslq-moHMRav1znBqTYgnk5PkJ3i0kEsPBVsTJyIhVZojHvhLSkfO_5kGYN2DKYQappkPBWvJQoutsxZBUiNkoQYWYkxxHKhQ_ibopj9VK8vN35jnHgOheC27zrFlgjlriYX6Cfzx24VJrozvtrqj2tCt-Et5DLC8B05wBoIlxbQNHfa9RPu_aGaSZkTdGP_vUS78mvPqUGpBSkw0xV7_OsUmlqsy2yWcl5RbgYe352Pq2vtonaOd2gzV16a8lNpqZU5iL1UxhAZqBnGpLV175tvZaTHDHzLpPndNobjx_IsdJQYKFFuG2Mrx4ZcuFDlNeYdyErIIfj-iqkk4mVfQtZ9gMG_ictmVz5RLbI2enn7FR_-gMGtx5SWOMS_O2H00YAdhzHrE4PH2mxaEKpyqqLCLgDEJSOPYvYJZ2UMY8kYZ3GP2bsKxpbIp2YOE2KTO9aSwLNqLvBZupQc0MRDNeoLVnD4BpGrAq74RNyufqn4rcThfaugYAw095s1UlxVi1_8MoqbN76AuKiIETzzUob9VdocdmxxS3fehRlDlUutNQ_2nDCEKR-7lqsPHjz4noM5KHrndq6Iv9by3Yt1D-GMrNUVo9ZRtIC4Itfunsdi3ZuHsNZMoMdgQQ-AJF4R0S-_W-wjKy94=w1052-h789-no",
+            description: "Garrett dragging feet but in good spirits",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/YNPfcHEKBXDBg70sU4-Fgud5Qzehxkt-gHXLvygBOcBJCQZ8gst-vQJrOlnRV1GMLNtL7WyD_vHZt6f14VcGcXxkG8xxcZrsvI2r_Q0FXE1ADE__m5cp79MgurQ6kYnNsv5O-1THTSo_MfjbiuxPTa_8ngxHfZ-HV-uwUMqZ4CqELOW8RSek61Qt6Uw9edtZwTMoYDCGfniuQbOU30BrvQ5V8J5GE9lSOgGyg4cvDHAMYKu6GBv1pNPR2aByH6OiAHa9iAPDNnzBhjhG4oiISuF4FDTcaFkShGDnOfumYEvg5g6BXOuAnzbKdjgESkEGgOBx3Bnk0g8fBnJnvSyD1HMn0linllrWxN5DivezVHwTuS_kcEbJJ1Ir2dyfn_vNWmWjfZQ9rgUSuo1OkgfQS4HmzDosef9u9WiUlFUw0NxcOkgUfMtTJ2dNB565rlu63483Ai9PMzskjSBLa7nhbNGjE48uMAC5kMx-2IdqnvAPIdIwW0rOGl-ceCZ3toGTo9Q5FeWWE0lKrjMI6OlNBzdzJ6gTJeigH54-_E426oDvaczZhezMApB6hR7-7zDeKF0mTtqQVTtZeYFi8ZwgQCOpqOLY4GEaokS3a07aTKxi3gSau2Xs_MNqGDuvzLH-TNdAs2J0Wo0zBfWRgEmLpkIWYAqLv1Q=w1052-h789-no",
+            description: "Summit of Mount Belford; half the work done, onto Oxford",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/9pol1g6O_37ZOv3hOgbsV3_KV2JRU7Y3HWgUIVnftECpRQTSxK7W5r3bU-Hv6aaAjXoL7fdFNRBZ0rJlQ4Eqmin1cJh0-8P2T7JUBTxP19ZQMJ1iv1T4ge3XMUkkuzVZwoyWtHUTmQpo7vVRiJNE-FxuUhVqcFEhvYF3MXQR7KN4g718CFdvRpN79KSjpS_zlzsQ8giYJoMtX6167Dqe9WU7MMvrtvcmdysjk46nuRM7LNxzFqU-Cqdi4DUYV4MjMPyh-4BK7Z7T1c7ZOmmaWnq0sJJrPtmtwOVprkVHZRXWb_o-tI96Er_AM8Wtz66LzGO05szDQkuNU809Ky0bUAzft0Rt-a0yCrMSkf3Dd-v2PKBDQiciMWmLW8zLe7iIRueDnc7AoJ59tYdRD_K4UzkF9ov26KyCeaYdC9Rf4erZlCF0303VsWV-QyHrvz04wkgA1-VBOItvE37mtZzGLK24WWWixfUPaYBp3Bzf3smeU-AVkGS38lZIloZPIcrZkQ8nlgksvRfqdiWTJQeyixnHy7dbRUD6eMxtiyp0zL72u0aHDrYGY1t-_Ky5ZJDGYyJWlBykJqsap_kNZu8AtdKvqHmXigafpOi4I0o7Vcq-DyvQsozPOw5hzmhR7oICX3rzuKkRo9e89O7__6CSGBIJ2uEFFAk=w1054-h789-no",
+            description: "Traversing snowpack on the way to Oxford",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/1RoPUGlet6uLa1Z7QgojvIayJ3YgIDBFOiblkBvql05txQLBf4a9RXvo1NIO58g1wVQC4ud9vlr71O4OIiVz1MAhCzYlwmoM_gjrxdaxkdXkKX2ywM0Z4b-0YqgDN1K0M6imn7og0PHbeK5v74FBoeI_rZq2sD1oIBmvcrZfJnmXIjuHnNNblEpGIbtovNv4LDqw8IxsIuFx1ecEKB_67y2MLGOi48rxaP9gdUxl9SMiRJuRzMj8eUn55va9RqONnpT4zq2FqnNjpoafwxKfTi_O64DDuX56qVp5oZqLt3e_efs51zYh_NHsZsI1Khlr7MXTGWg5p0YbvE1G3izdGmunm85Pkt84v_luvWbgpvkS0lhcchY5BMWQ-Pr7-MB15hTNgoeknjHlEgX8UP3mWnlTwSvs5WFcU44Pu8UA8Flh1XpmiyPZPPohF0P0C8mJMentiwuq52ooCq-fE0MG3BYItwDzuLWQZs7Asm1Gvf3d1WbTBZfB0MTdoOR9carvr3Ir8nATzkq-stOxcBnNWDahcHWR2lDh6eP1yIYMHbYZynyXt7B8XeAeNdX4kgHBjQvMm4tg9AJVQo0whcAFLDJHu5JYVfvBQhk5NRugGm7kdQPUqxxY1EKt4uP19Gt_CXmNnVeis6ExTvaN6lIt4KO4_DNpsNU=w1083-h789-no",
+            description: "Mount Oxford seen from Belford, working our way back",
           },
         ],
       },
@@ -122,113 +215,4 @@ app.factory('travelDataFactory', function () {
       return travelData;
     }
   }
-
-  const sanJuan17Data = [
-    {
-      description: null,
-      img: "https://lh3.googleusercontent.com/uUhSS9yhh92DNYGOYk5Le_btyGhXwPXmZOH07jsrNoWYttGhpBpcoaw47oIYBgcS0uGNjGFjnfCFhDs6dpE36ugNyjCv5cE9cozR2xaljwSBNAtNXwwq3IgM3PrCHs-SGdM35sb2TT4c6wR-CCgz2Cz8p7X1svpeniWhaV3PftAGRgsAd6Gu63a_Vl-bbQQi7VJJgH0GZ6OQ8d2yMUvHem8DKrHgmmiI1DoznjrCfCsi-csnvhEfjb1C26EeBH35FmQAbZRhEwgB0Sump2kWuAGoCFsyccXRgxMYrvFY0sNtFzXvH_H8CX_-3akTqal2tRcrlRtn4yKjv2T4CA_tbhqtxiUGSOEpZTQlKgRBYPYBljT9cX122Dw0jr3ba5XwDKJ7GX0MrjCcjTAKs4gfOzhQqRk6ur__IZtfaZ6fqjJVHgJPGi2pubLMrnypK-5TA93r57sRk1Aig5oRqHt-j2rGErqgA0vJjbv3--zXKyNzo6myDJCFhB62kz1Aed7z6YAYDRrCVMGxuzhrM3jEufLrESaTNglhEWSrdpT2DvfITsOvomotwzfiLCNGUSygrqUcAQ9fmRZBpI0DSIGZvOpfGwYKBjMk0LSzsWZFr1RmQFf0X4mv1AWJwRXPd4CjlnrC-pz75nVHtdbno9qIfiJggpJAXVk=w1056-h789-no",
-    },
-    {
-      description: "6:00am looking back towards the trailhead",
-      img: "https://lh3.googleusercontent.com/g52dNhAhvWY_IURDAcg0j0aAWtNPAo9vSC8xY6jToFIBVhGQfvbUA21mFSVS1SAqHUc0QdVoC_nQ48VTelR0vTAqZXzq8af2oyJDQsciI1hQHntaPzdVl4o6SXw5bN0S78CYDoOPBCcor9vdK1_B6eiwkFuhyqbGxV0Gw5UqQaUqkDRc68nRD8bDZ04U3hqpTBNyTVxmH-m_8a2Y2pKytkvG3mv-zcKHu7eOaNY1hZ8lUdAXHg1qX_0Y-pstjVAbmcIU0ZasMvWFCF8F9zFEYIeGOU6rJ6oT8bMINJShV9uEOwsrKet2YkYXZtZMdLM7qwBRPTbUk0BpD6M8xCANdB7sIv2X2tryhZupHYAYFikOVjKgxAyON0Nn_P0T5CYeeyVG7LOIWcvIVgxEGybt-kITPdR9WHU-cUkYZpQ21K5cC_t2StPUbs2YujfikrCSQ5dzEkD34Ej_yPcmeJhzEyJK1LEcyGRkgJ0yCruqsHO7m9XM6UnmHx3qIByO2zx4PPvgFS2YeQnROHE02xh-6EncPlC0airhiHTLyyzXCnWiK8x0QZF2snkohB7vWxiGBEx2C_2UztMEgXs20XMUEMXgJu1Bc7Zg-UI42Cn3GMOyTFwb82dMuFtt8QuNUNUnIM7pHexHUrRCWEj4duN1F7QQt4fhz4s=w1052-h789-no",
-    },
-    {
-      description: "Morning sun",
-      img: "https://lh3.googleusercontent.com/0DbidxX6OlZH1S2m6Aph5F1GQIyHGLtNa2mAkQqnCs38WuA6NqVT9unJbiIoGyO0bOTbG1eTYQizzoRSl5Uk8ZfLz-baX_VL6ViCZbSHcOCm6TU411Y8lOEwcwHjCqkUSX7Puxsey6BuDWJLQc_2CmcKNfEz89veDNZCw5-F2lathrkp2MZNu2wR_BNQSnsF5ltoypclpzbs-EoQsZ6bg9GAaRLFJpWhJlnE5rnj6_Mq8swPKItLIUanjdJ0LLS13PNcscLL3LMs9wZsP5xT48NE_FmtfjUJPXmN4H87D-T8M-sSy5PQN1bsFjZ13XMep9-PPpW1CaENOZeKjsfrRyFGv-ugx1neG6MMD7__VSIjdm0XltUM7kSUpwdw4Sxf95_kfrfpHoCOq4x6daS7qv86-cmrNxzt7ZGFHyeTa2-XRWV7gpdHhiXbjOPMu6Gq86Blh1LkIyXqbT59MgBqxxb0scIMIcvLoYqc729vTH6DMGrZG48Dt2bk_7_DD4ioZtSnHc0N4n-PdzRoEIAJfyc0lvpt6cZTsNUVlowYsftWJ9gLIa9r8tey_A9-jzTCIbXU_VnkaqjrDcH_CgQDCs7p5ble4D0lFDxXWG-A4KSY9NwO450TgDuMQi0EEkyPVLXUw4gZySOitip_RqAtLOd2K5L6Ua0=w1052-h789-no",
-    },
-    {
-      description: "Working up the trail",
-      img: "https://lh3.googleusercontent.com/vxTb4gR1TgZ3Aa4FYP21sLcsjfIEGdOJ4SZ66ZJcchg9ms8Su3rD9UqsAXQkEwDzgpa0IOw8nB_yJZQUC_SnpNKaCIKtcYp5RPhLy-oJPEdGwjA7jq1VHYChZ8bRBocxs_dcCA4Pc8jwHJnFRK4xbzHTcWCLyDT5G3-zmCGMOkFaP9jbErQ2qTOsCV9oIx2sx-JjsUbG5b50EBrY62SoOcFvk9gTRiH_qDtS0S7NNymu7YUC7L-OjTTwOKtWSUNdfECFISpCempeIgIZ08hb2lXSuFHfnZmTK1WWmLrrW0_UR5j0mnsOoMGO2wYt1q8Y0_QSnhWkdJSd4iORugw5aDa_wFrWA_QD2EWeAOurO81OoFKrE0czW6Or8byRicQwts9-uCTvCeefLWPs2fSL-yhiT-3ry4R1WFQizPvXh3z6yiPC5-QxTuaR8xf4U0EuoLzcdHm7gTdE57H3oziaMw10by9SC36PGz1uWIhDX-iIPVsaA3zBC73DdGsITBVQWQJkkUqDIq1B2cs-0FCXRqGca8N7bKCzmOUs20xZ9H_SZZ-iC042kLH8J71YrC7hSz_cZmiL4VZ-N1KWUH1yDJBwFZHaNNV15J29azzjeYZgd3ZZoTlqj7ZYfAz7J-qmD7wxTVo80UgizJSGDlGC7whgSFR_6mA=w1052-h789-no",
-    },
-    {
-      description: "On the Summit of Redcloud Peak. Wetterhorn Peak(center) and Uncompahgre Peak(right) in the distance",
-      img: "https://lh3.googleusercontent.com/eWEIka_W2o_Q7BYoDItsJNKWTR6aOHnpV7wfVMnRlH8szGZUM6Qrw5TlT7pqN4dk_mZl95uOyHKC5pKlbRYimifBCmvjo1aDiI2V8lIAm9hX_0xi5dS0-J6V2Ll9UOZU629mCGaKmbbQZQjJOIkLkcCVaRs1jxL8uuTcUuqMV6U0um39H3K1d0Z6sFJDl7M9ewQgjLOgsFmwD_lI1g0FIVMDZQexcTSowj0M0-xNXppcXWaskD-tH0zw7ZKELRM-QANykkAhooopzvFvYzMsCqt7otn7GxthgF-S82ObMDMAj0nGFErhYvwtnFY4RjhBtLqTreyG0HzuJNP0aPNh4RmRgNgJJdxlYVvlnYFJ4ZPQDCsyjrQTcTOlwIlE7BRYEkmoeUWUvj9hd-bh738DQMtRLU7TGYSHAy5cEqpPAtnWDsSnH5RQ4-49tSaV48_0JHMm0Gijwvt9Sleit1arIRXJf0rS47Vo6ArrIzolWjLFJRJqJP4Ep7MqjgYdV_VezdSSTGAkoTQpnfxeU0YHJRIz3pmE9dKSH478dMtTclkS5ACHBq2va_yIjAQCIMTV5E25X59gbR6Q9lR6SViRe3hviV6f48bRqy9TJE8JrGVpVf4NUoP3uAOxAmgFNGqr9fRRI9YaDQFY4D5VZEcf9EYwliyFa9s=w1052-h789-no",
-    },
-    {
-      description: "Redcloud Peak summit looking toward Sunshine Peak",
-      img: "https://lh3.googleusercontent.com/7PUOtrKUh5HlGD3x0ayjKNbFsiSnxng0fv0ztcLOO3PBFN_C9l93DBVIvw-228fxH_Qdac-WlVbvTkKZmgsiHZo4m_xI5p07dVvmeBmsfYmuSOVsQsNg-qRGyCkOh-L-U9pS0T3_UGcxa-KrYqH1Fu-ZhZq_BHL5ghbSBBHJRpl47d4bTxqw2zv_F3uVNWkvb_ruiwjO6314C3FDfMPpzsUTcDh4F_fu1ZFwQlirvdyXULuUdZ0EsDTqZmPJ7bPP3-Nim0JqK8bgJoNMYyY_UsQKJ9e8f6dhZpoGqhVcwDepYW6Dg6iP20yCuH9pmeEnoID9NCDbx9YJPZkqllHGrHDNsJYwNxJy6Alox56pybWWb0QmjNt9SE-QgFwRBANt9DOOEfqdnE5m0U4eMj8vZ_BGDHhhYTL-8oYup5FtW1cQMnToowLihgiQCyVn-TdWF7ecDlNajtnGVcrJe41VI9hGD3JW1O9xa60ksZ07quaOcEchROwBIfRks3fO-bEN99ZwxQGydH-kh3KjONaOK0gYakkhgtBg9lve-cnKyxRyxDbQCq3e820mrZBKFsycxGiF3dXd88n1IolJQYrbLLG9hzKV2Kkj3zDcOXoFyx1-q4Yrg6JpM8Tcw3uH7rBDxWTkbgMQ4knsx5Ak8em6JjWuG4Dpr7A=w1052-h789-no",
-    },
-    {
-      description: "Redcloud looking on toward Sunshine Peak, different view",
-      img: "https://lh3.googleusercontent.com/hzI0grKKWKvXaHur5M4DL_91ISblrKJptnTrlhpAqflLVF9aiYe3uGnQLpa93q2EQvbdLGz3apv8wzA2xSkoISxMV-kECq6YN2VfEKpDOsEo1Ag-96W9zdhsePZnlNtkApsw8Gr7LoQYvLecN737OpkietzN2nliXwoVVZSdvDhvLCF5KJ9j2_iaaWPg3B1Yl0MvETkxZwKVYGffClWgCJ4fbi2d5AwTLbuOkWftXjG39JJZyf_6JwlhwCL7lLa0rr0plaY9e6VtlWJl8h_pPTt4ag8uK3-0ynxd0uaT7PZ1p7zSpmBRk1JxAW6ZuzMmO6kTiquOHyRUndylE2eUnmUfDJoQBEb1NDMOVOTGQ4pTlyDsenHLcqwTESkN6DSm9-d7Uhs3crpuoxs9bFdZETbgIqkzwHO6o_WVwscGohw2ULd_BWka-q-QSW4f7RM0zd8WCTKjiPiBzaf4zWSmRMDwrPFEho6Ye3vGN82uBVmHqZOOjsKpOVLGkHU-5bE129352VxEEppUJaYpXJiGkqx4rw4dy9EixJgWyvLUEG_CNpMY1Tt4r8nARAdNSUKQzmdWAKxiKtLhH-F6nbkM3GjyJ2cMfU_JuHsRU6XWGfkcyXssOzVPLReodcYw1zxWn6btafSnTl2c_eXYLU2SIbJCpFLyi90=w1052-h789-no",
-    },
-    {
-      description: "Summit Beers on Sunshine Peak",
-      img: "https://lh3.googleusercontent.com/6Cbylq7Pc37O6KM0xRZY_2Fg530PvI0spayghWKW3ZrD3A8bxZKe9MxgAdN65oZ9Ort21niLihVr6SZokOpeT78pH04-QxHStr_BZJyZ981Aep-CwLU7c2CnRAM5v7ZJbfcG6UgLTrW2Jby993YLVFyCpcVBaYXd3ltik9cDxmZHEBydasxU-zV7EQv5wfIHZjk3cXSGpHxDj_hx_QRwaQyGKaPD1zYgXtsKdrNeIi6pPfSY6wnBTWm6v41Q9R2b14GpekrV-OGT69Vb6s8UJNCNHfufmI673EsEJ1R4kzW1bdIuJh6WaHzB-OJtM1fQ78K6lUn5p33krf6I3uMr4rPfJMcgW5duwn3qtK8Ocmd1kRWbBNWMzZTSFKqS_M8x7BhrIuLq6ean87pHS-WU40FdtzJxqLSP627nyXi__BMIL0d-jlpVP6Efzhqk4ft3cjUgW6hd9aMLdqKgPxNVtLkDw3q21n1IBBvGReD7e9NWee8R5mrGduDwteUcvff3kNJWef3cZXdBqXTELythAHUGghaCUE93c5YtUQoT6w5AVjpGXcp1pZALwCd27RkHVeCTYorFfDrHvJZxapZZc_Ak87CdgFYzlBLoRAWz0Qpn8Up1u9DS4QFIJ3K4YGm22kyZeaXjsvGfkzKxMjGMiNCgz7h_AbU=w1054-h789-no",
-    },
-    {
-      description: "Exposure on the saddle between the peaks, heading back towards Redcloud from Sunshine Peak",
-      img: "https://lh3.googleusercontent.com/KX5pb9i2w9-11GcHO4L8XMUvzZ9W-y1t3Qpd1iBvYf4qnw89Qrpj4a3LM6hLxIHTBRGhHwDI0yhfkeFlda9WPeH5UbaDzht18OkBJMPTfRPrshfuUUtM-AX3But_kKS38yPTEgEqON5PbJt7exowFD2863fD84nVWQdtp_niXXsTcVgzOl6XUTP-IwNcizJBGDLX6IbDgZGYwOuuze5RI5EMQpOWrZj9noHblSvqaYRCibbobd-1J6SnrE_GML01SLziP66LxkFbs-5ZCBCb1lWSFta9FvLfnig79YUGNvOUtGwjiDNT0ZbB2GKUDXzxnuSf3gol4S6TZ8iNYrIHLbuNkL-PJP3IRL1jTm0MbpVieGAuFt6JrEvAbdrHqYi2kZNFymC1uFor-gQyiqr5jF_wKxnjTbv29RvZQHBBC-SZViKxQE5Ul1xhmx544_VPd0qRrddxQiIiPJ3zVWLdFnUrq9ox99Az-cm6DqevNELm8TdnFnSsGV5XIKpT6CBCohC4lYcgdZVRpeeH0zc7lvsmGpD1-M9LpWLXg00TntrjhLAT_J4Xz_yGYCP8e6qrCg7dgdnQozQT0KBVylyfsOOhfAHUD2vGuF0EIn_9EYTr9ArB2u-mNKcLu2KuFgnTVrQ43ICKi2wehsH3MCbLC5Lz-FdFcjM=w1052-h789-no",
-    },
-    {
-      description: "Working back down the trail towards the trailhead",
-      img: "https://lh3.googleusercontent.com/RVj0qa7RMqxQsf-X_KVBfKesg_fTHfEvp_GzZP2JBmT39EciCuvGYTW0PcFofnY8Bcp100pYB_7wh5AJhlOvh8DOqsKZlt4L8adce95mga2eINHGRfE8BrfxRK-BjPitMVPE_1rEezV8x6SBMMgroDdsi8S4GJgkHlJOVY_t5tvrSW3C1Xh0WLda7OgqWGnDhfJbSzzRMApPFrH1CrSzL-aVMox1_gLn80Ys7HIiKqRqN0rRfXJK01ROXoLTRdsCYTUOIp8RYXLUb8fluwGNC5sB-asWbClrDZrUMI95oMTnqdyREDjEBKhXT1ogrBSGFef7TYuLjTxmIomDVUCHDd1qnd1BhFekSVGfNfjYI3Rhzb_qgILYfkz1sF_gT3fhHLsdOMytO4v6jgEfZTWMSPoWUQX13bsZ6_NoLkz2AkUJJaHkQDqQt0qekYmZpZdN79xPPuHEJQOMyRMNZu3ngl-PxjpM6HRzldKUwfLJhG13p43rtuWEs3TbxMEm7tJYy8neSqiiU9Hpd_uJo7HPomJazmLbjtFj-EhjikDF2mJE5oEv2NADCRfImve788AHKa80-H4eIh7y0hyRNBq20qEEn9J6TVSQJ_aIhTiGdlh_7kc36JuJuR4o0odV7zfhTYpJKyA4OJOufZcv_1Qm1gBRWEAgL9g=w1052-h789-no",
-    },
-    {
-      description: "Fresh water",
-      img: "https://lh3.googleusercontent.com/RVj0qa7RMqxQsf-X_KVBfKesg_fTHfEvp_GzZP2JBmT39EciCuvGYTW0PcFofnY8Bcp100pYB_7wh5AJhlOvh8DOqsKZlt4L8adce95mga2eINHGRfE8BrfxRK-BjPitMVPE_1rEezV8x6SBMMgroDdsi8S4GJgkHlJOVY_t5tvrSW3C1Xh0WLda7OgqWGnDhfJbSzzRMApPFrH1CrSzL-aVMox1_gLn80Ys7HIiKqRqN0rRfXJK01ROXoLTRdsCYTUOIp8RYXLUb8fluwGNC5sB-asWbClrDZrUMI95oMTnqdyREDjEBKhXT1ogrBSGFef7TYuLjTxmIomDVUCHDd1qnd1BhFekSVGfNfjYI3Rhzb_qgILYfkz1sF_gT3fhHLsdOMytO4v6jgEfZTWMSPoWUQX13bsZ6_NoLkz2AkUJJaHkQDqQt0qekYmZpZdN79xPPuHEJQOMyRMNZu3ngl-PxjpM6HRzldKUwfLJhG13p43rtuWEs3TbxMEm7tJYy8neSqiiU9Hpd_uJo7HPomJazmLbjtFj-EhjikDF2mJE5oEv2NADCRfImve788AHKa80-H4eIh7y0hyRNBq20qEEn9J6TVSQJ_aIhTiGdlh_7kc36JuJuR4o0odV7zfhTYpJKyA4OJOufZcv_1Qm1gBRWEAgL9g=w1052-h789-no",
-    },
-    {
-      description: "Waking up with the mountains",
-      img: "https://lh3.googleusercontent.com/fwn6CkNL1SoXNAkqZMYgIjFUikNWBitptnnPTpRHH6U1hzRiEI3WGJgq7mOt11imd8td1DyZF7K1lRDouf8WW0LjjSj_kVLmdooubvkGeHBlpBqVAKOSIljcvZwA4nILwNFvwf2waWdVXVAG5d_At3tPEtMqrVYMwwSg9BwNC3UwvtlQ1p9HTHISiiTg8FSILYixNR6_2hJmSnzzOsDg1NWS2_LN9usSEBuUXSMxG0sPjWlCbnC9rJziXOWvhlrNpT2ttkMn1o_OYZTUy4N4dUUtWOISV9mB6k4QTEgzY-CRJXYUXtwNxCVRQyNAeMXEfUU-UV8oFV1gNSU_hvBKDX3EfDaLW5xLr3LI0XSDKHZOQHuwh1dxg1fekKxqFfIyflAsH52I84bGCHrzyW-tdmdbP-nJ2npiblLkVJyLd0ijE4XS3_HfoTE6nNujqxmEsXcDyCl-lw9S0qxQxyvXQB3lAL_TXmOWEIKs7V-_L0dth2ZXSN0s88u68giP_PRLaPsFVEv97NRGIZevI66ka-tohIcUe0c6_RRTuIdXhVYZRTqJa0sagPqtlCKH8XF_mnTXlza_hJxX3XHHH0tzpl8yolTnlF4Vv_fiQZpXnrWxcPwHPlHTLTb9Vtn5eEG4qr3d9Hbc3IPjpe6GunYRhFJgU6eIP04=w1052-h789-no",
-    },
-    {
-      description: "The Forest Moon of Endor",
-      img: "https://lh3.googleusercontent.com/n_2efklohyprKVdXlcluIMek-c8pOilU1qeA7T7M5TY9eGUM5yprYFgEuK5WUigYU2soDTkVyoZHKA-2e97mveX8GWyVkLK9TrOGJ1JZ-5aCFP_fIfTjuBRbWlew4Q2z2q1wexy0INfgOE9jAvuDao5xsXMHVECBjM3prp3AFSQuyp46cZTtkcQUMX5M9BXGu1mEH1XxWC7tNcH6uO10UvYNQMQaLBRlVJA9xoIUIRapCQYHT6S1s4ryqY784D_jMtB7UBgYqGdutj9FSnS87y9tn9UuaBHfx5WyMohn7DEJ8bJPfGBSq5SV86HJeK_C8Eyx5X58PV7XDfoTNK8bvU79TgMrHYkej-xQ6DEul8YyUHGTdFFuPUafzxx4TdUG8kFA0briCpJn3UjBhP9VWeNgI8-eAoVmROl7Dlk7fXDanoBkSRUHnWadauZImqpMDGtm7JGCvvfFeDubSnN4CkSqt6upUyQ8ALiICitn5HzwMfT4uPQuzPbYPFkVviBcIP_09gC4HZ0ci9MhfAbg5Yw-8XZqxfyPF1AxWOEXl3L7WSOgXhNIyEzvRRUy4NzfOUstvdfX1qVS6FZPFq_C9_b3QrkRqIfqkRNhlOU3AbnUwuqMrE0zw69r1TRkKh7CgpK4w78HSAwCGzdWzY3j5q3gKdcbTUc=s789-no",
-    },
-    {
-      description: "Looking S.West heading up to Handies",
-      img: "https://lh3.googleusercontent.com/fOZtbbkj1Jn5umMuRGYpWe0siglGqBZOfjGtcfYTo3Eii_5vJYi_7BoxD9tg8zDap383T28tLW_MNJUlgxX4G-l_uQPUIK0PuwOUjF_epFGMBOnbzopPwO7m5Qzye1uFWaCx183HsEHdJp2tQKfV0QdmQvm6zbatM3E82UjB81i2n8QXVu4nHrG41L4zQgz4HOMkQP7kXqmc_186rc_TWUZjIIYl6P9Yf26FfOY8wEi1ZX8Le54TcR8D_lRo8DvOi4O1TRZuyEkz5e9CSQPWqs39zWDHt8waqc7rPw2sW9XKBLrtMIkRJ_tyu7RjXDl32cy7SVsZhztTyr-dbPyYtdYV8yEnKxQM3Dwd7mUgbqdxTbo8jqwBxmsDmLA6UNuSVidROMWCJkZpocWeyjkD2dIYGi12sHtzzbFelMq9ydTe7he93VeeyVvvzSy-dIF1wTlsgPVwHDLcZnKIfSFSQImoyN3zwYy9c1xTxaYWv20tUrlhTnUgSod17z5iCiL0SeUrVdl5Rgedxt9fp37IE3Z6jHD4Ptj2zkrjEHsKfx1x47g5FUkLNdNSlb2zbMxyP-JYlC33jt7wCBATb-9MOxoRl_yexP_rXRecFpRPselrJcTlpU1DaEGUmo5Ny_6V1d5e-lNlgp2QiSiIIdiPfMVmPjJ9gf0=w1394-h789-no",
-    },
-    {
-      description: "Love summer snow",
-      img: "https://lh3.googleusercontent.com/JB8_nhpDKis8iJCBVpQvUtUD0ld4kDPr-1IbJjuj_nMKgGa9FtQqqK-rBASCz2PFIo3p3osTcjDPU2ojF-6zpiABHhvglSUr3aF9vdr4o1MBBDgx30qc3KQsnsOVVwBP6B0G4e0GdtYDu-N1T5k-WB5_bIq8oiTXemLw9LVJKyJPq5ln9dKumI6-58ibl8NCPx0YwknkwxhVpq9Hhm_w3IyiOH3jLSVhEQHXZ4LFlfDf_IU8_HfE4Qzv8KtxesU7UmrfABRdeY9LO3e-MqwecQnyORFMp2OiFV5zacZ0mnqmharP3xwvupdzqVtxvFFq-fz50Hpob2nspRotnYllxozNYfZ2Y0ehYl4urfbuB5cHoLRfTUErwHHNKOUEZU6R7xpyN9t4EoULjCWQ-mDmHNiKzgYtSHRm9R7bOvxW1kxh7V0j6tH9rNZ8j3vWQWEHj6XIvlstFt_BnXl_QmpfA1D90bMZuSSVXcqkPv4-Ah5oBrBgutiYwPegRtLZgoNcGMJF6ttE_q8aMN33n1U9908zzWsDd6e8qGyvT3Sqo8v6Erjopuh22Y9EnJaauxXBywbR2VVfwm0TuExHM3BuAzsrcJxVn_M3z7LlIBGaj2XP1k5wSuDNkn_ERVVXpXlwFFSjCNLF62Ij-oA6hFx53YJxwOK4fmg=w1052-h789-no",
-    },
-    {
-      description: "Working my way up",
-      img: "https://lh3.googleusercontent.com/JB8_nhpDKis8iJCBVpQvUtUD0ld4kDPr-1IbJjuj_nMKgGa9FtQqqK-rBASCz2PFIo3p3osTcjDPU2ojF-6zpiABHhvglSUr3aF9vdr4o1MBBDgx30qc3KQsnsOVVwBP6B0G4e0GdtYDu-N1T5k-WB5_bIq8oiTXemLw9LVJKyJPq5ln9dKumI6-58ibl8NCPx0YwknkwxhVpq9Hhm_w3IyiOH3jLSVhEQHXZ4LFlfDf_IU8_HfE4Qzv8KtxesU7UmrfABRdeY9LO3e-MqwecQnyORFMp2OiFV5zacZ0mnqmharP3xwvupdzqVtxvFFq-fz50Hpob2nspRotnYllxozNYfZ2Y0ehYl4urfbuB5cHoLRfTUErwHHNKOUEZU6R7xpyN9t4EoULjCWQ-mDmHNiKzgYtSHRm9R7bOvxW1kxh7V0j6tH9rNZ8j3vWQWEHj6XIvlstFt_BnXl_QmpfA1D90bMZuSSVXcqkPv4-Ah5oBrBgutiYwPegRtLZgoNcGMJF6ttE_q8aMN33n1U9908zzWsDd6e8qGyvT3Sqo8v6Erjopuh22Y9EnJaauxXBywbR2VVfwm0TuExHM3BuAzsrcJxVn_M3z7LlIBGaj2XP1k5wSuDNkn_ERVVXpXlwFFSjCNLF62Ij-oA6hFx53YJxwOK4fmg=w1052-h789-no",
-    },
-    {
-      description: "Selfies at 13,500'",
-      img: "https://lh3.googleusercontent.com/84uJzgO9chlGJqS4kqezPVAoTOwju2-RtxUNlCmwV8ehSYAPGrUA7-GXFiD0bMt4f17tddZ0egOyEPvXmek3FFUZG28s1iKaw_ZtaUYP-b1YgkMDrGcv-MT8-oYJgPgfIsZ17LY_FD2DudQKBunMUuPgypUOZOesrEHf9ayuJ4SI5ZCRdqpLVec3tJQl_AQegDybwj64KjVlGLPTU-mm_umvsOC0Vh8ry0xr6LdLChWDDfG_t77sS0z7XYdkgrTdorEUr8z2t-2WyWP-gpwS3xX3el1pIaQbh6jqHGLW1Cq_P1ctMIRcEaTaN7ZHE6ZDoP42Z8g1XmA1ctb0Qa18gYvTu83g8KDO8f5iD3NEQjIzgdBm9tzIZ_k6pmSlvAuzwK6W9q0S7ytmEHLPV2i70Cvrft8QaTCl5BL6DYBUriMUAFDezxxy7Kejbn6rv8-Z5Mzpu48dB12VI6LFF5pnTwSvxsy5zAaob4FjcgJ45d4kgpCj6cdgK1ihpmURJ4QDzMSBlla5FlsGXF1Jut_hWn58OinVhMMP7ty_OQSsynkts3obuRIDsALsMdhqJqGHsxKcja8lTQWNxR1kbzJsJReI5VaSHAj01VhR7tUVnGxEOtCQGJa4IgGD79rdioW8yFG3nFPXcyR5V2SvZcWvzYdjkhulbFo=w1052-h789-no",
-    },
-    {
-      description: "Love travesing",
-      img: "https://lh3.googleusercontent.com/yVEAAzsWsyb8RnaqrCJ79Ogfh70764D-T68pvXuR465SEKGVdHi22D3RfNfEP4UGbHKpm14KCvPgoXPMsTZmcbP7An6s99BL_ynoNtVwtIH6scOC742t7j2DTvChyVkFFxWbTvTTTwyqBJdIXWHsUe-Ii46duxtUW36B47anHK424pls5IEcCbPW6WTeRFRRxDrYwAWytt4oSbtkQwmnoVALhFemren0tEkM2uSfS_C572-jMN7cnGg8a0DxKhtUe5FO3axNv66R7fFUN-n3BTx6cwwJ9zLiezUl8KTzb0_onQEjyvKTqHVhb3zaJkTz8wvv-fA8CJOl3taGCn-tT8cIndlsVBopaxAYrC9trHo6TEQ9mjhyvUQDQl6NMmW0jlv8qzEVdw4C8g9Dym8MoqsQkGQy5NF_U-DxqMIEI0sJBfyRH4LHlVruRufAZbXLDGYTMWuNJX-3EvhSuViOqzYqyqdYRUnyHmyylEXTxk4dFon6t8swKWeyl6UCFuHlmvEBa_XZpG5Nk6-dpZBM6JY8f6qsqKweCORZlwBJyFz-5i-LRRtoqzlkcEDkBOZP_SLeWdnrjQK_EGNy_rzWkqITHjiBgE-OG6ywQQAKO0hHMBKbmU64jDI4JUCIh7wPXJJ1G0-6KUoGg6-mEdhvFQTEc6LSXtI=w1052-h789-no",
-    },
-    {
-      description: "Summit. Had a nice chat and tea with an older woman from Montrose, Co.",
-      img: "https://lh3.googleusercontent.com/SSppxFEnnxelMl9G3orkZchvI3FWgSduKzV2MS29hrnSNbizGV5mxlIBMJfZ9Hkc-sVpPYNLMcERr5cKHPk7OMjC3isFP7QHC0LSsrttLvwyGLZO_o--icHMMTneGCDNLG0QCnC4iDou3Vvg5EDv3Y-NaVI736fnkzB9iOU_WKe1fkLPPJaXy29RUE4_iqSd4KrKNyeYDuSj5ytT1jIMjBV4YfmWiarlIqgw9P8SfpgFDfJtU0UQWgjqQOW1MWUCtnuSzxt28ZDWbwJAtiDg9Wix6OcwslNUHFz4x1Qh5jSZO7SP6zsUyaxRuKsSlzEdYBXY5T-17V6rqL6ZSJIumQs-XpHlYU0cC27nVbmLP-RE-s4xsoQaO6U8DoHoWnRz-xKU1Dprc7Drt-6txfhT4bKQyay_pE7In_GpQQo4tgtIh4ynISQtlpF_EPDEcYdItsiOvcrUHhJIe4isaQLIcybFvl5lC-oQ1WZcWV3DAa13OYkEvYPSEAexSIwgekApvkCt2ZLDvFmhk4LC0HpjkVY9yQcjLRJoerAavekxTaZ352__klaXwqtB0cjqHWdoEtQzH22HlejQF563604jQdCokSdC3DLNPkrCbTZOWu5ONBDnQdVbYmLuGCOQyuGf73B1mRdzbX90Bt-_lbXX8Fr0u6SojdQ=s789-no",
-    },
-    {
-      description: "Working my way back towards the trailhead",
-      img: "https://lh3.googleusercontent.com/zA5ysEodQSG0JROBDwaVRXAVIQGAm5rxMUqEv-hsA47nf_j2PK8NVfVNTRD9WvNdHz9kEzeZlqm2N5UE5OF5RAHAKQilFITsXfiLDw2LkR2mZYnVBiwYin15MQIzNpnOaVsxNZGsfVOtb2KJNcWvP-HDIFJwGKo8M8nZ5woeC8Cf-nHbLgy5HzKYjiglkP2w78w40G-YXN6i5HPIbx5Bb1_U5iRJduTvm7PUNCwGROneleRm9hmiDJYEsuhMrsl0--mOhWLNJxAVfXyqNmFzad1o-e9ZJPVDkFbcm_NNSCKYLZToqtb2VliwIHAAJMGLEp0MeJvVo06RHhgM5UWr2Rn5VwvBj2sy7Jy3xh1fIs-aOm7VVhg-06IbBVGUWtCjpy-ODUPkxPN4yml3D60mGf0Qfps7Y6kOc7uBmX1BekNE_DV9obPRqBJ5dPHpLI32UOwnlzkjG5PASiNcVDPHaQIcDxf_pKZ0QY-MCzaaa7eI53CSsIob9JO8Sa0Qq4Vt_NiPvMx_4nt9j5dHzGrOGf03i1S7F_uFvz3QTo2eu8WJr7c3G87nM8MhV5WO02B4q86tGcUKFRbL-taHtDgKKQW8NSOrxQuDXn2iMMgngfdt4ebJjQLMyHVL8BOFdH1ew30She9uFmLVTwNFZTjshb4s4ivvrc0=w1052-h789-no",
-    },
-  ];
-  const oxfordData = [
-    {
-      description: null,
-      img: "https://lh3.googleusercontent.com/NDx7P3Qn7N8kI2oSN9I5aho9cL9brVwZBtyKIxLIuQS5d3adaijQt2E7zbwu9pogkBOdU5RIa04eLcOs_YGPlPP-Qb_YwEqBW9WWiYw-sMIxybPtGSxTWmpSGulSPH2juoFlGrBk9VF4Iha6NLI2cEc-ZygTItO2z-VVGVjWabxvDtOoxcsIGu2lxHqfcxEuldvNnuQMluZivBA1g_c5UXDITki_dalktjQDRYP03HEEqtjpMi-xkwG9jHtn1Bcimxqmw5NICEgfkj54BNAHKO8pgRZX1-z_ro8cAdXCB1NRtv9wejznITzrqs8hrvoFIEEIPhuX5uPEyJtS7Vacmo5D1BuzR8XqkXGwNZmhs-KfZqYj7arvs5gO0oMA9ilQG-IYWM1aDXR284uVkoUf9uSlPf2Bdi0mLe-NRk5gpfoDHZqxkmtxtaubEGbF8OECizFRj-ZFDIXqgVhB8JluI4C0BrgV6NwCVYhh5ricKzmoKD_Kxjv-Md0wSgtlPA19kv7ZZQaQjjL9mZy7hGUnZUfI1oTrbCP824NpSoGr-Q5uqYDyBhm2v4koPcfdtnSpZhSgYry2-UultLHOT-so0f-i4ZWtTscms888r7VJfOe0Z7iiZ_WeCSCzeJ_R4H5NJqm5mTm7Tsm1KayPQmrcDF6tU1-1jbM=w1054-h789-no",
-    },
-    {
-      description: "Starting out for Mount Belford",
-      img: "https://lh3.googleusercontent.com/ueiE0FUcZBMjNJic-cRkECqwAIlpnwobiyXGay6TftBCKrkTGt0D9WG-6pXM5SCbjfXZND_weKNOWuaAyisJtN_kUNedXZ83l2KMJgL2mKTuNwRFnPf10hzCFt_pCf0xl4u855_KrFbfe-p6upbdZcYL5Lxx7cIaA2TzPodS8wBASQGwR17tzck5B9RmSDQqQkcFiiQfxHBHoNzYJT2rXjlDaYsRw_Q2UDnKwTzab1XgX7oEFXD6z6CC0dTidpVzd2AapwcEqjEG8OgkmyIjYLgvqDtTN8F8Sm9DjhkcgCDRGIBD20v74gEh1JqAsPjP1a7hCMPzshDLFoX_vh6r97cN2wzKgV-JCSTNk7845KpC--Px-Y5Glc0GLBADSk8FPsjP3dT9izyJ0EfStDGqqnvvSCVXPpTCXAkDmCk205_iQ4xhWQ2rGegcELY_t7y72dsJ0gAJGkuwFRBNij26QoAbXdr_4emMG7sCrElx3yzXZxqW9JapU-vUMemcbhigJp01_0LTkm3r1jVZuFvlHSNmDkoGnzijGxxwQQl_Eaqq-tNg_4e_QpIfEtXYpsZwlZ96ANw4g_-F2dFtfX8K2Xd5OviLpUp0X8ddhYEYMjwBUnBgTLjxmEU67uKD3oNN1SJtTlshQBAHOHzcIPDSVlI09iuvw_k=w1052-h789-no",
-    },
-    {
-      description: "Garrett dragging feet but in good spirits",
-      img: "https://lh3.googleusercontent.com/VAO65FZasVNzxjAvbY8Qslq-moHMRav1znBqTYgnk5PkJ3i0kEsPBVsTJyIhVZojHvhLSkfO_5kGYN2DKYQappkPBWvJQoutsxZBUiNkoQYWYkxxHKhQ_ibopj9VK8vN35jnHgOheC27zrFlgjlriYX6Cfzx24VJrozvtrqj2tCt-Et5DLC8B05wBoIlxbQNHfa9RPu_aGaSZkTdGP_vUS78mvPqUGpBSkw0xV7_OsUmlqsy2yWcl5RbgYe352Pq2vtonaOd2gzV16a8lNpqZU5iL1UxhAZqBnGpLV175tvZaTHDHzLpPndNobjx_IsdJQYKFFuG2Mrx4ZcuFDlNeYdyErIIfj-iqkk4mVfQtZ9gMG_ictmVz5RLbI2enn7FR_-gMGtx5SWOMS_O2H00YAdhzHrE4PH2mxaEKpyqqLCLgDEJSOPYvYJZ2UMY8kYZ3GP2bsKxpbIp2YOE2KTO9aSwLNqLvBZupQc0MRDNeoLVnD4BpGrAq74RNyufqn4rcThfaugYAw095s1UlxVi1_8MoqbN76AuKiIETzzUob9VdocdmxxS3fehRlDlUutNQ_2nDCEKR-7lqsPHjz4noM5KHrndq6Iv9by3Yt1D-GMrNUVo9ZRtIC4Itfunsdi3ZuHsNZMoMdgQQ-AJF4R0S-_W-wjKy94=w1052-h789-no",
-    },
-    {
-      description: "Summit of Mount Belford; half the work done, onto Oxford",
-      img: "https://lh3.googleusercontent.com/YNPfcHEKBXDBg70sU4-Fgud5Qzehxkt-gHXLvygBOcBJCQZ8gst-vQJrOlnRV1GMLNtL7WyD_vHZt6f14VcGcXxkG8xxcZrsvI2r_Q0FXE1ADE__m5cp79MgurQ6kYnNsv5O-1THTSo_MfjbiuxPTa_8ngxHfZ-HV-uwUMqZ4CqELOW8RSek61Qt6Uw9edtZwTMoYDCGfniuQbOU30BrvQ5V8J5GE9lSOgGyg4cvDHAMYKu6GBv1pNPR2aByH6OiAHa9iAPDNnzBhjhG4oiISuF4FDTcaFkShGDnOfumYEvg5g6BXOuAnzbKdjgESkEGgOBx3Bnk0g8fBnJnvSyD1HMn0linllrWxN5DivezVHwTuS_kcEbJJ1Ir2dyfn_vNWmWjfZQ9rgUSuo1OkgfQS4HmzDosef9u9WiUlFUw0NxcOkgUfMtTJ2dNB565rlu63483Ai9PMzskjSBLa7nhbNGjE48uMAC5kMx-2IdqnvAPIdIwW0rOGl-ceCZ3toGTo9Q5FeWWE0lKrjMI6OlNBzdzJ6gTJeigH54-_E426oDvaczZhezMApB6hR7-7zDeKF0mTtqQVTtZeYFi8ZwgQCOpqOLY4GEaokS3a07aTKxi3gSau2Xs_MNqGDuvzLH-TNdAs2J0Wo0zBfWRgEmLpkIWYAqLv1Q=w1052-h789-no",
-    },
-    {
-      description: "Traversing snowpack on the way to Oxford",
-      img: "https://lh3.googleusercontent.com/9pol1g6O_37ZOv3hOgbsV3_KV2JRU7Y3HWgUIVnftECpRQTSxK7W5r3bU-Hv6aaAjXoL7fdFNRBZ0rJlQ4Eqmin1cJh0-8P2T7JUBTxP19ZQMJ1iv1T4ge3XMUkkuzVZwoyWtHUTmQpo7vVRiJNE-FxuUhVqcFEhvYF3MXQR7KN4g718CFdvRpN79KSjpS_zlzsQ8giYJoMtX6167Dqe9WU7MMvrtvcmdysjk46nuRM7LNxzFqU-Cqdi4DUYV4MjMPyh-4BK7Z7T1c7ZOmmaWnq0sJJrPtmtwOVprkVHZRXWb_o-tI96Er_AM8Wtz66LzGO05szDQkuNU809Ky0bUAzft0Rt-a0yCrMSkf3Dd-v2PKBDQiciMWmLW8zLe7iIRueDnc7AoJ59tYdRD_K4UzkF9ov26KyCeaYdC9Rf4erZlCF0303VsWV-QyHrvz04wkgA1-VBOItvE37mtZzGLK24WWWixfUPaYBp3Bzf3smeU-AVkGS38lZIloZPIcrZkQ8nlgksvRfqdiWTJQeyixnHy7dbRUD6eMxtiyp0zL72u0aHDrYGY1t-_Ky5ZJDGYyJWlBykJqsap_kNZu8AtdKvqHmXigafpOi4I0o7Vcq-DyvQsozPOw5hzmhR7oICX3rzuKkRo9e89O7__6CSGBIJ2uEFFAk=w1054-h789-no",
-    },
-    {
-      description: "Mount Oxford seen from Belford, working our way back",
-      img: "https://lh3.googleusercontent.com/1RoPUGlet6uLa1Z7QgojvIayJ3YgIDBFOiblkBvql05txQLBf4a9RXvo1NIO58g1wVQC4ud9vlr71O4OIiVz1MAhCzYlwmoM_gjrxdaxkdXkKX2ywM0Z4b-0YqgDN1K0M6imn7og0PHbeK5v74FBoeI_rZq2sD1oIBmvcrZfJnmXIjuHnNNblEpGIbtovNv4LDqw8IxsIuFx1ecEKB_67y2MLGOi48rxaP9gdUxl9SMiRJuRzMj8eUn55va9RqONnpT4zq2FqnNjpoafwxKfTi_O64DDuX56qVp5oZqLt3e_efs51zYh_NHsZsI1Khlr7MXTGWg5p0YbvE1G3izdGmunm85Pkt84v_luvWbgpvkS0lhcchY5BMWQ-Pr7-MB15hTNgoeknjHlEgX8UP3mWnlTwSvs5WFcU44Pu8UA8Flh1XpmiyPZPPohF0P0C8mJMentiwuq52ooCq-fE0MG3BYItwDzuLWQZs7Asm1Gvf3d1WbTBZfB0MTdoOR9carvr3Ir8nATzkq-stOxcBnNWDahcHWR2lDh6eP1yIYMHbYZynyXt7B8XeAeNdX4kgHBjQvMm4tg9AJVQo0whcAFLDJHu5JYVfvBQhk5NRugGm7kdQPUqxxY1EKt4uP19Gt_CXmNnVeis6ExTvaN6lIt4KO4_DNpsNU=w1083-h789-no",
-    }
-  ];
 })

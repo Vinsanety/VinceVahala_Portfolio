@@ -74,33 +74,23 @@ app.controller('mountaineeringController', function($scope, travelDataFactory) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
   });
-    $('.tooltipped').tooltip({delay: 50});
-    $('.collapsible').collapsible();
-    $("#travel-icon-overlay").click(function() {
-      $('html, body').animate({
-        scrollTop: $("#travel-card-container").offset().top - 75
-      }, 1500);
-    });
-    $("#vahala-films-scroll-to").click(function() {
-      $('html, body').animate({
-        scrollTop: $("#vahala-films-collection").offset().top - 75
-      }, 1000);
-    });
-    $("#photo-collections-scroll-to").click(function() {
-      $('html, body').animate({
-        scrollTop: $("#photo-collections").offset().top - 75
-      }, 1000);
-    });
-
-    $scope.travelData = travelDataFactory.travelData();
-    console.log($scope.travelData);
-
-    // $scope.oxfordMainImg = travelDataFactory.oxfordMainImg();
-    // $scope.oxfordData = travelDataFactory.oxfordData();
-    //
-    // $scope.northMaroonMainImg = travelDataFactory.northMaroonMainImg();
-    // $scope.northMaroonData = travelDataFactory.northMaroonData();
-    //
-    // $scope.sanJuan17MainImg = travelDataFactory.sanJuan17MainImg();
-    // $scope.sanJuan17Data = travelDataFactory.sanJuan17Data();
+  $('.tooltipped').tooltip({delay: 50});
+  $('.collapsible').collapsible();
+  $("#travel-icon-overlay").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#travel-card-container").offset().top - 75
+    }, 1500);
+  });
+  $("#vahala-films-scroll-to").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#vahala-films-collection").offset().top - 75
+    }, 1000);
+  });
+  $("#photo-collections-scroll-to").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#photo-collections").offset().top - 75
+    }, 1000);
+  });
+  $scope.travelData = travelDataFactory.travelData();
+  console.log($scope.travelData);
 })

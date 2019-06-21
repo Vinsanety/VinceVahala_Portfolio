@@ -92,5 +92,4 @@ app.controller('mountaineeringController', function($scope, travelDataFactory) {
     }, 1000);
   });
   $scope.travelData = travelDataFactory.travelData();
-  console.log($scope.travelData);
 })

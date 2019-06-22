@@ -71,9 +71,10 @@ app.controller('projectsController', function($scope) {
 
 
 app.controller('mountaineeringController', function($scope, travelDataFactory) {
-  angular.element(document).ready(function () {
-    $(this).scrollTop(0);
-  });
+  document.documentElement.scrollTop = 0;
+  // angular.element(document).ready(function () {
+  //   $(this).scrollTop(0);
+  // });
   $('.tooltipped').tooltip({delay: 50});
   $('.collapsible').collapsible();
   $("#travel-icon-overlay").click(function() {
@@ -91,5 +92,6 @@ app.controller('mountaineeringController', function($scope, travelDataFactory) {
       scrollTop: $("#photo-collections").offset().top - 75
     }, 1000);
   });
+  $scope.travelDataCurrent = travelDataFactory.travelDataCurrent();
   $scope.travelData = travelDataFactory.travelData();
 })

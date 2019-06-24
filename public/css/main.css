@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 button, .btn {
   font-family: 'Questrial', sans-serif !important;
   background-color: #0882B7 !important;
+  min-width: 9.375rem;
 }
 .btn i {
   font-size: inherit !important;

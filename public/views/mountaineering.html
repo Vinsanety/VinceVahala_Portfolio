@@ -11,21 +11,75 @@
   </a>
 </div>
 
-<div class="container row travel-card-container" id="travel-card-container">
+<div class="container travel-card-container" id="travel-card-container">
   <h2 class="page-header center hide-on-small-only">Vahala Mountaineering</h2>
   <h5 class="page-header center hide-on-med-and-up">Vahala Mountaineering</h5>
   <h6 class="grey-text text-darken-3 lighten-3 center">You only get one, live accordingly.</h6><br>
   <div class="center">
-    <a class="btn btn-large" id="vahala-films-scroll-to" style="background-color:#0882B7;">
-      <i class="fas fa-video left"></i>
-      <span class="hide-on-small-only">Vahala Films</span>
-      <span class="hide-on-med-and-up">Movies</span>
+    <a class="btn btn-large" id="photo-collections-scroll-to">
+      <span>Photo </span>
+      <i class="fas fa-images"></i>
     </a>
-    <a class="btn btn-large" id="photo-collections-scroll-to" style="background-color:#0882B7;">
-      <i class="fas fa-images right"></i>
-      <span class="hide-on-small-only">Collections</span>
-      <span class="hide-on-med-and-up">Photos</span>
+    <a class="btn btn-large" id="vahala-films-scroll-to">
+      <span>Film </span>
+      <i class="fas fa-video"></i>
     </a>
+  </div>
+  <hr />
+  <div class="row">
+    <h3 class="center page-header" id="photo-collections">Photo Collections</h3>
+    <!-- Current Trip Card -->
+    <div class="col s12 m12 l12">
+      <div class="travel-card-current-container">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" id="travel-card-current-img" src="{{travelDataCurrent.trip.meta.mainImgSrc}}">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">{{travelDataCurrent.trip.cardTitle}}</span>
+            <a class="btn-floating activator halfway-fab blue right"><i class="fa fa-image"></i></a>
+            <p>
+              <a class="travel-card-link" href="{{travelDataCurrent.trip.meta.cardLocationSrc}}" target="_blank">{{travelDataCurrent.trip.meta.cardLocation}}</a>
+              <span>{{travelDataCurrent.trip.meta.cardDate}}</span>
+            </p>
+          </div>
+          <div class="card-reveal card-reveal-opaque">
+            <span class="card-title travel-card-close"><i class="fas fa-times tooltipped" data-position="right" data-delay="50" data-tooltip="Close"></i></span>
+            <span class="card-title travel-card-title">{{travelDataCurrent.trip.meta.cardSubTitle}}</span>
+            <p class="travel-card-text">{{travelDataCurrent.trip.meta.cardTagline}}</p>
+            <div ng-repeat="x in travelDataCurrent.trip.img" class="travel-card-content-container">
+              <img class="travel-card-image" src="{{x.src}}">
+                <span class="travel-card-image-description">{{x.description}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Photo Card Collection -->
+    <div class="col s12 m6 l6" ng-repeat="x in travelData">
+      <div class="card travel-card">
+        <div class="card-image travel-card-main-img-container">
+          <img class="activator" src="{{x.trip.meta.mainImgSrc}}">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">{{x.trip.cardTitle}}</span>
+          <a class="btn-floating activator halfway-fab blue right"><i class="far fa-2x fa-image"></i></a>
+          <p>
+            <a class="travel-card-link" href="{{x.trip.meta.cardLocationSrc}}" target="_blank">{{x.trip.meta.cardLocation}}</a>
+            <span>{{x.trip.meta.cardDate}}</span>
+          </p>
+        </div>
+        <div class="card-reveal card-reveal-opaque">
+          <span class="card-title travel-card-close"><i class="fas fa-times tooltipped" data-position="right" data-delay="50" data-tooltip="Close"></i></span>
+          <span class="card-title travel-card-title">{{x.trip.meta.cardSubTitle}}</span>
+          <p class="travel-card-text">{{x.trip.meta.cardTagline}}</p>
+          <div ng-repeat="y in x.trip.img" class="travel-card-content-container">
+            <img class="travel-card-image" src="{{y.src}}">
+              <span class="travel-card-image-description">{{y.description}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <hr />
   <div class="row" id="vahala-films-collection">
@@ -166,62 +220,6 @@
           </div>
         </li>
       </ul>
-    </div>
-  </div>
-  <hr />
-
-  <h3 class="center page-header" id="photo-collections">Photo Collections</h3>
-  <!-- Most Recent (Collapsed) -->
-  <div class="col s12 m12 l12">
-    <div class="travel-card-current-container">
-      <div class="card hoverable">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" id="travel-card-current-img" src="{{travelDataCurrent.trip.meta.mainImgSrc}}">
-        </div>
-        <div class="card-content">
-          <span class="card-title grey-text text-darken-4">{{travelDataCurrent.trip.cardTitle}}</span>
-          <a class="btn-floating activator halfway-fab blue right"><i class="fa fa-image"></i></a>
-          <p>
-            <a class="travel-card-link" href="{{travelDataCurrent.trip.meta.cardLocationSrc}}" target="_blank">{{travelDataCurrent.trip.meta.cardLocation}}</a>
-            <span>{{travelDataCurrent.trip.meta.cardDate}}</span>
-          </p>
-        </div>
-        <div class="card-reveal card-reveal-opaque">
-          <span class="card-title travel-card-close"><i class="fas fa-times tooltipped" data-position="right" data-delay="50" data-tooltip="Close"></i></span>
-          <span class="card-title travel-card-title">{{travelDataCurrent.trip.meta.cardSubTitle}}</span>
-          <p class="travel-card-text">{{travelDataCurrent.trip.meta.cardTagline}}</p>
-          <div ng-repeat="x in travelDataCurrent.trip.img" class="travel-card-content-container">
-            <img class="travel-card-image" src="{{x.src}}">
-              <span class="travel-card-image-description">{{x.description}}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="col s12 m6 l6" ng-repeat="x in travelData">
-    <div class="card travel-card">
-      <div class="card-image travel-card-main-img-container">
-        <img class="activator" src="{{x.trip.meta.mainImgSrc}}">
-      </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">{{x.trip.cardTitle}}</span>
-        <a class="btn-floating activator halfway-fab blue right"><i class="far fa-2x fa-image"></i></a>
-        <p>
-          <a class="travel-card-link" href="{{x.trip.meta.cardLocationSrc}}" target="_blank">{{x.trip.meta.cardLocation}}</a>
-          <span>{{x.trip.meta.cardDate}}</span>
-        </p>
-      </div>
-      <div class="card-reveal card-reveal-opaque">
-        <span class="card-title travel-card-close"><i class="fas fa-times tooltipped" data-position="right" data-delay="50" data-tooltip="Close"></i></span>
-        <span class="card-title travel-card-title">{{x.trip.meta.cardSubTitle}}</span>
-        <p class="travel-card-text">{{x.trip.meta.cardTagline}}</p>
-        <div ng-repeat="y in x.trip.img" class="travel-card-content-container">
-          <img class="travel-card-image" src="{{y.src}}">
-            <span class="travel-card-image-description">{{y.description}}</span>
-        </div>
-      </div>
     </div>
   </div>
 </div>

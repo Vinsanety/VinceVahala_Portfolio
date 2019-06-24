@@ -72,9 +72,6 @@ app.controller('projectsController', function($scope) {
 
 app.controller('mountaineeringController', function($scope, travelDataFactory) {
   document.documentElement.scrollTop = 0;
-  // angular.element(document).ready(function () {
-  //   $(this).scrollTop(0);
-  // });
   $('.tooltipped').tooltip({delay: 50});
   $('.collapsible').collapsible();
   $("#travel-icon-overlay").click(function() {

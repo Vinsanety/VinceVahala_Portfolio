@@ -665,6 +665,9 @@ hr:after,hr:before {
     margin-top: 0;
   }
 }
+.travel-card .card-image {
+  cursor: pointer;
+}
 /* Override Materialize card fab placement */
 .btn-floating.halfway-fab {
     bottom: 5.75rem !important;

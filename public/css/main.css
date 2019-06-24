@@ -545,24 +545,32 @@ hr:after,hr:before {
 
 
 /*MOUNTAINEERING PAGE START*/
-.card-reveal-opaque {
-  background-color: rgba(232,232,232,0.95) !important;
+.strava-iframe-small, .strava-iframe-large {
+  padding: 1rem;
+}
+.strava-iframe-large iframe {
+  height: 52vh;
+  width: auto;
+}
+.strava-iframe-small iframe {
+  height: 8rem;
+  width: 18.75rem;
 }
 .mountaineering-parallax1 {
   background-image: url(https://lh3.googleusercontent.com/Q13EaGcmGDeCKK_fZkgCM6rl0TqJcAhSRrAjiyvABcXDlly5YWtlAHX_Mf5u2PintRo9OzS7haUY2ntZF7jFXqPmXssr5VKJ2qtJTrgSyCCTjMALV7cvV4lzgc3f41IOUwSaae_xPUCfFV3iLxWPbF0U_wiVgS08P-TZhXec2lR044P677zYxaz6LBXuTgawRyD5aElnzpmNrNYpO1LXQQDgYnav5B_yDO81rjW4b6pVmvN8gd1vZmmb3PKvxrJjX2lzuelEPus7dQoyBy969T9d062Cu8DmEaprg9hjCvyQgZLZfcOH_PSvn3gb32eG5kC-LhaYPzbh4kuJPMJ2HBMnWo_sRyEpRXyjmFouMSh-FQ7GSYxrWbhLMtjk6GzfGGE78AGoQTvU0Ivf6k0xtc9Oj-ibcmjOflUUzi8iNrJwj3tYuE5RQZxyQ3CD7mXLz06eZQZ2au_mGRnnWQ0aQgkB6HJqK-NEKM8IwxIrLdHB5xQkkLEbhK9ckZMSFcFwnrdM400vzF_YVJBFEn1wL-x9P32IQ2dD-7sF9Jl4uvDHBJ6Mt3svEhh_MvpEceU9_d0a6iklu8ZRE0NFTtLALNA_YMYxrggz3wnk6_7yjw=w1386-h725-no);
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
-  height: 92vh;
+  background-position: center -30vh;
+  height: 60vh;
   position: relative;
   filter: brightness(.95) contrast(120%) saturate(130%);
 }
 .mountaineering-para-text-overlay {
   position: absolute;
-  color:#ffffff;
-  top:50%;
-  left:50%;
-  text-align:center;
+  color: #FFF;
+  top: 50%;
+  left: 50%;
+  text-align: center;
   transform: translateX(-50%) translateY(-50%);
   font-size: 78px;
   font-weight: 200;
@@ -570,8 +578,8 @@ hr:after,hr:before {
 }
 .mountaineering-para-icon-overlay {
   position: absolute;
-  top:94%;
-  left:50%;
+  top: 94%;
+  left: 50%;
   transform: translateX(-50%) translateY(-90%);
   height: 125px;
   width: auto;
@@ -590,46 +598,50 @@ hr:after,hr:before {
 @media screen and (max-width: 375px) {
   .mountaineering-para-icon-overlay {
     height: 155px;
-    top:99%;
-    left:50%;
+    top: 99%;
+    left: 50%;
     transform: translateX(-50%) translateY(-99%);
     filter: drop-shadow(2px 2px 5px #FFFFFF);
   }
 }
 .mountaineering-para-icon-overlay:hover {
   position: absolute;
-  top:97%;
-  left:50%;
+  top: 97%;
+  left: 50%;
   height: 150px;
   width: auto;
 }
 @media screen and (max-width: 1024px) {
   .mountaineering-parallax1 {
     background-attachment: scroll;
-    background-size: auto 100%;
+    background-size: cover;
+    background-position: center;
   }
 }
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 850px) {
   .mountaineering-parallax1 {
     background-image: url(https://lh3.googleusercontent.com/szocO0Di0Bd-DfjbrkLh23hbuRr6m61-4GpNtmaZagjnAqTuo0Cs2mmm6HF3FNJRtNsii26DLb71pQhhbMZAiB2Rb0YdT5ykJonDPzfWb_usNhWghclTap0Nbb1nuCBpBdKzaUsNz12j94jQJteEnkhWGt95Xj0qAfQc8wUEvAEb4LsZf0JsMCDP29CiZGIOzDkVtzcC_K6gzgHHWpia6-NR8qmlTbTZApPNNe_pxkaCF0Tq8Yaa9kyDS6arIdIrdN2-4MKtvimEdIeMQ1LTh-S0Pl3pNEODDKM5EKS54LDF5rSTXfY7anHrjBb6BW-tN_f6tY4LIlnNdeH4f-z5OcNFsXnWR48DGwWOrum_6eeQGim6jGmFJXVF4DgxA3cH3SrVKvZK1_gFIzOBc4tvBY9C0OyuJRnrmlGUFjTC6sV76JF1ltyFy9xLs0paJmMqBzP1j4IvbxuIFuf0CV_0CWb72EyGdXC3pMmVdvOAAHfIWpoq2AZflG7vidUpG7oGnFBkUvvrYsnHW4YYEtpQGOyj1rdvUDXZYQm7zVhMkMiL3KLaeuzY9mEWcEy27oFymsfHA0o2Oz8Ma48dDnw0cIGUlVPL7vCIX7L9B1xWvA=w1341-h725-no);
     background-attachment: fixed;
-    background-size: 667px 420px;
+    background-size: cover;
     background-position: center top;
     position: relative;
     height: 92vh;
     filter: opacity(.7);
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
   .mountaineering-parallax1 {
     background-image: url(https://lh3.googleusercontent.com/_2VLrYW8-Iq0Q5vHJ8GDAs2NGuevqRGVDDuzZyYU9uga05Wnzv5VW1PjHPFm0cbN3DI7o1Qh7vsExaL2TqWvPPhsnIduniEsPdQYUVi35ZD2VG8t--zpN4RXPEIniMMZaExKqMCkN7XhVL9O0Tam8nDyJotl5_VTVeplFOA3luTVzyEJsXKe9ORoNCbUswxF0AFcZWrT-gJG1AJVdlVelu0SCq9T7c0RpW_LLGNl_bXJWv7188YyAJwZIyC5SbBx5RHgukyuC4oPNFN1TcOMr7Gh40TQiZ7VNJEf5PcrU8JfFc6-sE0rYc4465UvVCS3JWFdw1vGZuKgigMIVpl_9wsuLzrh9yEY21AVx0rXLBfzIkUAwJgmBd6zkjgPC0HRKQcHGvyfOVyx65Ba0Cs6OdNaic_HyJ00yMe8H2LAGnZgOdAvaAro3hE8F_OzzXb_QwiTCaOy93NI4rmEFHm5RNCmaUlWhmDOG8XNFv4mBqeUldzcZwRCW7bsDfU9znEWIrk-xnbtWlzVj5qsB1FA-MFMjKaY7VLrRE5_KkrQUt10xI7YAhGf6HhZyAPNoPVL4ZQypKjeh-OSpZ5xXBi5o4OwEW5wsTuEETrHWPdmEA=w580-h725-no);
     background-attachment: fixed;
-    background-size: 375px 725px;
+    background-size: cover;
     background-position: center top;
     position: relative;
     min-height: 92vh;
     filter: opacity(.8);
   }
+}
+.card-reveal-opaque {
+  background-color: rgba(232,232,232,0.95) !important;
 }
 .travel-card-current-container {
   width: 90%;
@@ -686,7 +698,7 @@ hr:after,hr:before {
   color: #00c853;
   transform: rotate(360deg) scale(1.5);
 }
-@media screen and (max-width:667px) {
+@media screen and (max-width: 667px) {
   .travel-card-close > i {
     margin-right: -0.75rem;
   }

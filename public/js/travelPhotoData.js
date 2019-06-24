@@ -1,7 +1,7 @@
-app.factory('travelDataFactory', function () {
+app.factory('travelPhotoDataFactory', function () {
 
   // Most Recent on Top
-  const travelData = [
+  const travelPhotoData = [
     {
       // Grand Canyon Summer 17
       trip: {
@@ -492,11 +492,11 @@ app.factory('travelDataFactory', function () {
     }
   ];
   return {
-    travelDataCurrent: function () {
-      return travelData[0];
+    travelPhotoDataCurrent: function () {
+      return travelPhotoData[0];
     },
-    travelData: function() {
-      return travelData.slice(1);
+    travelPhotoData: function() {
+      return travelPhotoData.slice(1);
     },
   }
 })

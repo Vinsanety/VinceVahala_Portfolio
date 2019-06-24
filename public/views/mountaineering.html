@@ -33,21 +33,21 @@
       <div class="travel-card-current-container">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" id="travel-card-current-img" src="{{travelDataCurrent.trip.meta.mainImgSrc}}">
+            <img class="activator" id="travel-card-current-img" src="{{travelPhotoDataCurrent.trip.meta.mainImgSrc}}">
           </div>
           <div class="card-content">
-            <span class="card-title grey-text text-darken-4">{{travelDataCurrent.trip.cardTitle}}</span>
+            <span class="card-title grey-text text-darken-4">{{travelPhotoDataCurrent.trip.cardTitle}}</span>
             <a class="btn-floating activator halfway-fab blue right"><i class="fa fa-image"></i></a>
             <p>
-              <a class="travel-card-link" href="{{travelDataCurrent.trip.meta.cardLocationSrc}}" target="_blank">{{travelDataCurrent.trip.meta.cardLocation}}</a>
-              <span>{{travelDataCurrent.trip.meta.cardDate}}</span>
+              <a class="travel-card-link" href="{{travelPhotoDataCurrent.trip.meta.cardLocationSrc}}" target="_blank">{{travelPhotoDataCurrent.trip.meta.cardLocation}}</a>
+              <span>{{travelPhotoDataCurrent.trip.meta.cardDate}}</span>
             </p>
           </div>
           <div class="card-reveal card-reveal-opaque">
             <span class="card-title travel-card-close"><i class="fas fa-times tooltipped" data-position="right" data-delay="50" data-tooltip="Close"></i></span>
-            <span class="card-title travel-card-title">{{travelDataCurrent.trip.meta.cardSubTitle}}</span>
-            <p class="travel-card-text">{{travelDataCurrent.trip.meta.cardTagline}}</p>
-            <div ng-repeat="x in travelDataCurrent.trip.img" class="travel-card-content-container">
+            <span class="card-title travel-card-title">{{travelPhotoDataCurrent.trip.meta.cardSubTitle}}</span>
+            <p class="travel-card-text">{{travelPhotoDataCurrent.trip.meta.cardTagline}}</p>
+            <div ng-repeat="x in travelPhotoDataCurrent.trip.img" class="travel-card-content-container">
               <img class="travel-card-image" src="{{x.src}}">
                 <span class="travel-card-image-description">{{x.description}}</span>
             </div>
@@ -56,7 +56,7 @@
       </div>
     </div>
     <!-- Photo Card Collection -->
-    <div class="col s12 m6 l6" ng-repeat="x in travelData">
+    <div class="col s12 m6 l6" ng-repeat="x in travelPhotoData">
       <div class="card hoverable travel-card">
         <div class="card-image travel-card-main-img-container">
           <img class="activator" src="{{x.trip.meta.mainImgSrc}}">

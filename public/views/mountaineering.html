@@ -82,73 +82,24 @@
     </div>
   </div>
   <hr />
+  <!-- Film Collections -->
   <div class="row" id="vahala-films-collection">
     <h3 class="center page-header">Vahala Films</h3>
     <div class="center col s12 m12 l12">
-      <div class="video-wrapper card">
+      <div class="video-wrapper z-depth-1">
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CnQGvCWdLWQ?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <!-- Scenic Videos -->
-    <div class="col s12 m12 l6">
+    <div class="col s12 m12 l6" ng-repeat="x in travelFilmData">
       <h5>Scenic</h5>
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header"><i class="fas fa-camera-retro"></i>El Diente to Mount Wilson Traverse</div>
+      <ul class="collapsible travel-film-collapsible" data-collapsible="accordion">
+        <li ng-repeat="v in x.scenic">
+          <div class="collapsible-header"><i class="fas fa-camera-retro"></i>{{v.title}}</div>
           <div class="collapsible-body">
             <span>
               <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dv7nMV6GTfw" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-              </div>
-            </span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="fas fa-camera-retro"></i>Maroon Bells - South Maroon Peak</div>
-          <div class="collapsible-body">
-            <span>
-              <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/96qus7toQfo?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-              </div>
-            </span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="fas fa-camera-retro"></i>Missouri Mountain - 14,075'</div>
-          <div class="collapsible-body">
-            <span>
-              <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Kr4LwaiOTsg?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-              </div>
-            </span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="fas fa-camera-retro"></i>S. Arapaho Peak - 13,501'</div>
-          <div class="collapsible-body">
-            <span>
-              <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/is4WWDBTNAo?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-              </div>
-            </span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="fas fa-camera-retro"></i>Castle to Conundrum Peak Traverse</div>
-          <div class="collapsible-body">
-            <span>
-              <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gWzcoN_PQH8?rel=0" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="fas fa-camera-retro"></i>South Maroon Peak - VMR Promo1</div>
-          <div class="collapsible-body">
-            <span>
-              <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/veIB3OugZJ8?rel=0" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="{{trustSrc(v.src)}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
               </div>
             </span>
           </div>

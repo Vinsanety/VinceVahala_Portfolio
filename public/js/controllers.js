@@ -70,10 +70,13 @@ app.controller('projectsController', function($scope) {
 })
 
 
-app.controller('mountaineeringController', function($scope, travelPhotoDataFactory) {
+app.controller('mountaineeringController', function($scope, $sce, travelPhotoDataFactory, travelFilmDataFactory) {
   document.documentElement.scrollTop = 0;
   $('.tooltipped').tooltip({delay: 50});
-  $('.collapsible').collapsible();
+  // Delay collasible method as ng-repeat finishes
+  setTimeout(function(){
+    $('.collapsible').collapsible();
+  }, 250);
   $("#travel-icon-overlay").click(function() {
     $('html, body').animate({
       scrollTop: $("#travel-card-container").offset().top - 75
@@ -91,4 +94,10 @@ app.controller('mountaineeringController', function($scope, travelPhotoDataFacto
   });
   $scope.travelPhotoDataCurrent = travelPhotoDataFactory.travelPhotoDataCurrent();
   $scope.travelPhotoData = travelPhotoDataFactory.travelPhotoData();
+  // Handle Youtube embed trusted src
+  $scope.trustSrc = function(src) {
+    return $sce.trustAsResourceUrl(src);
+  }
+  $scope.travelFilmData = travelFilmDataFactory.travelFilmData();
+  console.log($scope.travelFilmData);
 })

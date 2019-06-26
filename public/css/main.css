@@ -742,6 +742,19 @@ hr:after,hr:before {
   font-size: 1rem;
   font-weight: 300;
 }
+.travel-current-film-container {
+  width: 90% !important;
+  margin: 0 auto;
+}
+.travel-current-film-container .col {
+  padding: 0 !important;
+}
+#vahala-films-collection .video-wrapper {
+  margin: 0;
+}
+#vahala-films-collection .card .card-content .card-title {
+  margin: 0;
+}
 .travel-film-collapsible .collapsible-body {
   padding: 0;
 }

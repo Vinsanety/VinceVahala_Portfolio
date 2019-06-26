@@ -77,20 +77,23 @@ app.controller('mountaineeringController', function($scope, $sce, travelPhotoDat
   setTimeout(function(){
     $('.collapsible').collapsible();
   }, 250);
+  // Parallax Overlay Anchor Link
   $("#travel-icon-overlay").click(function() {
     $('html, body').animate({
       scrollTop: $("#travel-card-container").offset().top - 75
-    }, 1500);
-  });
-  $("#vahala-films-scroll-to").click(function() {
-    $('html, body').animate({
-      scrollTop: $("#vahala-films-collection").offset().top - 75
     }, 1000);
   });
+  // Photo Collection Anchor Link
   $("#photo-collections-scroll-to").click(function() {
     $('html, body').animate({
       scrollTop: $("#photo-collections").offset().top - 75
     }, 1000);
+  });
+  // Film Anchor Link
+  $("#vahala-films-scroll-to").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#vahala-films-collection").offset().top - 75
+    }, 2000);
   });
   $scope.travelPhotoDataCurrent = travelPhotoDataFactory.travelPhotoDataCurrent();
   $scope.travelPhotoData = travelPhotoDataFactory.travelPhotoData();
@@ -99,5 +102,4 @@ app.controller('mountaineeringController', function($scope, $sce, travelPhotoDat
     return $sce.trustAsResourceUrl(src);
   }
   $scope.travelFilmData = travelFilmDataFactory.travelFilmData();
-  console.log($scope.travelFilmData);
 })

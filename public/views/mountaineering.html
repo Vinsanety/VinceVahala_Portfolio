@@ -107,65 +107,15 @@
       </ul>
     </div>
     <!-- Active Videos -->
-    <div class="col s12 m12 l6">
+    <div class="col s12 m12 l6" ng-repeat="x in travelFilmData">
       <h5>Active</h5>
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header"><i class="fas fa-running"></i>Circus Trick - V2</div>
+      <ul class="collapsible travel-film-collapsible" data-collapsible="accordion">
+        <li ng-repeat="v in x.active">
+          <div class="collapsible-header"><i class="fas fa-running"></i>{{v.title}}</div>
           <div class="collapsible-body">
             <span>
               <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/w93kIvw-aAg" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-              </div>
-            </span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="fas fa-running"></i>Cocaine Corner - V2</div>
-          <div class="collapsible-body">
-            <span>
-              <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4AsI17y7qlA?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-              </div>
-            </span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="fas fa-running"></i>Right of Gypsy Devil - V4</div>
-          <div class="collapsible-body">
-            <span>
-              <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/R8Ua2If2KcI?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-              </div>
-            </span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="fas fa-running"></i>Black Box Boulder - V2</div>
-          <div class="collapsible-body">
-            <span>
-              <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wkUElFy70UI?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-              </div>
-            </span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="fas fa-running"></i>Pregnancy Arete - V2+</div>
-          <div class="collapsible-body">
-            <span>
-              <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vrqQ5w4kMTU?rel=0" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="fas fa-running"></i>Mr. Trujillo's Big Day - V2+</div>
-          <div class="collapsible-body">
-            <span>
-              <div class="video-wrapper center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7N17GbBOolQ?rel=0" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="{{trustSrc(v.src)}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
               </div>
             </span>
           </div>

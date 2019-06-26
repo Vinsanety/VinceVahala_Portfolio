@@ -30,8 +30,28 @@ app.factory('travelFilmDataFactory', function () {
       ],
       active: [
         {
-          title: "South Maroon Peak - VMR Promo1",
-          src: "https://www.youtube-nocookie.com/embed/veIB3OugZJ8?rel=0",
+          title: "Circus Trick - V2",
+          src: "https://www.youtube-nocookie.com/embed/w93kIvw-aAg",
+        },
+        {
+          title: "Cocaine Corner - V2",
+          src: "https://www.youtube-nocookie.com/embed/4AsI17y7qlA?rel=0",
+        },
+        {
+          title: "Right of Gypsy Devil - V4",
+          src: "https://www.youtube-nocookie.com/embed/R8Ua2If2KcI?rel=0",
+        },
+        {
+          title: "Black Box Boulder - V2",
+          src: "https://www.youtube-nocookie.com/embed/wkUElFy70UI?rel=0",
+        },
+        {
+          title: "Pregnancy Arete - V2+",
+          src: "https://www.youtube-nocookie.com/embed/vrqQ5w4kMTU?rel=0",
+        },
+        {
+          title: "Mr. Trujillo's Big Day - V2+",
+          src: "https://www.youtube-nocookie.com/embed/7N17GbBOolQ?rel=0",
         },
       ],
     }

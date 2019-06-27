@@ -54,6 +54,9 @@ hr:after,hr:before {
 .nav-wrapper {
   background-color: #00c853;
 }
+.sidenav-avatar-img {
+  object-fit: cover;
+}
 .sidenav-link i {
   color: #0882B7 !important;
 }

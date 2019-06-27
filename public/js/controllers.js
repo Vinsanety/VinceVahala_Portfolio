@@ -72,7 +72,6 @@ app.controller('projectsController', function($scope) {
 
 app.controller('mountaineeringController', function($scope, $sce, travelPhotoDataFactory, travelFilmDataFactory) {
   document.documentElement.scrollTop = 0;
-  $('.tooltipped').tooltip({delay: 50});
   // Delay collasible method as ng-repeat finishes
   setTimeout(function(){
     $('.collapsible').collapsible();

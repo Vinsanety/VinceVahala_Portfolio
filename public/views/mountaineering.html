@@ -31,7 +31,7 @@
     <!-- Current Trip Card -->
     <div class="col s12 m12 l12">
       <div class="travel-card-current-container">
-        <div class="card hoverable mobile-momentum-scroll">
+        <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" id="travel-card-current-img" src="{{travelPhotoDataCurrent.trip.meta.mainImgSrc}}">
           </div>
@@ -43,7 +43,7 @@
               <span>{{travelPhotoDataCurrent.trip.meta.cardDate}}</span>
             </p>
           </div>
-          <div class="card-reveal card-reveal-opaque travel-card-scrollbar">
+          <div class="card-reveal card-reveal-opaque travel-card-scrollbar mobile-momentum-scroll">
             <span class="card-title travel-card-close">
               <i class="fas fa-times"></i>
             </span>
@@ -59,7 +59,7 @@
     </div>
     <!-- Photo Card Collection -->
     <div class="col s12 m6 l6" ng-repeat="x in travelPhotoData">
-      <div class="card hoverable travel-card mobile-momentum-scroll">
+      <div class="card hoverable travel-card">
         <div class="card-image travel-card-main-img-container">
           <img class="activator" src="{{x.trip.meta.mainImgSrc}}">
         </div>
@@ -71,7 +71,7 @@
             <span>{{x.trip.meta.cardDate}}</span>
           </p>
         </div>
-        <div class="card-reveal card-reveal-opaque travel-card-scrollbar">
+        <div class="card-reveal card-reveal-opaque travel-card-scrollbar mobile-momentum-scroll">
           <span class="card-title travel-card-close">
             <i class="fas fa-times"></i>
           </span>

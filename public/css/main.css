@@ -693,6 +693,12 @@ hr:after,hr:before {
 .travel-card .card-image {
   cursor: pointer;
 }
+@media screen and (min-width: 1024px) {
+  .travel-card-main-img-container img {
+    height: 360px;
+    object-fit: cover;
+  }
+}
 /* Override Materialize card fab placement */
 .btn-floating.halfway-fab {
     bottom: 5.75rem !important;

@@ -1,7 +1,8 @@
 :root {
   font-size: initial;
 }
-/*GLOBAL CSS*/
+/* Global
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 * {
   margin: 0;
   font-family: 'Questrial', sans-serif;
@@ -80,7 +81,6 @@ hr:after,hr:before {
 .page-header {
   font-family: 'Nanum Gothic', sans-serif;
   letter-spacing: 6px;
-  /*WAS THE OLD COLOR teal-text text-lighten-2*/
   color: #00c853;
 }
 .section-header {
@@ -235,7 +235,8 @@ hr:after,hr:before {
   left: 2rem;
 }
 
-/****ANIMATIONS****/
+/* Animations
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*Vertical Wobble*/
 @keyframes verticalWobble {
   16.65% {
@@ -269,11 +270,10 @@ hr:after,hr:before {
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
-/****END ANIMATIONS****/
-/*END GLOBAL CSS*/
 
 
-/*OVERRIDES !important*/
+/* Overrides
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .btn:hover {
   color: #0882B7;
   background-color: #FFF !important;
@@ -284,10 +284,10 @@ hr:after,hr:before {
 .modal-close:hover {
   background-color: rgba(0,0,0,0.1);
 }
-/*END OVERRIDES !important*/
 
 
-/*START HOME PAGE*/
+/* Home
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 #home-welcome-text {
   font-family: 'Nanum Gothic', sans-serif;
   letter-spacing: 6px;
@@ -346,10 +346,10 @@ hr:after,hr:before {
 .home-technology-section i:hover {
   transform: scale(1.5);
 }
-/*END HOME PAGE*/
 
 
-/*BIO PAGE START*/
+/* Bio
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .bio-container {
   height: auto;
 }
@@ -376,10 +376,10 @@ hr:after,hr:before {
     background-attachment: scroll;
   }
 }
-/*BIO PAGE END*/
 
 
-/*CONTACT PAGE START*/
+/* Contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .collection {
   border: none !important;
 }
@@ -422,10 +422,10 @@ hr:after,hr:before {
 .input-field .prefix.active {
   color: #FF8700 !important;
 }
-/*CONTACT PAGE END*/
 
 
-/*RESUME PAGE START*/
+/* Resume
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .resume-skills-container {
   height: auto;
 }
@@ -503,10 +503,10 @@ hr:after,hr:before {
     background-attachment: scroll;
   }
 }
-/*RESUME PAGE END*/
 
 
-/*PROJECTS PAGE START*/
+/* Projects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .projects-container {
   margin-bottom: 3rem !important;
 }
@@ -562,10 +562,10 @@ hr:after,hr:before {
 .slider-btn-group {
   margin-top: 1rem;
 }
-/*PROJECTS PAGE END*/
 
 
-/*MOUNTAINEERING PAGE START*/
+/* TRAVEL
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .strava-iframe-small, .strava-iframe-large {
   padding: 1rem;
 }
@@ -786,10 +786,10 @@ hr:after,hr:before {
 .travel-film-collapsible .collapsible-body {
   padding: 0;
 }
-/*MOUNTAINEERING PAGE END*/
 
 
-/*FOOTER*/
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 #footer {
   margin: 0;
   background-color: #101010;
@@ -804,4 +804,3 @@ hr:after,hr:before {
 .footer-icons > i:hover {
   transform: scale(1.25);
 }
-/*END FOOTER*/

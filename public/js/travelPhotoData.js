@@ -3,6 +3,50 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Mt. Parnassus Oct 18
+      trip: {
+        cardTitle: "Mt. Parnassus",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/uUrLcMcPy1pf6FQKOx63kU0jUlEzqVytW73rBAqZ78bm1BgdHRCTlpShYb71LzF8CDI-RJrdFNnavnVorU2_ri6gUHXwP59QnrPckaxfVCMXd8habuWkAcxSDNa80IY_iB71FEU3YC8dWVkeM3rbZFM2JarSQV6WKg0nw1dEw6esJtpPhHngH9aGm3I2UyMeDYGKtt6WEYks6T5lVm0anixKcADOJjgfPJjkTLiEPp8N_342v_XCf3miEPHxbxPnTEgFLOjqXJ4t4_lRfFxY1AtdsXPfKj1ih0FJNTEVOUedSVuwg112xGU3hRuaTsOkEJaIF_0S0UhGMILnRr0_n5KHReRA_0tbGxbrwmz2PVwKq1S7fiQibiYdEPY-NaNNy5A-d1AuikyTTNDw0DjMRoW9vdhK8F-EW4dreZuDyUZslK8Oz5Q2JZDqcdbSOH1VZ03h1lTcT7xD0HiKglWhhlmYXZF_vhv0MyJAQeCGtfXj4u_PNZE6BfK1iQ455zTgp75woi_R2DJbAurU4O5UQI5Pe8yji18pbQuKFjNvYCkgqYnmuMp7huLUQFcjZ9JX_UeMFqLSvwj_aSZjA2Ko2rE-L-p6PuTBgsjx5VmOcW0m1ceoCtUlwicD4b5MEPic9MdmwDZH6rK_DNxDHHDLwTGzLM1YVlw=s789-no",
+          cardLocationSrc: "https://www.climb13ers.com/colorado-13ers/mount-parnassus",
+          cardLocation: "Watrous Gulch Approach",
+          cardDate: "Oct 2018",
+          cardSubTitle: "Elevation: 13,574'",
+          cardTagline: "A fun, close-by, 13er in the snow",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/zN5fPW3uFrDlpyh6zBygBSnEyjjJ-w3AheZSiwjm1lv-M6UIvZQGLKutSYcMF6XHdJkBeOknqDGSEtxidbzoGBaZnYIcf0LahGzpyuxGwp6LKwpIab-f6oeE8a0iLITOEM10BKmLMWiUb0xgMedeJJiz3hDvbaaw2TKirC1F5vHBlYR-iCPWieX2WPKjMV72vW6fwCUfYh-YIV1cHwevPcMjCZopCYlUT22fbMJcaAZSxXYbrfb2ory9ownuGcdgPkifbvB8KHLwBExklc0REUET_A3l1vgi7b5dlPFkdp1CssW3HEG6nr_mKKAEtllECr8vsqd2CyC_DdkLQEvY91xUJwPkGXA2cEFHKi5VwH8_mMDS-cB0XAEOBZBZD9Wqr0Mn2h3aFUbBXE-pvHLQ_dYA6N9AUtA6DIXy_JG5KvUk-rY5nl4sYLSTFnQSrVDtFOKJydlNkVhdZu01-H5DbYwOzcIByEqIQXCU3muaUK_sVSwJz-jFdkosTV5Jj-mzNF263aneZsvTfITyyXfwJoBuFEChxYeEWjLsgueCosipbmJNOTMQuIU5tqwZcMB3cDkhEMxZRnA5F6h2c5dCObyGLj5dElSGZNXVRY2xKVUYj_HW_kIBJpSRaUwP_dx1sCAIk6oV05Vi5w3M42alLrzCBPYe9rQ=w592-h789-no",
+            description: "Stream dreams",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/bM0MTIgWJHxWb-UZC_NAOUVNtDRHBiD-EAoFcZ7bZS2rh4aSnZdxGFjU-1sRIvo2mgPNQD-bjLfMx6rUBRpXhXil8Jn0MM2B7H6tURxMPEGp7Ltas1LiYxF_qcdrZ-6fI27NTUW2B07zXZ5yRfYbZfcrQRJ4okRG1Etsnw4wCQQFLyTzLDB_zMpgVNSSB17Ekwz9JnWexrcR4nwOWrkjkrGq5xm5hofhpgk_WUxfli6A6EI_8ck7xwUx-N6xa-qGHtnQqX-qz3LXII-sXu7y3wixIUYWKeH33iKGHAo2FsjxE3ZWFt_2WvkRZcJV5PyBQxCZ4XZVyHE_vaxYcRvxZXAwjSKByWGOlTNSaVA6XiYOLcKHvmhRE0qUO8AJjfT7N-ZmR2jGToGMe8yJBktkhPavHvivcxqejn-SGwdq7jPMAXGXYArk4VKOjEYWsXUo3XkODM6kE7_t6dTAY8wziYbZ2O5O4uSJVfrdRYFDa1jp6JWbTeSUWoObnGiZ46YwLPaseIiy3sbFxoHb8dqyDywzuixbdcX_jDDzdr_tZwH7NdKk5kCzj1G6yvpPRaDi89Z8tnJZy70jSWKKkjvMyVmKFqukHiX0U8_UZ1T9rjsE3_44bvAx8Zl72KiYabaq-gqgp_Qc51XbeCO7jAUP9NbSV-fAvjw=w1052-h789-no",
+            description: "Snowy approach",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/ZSdy0Y2X0jHR_NlxGukjiLF1cV9jtATlJp24RN_t3IlPrV1bjfpiD_M5xACxDgiH_LNj43TEBRn7eAy1zEnA_WCle64zQafYg_CTf-oBQ8ONoCLgIh2dbUodP8cP1k0uRWxEUIXKxI2Rc-X3ocua-gOWV6bFX-MQetf6bYprg_NufMDNe6NhhbWyLmF8Wu3AgsT5MXQXc3wJogGH2EC9qitVd6fZLvVYtIgtoAus_qj7cC-wFCeiQ-J3ZK9jM6GNFf662q6oYLT1CqzXs-NQmpgHj9KrsYG4LyLEHonYp3EtuZ46-DdSVrP6MAcJQRD6qRLv2TPyzt9zzHTokS0hG_bOWGScVlj3_4fpIG7S2_Bq2Jern6oazEgKG9g9gbt6PLbfuzEg-uGY9jNOdotMtN0LqjEFJllfR4qZKZSxN7kNF_wYVfgLPI7Lm4nriQ1t40LpA_93Fa_M5yzOm1S2mEntS7YND4dNWoVJ6kI-dec7FXuPjMJzZvMN1KJ5F6FLY4TLRprBGvNNMzKxgR-zC2-5BKOKC1DMNu5l8BX9nYKHWGuVLVV3IQ2GQGS9nY84FB2y9xAHUpOI3iGUBG9CwYCeDOrUVVcHY3VeUUFs3PjjrNDQFBnHRcn5hsm9uxN_dlS2fiaQKavikmQHTL5Qb8Kl6D1WCwM=w1052-h789-no",
+            description: "Looking back at the trail at ~12,500'",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/QJ-2jtUAquGB85mepPfbmm0sFsSsh4jTwMC_qEpaeTsosYdvg7Lfh7KWrWFBInHedsP_FIvUCNdPPbmYA_szsy6RAvhdmPYYcMehY5hgDht2wlFhwcPB-KxHfQwKNcmoIYO9EyV_jkC54eEb6EGNM8LwIOKHeJlmHOV9XvJEjG0ySMepgtgdlWEEmUz-T8owksSZS1LgwXotzZK6GEPhZzmDzuQIg0HaSpxfWanRajAH0pdwCRk0L4ukLPPWu6ztQB5sEwwl-9SKO5Q6J4BxaF1-nD2lj5CMymZS3jLP5Me4GQKUIumK8IdbR92yCVBdJ5f63vtb1XB14uM8qb_lEtvilK9umGOb5uJ49OjP5iLTC7k4yOhvrNcVGypcQJ9b0-_o1a3AGBs2cvDuhuFL7_1bPJHuLPeW3JqQ_8SwkOJ_lyK6R3pyJkYbfWfrEkzoIl7n4i_2pjfS42Wsd6tIUS6e7KMuVGBIllFR4Dw_RVuNyKBHVWDtm1GqwTs9aRRdziKh20qLq-MXvxCcJXT9WluQVmRAbJG_KF5Aa4oML23J5Oe4f4YoWL1IdRjHRwSi6ICYK9wmZZj8K57Xu3T0qiX0JJ1c9bfnmBXl0ZiTOtsXHX5hK_iGrsZF1c6D_z5KG080tk12d-Ac6zS_PobgXOkwg32LFBM=w1052-h789-no",
+            description: "Summit Views",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/sp456XUx5dkKM5JaemEXC1JZHHMMZ9UDoK-mW4CvAjBFj0wZb80X7oEuD-2wxUDeStXFPGJzwXX95Qlf5rFJdMCAoSnEuzOnmljs70uNFU76sibahbJKM6WWqU7GhGVokHsH4TkVZlKTN-fFWgaLde-DfwgqiwVFdxDYcx7WjrESxwHlgV1Y1J6AoJubOIPBdAZuPdazWAIswCTHIWFqHeTHIZGJl0clUcfZxamMM_ahm65dJG5M3qxx-Uzgmy0XoAXjV2v5DAcIrN9ciPGmEvozfdpHrGqx_LoHQNY7CVxFkmDVfy5Pw6qYUitBm3e88Mwzmw9Lv9uoblIOd_QJzz0hQeZnwywloDA6BXxQcL_vEp5lwMSKG8LmFPiOBMnx1KWwIps2gvB0gijZ4Ln7Yeqw71Al4J0dLzB78e63Tfci0pCABrQJF6XJ6AbNlDGpIT3SoWGzVZ63HL3JZlA7M-7WhCd8b4RoGKbUPA5t2K8dpgd0_ePKKNxgE2m8iLXHyZedFKy3FUKrW19gKbb6D9taCCt-P3ygdAzzrreLdd5ldNd02q2eGCajgIGLrBuoCTSw4qj2YAubjQhNAu9p_FtXUkeBiLhppTqTUREd992_H_WFblo03ih8lD3awhzyz1b4mfDwNKUd6njVaBwLsdtcJfZy2JE=w1052-h789-no",
+            description: "On summit, looking towards Bard Peak",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/NlASNzTf-qgnUKZ4Gzll-B8R2vEwgMXq8_fKJ3N6bxnQ8jUY0-S5U2VBgUdacZCzaN0Lai5aQj4rQB_2_ojUF478tpdfQytVRqD1agx8tB-_6fXS518h4P9ETZvI_3ujDc9FCajSMC4NuxM95Uf5LwPGNaI6C3e0RXQERHBdsnsQWZpQ91sHWUqfxL_2XhicSI3J7RkiHsHsdVnScQOhpfDl4rTXV8TQsUoAUtuvPwocKDxMkS0DaVEHsD1yLajkZjUPrMrN_g-XGl_D-5ODb7XuitVViA79hnQMH_yw3qNneJjq-69EodL4nS63xMiO6RPEZ557rJY2FajRoSeKSITO_zypRpTgNUgF_9LB26XwZU0LzKplIp7OsokStEiUgDmHclJBwHuTILYRKBO6B8EnqMHPu9AfSzIZ5LwxsR0Dqk6AgWhWfQ2loQVl3nv0wJDl3hxq6JzlQnzd-eTXC9RBMigKhtU4gj7bze6UyKfdCvTYz1Wt75-v-1LgwosOlwLNffvMx7_g0PUatEOuIyu3-z4GIDRY5Ms6YS_Urjt3EeiRMJtBIEAV9HtM8i96w4BOoT1hHVuIDxML7I4r23XzOU-X2L9x_AwhZLAFAp-gs3KRvcnfC2wAofnBK2WXV9BssIueLAoRcDnACvDoLcoKVo9sYwo=w1052-h789-no",
+            description: "Looking NorthWest from the summit",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/jO9VcoA-liaotgTdoJNbiNcgPtkfra6nOTYoJkmWaeqp1TMwvVNFhtdlISqVlWeH41k-E4Vz3LXPOeiJzN1PD86JVnjZUagr-cBfJPY-zF8n5-h_00TcWhw02ab4_lncDoSHeA4ZAQ8txmPXZ5mw0QZbs_ul0URW9s09-wX_Y1iasXaGTGQuHIDnfgj7Egs3NJmWqXDYReWqV0M02f-h5y3P8UUyZiPJvijjtAgy3v-35WpCfzA8ALVYWcIgGT2PUyRbCc24UieUL6NE2MDII42MeVWUfbTKSkqpbTrwvNQMy4LN1kN-p0DndaQOVtrzHDAv6Tk7I9h4MHqPE6mugzSQqnzPNlP3wuxnq_s62s_h50l3TXgMrDoguo5A3PLkgdnaDZVJn3T8cFW8q-zldU9AuUcYyPFuj9SaQxqV0ETlQ_99a8MY0EPm0uLFLWiFJjrGIHtnDF5xlAg2RwcSdsmOlRCvg1rC0vgNdAMsWwKK2j_isuqGN3ymIwQUWZxa4pLwse36tc7C_0pLR-hFs1VhXyL0000kblxiy-p0tO8OBXE9Tz0WyaMNYVgJV7JscHFbRtoDaw9tSZwnHlmXkw0lLkvMICtktEVW8FIZINMkXePeC8tjzBAzD33j71DUPgSWFFOKuIiwwYvSR1H0lFVeMrOnPrs=w1052-h789-no",
+            description: "Working my way back down the trail",
+          },
+        ],
+      },
+    },
+    {
       // Grand Canyon Summer 17
       trip: {
         cardTitle: "Summer 17 Road Trip",

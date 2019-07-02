@@ -473,8 +473,10 @@ hr:after,hr:before {
 #resume-download-pdf:hover {
   background-color: rgba(0,0,0,0.1);
 }
-#resume-skills-pipe {
+.icon-block p .fa-code {
   color: #0882B7;
+  font-size: 0.5rem;
+  margin: 0 0.25rem;
 }
 .resume-icons {
   color: #FF8700;

@@ -352,18 +352,25 @@ hr:after,hr:before {
 
 /* Bio
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.bio-container {
-  height: auto;
-}
 #bio-card-header {
   color: #0882B7;
+  margin-bottom: 1rem;
 }
-.bio-intro-card {
-  width: auto;
-  height: auto;
+@media screen and (min-width: 1024px) {
+  .bio-intro-card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
 }
-.bio-card-content {
-  font-size: 16px;
+.bio-content {
+  font-size: 1.125rem;
+  margin: 1rem 0;
 }
 .bio-mountain-parallax-container {
   position: relative;

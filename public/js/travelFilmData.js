@@ -30,6 +30,10 @@ app.factory('travelFilmDataFactory', function () {
       ],
       active: [
         {
+          title: "Device Ignitor Middle - V5",
+          src: "https://www.youtube-nocookie.com/embed/RZI6mzwZIlo",
+        },
+        {
           title: "Circus Trick - V2",
           src: "https://www.youtube-nocookie.com/embed/w93kIvw-aAg",
         },

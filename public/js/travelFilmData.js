@@ -64,21 +64,5 @@ app.factory('travelFilmDataFactory', function () {
     travelFilmData: function() {
       return travelFilmData;
     },
-    // srcScenic: function () {
-    //   var urlScenicArray = [];
-    //   for (var i = 0; i < travelFilmData[0].scenic.length; i++) {
-    //     urlScenicArray.push(travelFilmData[0].scenic[i].videoID);
-    //   }
-    //   console.log(urlScenicArray);
-    //   return urlScenicArray;
-    // },
-    // srcActive: function () {
-    //   var urlActiveArray = [];
-    //   for (var i = 0; i < travelFilmData[0].active.length; i++) {
-    //     urlActiveArray.push(travelFilmData[0].active[i].videoID);
-    //   }
-    //   console.log(urlActiveArray);
-    //   return urlActiveArray;
-    // },
   }
 })

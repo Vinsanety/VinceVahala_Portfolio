@@ -102,7 +102,6 @@ app.controller('mountaineeringController', function($scope, $sce, travelPhotoDat
   // Handle Youtube embed trusted src
   $scope.trustSrc = function(videoID) {
     var path = 'https://www.youtube-nocookie.com/embed/' + videoID + '?rel=0';
-    console.log(path);
     return $sce.trustAsResourceUrl(path);
   }
 })

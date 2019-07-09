@@ -5,57 +5,57 @@ app.factory('travelFilmDataFactory', function () {
       scenic: [
         {
           title: "El Diente to Mount Wilson Traverse",
-          src: "https://www.youtube-nocookie.com/embed/Dv7nMV6GTfw?rel=0",
+          videoID: "Dv7nMV6GTfw",
         },
         {
           title: "Maroon Bells - South Maroon Peak",
-          src: "https://www.youtube-nocookie.com/embed/96qus7toQfo?rel=0",
+          videoID: "96qus7toQfo",
         },
         {
           title: "Missouri Mountain - 14,075'",
-          src: "https://www.youtube-nocookie.com/embed/Kr4LwaiOTsg?rel=0",
+          videoID: "Kr4LwaiOTsg",
         },
         {
           title: "S. Arapaho Peak - 13,501'",
-          src: "https://www.youtube-nocookie.com/embed/is4WWDBTNAo?rel=0",
+          videoID: "is4WWDBTNAo",
         },
         {
           title: "Castle to Conundrum Peak Traverse",
-          src: "https://www.youtube-nocookie.com/embed/gWzcoN_PQH8?rel=0",
+          videoID: "gWzcoN_PQH8",
         },
         {
           title: "South Maroon Peak - VMR Promo1",
-          src: "https://www.youtube-nocookie.com/embed/veIB3OugZJ8?rel=0",
+          videoID: "veIB3OugZJ8",
         },
       ],
       active: [
         {
           title: "Device Ignitor Middle - V5",
-          src: "https://www.youtube-nocookie.com/embed/RZI6mzwZIlo?rel=0",
+          videoID: "RZI6mzwZIlo",
         },
         {
           title: "Circus Trick - V2",
-          src: "https://www.youtube-nocookie.com/embed/w93kIvw-aAg?rel=0",
+          videoID: "w93kIvw-aAg",
         },
         {
           title: "Cocaine Corner - V2",
-          src: "https://www.youtube-nocookie.com/embed/4AsI17y7qlA?rel=0",
+          videoID: "4AsI17y7qlA",
         },
         {
           title: "Right of Gypsy Devil - V4",
-          src: "https://www.youtube-nocookie.com/embed/R8Ua2If2KcI?rel=0",
+          videoID: "R8Ua2If2KcI",
         },
         {
           title: "Black Box Boulder - V2",
-          src: "https://www.youtube-nocookie.com/embed/wkUElFy70UI?rel=0",
+          videoID: "wkUElFy70UI",
         },
         {
           title: "Pregnancy Arete - V2+",
-          src: "https://www.youtube-nocookie.com/embed/vrqQ5w4kMTU?rel=0",
+          videoID: "vrqQ5w4kMTU",
         },
         {
           title: "Mr. Trujillo's Big Day - V2+",
-          src: "https://www.youtube-nocookie.com/embed/7N17GbBOolQ?rel=0",
+          videoID: "7N17GbBOolQ",
         },
       ],
     }
@@ -64,5 +64,21 @@ app.factory('travelFilmDataFactory', function () {
     travelFilmData: function() {
       return travelFilmData;
     },
+    // srcScenic: function () {
+    //   var urlScenicArray = [];
+    //   for (var i = 0; i < travelFilmData[0].scenic.length; i++) {
+    //     urlScenicArray.push(travelFilmData[0].scenic[i].videoID);
+    //   }
+    //   console.log(urlScenicArray);
+    //   return urlScenicArray;
+    // },
+    // srcActive: function () {
+    //   var urlActiveArray = [];
+    //   for (var i = 0; i < travelFilmData[0].active.length; i++) {
+    //     urlActiveArray.push(travelFilmData[0].active[i].videoID);
+    //   }
+    //   console.log(urlActiveArray);
+    //   return urlActiveArray;
+    // },
   }
 })

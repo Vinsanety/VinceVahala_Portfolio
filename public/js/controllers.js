@@ -94,11 +94,15 @@ app.controller('mountaineeringController', function($scope, $sce, travelPhotoDat
       scrollTop: $("#vahala-films-collection").offset().top - 75
     }, 2000);
   });
+  // Photo Data
   $scope.travelPhotoDataCurrent = travelPhotoDataFactory.travelPhotoDataCurrent();
   $scope.travelPhotoData = travelPhotoDataFactory.travelPhotoData();
-  // Handle Youtube embed trusted src
-  $scope.trustSrc = function(src) {
-    return $sce.trustAsResourceUrl(src);
-  }
+  // Film Data
   $scope.travelFilmData = travelFilmDataFactory.travelFilmData();
+  // Handle Youtube embed trusted src
+  $scope.trustSrc = function(videoID) {
+    var path = 'https://www.youtube-nocookie.com/embed/' + videoID + '?rel=0';
+    console.log(path);
+    return $sce.trustAsResourceUrl(path);
+  }
 })

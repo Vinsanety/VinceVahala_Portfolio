@@ -31,11 +31,11 @@ app.factory('travelFilmDataFactory', function () {
       active: [
         {
           title: "Device Ignitor Middle - V5",
-          src: "https://www.youtube-nocookie.com/embed/RZI6mzwZIlo",
+          src: "https://www.youtube-nocookie.com/embed/RZI6mzwZIlo?rel=0",
         },
         {
           title: "Circus Trick - V2",
-          src: "https://www.youtube-nocookie.com/embed/w93kIvw-aAg",
+          src: "https://www.youtube-nocookie.com/embed/w93kIvw-aAg?rel=0",
         },
         {
           title: "Cocaine Corner - V2",

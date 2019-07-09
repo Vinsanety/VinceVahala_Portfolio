@@ -33,7 +33,7 @@
       <div class="travel-card-current-container">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" id="travel-card-current-img" src="{{travelPhotoDataCurrent.trip.meta.mainImgSrc}}">
+            <img class="activator" id="travel-card-current-img" ng-src="{{travelPhotoDataCurrent.trip.meta.mainImgSrc}}">
           </div>
           <div class="card-content">
             <span class="card-title grey-text text-darken-4">{{travelPhotoDataCurrent.trip.cardTitle}}</span>
@@ -50,7 +50,7 @@
             <span class="card-title travel-card-title">{{travelPhotoDataCurrent.trip.meta.cardSubTitle}}</span>
             <p class="travel-card-text">{{travelPhotoDataCurrent.trip.meta.cardTagline}}</p>
             <div ng-repeat="x in travelPhotoDataCurrent.trip.img" class="travel-card-content-container">
-              <img class="travel-card-image" src="{{x.src}}">
+              <img class="travel-card-image" ng-src="{{x.src}}">
                 <span class="travel-card-image-description">{{x.description}}</span>
             </div>
           </div>
@@ -61,7 +61,7 @@
     <div class="col s12 m6 l6" ng-repeat="x in travelPhotoData">
       <div class="card hoverable travel-card">
         <div class="card-image travel-card-main-img-container">
-          <img class="activator" src="{{x.trip.meta.mainImgSrc}}">
+          <img class="activator" ng-src="{{x.trip.meta.mainImgSrc}}">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">{{x.trip.cardTitle}}</span>
@@ -78,7 +78,7 @@
           <span class="card-title travel-card-title">{{x.trip.meta.cardSubTitle}}</span>
           <p class="travel-card-text">{{x.trip.meta.cardTagline}}</p>
           <div ng-repeat="y in x.trip.img" class="travel-card-content-container">
-            <img class="travel-card-image" src="{{y.src}}">
+            <img class="travel-card-image" ng-src="{{y.src}}">
               <span class="travel-card-image-description">{{y.description}}</span>
           </div>
         </div>
@@ -109,7 +109,7 @@
           <div class="collapsible-body">
             <span>
               <div class="video-wrapper center">
-                <iframe width="560" height="315" src="{{trustSrc(v.src)}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                <iframe width="560" height="315" ng-src="{{trustSrc(v.src)}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
               </div>
             </span>
           </div>
@@ -125,7 +125,7 @@
           <div class="collapsible-body">
             <span>
               <div class="video-wrapper center">
-                <iframe width="560" height="315" src="{{trustSrc(v.src)}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                <iframe width="560" height="315" ng-src="{{trustSrc(v.src)}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
               </div>
             </span>
           </div>

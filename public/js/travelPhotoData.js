@@ -3,6 +3,98 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Long's Peak | 7.9.19
+      trip: {
+        cardTitle: "Long's Peak Run",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/0VC35O-bW_jPEb2TpedAi8IgeGoAX_f9s_eaByuyPjBCjHqeEI_onmryub3A0c-7JpbsFjY0eGekwdeuTEYuqpJkZ4T6LXpgy_SK7wPNEAyBQvCSxuIGNGwpW5jsQmSPC-i4wV_zbg8iOJr4E71C-HUj0K3ne8LuNF7HbVBWM10gu95RTy4kcD_NgG9nd-yEkzSs7yj_H9-JBC81XCD0nGJm6LtpwAcIzSyReg8SJdh1xe2rqtmF-HOu3opT8LS9PUyk1c5gfm2Wg8aQKUinE9kz1SSSGIL8H-6a6yNjDBk-HjE9AD_HW2oyLVvNP5fYfbXSX3pAQBi1IQUcXOkPkdBmvbG4ck0c8qdfEZT-2PlOSW3xYrdwt90aJ4LBZ9URxHtOzJ4FKlIFJ_MlCUmp8OD0aZpjOHHulkHCFqKqPK93t_AuT6LxufNhNFNHR9b11tjRDE8IPHv3dtCexjkxFINXMJwhfO91yEEzkRXRV_Gydh6D7-0kNQ6E3JPqkDj8ysUAzEYwWCUhfQLC6BMGgWZ-jkOdiauiwBz7hE9L2zRcsQUhw3gMMJI_c27sPeG_tjVgpg0Z-gXSJ8goB6PhQ7gNsjkU8_6Omahwjj_k6hDUKnLz9j7y10CBvllQzz2RXL93Q9Fli4jCAoi2SxSGiIbh2MMK8iI=w1053-h789-no",
+          cardLocationSrc: "https://www.14ers.com/photos/peakmain.php?peak=Longs+Peak",
+          cardLocation: "Rocky Mountain National Park",
+          cardDate: "July 7, 2019",
+          cardSubTitle: "Impromptu Long's Peak Summit Run | 15.5mi/5,200'",
+          cardTagline: "Drove to Boulder to run one of my usuals when I checked the weather and decided to go for a late Long's Peak attempt up in Rocky Mountain National Park",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/SWI1rGp_aXmc99Ledfl-ni_KARuwauJYznPLQqOUrIkiF3rn-MHhPomlWl--rKnI2YGM50_DOhyPawSWtsfY8NtKDM1zBPdQcbDLCTUcQgk_QhbRtvPGPXZrnfN3UchUfKB4v35E1lBbna6oDFhw4cmOsf_YT9Qvgkr79qj61VPIAsttWdyoNQOAODDotWisn9MFm7r8WtH4ekr7-obExDGYIm2b3T6CR0olxE4gG_GVvCJSqAmKlIqNS32g3j-2aVlyAylqUsW_nZbag3nnSt2KJBDrXw4FRKo13DqcZSP2N7KztOCRnT0HUrZwjGDReZJACuaW6lED9m9cIiDSe6z6kk-HUgrm_xF05omOBOC9AEqPRjxKxH797Z53QPUn2zUxU18p5T-yphYHpiuBXEqNVHQdPgy6fqLhUn02nCuosc7dgSNB2M2HcnUhsbf05iujpSIzURgZifqbzhEDMcUM3NnuaBb4u-rpQjeB0z7xyXyLE495WzE91cYhvAUrQ7cbznpC4NYSef1pcw81LyzKMje4yk8HH20JvoWOqrDFKAjJuf7SQJgnmFuKTx1nevvZJUXQCloFETfbJ0caDtq0h5aknAjtrkOwCFl7Qm9LGhL4LqRoBkq_5pFmYQUhcBes9r_dJlC1M5MJE2C0rmjNbC7LC1I=w1052-h789-no",
+            description: "The start of a good day",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Py9HbHaw8luhhdZMhiL9Dn0ynrroIL8p49A8mN79C1oU6a_TPN0YX_r3kqpBCS3E5VpF2M4HD4qv7inZrgoFmGnh_yGhmRHNEaIpJVMYFnQQo1lncMO7bwierfhd6STXF7sHp-fPvsaZJdY6oCjfqrupRh3dPE4khueOMvWU3A2uGRDULq-MMBrF3wRB_tXIGRcUx0X-DbTYIpv30I-fhJsfpjpdvwOaoznpV75TjJtaw6lNQA6WUEBmZlT9g5M_VdevY_sAxPGdLST_8Sri8ccYGWKMu-s1RsgqbdCtB-_kkY67sBngOinZ6xwLeBiYdi7CQ7JldlRdGMGnQ8h9K70QAqP2wqtQ-Ygn7_rr-cN_H16V5nTNobWWmASAki3bGq38RQNgJEvGR_BaDuNqr-PeTSy2uKLrb6Hjx6yZcfUnicdaOY0Wr1_3cBkChGiyEj9-_GqnxcpohhnJCmKLrdQY6NIOlfopYmZhKbj-THYJ7ltLgnv7WL6JI6SBc_YDWn9fdOTpeFqfJQbfcR1Cndkd4OTpz_W-caNwUJcwtpw_8fpAvz_80-B4OlGvG3grxtjj1MZbgtt3cAD3ocJVL2X7jiokxcdkDQPKIxSfc03RhzC5RXx6eZSCqykRKOqRRBjROUDgpRkLabO2Sv8Gy1Mah_oKuR0=w1052-h789-no",
+            description: "So much water! Love it",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/rgp4aUuH_JQaak3ZA3-F8-OeyHYZHP2Qs3fMXL5sKphU_tYJTjuK9tWFeDQX1CreaIgxdtR3iOOVBBf8LGFL0oWaCBiIabuJK81Jy5vORpeUstgV2We7LQQQC0RWm5vF7bbnlCH_blESJPBE1NCrFI-9iuZN4JHhkhOMdK0ek6eF5BF_ZgyrFR2fWE9ywLZMOqdrMrqNNjMXOiBlPpbUvGPpNGUjUdJNFBp-cRKTSZ92j8CJfWgu-Bn91PTFgoCL2SdorINUky1dUpnGgrWfgd_R6LTFEvfs8u0pvHnx67L1xutZL9JRHz0M9f5mSyYio0TFElYlKFyuTKCACNs1rkmDxwe49UPbZ6o0cc53LJCD9du0Uggt3Yx_PrqblwDU3Q0DC7gfMZi9kxy5fxdpHPIPpjZmvSqLLkktqBeWlFa7JJwUjO9ZqSH2Y4pcj85D1BK0iy3PTCv9-P_aM2bCTR9GjiXjc_bmYmulQkwj7IMlyPlBufW1hjds90J8MG21B-I835BCRFvya6ryKZOgb-yMJd5b3SJ-Uh5NXrEy4bBJ6-cTfY7mMcRTc-5tsaDPrmGzOQaLC-4fv_GdMPG_z1JlU9Gj7KZLlsnAAfgCw5PjxFuEqF5pfyZQ4QHRbI483qzI0czP-86D-IdxBN-dXfJConw97Xg=w441-h331-no",
+            description: "A goregeous look at what I will later summit. Long's peak from the junction to either go left to Chasm Lake or right to Storm's pass",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/yL699s02s7X_iLnI9n2wAXODt4WJcDJ5q6fd8j0h0kp8iK21HhQha1sE3S9s7jpDrGyR3byX_MXyWoLoHEdG4T86vySmEEr-5sbWkDUWOaXmPg3fDErX2QC8mxbUrL8AovAIlqJhpJ2I1G-8Q-WwM7iWc3CAUurMLfTMFo60HnBnaLqctbT0DEIZ0iFOd81Q3f7ts-snmkMF72F9cx8_lQOZsBt91n-UMjDPivjWuFhlUF6bVGAQGc77eLzjThO802lsOCznUL9ViNJhKXsM746hJKT0NzTR1hIcXaUdhbipziR-ODArkoD3mv4LQhqUhhKPFc4cfH4civAa6JsBkiTezxt-fZ6YCbSkpTW9pAeZvAgENsEx54CMt5ADgkMJgkUYeXoN-qzN9a_LGCx6ZIq6ZNfHncX1tLlVbeGISaYyg_zvCaMFtkP9M7fHCbWKFnpP6V0m7_nmJZcL6HGPZwIUEdW1vz_a9pbbuUID-OsOyJNIesRi9mJqxIhWD7BUwlZ5ZDIY2qakOoEga01rniVS6d7uyefQWiXdIW0L_KSKNcnWdnpY7lKk0HWfHyEActfZaApje0ftipVtrhxXmS4VLOSEPyFYpbAtoziBzE8K3p3ddGXP7F4_E0LIdCTUM1ZHYAQAf39KFR3GtLPRcYcSSHQ4068=w1052-h789-no",
+            description: "Storm's pass. So many options...",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Jkpz8dAnO2hHmodBwHhgVUQltQyaFFNP6pfoj7GO4Ff8qui9NO0FdKi5vRuTrEDM7JWUsSQflZNoNu3kWFcfUz35MdNrZ05BWvzA7iKOodkzUGBRS_Gr_0cbgJTFauZK0lMX-6cZO8LBm57rjWIOVlTpqeojRdfyQ8mKrEfIzJvPA82LSn3-pv9B7_Pzu0lguQxasLhngGUjeVAnBEQu_nYYPg_qK4mz-gxXMSWtctpZ5zGcx5GR0SpxcmgcJH7Ekt3B8SRXvCaxwWft_1C91I8G7b-AFrqOe7ZzcxR3JiRoNmvBU7M_5u7PeIXN3QDboNSs7ZOU_pf2yaQ2gykiEIZsueRCFxAf0VrIvpGtnk04bgEdRxyGWmbOIqSmR0xLqptXCEEHHDMQHgdXSxm_ixCEn6CbL0z3V0Y17yiRjAbFMfDeHTkLD_6C-wxwIUuop9IXdXAcfFJ9mxZe58RMT0b2LWU4jzIWl4DCC9Mhgx9p0mI5ZEjxMQWHhrdiYh88TLgm54CQut2Uf_mjrdkV8s3aaDYHahfkVBulT7ucq9SARcByqDWbHgyJRPvpeTYl3xT45JbWrCkV-kRyHnlflGoUraYTgBQGkiMN-lLmt2uOja1xg-G56fYsPy790dkJpWLR14c_1V43DYW7iHqt19okuglgAiI=w1052-h789-no",
+            description: "Call your shot",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/ExQDmNIUtsBSqc3Z2VVtnlqCC8_77Ae78eqzemHOtnkDS4LVHyJ0l_i1E4OkYTAYx2VMy7Nvsbo6KkWh49bytEB57Fjx-bNTxZyVGhBVtQQQOiZQopV2BpiQ1CzYBXvqu7NZR39nEtxO38gKK2KsbFB8xDf0wm7sp5jcNAU0KJReUA1Ly-DdN34OdwDcV_U8BCxCL1pS9VhYMHPJidQm8cRLE3yqcC_IBHmGmDTNdbk7zi3v5BWVT4rd3ryLeKiMzF5R75wiwJHL8EmXx6mboyCJVsm0RIytmS5A7A8kjqVyyG5rLqkC3s8Q7y3LvPViKZJ6lVEfcWp4HnlNy-HsjUOVxk-4jyZYUR0PV_mv3jtrb3v7BrJ6E9MqFt3ZAA-2O7RNkd5Y8t6DC3TkOvyiQeR7o6fe7x0FtDFpU3-4hllPtP4KrEGLphst324zI-Ytd3gcNuAxxhuLbG5Ws5iQQmmgXVNBXIiHq4eiZkpKAPd5kPddrOqTIWAJXqaf-8DXr0w82Ojw2fpl_UiyAvZI6KIIsbK6FvxxAsINncXakj2-4kLmgU_GAWRxWrUJZvggAvD8x6ABgiJpqvDkLxTTGaZRJ4Rhx_IVJlPO7_GvUEJ0gQnh1Uf-9HuTu1pBg5-j5AVLGDpyr2jqBHpYE6I9T3Y7lgJTiug=w1052-h789-no",
+            description: "Approaching the boulderfield",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/_XsWUdnbbbVC2D-cI1qtWNJXF5-U5xlOVjKP6I1SxtCHkQkqmIo9CR_SI_3f6Q8FfD151HATmpDJIizayg_Wuz6XyaWwQrQ9Y1NzSv09MiB_ThvDq_3TiX8JiGq1BYbsWQJURH3-3FFzJkykqhbh6DHe2ixCld3tJJ7uuEvqdX1KW02I7Zxw8ofToyxaWFrzeoEst3PAMSB-enCMetumNn8Up4ToXy6bXJcjbtIhlVZP6tsMl1ne66IuOlAArzCblGlSVUpd5sMmBWvm5qs30_DPby25vmvfB0n-dkJ5foCoCygwMUtJw-FM_TpV5gOfXWPuK9W9isZ60iGe-Il2sPaV4IZSl0weihtM9CuokVXcbaBk3ff8r_XkW8HjOQNKB531OdZGsdyq2Ppzglyze2l2GYB_9zgwEXdt9PhUHesiFCFdjTF6RvyBg4VKpSlI94baHjCU4JTjNlEuTk7vcKtZTV8Lo-59AzwVS77y72P-DLhF-HBY8XeFCh7z06fUBol32pmC6DrQnzo2AOPkdj-08aI9PE5TTTlyHcK89_HxJtmk9ZhdOABZ7l-mo6yA4KpMCAZDdXLA5Nc4PIuS9VSDreMQOc3vwXQNQDY4zq_CL5_2uSo-gTMOswIjgovLBbbqrK2J4gf6KxBRj0IoZL8t6n4_QI8=w1052-h789-no",
+            description: "Legendary Keyhole",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/chY_0XQB7ItQ9-Shgm98lWr5W_3uTUAW6LXAzPF0aXt9ddlCwyRNgKd3BQPG6ak9F95R-b2iw4_cgrsTRuFiJ1GCBzczMx3C-lVmo5AAFfCOFo7_RAUlEzYWXeQuLxTgByNwv-txxsvZ77k7Q72bbLXMGTposndEbUQIFtJanoiPbceXjvy8uS_YiqeVJvVeNkTF__kEjFNK00C4QFWYfMUNkC_JG6BZ8mFjVHZK56IUDUl8CV5a42UmDAd4u0zY1XgZhP_CU8Z1l5_e7AfhV00ePM37Dkrkw56aHbUQZsZKvgvh7SKMmENSJNv6kpC0_O_pyrqi7uDbZRgrbQGA3JDEYADT5Rvg-mrRqmP9unpzqMN-qzROILim6S6iYdQ2KFQyPDRE3E72YCS8bs_8rOa9FyQbz7heEqSopL476CAUBkXN5eub8zAtm-fX3pdozmylXvD86BnD6rahMb70kbmQrM8nJ59lZiHNAIp0HwqDi6guZGptk7M-lo_ol5jmZ6Izq5uxo1fX39kVmMynk6tqBrSw2W-4KxFNS_rDQI1kyGqOcK0Fc-VHY8fqh0P12ReddevcCaN2Ink8RhRbymEjBbGPoqo1DSz9M-PRMGuigzIOVbgsKBcOCXACXwFMvwi-QtA9rJq19FKHHOmkTiC7L_KvAko=w1052-h789-no",
+            description: "Starting down the narrows",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/RjIhMdB9_V7hWW9Lok2S5Ox7fRpde8qOPjEb43iU0a0EZJR-87FXcSseKVQYRWh8_PEr3G4o9raPiyjPepQ-4ZfDD9UKJyGGwLVvGE_WA7m5HzuUwiueLHQuHv4LMDKCz7sdKSJHn7z_W14iFu0QBmpgR-j0vakla65L8ModyoNkS_P8ithurUyAoCJtrtRP7HncE985QC7A3v71hhWKHLkGqlomWxnrLjMiyD0KYCvVenrhSoo1N-OtLWFA-HlyTx_uibQu2ArOr5Qf9G2oqVolS7gwXvMvWinaxaOCAOWbq0goUXhGkfUxDxlxxLbisKSq0GiT5DMPFfcgRoprJOksW_t1tOQz4hQiFIhfqoa9K31f_Yr8OvdNn2ZyDr4e2LaH2e1tXQT-HNFJdvVCYg7OB2QSD8H8wuWDsXe_OUgOig_SQ1TRAKxk2BGwReTT-WhK3_U9IDIMqsrod4Z2r1pLtiXsbI2XW5ZJHKboHyUTf8vHcL900WvaC0c06vJ2adQweVgmfpNRIgLewdt2lnU1Wl8CuyIkogUAlUzuf2xloRTX-cbhro4Ycu6SQ17twqqoTkcdArh5U2NpC9UqSB7J5g5AeDTSUegoqTMEy00KkBBx9eR7gagsTCQijQI8gVGDHs-bZ9ka-On7WWQPo0ov6Felreo=w1052-h789-no",
+            description: "Moving throught the Narrows",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Ux7bDucWwc-c0vgWt2sEiQsOhq42FKYVIGtFuNXT-ETycvVLxXfGn-JJytiUXO8Cn9FXv2SOfse3mezFT-4COAkczySbadtYW3t9W8UyN5HgqthXEQTC5gzhOrn6HhpNdEqmQf6OD7XWtGNmYfC_dK8F2mm61TFQCmKq4tugp1Pv0BDDW0x7oH8ZRov_cyfEf6-K1iiCdQUNhukweiVa-KGqQNK0Lneh5anfApn6OZxpIWwJr5AUbFOVSH5v1EhlM0M287SzFWf6roOcwexNVsXOgZRYMqqX4ZUJMWQcvYVws_NX2VKA1JVpMtyiHU0qDs2cFXws5_ty0tCWjosdwJY39dhIPmr7jTS_Dr-OnYY7b3dSfRGSORKmSt3MwJX3WZ5lXne7YVrZ2OrnqJ4kkkzBP8McBXAiPH4GdDcRDUfyb5FqZ2dz_KJDM1dasZpQOml85fX45cO05AIVuLZp9eNPB8YbzoFrB_bbBFzq_DCBl1keSdhYawABL7qrt6SybiG_dzJAe4D_LW4cEet_Cym4-5Z5IZ_fjB37SYnrbepLEDAJbqVSftkjAH3VdHSxWv7wq-aF_tOK4vTUsfaUSv4FgchyH1cYOkXTlHgZEs9dZpJANPSQcgKLzNSM625pZp7NCa_XfaUqW7R7wyD7yeDLfeJ1gbs=w1052-h789-no",
+            description: "Several surprisingly secure snowfields late in the afternoon",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/0HD4658AW3zhayCa142griEFI4mt_Oo-9uaX5REuFW05xSsi3sgU0q-mBtTudW6G2kSSPHq8adK-s4_pgjzmrYTrUHAMyhvaQbO7LG-Odwocgxi6ujt0JSCd6KkQmCzjSj6tMR5rAWa4sQjG27ToHhjnrSsrQ8OJmQgOIumX15R13ZRrvQc0b_myOFHsH7v57gee2KU12YPbvgfRMt3qudkeCS5Jp8Ri_o9oVeiznADGHtDvv4szZ4ZPlpDTIyEyUormeRWjTnVCf37q2_5xAfCmqqqgaENc9wzQpGmQK_tSNY0qiI0m1xFmqq8O4aRmU_kfqQFeIMQ7Pu4_OuZ4HEmlAUHfFUVx0A9vly7qqf-Xi31kqSY0gDAQWm5VHdWQi4zYiFrwYIMh5asU9nfvoItpQPSCfD_mMc90M6MBYdGq4dyLZ4hYecsjVtZzLPbts_8yjwlDp8D24W-2b-7_-OuNCiSMc3dnopXShxeC1aNZIpq_E7jYum4CLdBkijfUEKoOWEYpdLoaTyD5DzEF_Vlirk2jsK84GrFlHNquswBi2eZnREpAdXWjU2gMVxnzM8el9KOYVzW1ZHEObiasAXoUFuDSqBIC1PfPRlqy6BMOFzrY0DrWiC3kXn0UbyfMgRKRqibdiSoZPBsvBjEuE4QY0ZIu9MA=w1052-h789-no",
+            description: "I love this perspective",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/d0rsB2HTWmZG9CRjVUwcaziaCpLicseqJHmIIdVS7gSmaiWy-KXcEZzt6EEAC82OI2-m9x3zlUOoJzAeRrBLA4hntYB1a-u6duoe7yii_52VLKPoJcNc7Pnq9XmQ5Iv3co_m7RerGuWmXUTjfU7KSS22chKNcs8BvSHJb5mkI1_cvDrWlzmgh-gkjBSx0g8v_AP0RZntgx7bxn1KicMYkQyfrcpBv0H6snoXB9NFIDDpIR2tHwmkfMACY7nIe2zRC8_r3kEkafZtWTj6CxCISshX1oRG0TqDwBThVuiAQA9FADjXo7pkEfuV3Si0KEDZh226zGnQKhJitS4yGp4zIxU3GXL9JRhH20NVh3tDcU6g2JUOFq9noFV1QRNcPHHg9WVeVdTR-q3Ix42BWA8jWL7EjkZGLAaQNd802lxIKwshbuZg1Fiz8GSe2A756sw1bOB5Z6n7wRfAoc9omMJe2fbdPb2Rv7Y9qRJXBRuyw8mqAQOGTfUJIuppHVbUXvAQM7c01865MKObhjURcBceIONk2I3cyogKyDngy7evf_0Ruymk9vldtOUYO1kiBR0-l_7NPyyQ9pXsP2RFZxrmD2Sgij6eMSRF3BSMHXQLhfSdOYTEX9F8LQ0M6aHhIggg2foMWNRhpG7iz7onZTf-AWj518uSblk=w1052-h789-no",
+            description: "Looking back at the Narrows",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/BjuBUDbfM7-DOcHhAjhtCzaRTqjSuaVY-IGwM7nZsBg3Qjd-cXJx8uQngNDuTZrYCPHUS6yqTrqnzftrH2OEpuEIFpzMVYx27HI9Umb2c9ooZrpGHT0X5erdVTAmjYZIjf3arzoYqp7HCJhx5tR-5E_-r0puoKXBASPEcc5ooucChllyVyeTWvIt48tHSsp1OpxKcqpZw1P10s-chzK_-DS72h5LKp-_lJiFzyUJb6390Yk0eTkElXfL-vRMGKVpBpx-Q4wWiE0prv5HNyQsZhzQvu4nTqkvEsrzAK_LK7NsfpN4_D_IKKMGDeBu7tDvk0wUes9RuoHyd0O2kFa4zWbFPUHR3BVVy4aZBJmceUrH2ym0tPfC0ovPCfWCP0i9X_wTfMYYqVZhDDy3fWujNP8FgxsAoYSVBCkaM06fuLpP6uJABtEdbdG_LXp3NWSafsG3tKLcrLZi8rglAA8jGpd4hF3ohLYotJkqL3zACveA7WW96yQvd6ov8PK_ZrRaCHR7Z0_Va9VVClmScl1d9D01T_EPpKC8hJfUK94S9gQ8mku06A9baxjyoufV3Az6v0nqBRxjCVQWmjsUMB7tIHRTr-mCJqsZBk0LwoH9G3StNkhuzqEuNM0scLAagWH89N4_9wekqmBvOBRg2hQ4vfl54v_tV_4=w1052-h789-no",
+            description: "Looking down from the Trough",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Ng7TDjWUkTZJ1WCiTnZBfyL3b44iKVThdGh_DczMKUc781VowrUxEwwQIfQzX5tMpiuNXtWcss4ImVuD0wohnQiEa_C5Ixj33ativwREaoA2aQc9wJtbQ2tQkBLc-V2KcQMdSvNnsZFAzopUi5IlaMyY9z2D9t-jQzaLFDpYOgC-p1Dj1LPvM69V7wR-IJ8Q_zfY1qq3fb-VGzcHuBsIn_LRzOg6QrCPYe8JDybOR7WAtConeBjf3EmC_0Tqq2ZLgUJeg8pv2T9jRfGHdNfNo5pMRvKH0SmFeq5_4Daq9su3NlBG7zp__PC94Su02-or1qtxLEfqfPKbrQybSv0szUpmTRnSpOLVOwCAWFYiK39MA5uqannAiPBWtnWxnNVfl8V27Z1cOy8QXsRyiAoJGk1IFjChE-LN6vZzSmu_Tluw_KX9FaCrtCbPgWRQhtXr2J0rY8MsWXZCO0oNqOYhDfBQc0ZPmkh_kmqcy-27u5zbhMhTzxknWjFc8Yo_bFk32sVnHtocpvzaR4wuZblVu0aHU_3W1rBAQeQ6tXhA7cQuU6zBmVeuDXgpqGLtmXcqRXmOC5-eoD3zqP1GIS2npUzAzv4-xTEDz1D7mNUdYOtwI4byO9CZpYZwohnqAQFF4PCiOfTQ2oiGfypyNjXFdqyX29Y5OD4=w1052-h789-no",
+            description: "Summit looking at Mount Meeker",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/t9bC20e3mrA98angnIA5jZafeuuoAZ1gOV6kWYI7bYdP3yxqPOdx5xPQVq6qFnSHeqP2iznMUdUrM0R2oM36Wwr7Ga9mjSaaxMn8ayOJgbVgI6GJtEreK30NM93DnlA9-4L5svRVb9hLC7KZ9TlgstJc_2fc-pwRrMIY0wkydIysRZtThrFkuRxi2d92MevMEMuIicE2qL087gnXnxObklA5j31z4oOs79vQTc2GCdidGLtz8aSs0J9e5ry_Q5VYfGyxd5apRxlRtH7ynMOrnGdgMtgHhMaOu36ljMymyvXEx2BW0ukSjnXjpVZpid2o5NgAaKaey2_aRGvDFm3vIm0_6Hp2DK5SuQqfGAU9WjWp0FqT3FQlkuX8SQgmFyZqGKHmV-qfTIQ93aSxc34eFSzsuCbQlQ8K8d65aPC3uay3EpF8Vs1uMJRGp_yOVCLqfIBSFthRQ9lDF_VD07JUGadTbi6tpfwpZoXOlEzflAf0ZJPRHgpfjRyFV6gIOy6esGNYGY9KzBn-wZpqlUOLl-k1fg98-nrZ-KHnZJS11gRAWYaf1aBv1UZKrWBvJczZbTZcEXxF3rBc2Xqsh-alkDtGSoQa5dH0M-jtPAOf-Xefr8K5MtuoPm1Bft6bkGO42HTMpjaHjEPSZaHK3XYGj9K5P6ryJhY=w1052-h789-no",
+            description: "Long's Peak Summit",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/ejCmP0my9qxY080nsmVZQdvxHm0SFI6YVwR_gIy0LAPijRtz4_BJUvY30qPGCdTNr8hfNuSkaPEHi5oGieK5LLafA_Vvb5D2eusa1yDHkZQny19cKYfdZgHRtzoEgjEPOhz6RVnrT-7dYtCTotdE3550ip534hEuYxffzsQ77lrzit0ufHRzmp3k3_vxOIv1WYdpQksGByoF4EK1tcXS7jDtMb8SdRULCVbPBTwBatPImXPCJZF_fCJsJmFCMh5D9nZxLeCPTs6Zr9cOM4_zrkTnX2cfEHPV5HnVG-tE-BxUep3myyEv5pjbuhjDBf4Zpo7p96Z2xYht9VaQNe20DvakYLN49QjVz3GOm-_1GzQa6GpVuNPpOyDmJBsXz5zNqYUZZexNKDK9jYZr1Azzqms7u1b0hezrGfBNzwCRSI9xV034tv4YNqFW3mHMqUf8tDlk0WzkfQfgMx9C1H3N5dP9eXgLwP12AFw50zAxp9xAAqwDwOCCW_husIQmOzVFfzPE3mf5FDuGkVAo78gCBMxv9kAadQtNwhggfG6ZmBeDSZc7q7XXZPoNYnoF868wfgzd9gTnDf218DVH95iyp7mKFE4iN4sMtAdThdxj_c_uyYNt1FeFeXY_zv5gNQHN3QoAfBNiCrxvpmPzHlJbwcNg8Jf5wJU=w1052-h789-no",
+            description: "Summit Selfies",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/z_MUPOq5qmnVYeYcu0o6krew-DpxFoviVjJyU2aeHhPZrmJh5Gka5Ehf2WfKDCRWrm9LvaOmz4Ab3JfTLe-wO2gIkzkTCm5L_WrRD4VoxcT1kb-pfrrfucjlY1r7tSAuXUDlCjOveT82sKnrP0RmIAFMEV3i2_McNGTZceM68ijSR-a7BOD8j9pr0_LkiJkPWF3l29gWNbhfaRTd5pRJ-QDnIX9poJe-oMSLHJT_n6OomZ-sSW_WeVFc3cJdLdgK7OEon_BGaNCuppxIROTV8-fdwb-WGJiuaT1peJit-qPNVuYaeTWyKYRjQ9dG2qY0atmEIp-2ozYwuABZOnRBGGo4PnUCtUnXhn2ATVa1nqgNgaoR2jWTXscpoRnyx1DCH-jorMstPxZ-mPBrLdzzR5a2ZGlFAZ9inodX7vfzypaG-n7gbldgdTiSmsA9VOuOt9iP9TDa0Co49lJ-IpSZ4RAqV_ObXnFfRzDgKdIe-wWUI7e-2wOOZiB_APT4Qqjcw3smZIWTrRkF1pPqm5NfUsFz9wuQbD5vPfVBvphso5QT2VJl6snwcNixMAHbC3or1NHbJjJJDAVEkZ47TAjUk9m1QlEBnnHeYyuvHg-tGX2Q00tfZuLpPPibgHjjh9MNQAyfm_kguk3x22XkF2DKlyGYYR3QhxE=w1052-h789-no",
+            description: "Descending the Trough",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/C1o1ASd4MipveFc2WyTQs5fq3l8qszkYytqjj0O65Up5DynApZOPuTX4eTef_aaUDxRWGirbqY8z8rTLUthqqqt-4uWN0ACm8EO5ZNDYDyjnE2f-MzEG-QbwAYVkze_hJDMXHbMdAXPg5KPsXHYNbmeAZ_jk3jIJdYiV_GCfuely_n4TkQuPRUeegOmidE4Kl1nFi039vnuglrsPhottRXu72LYZYJXyB5xeCmdOHL45wFa00pQs_zghrO8-lQfjl6HKJUfuIZ2ua3k4Po7Kt_jgmmoaGu7a7am0ljCTrLXM3CVW-29t7OIJ8HxAr9Rwgne7xXRUTIZamoPZhn4zs1sLLr38ZcdUvux5MzPp6vhfERy7K54apWj8zY6CAY3qOfC5Y1KGnYjznWu44ezOVtmhqHKkS2o9ohUT4_tQPm8O-iaU1JBzP9n1vU9ydWjwsGuahYJwwpCxVYdkoyZO7aQhgmGRQNm1TIenE_60JpFKAin4U__zl3sS8Tm-oyDUwmiU6bmBxQpEfoKMMVQf4dwmfYGw6E6mbwo_dKqRVOmNiDj-IOcf-E74_1sesc4jJnBvhEW6v8vSNmB5sjCpzpclop-Jk54g01y5O3hik-ES0NveUf8W9RPI1qCUcjSP2WV1SHqVRQMYddBFESVEI4WyhHL86-k=w1052-h789-no",
+            description: "Made it back throught the Keyhole and Boulderfield, working down to Storm's Pass",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/oCmpDF9ysRFX7OcaiYN7Vm4yBtf6nMxJcLmQUaay33ZlpNRJdMMzIz7aYjOvjnQSm4NNXA0Vfzqthh7GpS3isRbSTNlNVpcK8uady37Tm6JnUrltcUZyHCCqGcmaneIhWIUC1FNQTIJ-fW0MY8E2iAdO3Q2MMC1bDI08FhqbA-2tmqqa49sN16d5R_hfuwRk3Wp0wMwTBZ11pIl8Sz1fvxX1P19L7rk84oDu_Z_i8h75fzvHStW0f7ZYeB692hZ5FKO87MArlJopD3aUOv55ulIe1afcsEHhIt5b4MKR5IvooFlof5cYDOSj77ver7okPmCtIdrG1T5PyvcxIXSCDo82LoJbZBLbZF7BobNgD6ncYCsbhl1U3ayby3mHWnd1Nb0CICUpSwgnrvNS_zhEmBTjSjX6wZMTjSLPBIzSMujanWY8qT6Rn577wl8QcHRXisgOSWGvSChZ_EogrMQwWkkAUIq0QdtzpguFYDGOl3tXBWFhcVILZcXqgh2syl2rnLwSHKHi3AII1zRonmprFhQnZqguET8W5P-s6ngVDrzdx5NKv56KfvHtpUdqqT6gkLPFgqT_8L-N2oRcnNvhzXGVktArY49M89g7cics6uzvXJi0dnvCtL-gufH7qSlm1ooanDrDNFbYC929ouzxdZht2tqD0Kg=w1052-h789-no",
+            description: "Look back at it",
+          },
+        ],
+      },
+    },
+    {
       // Mount Shavano, Ouray, Elbert | June 19
       trip: {
         cardTitle: "Mount Shavano, Ouray, Elbert",

@@ -811,6 +811,10 @@ hr:after,hr:before {
   margin: 0;
   background-color: #101010;
 }
+.footer-vahala-designs-container ul {
+  margin: 1rem;
+  font-size: 1.25rem;
+}
 .footer-icons > i {
   height: 1rem;
   width: 1rem;

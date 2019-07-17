@@ -439,15 +439,9 @@ hr:after {
 .resume-skills-container {
   height: auto;
 }
-#resume-banner {
-  margin-bottom: -3rem;
-}
 #resume-modal-btn {
   background-color: #0882B7;
   margin-bottom: 1rem;
-}
-.resume-thumbnails {
-  margin-bottom: -2rem;
 }
 #resume-modal-header {
   color: black;
@@ -486,23 +480,16 @@ hr:after {
   color: #0882B7;
 }
 #resume-current-job-card {
-  background-color: #FF8700;
+  border: 0.0625rem solid #FF8700;
 }
-#resume-exp-card {
-  background-color: #0882B7;
+.resume-prev-job-card {
+  color: #000;
 }
 .resume-job-title {
-  font-size: 16px;
+  font-size: 1.125rem;
+  margin-bottom: 1rem !important;
 }
 .resume-parallax1 {
-  background-image: url(https://lh3.googleusercontent.com/ntmB0HzceU1l82DwEiEDktJFIQs0ZtSM77HgMHV46xpUU2QLFrGGacwJo7qrCgiqLfxMyjvfZMup7b6YFEv4SlXRmZg1gGzenUCI0hzdGuChUWImHwSpoeGKjdYttzBrr2fWQ6DTbvoQ9N_j_tK5cpTuxBJcLZl2yfNH4_kA-xzpxEYTDwF63npFwXhZtZI9XicOZY_evr7XNV0zy2r-aPjfOYRk_sCSRJerBkCl7jMnXkEJ-YoyJqh8e9rlEKpaHF_lrt6LlhyTUKh2jDTInsbKb7YWEJfiF-bGdx9Tl2zi9fYeYNrjfuTUcfKif-moW_sLps5SKfqYA_hJS4ebC1ZRQfCgo3MM68OYmxTRhNS_kNQufGYby3os63WT6p_qvsnb4GJkGXA-uwqr1ilkPmDZS_ai9llbbFHTMv42txNaxrSKf26qxWksDqc6Cw8gQNdZCag96PXypyQsEAaYKbvErKtm4l8F_hFsZnLk3D-TFChKuyr7UOAt_7JByZj7qrLGpPJ6m1qp40RSBtA8KSufTT96m3bPue-49nL988kBixS2kQnQAYhJU8bifN1hQdkgYwMRAGSa2JDDvaK6YkZ4ykWPQ45bXAjgkLsGOMbSpfUnBvuphBh2zSO8vWqQfswAVidMYWQr5Zk3yETJ-oAjDYCh7_w=w1052-h789-no);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  height: 60vh;
-  position: relative;
-}
-.resume-parallax2 {
   background-image: url(https://lh3.googleusercontent.com/1Ls7KoMUQog4_CXJb0eaRQ_xw46tS9CS_8du1XapF_yt86UXTwQqVkzPVvGW3DCJFZhjjqYqFi9t6gyHoz5tgXgptA0spjcgfkRmORYd0yBMcLUv8vF4PCbkY3GsdcVUCQHT7B2BkXWKzaqgJRSE9_49s5zDFoH2nsHydJPM9EWnSoVYXsdIhkGg2eAMxaWZrOisZVo5JjhXKMQs_cR9k1FlZltUpCLcFUcfZUb4vTlwAnfJepSCSskvAKaDci8pMJPLjx5eYmiRHDjNuLL4bVGxF_P3yPFeYdLbIYUrfOt9Kt0UKI9S0a3aVmkuvB9gmUvq1XJ_Ef5F6tTPtjsrD2CaOZmmq3ZesCk1wQHTEHH0jVhf1lMkDWnasLUMOGlG1VWbIMUvJnfrz9eUy2ryUa9XRakFzNHxyG_I8wKvKCPhXdKzCM9N4dsKFf7W-IqP_M81pNfXn2HIm2KF1EGpjgd0F9XhITEf4L3N9Ixidbyf5zbBE9NJhMMuEebXPo8b_8Pz0lf9ZEGhH59dZxBVcWpVmdufvGujZ154AAWz0Pn_InyqJvfVkAkWgfgD9Qux-TRAp-di6W508ljpjjyYNA_NLCewUQ6ptLA3TN0KjQ=w968-h725-no);
   background-attachment: fixed;
   background-size: cover;
@@ -511,7 +498,7 @@ hr:after {
   position: relative;
 }
 @media screen and (max-width: 1367px) {
-  .resume-parallax1, .resume-parallax2 {
+  .resume-parallax1 {
     background-attachment: scroll;
   }
 }

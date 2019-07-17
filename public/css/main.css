@@ -28,22 +28,23 @@ code {
   background-color: #cfd8dc;
 }
 hr {
-  margin: 1rem 0;
+  margin: 2.5rem 0 1rem 0;
   padding: 0;
   border: none;
-  border-top: medium double #0882B7;
+  border-top: double #757575;
   text-align: center;
-  color: #FF8700;
-  position: relative;
 }
-hr:after,hr:before {
+hr:after {
   content: "";
+  position: relative;
+  top: -2rem;
+  height: 55px;
+  width: 55px;
+  background-image: url(https://lh3.googleusercontent.com/5XDKw6Ws2G-yELHuj7fIU6R2MqTIxa0akBZrn4_paIzT1LgEVeZk8sGezYJZ5uassuhxwz_NCiuXbwh6GormJiwO4FL_LfFY-mDZq6fFrHVmZHLh9spQnXPhplTuF0oibG2oNGaQc_vzGK8QQjimF-VNuEXHS46Lr7lF46vxnHTrECPOgQoMzQdiUbmRnV-0L96Z674tKjGr9rj7isIeGbKimE0mheORNi9wrM20qYf9haZb-saJu5Vyj9DbCnUE2EgYGh6s3XEoQNz78JyDzR5NBBWpCbAvx8gqYOlGuTavpFi1HAsk4Fw9CVgJmU7ZDRraiNszzIUAspfYuJScpppknY8LnSw0NGhh2O3d1-ycvNx-pmppswZ7RlpYITAovk1fi2uLGidVI5J945pMB334xH5mprb_UZKoBEkRY6AstqBN8kJyFPXihcCMzQZuFa4h8ZdW9ChZwbgKnqY4HJ6hGgKn4gko3VNKN5vgBUiGldPBPy-LlPSzGJm8pp13dGBz3_HESktHf0t-kjcPOJaZbSwwLtvst_RZFmn671rDxQ9lvvtG64WTXzhwykfaOBBu5Z3o3_u_0q1DgK2OzQVYCYpYppx-V0ib_1Qvsg=s512-no);
   display: inline-block;
-  position: absolute;
-  top: -0.7em;
-  font-size: 1.5em;
-  padding: 0 0.25em;
-  background: #FAFAFA;
+  background-size: 55px 55px;
+  background-repeat: no-repeat;
+  background-color: #FAFAFA;
 }
 @media screen and (max-width: 667px) {
   nav .brand-logo {

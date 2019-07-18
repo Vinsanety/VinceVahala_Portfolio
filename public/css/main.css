@@ -91,7 +91,7 @@ hr:after {
   font-family: 'Nanum Gothic', sans-serif;
 }
 .text-link {
-  color: inherit;
+  color: #0882B7
 }
 .text-link:hover {
   color: #039BE5;
@@ -362,9 +362,9 @@ hr:after {
 
 /* Bio
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#bio-card-header {
+#bio-subheader {
   color: #0882B7;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 @media screen and (min-width: 1024px) {
   .bio-intro-card {
@@ -807,6 +807,12 @@ hr:after {
 #footer {
   margin: 0;
   background-color: #101010;
+}
+#footer .text-link {
+  color: inherit;
+}
+#footer .text-link:hover {
+  color: #039BE5;
 }
 .footer-vahala-designs-container ul {
   margin: 1rem;

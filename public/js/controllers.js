@@ -43,7 +43,6 @@ app.controller('projectsController', function($scope) {
     $('.collapsible').collapsible();
     $('.slider').slider({
       height: 420,
-      interval: 7500,
     });
     // Run Forecast Btn Add
     $('.runForecast-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://RunForecast.web.app' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
@@ -65,7 +64,7 @@ app.controller('projectsController', function($scope) {
       $('.slider').slider('prev');
     });
     // Prevent Default Autoplay
-    // $('.slider').slider('pause');
+    $('.slider').slider('pause');
  });
 })
 

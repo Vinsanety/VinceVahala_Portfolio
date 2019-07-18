@@ -406,15 +406,17 @@ hr:after {
   background-color: #FAFAFA !important;
   font-size: 1.125rem;
 }
+.collection-item i {
+  background-color: #00C853 !important;
+}
+.collection-item i.disabled {
+  background-color: #999 !important;
+}
 .collection-item p {
   margin-top: 0.65rem !important;
 }
 .contact-form {
   padding-left: 2rem !important;
-}
-#contact-send-btn {
-  margin: -1rem 0 1rem 0;
-  background-color: #0882B7;
 }
 .contact-form-icons {
   color: #0882B7;
@@ -440,6 +442,10 @@ hr:after {
 /* icon prefix focus color */
 .input-field .prefix.active {
   color: #FF8700 !important;
+}
+#contact-send-btn {
+  margin: -1rem 0 1rem 0;
+  background-color: #0882B7;
 }
 
 

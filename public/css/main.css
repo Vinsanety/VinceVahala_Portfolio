@@ -1,26 +1,40 @@
+/* Root & Variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
   font-size: initial;
+  /* color */
+  --primary-color: #00C853;
+  --secondary-color: #0882B7;
+  --tertiary-color: #FF8700;
+  --background-color: #FAFAFA;
+  --secondary-background-color: #ECEFF1;
+  --link-hover-color: #039BE5;
+  /* font */
+  --body-font-family: 'Questrial', sans-serif;
+  --header-font-family: 'Nanum Gothic', sans-serif;
 }
+
+
 /* Global
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 * {
   margin: 0;
-  font-family: 'Questrial', sans-serif;
+  font-family: var(--body-font-family);
 }
 body {
   width: 100%;
   min-height: 100vh;
-  background-color: #FAFAFA;
+  background-color: var(--background-color);
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: var(--header-font-family);
 }
 h1, h2, h3 {
-  color: #00C853;
+  color: var(--primary-color);
 }
 button, .btn {
-  font-family: 'Questrial', sans-serif !important;
-  background-color: #0882B7 !important;
+  font-family: var(var(--body-font-family)) !important;
+  background-color: var(--secondary-color) !important;
 }
 .btn i {
   font-size: inherit !important;
@@ -28,7 +42,7 @@ button, .btn {
 code {
   padding: 0.125rem 0.5rem;
   border-radius: 5px;
-  background-color: #cfd8dc;
+  background-color: #CFD8DC;
 }
 hr {
   margin: 2.5rem 0 1rem 0;
@@ -47,7 +61,7 @@ hr:after {
   display: inline-block;
   background-size: 55px 55px;
   background-repeat: no-repeat;
-  background-color: #FAFAFA;
+  background-color: var(--background-color);
 }
 @media screen and (max-width: 667px) {
   nav .brand-logo {
@@ -57,13 +71,13 @@ hr:after {
   }
 }
 .nav-wrapper {
-  background-color: #00C853;
+  background-color: var(--primary-color);
 }
 .sidenav-avatar-img {
   object-fit: cover;
 }
 .sidenav-link i {
-  color: #0882B7 !important;
+  color: var(--secondary-color) !important;
 }
 .brand-logo {
   position: absolute;
@@ -83,18 +97,18 @@ hr:after {
   top: -0.75rem;
 }
 .page-header {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: var(--header-font-family);
   letter-spacing: 6px;
-  color: #00c853;
+  color: var(--primary-color);
 }
 .section-header {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: var(--header-font-family);
 }
 .text-link {
-  color: #0882B7
+  color: var(--secondary-color)
 }
 .text-link:hover {
-  color: #039BE5;
+  color: var(--link-hover-color);
 }
 .img-hover-container {
   position: relative;
@@ -103,8 +117,9 @@ hr:after {
   display: block;
   width: 100%;
   height: auto;
+  cursor: pointer;
 }
-.img-overlay-right {
+.img-overlay-right, .img-overlay-left {
   position: absolute;
   bottom: 0;
   left: 100%;
@@ -116,15 +131,8 @@ hr:after {
   transition: .5s ease;
 }
 .img-overlay-left {
-  position: absolute;
-  bottom: 0;
   left: 0;
   right: 100%;
-  background-color: rgba(3,155,229,0.5);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
 }
 .img-hover-container:hover .img-overlay-right {
   width: 100%;
@@ -175,7 +183,7 @@ hr:after {
   visibility: hidden;
   width: 120px;
   background-color: #555;
-  color: #fff;
+  color: #FFF;
   text-align: center;
   border-radius: 6px;
   padding: 0.25rem;
@@ -214,10 +222,6 @@ hr:after {
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
-.disabled {
-  cursor: help !important;
-  background-color: #e0e0e0;
 }
 .icon-overlay {
   height: 125px;
@@ -279,7 +283,7 @@ hr:after {
 /* Overrides
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .btn:hover {
-  color: #0882B7;
+  color: var(--secondary-color);
   background-color: #FFF !important;
 }
 .drag-target {
@@ -293,7 +297,7 @@ hr:after {
 /* Home
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #home-welcome-text {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: var(--header-font-family);
   letter-spacing: 6px;
   margin-bottom: 2rem;
 }
@@ -301,12 +305,12 @@ hr:after {
   margin: 2em 0 1rem 0;
 }
 .home-header-icon {
-  color: #2196F3;
+  color: var(--secondary-color);
   margin: 0 .25em;
   font-size: 4rem;
 }
 .home-header-icon:hover {
-  color: #00C853;
+  color: var(--primary-color);
 }
 @media screen and (max-width: 667px) {
   .home-header-icon {
@@ -347,7 +351,7 @@ hr:after {
   }
 }
 .home-technology-section {
-  margin:  0 3em 0;
+  margin: 0 0 3em 0;
 }
 .home-technology-section i {
   height: 75px;
@@ -363,7 +367,7 @@ hr:after {
 /* Bio
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #bio-subheader {
-  color: #0882B7;
+  color: var(--secondary-color);
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 1024px) {
@@ -403,11 +407,11 @@ hr:after {
   border: none !important;
 }
 .collection-item {
-  background-color: #FAFAFA !important;
+  background-color: var(--background-color) !important;
   font-size: 1.125rem;
 }
 .collection-item i {
-  background-color: #00C853 !important;
+  background-color: var(--primary-color) !important;
 }
 .collection-item i.disabled {
   background-color: #999 !important;
@@ -419,33 +423,33 @@ hr:after {
   padding-left: 2rem !important;
 }
 .contact-form-icons {
-  color: #0882B7;
+  color: var(--secondary-color);
 }
 /* label input focus color */
 .input-field input:focus + label {
-  color: #FF8700 !important;
+  color: var(--tertiary-color) !important;
  }
 /* label input underline focus color */
 .row .input-field input:focus {
-  border-bottom: 1px solid #FF8700 !important;
-  box-shadow: 0 1px 0 0 #FF8700 !important
+  border-bottom: 1px solid var(--tertiary-color) !important;
+  box-shadow: 0 1px 0 0 var(--tertiary-color) !important
 }
 /* label textarea focus color */
 .input-field textarea:focus + label {
-  color: #FF8700 !important;
+  color: var(--tertiary-color) !important;
  }
 /* label textarea underline focus color */
 .row .input-field textarea:focus {
-  border-bottom: 1px solid #FF8700 !important;
-  box-shadow: 0 1px 0 0 #FF8700 !important
+  border-bottom: 1px solid var(--tertiary-color) !important;
+  box-shadow: 0 1px 0 0 var(--tertiary-color) !important
 }
 /* icon prefix focus color */
 .input-field .prefix.active {
-  color: #FF8700 !important;
+  color: var(--tertiary-color) !important;
 }
 #contact-send-btn {
   margin: -1rem 0 1rem 0;
-  background-color: #0882B7;
+  background-color: var(--secondary-color);
 }
 
 
@@ -455,12 +459,12 @@ hr:after {
   height: auto;
 }
 #resume-modal-btn {
-  background-color: #0882B7;
+  background-color: var(--secondary-color);
   margin-bottom: 1rem;
 }
 #resume-modal-header {
   color: black;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: var(--header-font-family);
 }
 #resume-modal1 {
   width: 75%;
@@ -484,18 +488,18 @@ hr:after {
   background-color: rgba(0,0,0,0.1);
 }
 .icon-block p .fa-code {
-  color: #0882B7;
+  color: var(--secondary-color);
   font-size: 0.5rem;
   margin: 0 0.25rem;
 }
 .resume-icons {
-  color: #FF8700;
+  color: var(--tertiary-color);
 }
 .resume-education-header span {
-  color: #0882B7;
+  color: var(--secondary-color);
 }
 #resume-current-job-card {
-  border: 0.0625rem solid #FF8700;
+  border: 0.0625rem solid var(--tertiary-color);
 }
 .resume-prev-job-card {
   color: #000;
@@ -525,7 +529,7 @@ hr:after {
   margin-bottom: 3rem !important;
 }
 .collapsible-header:hover, .collapsible > .active > .collapsible-header {
-  background-color: #0882B7;
+  background-color: var(--secondary-color);
   color: #FFF;
   background-color: rgba(8,130,183,0.75);
 }
@@ -533,7 +537,7 @@ hr:after {
   margin-bottom: 1rem;
 }
 .slider .slides {
-  background-color: #ECEFF1 !important;
+  background-color: var(--secondary-background-color) !important;
 }
 .slider .slides li img {
   width: 70% !important;
@@ -546,7 +550,7 @@ hr:after {
   padding: 0.5rem;
   transform: translateX(203%) translateY(0px) !important;
   width: 28% !important;
-  color: #263238 !important;
+  color: #000 !important;
 }
 @media screen and (max-width: 667px) {
   .slider {
@@ -571,7 +575,7 @@ hr:after {
   bottom: 5px !important;
 }
 .slider .indicators .indicator-item.active {
-  background-color: #0882B7 !important;
+  background-color: var(--secondary-color) !important;
 }
 .slider-btn-group {
   margin-top: 1rem;
@@ -717,7 +721,7 @@ hr:after {
   float: right;
 }
 .travel-card-link:hover {
-  color: #00c853
+  color: var(--primary-color)
 }
 .travel-card-close {
   position: sticky;
@@ -733,7 +737,7 @@ hr:after {
           transition:         transform .8s ease-in-out;
 }
 .travel-card-close i:hover {
-  color: #00c853;
+  color: var(--primary-color);
   transform: rotate(360deg) scale(1.5);
 }
 @media screen and (max-width: 667px) {
@@ -748,19 +752,10 @@ hr:after {
   padding:0 7%;
 }
 .travel-card-text {
-  color: #0882B7;
+  color: var(--secondary-color);
   width: 100%;
   margin:.5em 0;
   text-align: center;
-}
-.travel-card-img-section-header {
-  margin: 1.5em 0 0 0;
-  font-size: 20px;
-  float: left;
-  text-align: left;
-  font-weight: 300;
-  color: #4B4C4C;
-  border-bottom: 1px solid #4B4C4C;
 }
 .travel-card-image {
   width: 100%;
@@ -788,7 +783,7 @@ hr:after {
 .travel-card-scrollbar::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: #FFF;
-  background-image: -webkit-gradient(linear,40% 0%,75% 84%,from(#4D9C41),to(#19911D),color-stop(.6,#00c853))
+  background-image: -webkit-gradient(linear,40% 0%,75% 84%,from(#4D9C41),to(#19911D),color-stop(.6,var(--primary-color)))
 }
 .travel-current-film-container {
   width: 90% !important;
@@ -818,7 +813,7 @@ hr:after {
   color: inherit;
 }
 #footer .text-link:hover {
-  color: #039BE5;
+  color: var(--link-hover-color);
 }
 .footer-vahala-designs-container ul {
   margin: 1rem;

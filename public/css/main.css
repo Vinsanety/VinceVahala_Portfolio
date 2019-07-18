@@ -15,6 +15,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Nanum Gothic', sans-serif;
 }
+h1, h2, h3 {
+  color: #00C853;
+}
 button, .btn {
   font-family: 'Questrial', sans-serif !important;
   background-color: #0882B7 !important;
@@ -54,7 +57,7 @@ hr:after {
   }
 }
 .nav-wrapper {
-  background-color: #00c853;
+  background-color: #00C853;
 }
 .sidenav-avatar-img {
   object-fit: cover;
@@ -239,7 +242,7 @@ hr:after {
 /* Animations
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*Vertical Wobble*/
-@keyframes verticalWobble {
+@keyframes vertical-wobble {
   16.65% {
     transform: translateY(8px);
   }
@@ -259,14 +262,14 @@ hr:after {
     transform: translateY(0);
   }
 }
-.verticalWobble {
+.vertical-wobble {
   display: inline-block;
   -webkit-tap-highlight-color: transparent;
   transform: translateZ(0);
   box-shadow: 0 0 1px transparent;
 }
-.verticalWobble:hover {
-  animation-name: verticalWobble;
+.vertical-wobble:hover {
+  animation-name: vertical-wobble;
   animation-duration: 900ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
@@ -294,8 +297,21 @@ hr:after {
   letter-spacing: 6px;
   margin-bottom: 2rem;
 }
-.home-icons-container, .home-icons-container-large {
+.home-header-icons-container {
   margin: 2em 0 1rem 0;
+}
+.home-header-icon {
+  color: #2196F3;
+  margin: 0 .25em;
+  font-size: 4rem;
+}
+.home-header-icon:hover {
+  color: #00C853;
+}
+@media screen and (max-width: 667px) {
+  .home-header-icon {
+    font-size: 2rem;
+  }
 }
 @media only screen
   and (min-device-width : 768px)
@@ -325,20 +341,13 @@ hr:after {
     background-attachment: scroll;
   }
 }
-.homeHeaderIcons {
-  color: #2196f3;
-  margin:0 .25em;
-}
-.homeHeaderIcons:hover {
-  color: #00c853;
-}
 @media screen and (min-width: 1024px) {
   .home-welcome-images {
     margin-bottom: 3rem !important;
   }
 }
 .home-technology-section {
-  margin:1em 0 3em 0;
+  margin:  0 3em 0;
 }
 .home-technology-section i {
   height: 75px;

@@ -730,7 +730,7 @@ hr:after {
   float: right;
 }
 .travel-card-link:hover {
-  color: var(--primary-color)
+  color: var(--secondary-color-hover);
 }
 .travel-card-close {
   position: sticky;

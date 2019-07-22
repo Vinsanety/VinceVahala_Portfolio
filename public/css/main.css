@@ -10,8 +10,8 @@
   --background-color: #FAFAFA;
   --secondary-background-color: #ECEFF1;
   /* font */
-  --body-font-family: 'Questrial', sans-serif;
   --header-font-family: 'Nanum Gothic', sans-serif;
+  --body-font-family: 'Questrial', sans-serif;
 }
 
 
@@ -35,9 +35,50 @@ h1, h2, h3 {
 button, .btn {
   font-family: var(--body-font-family) !important;
   background-color: var(--secondary-color) !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
 }
 .btn i {
   font-size: inherit !important;
+}
+.btn:hover {
+  color: var(--secondary-color);
+  background-color: #FFF !important;
+}
+/* button draw border animation */
+.btn-draw-border {
+  position: relative;
+}
+.btn-draw-border::before, .btn-draw-border::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+.btn-draw-border::before {
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+}
+.btn-draw-border::after {
+  border-top-width: 3px;
+  border-right-width: 3px;
+}
+.btn-draw-border:hover::before, .btn-draw-border:hover::after {
+  border-color: var(--secondary-color-dark);
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+.btn-draw-border:hover::before {
+  transition-delay: 0s, 0s, 0.25s;
+}
+.btn-draw-border:hover::after {
+  transition-delay: 0s, 0.25s, 0s;
 }
 code {
   padding: 0.125rem 0.5rem;
@@ -156,7 +197,6 @@ hr:after {
   white-space: nowrap;
   color: white;
   font-size: 36px;
-  font-weight: 200;
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -291,10 +331,6 @@ hr:after {
 
 /* Overrides
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.btn:hover {
-  color: var(--secondary-color);
-  background-color: #FFF !important;
-}
 .drag-target {
   width: 0 !important;
 }
@@ -456,7 +492,7 @@ hr:after {
   color: var(--secondary-color-hover) !important;
 }
 #contact-send-btn {
-  margin: -1rem 0 1rem 0;
+  margin: -1rem 0 2rem 0;
   background-color: var(--secondary-color);
 }
 
@@ -619,7 +655,6 @@ hr:after {
   text-align: center;
   transform: translateX(-50%) translateY(-50%);
   font-size: 78px;
-  font-weight: 200;
   text-shadow: 3px 3px 6px #000000;
 }
 .mountaineering-para-icon-overlay {

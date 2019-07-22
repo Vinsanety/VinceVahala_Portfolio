@@ -43,28 +43,27 @@ app.controller('projectsController', function($scope) {
     $('.collapsible').collapsible();
     $('.slider').slider({
       height: 420,
-    });
+      duration: 420,
+    }).slider('pause');
     // Run Forecast Btn Add
-    $('.runForecast-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://RunForecast.web.app' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
+    $('.runForecast-slider-caption').append("<a class='btn btn-draw-border projects-visit-app-btn' href='https://RunForecast.web.app' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
     // Vahala Fitness Btn Add
-    $('.vahalaFitness-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://vahalafitness-df5d3.web.app/' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
+    $('.vahalaFitness-slider-caption').append("<a class='btn btn-draw-border projects-visit-app-btn' href='https://vahalafitness-df5d3.web.app/' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
     // E Source Btn Add
-    $('.eSource-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://www.ESource.com' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
+    $('.eSource-slider-caption').append("<a class='btn btn-draw-border projects-visit-app-btn' href='https://www.ESource.com' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
     // Spoilers Btn Add
-    $('.spoilers-slider-caption').append("<a class='btn projects-visit-app-btn' href='https://podcastspoilers-dd5b5.web.app/' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
+    $('.spoilers-slider-caption').append("<a class='btn btn-draw-border projects-visit-app-btn' href='https://podcastspoilers-dd5b5.web.app/' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
     // Next and Prev btns
     $('.projects-slider-next').click(function(e) {
       e.preventDefault();
       e.stopPropagation();
-      $('.slider').slider('next');
+      $('.slider').slider('next').slider('pause');
    })
     $('.projects-slider-prev').click(function(e) {
       e.preventDefault();
       e.stopPropagation();
-      $('.slider').slider('prev');
+      $('.slider').slider('prev').slider('pause');
     });
-    // Prevent Default Autoplay
-    $('.slider').slider('pause');
  });
 })
 

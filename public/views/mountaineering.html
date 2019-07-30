@@ -134,4 +134,29 @@
       </ul>
     </div>
   </div>
+
+  <hr />
+  <div class="travel-table">
+    <h3 class="center page-header">Summit List</h3>
+    <table class="responsive-table striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Elevation</th>
+          <th>Range</th>
+          <th>Total Summits</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="td in summitData">
+          <td>{{td.Name}}</td>
+          <td>{{td.Elevation}}</td>
+          <td>{{td.Range}}</td>
+          <td>{{td.TotalSummits}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
 </div>

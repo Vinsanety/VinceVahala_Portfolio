@@ -45,9 +45,9 @@
             </p>
           </div>
           <div class="card-reveal card-reveal-opaque travel-card-scrollbar mobile-momentum-scroll">
-            <span class="card-title travel-card-close">
-              <i class="fas fa-times"></i>
-            </span>
+            <a class="z-depth-2 btn-floating card-title travel-card-close">
+              <i class="fa fa-times"></i>
+            </a>
             <span class="card-title travel-card-title">{{travelPhotoDataCurrent.trip.meta.cardSubTitle}}</span>
             <p class="travel-card-text">{{travelPhotoDataCurrent.trip.meta.cardTagline}}</p>
             <div ng-repeat="x in travelPhotoDataCurrent.trip.img" class="travel-card-content-container">
@@ -73,9 +73,9 @@
           </p>
         </div>
         <div class="card-reveal card-reveal-opaque travel-card-scrollbar mobile-momentum-scroll">
-          <span class="card-title travel-card-close">
-            <i class="fas fa-times"></i>
-          </span>
+          <a class="z-depth-2 btn-floating card-title travel-card-close">
+            <i class="fa fa-times"></i>
+          </a>
           <span class="card-title travel-card-title">{{x.trip.meta.cardSubTitle}}</span>
           <p class="travel-card-text">{{x.trip.meta.cardTagline}}</p>
           <div ng-repeat="y in x.trip.img" class="travel-card-content-container">

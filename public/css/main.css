@@ -769,32 +769,27 @@ hr:after {
   color: var(--secondary-color-hover);
 }
 .travel-card-close {
-  position: sticky;
-  position: -webkit-sticky; /* Safari */
+  position: sticky !important;
+  position: -webkit-sticky !important; /* Safari */
   top: 0;
+  float: right;
+  margin-right: -1.25rem;
 }
 .travel-card-close > i {
-  font-size: 1.75rem;
-  margin: 0 -0.5rem 0 0;
-  padding: 0;
-  float: right;
+  background-color: var(--secondary-color);
+  font-size: 2rem;
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
 .travel-card-close i:hover {
-  color: var(--secondary-color-hover);
-  transform: rotate(360deg) scale(1.5);
-}
-@media screen and (max-width: 667px) {
-  .travel-card-close > i {
-    margin-right: -0.75rem;
-  }
+  background-color: var(--secondary-color-hover);
+  transform: rotate(360deg);
 }
 .travel-card-content-container {
   font-size: 24px;
   text-align: center;
   overflow: scroll;
-  padding: 0 7%;
+  padding: 0;
 }
 .travel-card-text {
   color: var(--tertiary-color);

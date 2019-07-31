@@ -750,7 +750,8 @@ hr:after {
 }
 /* Override Materialize card fab placement */
 .btn-floating.halfway-fab {
-  bottom: 5.75rem !important;
+  position: relative !important;
+  bottom: 1.25rem !important;
   background-color: var(--secondary-color);
 }
 .halfway-fab i {

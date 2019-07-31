@@ -36,9 +36,9 @@
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" id="travel-card-current-img" ng-src="{{travelPhotoDataCurrent.trip.meta.mainImgSrc}}">
           </div>
+          <a class="btn-floating activator halfway-fab right"><i class="fa fa-image"></i></a>
           <div class="card-content">
             <span class="card-title activator">{{travelPhotoDataCurrent.trip.cardTitle}}</span>
-            <a class="btn-floating activator halfway-fab right"><i class="fa fa-image"></i></a>
             <p>
               <a class="travel-card-link" href="{{travelPhotoDataCurrent.trip.meta.cardLocationSrc}}" target="_blank">{{travelPhotoDataCurrent.trip.meta.cardLocation}}</a>
               <span>{{travelPhotoDataCurrent.trip.meta.cardDate}}</span>
@@ -64,9 +64,9 @@
         <div class="card-image travel-card-main-img-container">
           <img class="activator" ng-src="{{x.trip.meta.mainImgSrc}}">
         </div>
+        <a class="btn-floating activator halfway-fab right"><i class="far fa-2x fa-image"></i></a>
         <div class="card-content">
           <span class="card-title activator">{{x.trip.cardTitle}}</span>
-          <a class="btn-floating activator halfway-fab right"><i class="far fa-2x fa-image"></i></a>
           <p>
             <a class="travel-card-link" href="{{x.trip.meta.cardLocationSrc}}" target="_blank">{{x.trip.meta.cardLocation}}</a>
             <span>{{x.trip.meta.cardDate}}</span>

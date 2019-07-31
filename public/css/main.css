@@ -815,6 +815,7 @@ hr:after {
   background-color: #FFF;
   font-size: 1rem;
 }
+/* Card titles for multiple day trips and end trip stats */
 .travel-card-image-description div {
   color: var(--tertiary-color);
   display: block;

@@ -762,6 +762,11 @@ hr:after {
   transform: rotate(360deg);
   background-color: var(--secondary-color-hover);
 }
+@media screen and (min-width: 1024px) {
+  .travel-card-link ~ span {
+    float: right !important;
+  }
+}
 .travel-card-link:hover {
   color: var(--secondary-color-hover);
 }

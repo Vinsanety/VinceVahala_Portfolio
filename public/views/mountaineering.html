@@ -52,7 +52,7 @@
             <p class="travel-card-text">{{travelPhotoDataCurrent.trip.meta.cardTagline}}</p>
             <div ng-repeat="x in travelPhotoDataCurrent.trip.img" class="travel-card-content-container">
               <img class="travel-card-image" ng-src="{{x.src}}">
-                <span class="travel-card-image-description">{{x.description}}</span>
+                <span class="travel-card-image-description" ng-bind-html="x.description | HtmlBind"></span>
             </div>
           </div>
         </div>
@@ -80,7 +80,7 @@
           <p class="travel-card-text">{{x.trip.meta.cardTagline}}</p>
           <div ng-repeat="y in x.trip.img" class="travel-card-content-container">
             <img class="travel-card-image" ng-src="{{y.src}}">
-              <span class="travel-card-image-description">{{y.description}}</span>
+              <span class="travel-card-image-description" ng-bind-html="y.description | HtmlBind"></span>
           </div>
         </div>
       </div>

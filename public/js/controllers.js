@@ -101,5 +101,11 @@ app.controller('mountaineeringController', function($scope, $sce, travelPhotoDat
   $scope.trustSrc = function(videoID) {
     var path = 'https://www.youtube-nocookie.com/embed/' + videoID + '?rel=0';
     return $sce.trustAsResourceUrl(path);
-  }
+  };
 })
+// Allows passing html into JSON strings
+app.filter('HtmlBind', function($sce) {
+  return function(val) {
+      return $sce.trustAsHtml(val);
+  };
+});

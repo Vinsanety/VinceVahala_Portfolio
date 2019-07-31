@@ -820,6 +820,7 @@ hr:after {
   display: block;
   font-size: 1.25rem;
 }
+/* Below class of -elevation, also used for end run stats */
 .travel-card-image-description .travel-card-image-description-elevation {
   color: var(--primary-color);
 }

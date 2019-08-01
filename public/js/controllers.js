@@ -92,6 +92,12 @@ app.controller('mountaineeringController', function($scope, $sce, travelPhotoDat
       scrollTop: $("#vahala-films-collection").offset().top - 75
     }, 2000);
   });
+  // Stats Anchor Link
+  $("#stats-scroll-to").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#stats-table").offset().top - 75
+    }, 2000);
+  });
   // Photo Data
   $scope.travelPhotoDataCurrent = travelPhotoDataFactory.travelPhotoDataCurrent();
   $scope.travelPhotoData = travelPhotoDataFactory.travelPhotoData();

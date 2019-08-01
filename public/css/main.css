@@ -715,6 +715,9 @@ hr:after {
     filter: opacity(.8);
   }
 }
+.travel-header-btn-group .btn {
+  margin-right: 0.5rem;
+}
 .card-reveal-opaque {
   background-color: rgba(232,232,232,0.95) !important;
 }

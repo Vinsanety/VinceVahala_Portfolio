@@ -16,7 +16,7 @@
   <h5 class="page-header center hide-on-med-and-up">Vahala Mountaineering</h5>
   <h6 class="center">You only get one, live accordingly.</h6>
   <br>
-  <div class="center">
+  <div class="center travel-header-btn-group">
     <a class="btn btn-large btn-draw-border" id="photo-collections-scroll-to">
       <span>Photo </span>
       <i class="fas fa-images"></i>
@@ -24,6 +24,10 @@
     <a class="btn btn-large btn-draw-border" id="vahala-films-scroll-to">
       <span>Film </span>
       <i class="fas fa-video"></i>
+    </a>
+    <a class="btn btn-large btn-draw-border" id="stats-scroll-to">
+      <span>Stats </span>
+      <i class="fas fa-poll"></i>
     </a>
   </div>
   <hr />
@@ -135,7 +139,7 @@
     </div>
   </div>
   <hr />
-  <div ng-controller="travelSummitTableController">
+  <div ng-controller="travelSummitTableController" id="stats-table">
     <h3 class="center page-header">Summit List</h3>
     <table class="travel-summit-table responsive-table striped">
       <thead>

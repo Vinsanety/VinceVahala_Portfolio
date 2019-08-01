@@ -104,3 +104,9 @@ app.controller('mountaineeringController', function($scope, $sce, travelPhotoDat
   }
   $scope.summitData = summitDataFactory.summitData();
 })
+// Allows passing html into JSON strings
+app.filter('HtmlBind', function($sce) {
+  return function(val) {
+      return $sce.trustAsHtml(val);
+  };
+});

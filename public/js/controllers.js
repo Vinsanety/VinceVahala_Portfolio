@@ -68,7 +68,7 @@ app.controller('projectsController', function($scope) {
 })
 
 
-app.controller('mountaineeringController', function($scope, $sce, travelPhotoDataFactory, travelFilmDataFactory, summitDataFactory) {
+app.controller('mountaineeringController', function($scope, $sce, travelPhotoDataFactory, travelFilmDataFactory) {
   document.documentElement.scrollTop = 0;
   // Delay collasible method as ng-repeat finishes
   setTimeout(function(){
@@ -102,11 +102,26 @@ app.controller('mountaineeringController', function($scope, $sce, travelPhotoDat
     var path = 'https://www.youtube-nocookie.com/embed/' + videoID + '?rel=0';
     return $sce.trustAsResourceUrl(path);
   }
-  $scope.summitData = summitDataFactory.summitData();
+  // $scope.summitData = summitDataFactory.summitData();
 })
 // Allows passing html into JSON strings
 app.filter('HtmlBind', function($sce) {
   return function(val) {
       return $sce.trustAsHtml(val);
   };
+});
+
+app.controller('travelSummitTableController', function($scope, summitDataFactory){
+  $scope.currentPage = 0;
+  $scope.pageSize = 7;
+  $scope.summitData = summitDataFactory.summitData();
+  $scope.numberOfPages = function(){
+    return Math.ceil($scope.summitData.length/$scope.pageSize);
+  }
+});
+app.filter('startFrom', function() {
+  return (input, start) => {
+    start = +start;
+    return input.slice(start);
+  }
 });

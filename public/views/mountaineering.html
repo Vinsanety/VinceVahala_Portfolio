@@ -134,11 +134,10 @@
       </ul>
     </div>
   </div>
-
   <hr />
-  <div class="travel-table">
+  <div ng-controller="travelSummitTableController">
     <h3 class="center page-header">Summit List</h3>
-    <table class="responsive-table striped">
+    <table class="travel-summit-table responsive-table striped">
       <thead>
         <tr>
           <th>Name</th>
@@ -148,7 +147,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="td in summitData">
+        <tr ng-repeat="td in summitData | startFrom:currentPage*pageSize | limitTo:pageSize">
           <td>{{td.Name}}</td>
           <td>{{td.Elevation}}</td>
           <td>{{td.Range}}</td>
@@ -156,7 +155,10 @@
         </tr>
       </tbody>
     </table>
+    <div class="travel-summit-table-btn-group">
+      <button class="btn btn-draw-border" ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1">Prev</button>
+      <span>Page {{currentPage+1}} of {{numberOfPages()}}</span>
+      <button class="btn btn-draw-border" ng-disabled="currentPage >= summitData.length/pageSize - 1" ng-click="currentPage=currentPage+1">Next</button>
+    </div>
   </div>
-
-
 </div>

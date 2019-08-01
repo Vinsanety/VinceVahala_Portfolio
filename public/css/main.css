@@ -853,6 +853,22 @@ hr:after {
 .travel-film-collapsible .collapsible-body {
   padding: 0;
 }
+.travel-summit-table {
+  margin-bottom: 2rem;
+}
+.travel-summit-table th {
+  color: var(--tertiary-color);
+}
+.travel-summit-table td:last-child, th:last-child {
+  text-align: center;
+}
+.travel-summit-table-btn-group {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.travel-summit-table-btn-group span {
+  padding: 0 1rem;
+}
 
 
 /* Footer

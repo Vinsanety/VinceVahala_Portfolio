@@ -16,7 +16,7 @@
   <h5 class="page-header center hide-on-med-and-up">Vahala Mountaineering</h5>
   <h6 class="center">You only get one, live accordingly.</h6>
   <br>
-  <div class="center">
+  <div class="center travel-header-btn-group">
     <a class="btn btn-large btn-draw-border" id="photo-collections-scroll-to">
       <span>Photo </span>
       <i class="fas fa-images"></i>
@@ -24,6 +24,10 @@
     <a class="btn btn-large btn-draw-border" id="vahala-films-scroll-to">
       <span>Film </span>
       <i class="fas fa-video"></i>
+    </a>
+    <a class="btn btn-large btn-draw-border" id="stats-scroll-to">
+      <span>Stats </span>
+      <i class="fas fa-poll"></i>
     </a>
   </div>
   <hr />
@@ -132,6 +136,33 @@
           </div>
         </li>
       </ul>
+    </div>
+  </div>
+  <hr />
+  <div ng-controller="travelSummitTableController" id="stats-table">
+    <h3 class="center page-header">Summit List</h3>
+    <table class="travel-summit-table responsive-table striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Elevation</th>
+          <th>Range</th>
+          <th>Total Summits</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="td in summitData | startFrom:currentPage*pageSize | limitTo:pageSize">
+          <td>{{td.Name}}</td>
+          <td>{{td.Elevation}}</td>
+          <td>{{td.Range}}</td>
+          <td>{{td.TotalSummits}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="travel-summit-table-btn-group">
+      <button class="btn btn-draw-border" ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1">Prev</button>
+      <span>Page {{currentPage+1}} of {{numberOfPages()}}</span>
+      <button class="btn btn-draw-border" ng-disabled="currentPage >= summitData.length/pageSize - 1" ng-click="currentPage=currentPage+1">Next</button>
     </div>
   </div>
 </div>

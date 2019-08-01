@@ -1,0 +1,352 @@
+app.factory('summitDataFactory', function () {
+
+  const summitData = [
+    {
+      "Name": "Mt. Bierstadt",
+      "Elevation": "14,060",
+      "Range": "Front",
+      "TotalSummits": 6
+    },
+    {
+      "Name": "Mt. Shavano",
+      "Elevation": "14,229",
+      "Range": "Sawatch",
+      "TotalSummits": 4
+    },
+    {
+      "Name": "Mt. Elbert",
+      "Elevation": "14,433",
+      "Range": "Sawatch",
+      "TotalSummits": 3
+    },
+    {
+      "Name": "Quandary Peak",
+      "Elevation": "14,265",
+      "Range": "Tenmile",
+      "TotalSummits": 3
+    },
+    {
+      "Name": "Mt. Evans",
+      "Elevation": "14,264",
+      "Range": "Front",
+      "TotalSummits": 3
+    },
+    {
+      "Name": "Longs Peak",
+      "Elevation": "14,255",
+      "Range": "Front",
+      "TotalSummits": 2
+    },
+    {
+      "Name": "Mt. Sneffels",
+      "Elevation": "14,150",
+      "Range": "San Juan",
+      "TotalSummits": 2
+    },
+    {
+      "Name": "Pikes Peak",
+      "Elevation": "14,110",
+      "Range": "Front",
+      "TotalSummits": 2
+    },
+    {
+      "Name": "Missouri Mountain",
+      "Elevation": "14,067",
+      "Range": "Sawatch",
+      "TotalSummits": 2
+    },
+    {
+      "Name": "Mt. Sherman",
+      "Elevation": "14,036",
+      "Range": "Mosquito",
+      "TotalSummits": 2
+    },
+    {
+      "Name": "Mt. Massive",
+      "Elevation": "14,421",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Harvard",
+      "Elevation": "14,420",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Blanca Peak",
+      "Elevation": "14,345",
+      "Range": "Sangre de Cristo",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "La Plata Peak",
+      "Elevation": "14,336",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Uncompahgre Peak",
+      "Elevation": "14,309",
+      "Range": "San Juan",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Crestone Peak",
+      "Elevation": "14,294",
+      "Range": "Sangre de Cristo",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Lincoln",
+      "Elevation": "14,286",
+      "Range": "Mosquito",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Grays Peak",
+      "Elevation": "14,270",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Antero",
+      "Elevation": "14,269",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Torreys Peak",
+      "Elevation": "14,267",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Castle Peak",
+      "Elevation": "14,265",
+      "Range": "Elk",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Wilson",
+      "Elevation": "14,246",
+      "Range": "San Juan",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Cameron",
+      "Elevation": "14,238",
+      "Range": "Mosquito",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Princeton",
+      "Elevation": "14,197",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Belford",
+      "Elevation": "14,197",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Yale",
+      "Elevation": "14,196",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Bross",
+      "Elevation": "14,172",
+      "Range": "Mosquito",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Kit Carson Peak",
+      "Elevation": "14,165",
+      "Range": "Sangre de Cristo",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "El Diente Peak",
+      "Elevation": "14,159",
+      "Range": "San Juan",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Maroon Peak",
+      "Elevation": "14,156",
+      "Range": "Elk",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Tabeguache Peak",
+      "Elevation": "14,155",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Oxford",
+      "Elevation": "14,153",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Democrat",
+      "Elevation": "14,148",
+      "Range": "Mosquito",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Challenger Point",
+      "Elevation": "14,081",
+      "Range": "Sangre de Cristo",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Columbia",
+      "Elevation": "14,073",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Humboldt Peak",
+      "Elevation": "14,064",
+      "Range": "Sangre de Cristo",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Conundrum Peak",
+      "Elevation": "14,060",
+      "Range": "Elk",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Handies Peak",
+      "Elevation": "14,048",
+      "Range": "San Juan",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Ellingwood Point",
+      "Elevation": "14,042",
+      "Range": "Sangre de Cristo",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Lindsey",
+      "Elevation": "14,042",
+      "Range": "Sangre de Cristo",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Little Bear Peak",
+      "Elevation": "14,037",
+      "Range": "Sangre de Cristo",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Redcloud Peak",
+      "Elevation": "14,034",
+      "Range": "San Juan",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Wilson Peak",
+      "Elevation": "14,017",
+      "Range": "San Juan",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Wetterhorn Peak",
+      "Elevation": "14,015",
+      "Range": "San Juan",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "San Luis Peak",
+      "Elevation": "14,014",
+      "Range": "San Juan",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "North Maroon Peak",
+      "Elevation": "14,014",
+      "Range": "Elk",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. of the Holy Cross",
+      "Elevation": "14,005",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Huron Peak",
+      "Elevation": "14,003",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Sunshine Peak",
+      "Elevation": "14,001",
+      "Range": "San Juan",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "West Evans",
+      "Elevation": "14,256",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Ouray",
+      "Elevation": "13,971",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Parnassus",
+      "Elevation": "13,574",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Pettingell Peak",
+      "Elevation": "13,553",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "South Arapaho Peak",
+      "Elevation": "13,397",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Audubon",
+      "Elevation": "13,223",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Paiute Peak",
+      "Elevation": "13,088",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Old Baldy",
+      "Elevation": "13,038",
+      "Range": "Front",
+      "TotalSummits": 1
+    }
+  ]
+  return {
+    summitData: function () {
+      return summitData;
+    },
+  }
+})

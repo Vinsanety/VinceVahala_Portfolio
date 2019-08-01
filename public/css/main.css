@@ -715,6 +715,15 @@ hr:after {
     filter: opacity(.8);
   }
 }
+.travel-header-btn-group .btn {
+  margin-right: 0.5rem;
+}
+@media screen and (max-width: 667px){
+  .travel-header-btn-group .btn {
+    margin-bottom: 0.5rem;
+    padding: 0 0.875rem !important;
+  }
+}
 .card-reveal-opaque {
   background-color: rgba(232,232,232,0.95) !important;
 }
@@ -852,6 +861,22 @@ hr:after {
 }
 .travel-film-collapsible .collapsible-body {
   padding: 0;
+}
+.travel-summit-table {
+  margin-bottom: 2rem;
+}
+.travel-summit-table th {
+  color: var(--tertiary-color);
+}
+.travel-summit-table td:last-child, th:last-child {
+  text-align: center;
+}
+.travel-summit-table-btn-group {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.travel-summit-table-btn-group span {
+  padding: 0 1rem;
 }
 
 

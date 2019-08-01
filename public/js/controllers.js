@@ -1,8 +1,6 @@
 app.controller('homeController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
-    $('.materialboxed').materialbox();
-    $('.carousel').carousel();
     $('.tabindex-hidden-link').attr('tabindex', '-1');
   });
 })

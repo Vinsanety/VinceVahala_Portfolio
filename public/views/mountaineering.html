@@ -1,10 +1,10 @@
 <div class="mountaineering-parallax1">
   <div class="mountaineering-para-text-overlay">TRAVEL</div>
   <div class="strava-iframe-large hide-on-med-and-down">
-    <iframe class="z-depth-3" frameborder="0" allowtransparency="true" scrolling="yes" src="https://www.strava.com/athletes/19835017/latest-rides/e7692096308fc2ed6d91e1608b19638ae8f0602e"></iframe>
+    <iframe class="z-depth-3 tabindex-hidden-link" frameborder="0" allowtransparency="true" scrolling="yes" src="https://www.strava.com/athletes/19835017/latest-rides/e7692096308fc2ed6d91e1608b19638ae8f0602e"></iframe>
   </div>
   <div class="strava-iframe-small hide-on-med-and-up center">
-    <iframe class="z-depth-3" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.strava.com/athletes/19835017/activity-summary/e7692096308fc2ed6d91e1608b19638ae8f0602e"></iframe>
+    <iframe class="z-depth-3 tabindex-hidden-link" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.strava.com/athletes/19835017/activity-summary/e7692096308fc2ed6d91e1608b19638ae8f0602e"></iframe>
   </div>
   <a id="travel-icon-overlay">
     <img class="mountaineering-para-icon-overlay" src="https://lh3.googleusercontent.com/OYvJK5cO-eYyzum3h7rQGIlrygqCNmLTLkAHxJ_xLVY5gL2O-CTXIBWRpFDi40xzhWXuj6ikrX-zhzZTPNkBxbJGBVYN02VOkN8wMnRaWQIfx6NHbSZfHxdq32-VcWZXImrSJlQlOJItcoq7gR3GlSaF0AGfUcWqgbJQoX7uKVZ7DVV7kbJYmkCw1T3UxJfBCenRjdoHEjRmLiHcI0DZrE1ZgFSs16xUe8U7I3XGgrs2wGREi_PlWuwZ8xFQSjB8NZZGBa1Ki4gvFUcq73wKlQIzaPpNh5Jx4l-xcsHnLaR0p76qEYvF5n0Tw_Ykl7RYMk4OJb_r4YKYZS5oxzsEc1WgtuiB7Y2GHUbJ-QqfDnXT_sKFDPYHdBzM9odKMMfLbWlKQqV7jpS-nK-3cZ8K2rrnZtmhT_-bwDfiSIknrK9GtvIk-noGi6vY_7y1N3OyciBCK-kl3j1Ac0SGeltJ61HC5hPQOaE6zVumtTUTVbirZefYGb-Jl1RJ8I4807Oa4SHJDOfyc0CfCC5s9OalNFBfPcyo5r6rnDdOzjhGVxG_9EQlIHMx1n2kHp0M1bsBddD0dPKfzbyKuGLrih34kv2RBVmfmMfH3HbwOSWR3A=s512-no">
@@ -17,18 +17,18 @@
   <h6 class="center">You only get one, live accordingly.</h6>
   <br>
   <div class="center travel-header-btn-group">
-    <a class="btn btn-large btn-draw-border" id="photo-collections-scroll-to">
+    <button class="btn btn-large btn-draw-border" id="photo-collections-scroll-to">
       <span>Photo </span>
       <i class="fas fa-images"></i>
-    </a>
-    <a class="btn btn-large btn-draw-border" id="vahala-films-scroll-to">
+    </button>
+    <button class="btn btn-large btn-draw-border" id="vahala-films-scroll-to">
       <span>Film </span>
       <i class="fas fa-video"></i>
-    </a>
-    <a class="btn btn-large btn-draw-border" id="stats-scroll-to">
+    </button>
+    <button class="btn btn-large btn-draw-border" id="stats-scroll-to">
       <span>Stats </span>
       <i class="fas fa-poll"></i>
-    </a>
+    </button>
   </div>
   <hr />
   <div class="row">
@@ -40,16 +40,16 @@
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" id="travel-card-current-img" ng-src="{{travelPhotoDataCurrent.trip.meta.mainImgSrc}}">
           </div>
-          <a class="btn-floating activator halfway-fab right"><i class="fa fa-image"></i></a>
+          <a class="btn-floating activator halfway-fab right" href=""><i class="fa fa-image"></i></a>
           <div class="card-content">
             <span class="card-title activator">{{travelPhotoDataCurrent.trip.cardTitle}}</span>
             <p>
-              <a class="travel-card-link" href="{{travelPhotoDataCurrent.trip.meta.cardLocationSrc}}" target="_blank">{{travelPhotoDataCurrent.trip.meta.cardLocation}}</a>
+              <a class="travel-card-link tabindex-hidden-link" href="{{travelPhotoDataCurrent.trip.meta.cardLocationSrc}}" target="_blank">{{travelPhotoDataCurrent.trip.meta.cardLocation}}</a>
               <span> {{travelPhotoDataCurrent.trip.meta.cardDate}}</span>
             </p>
           </div>
           <div class="card-reveal card-reveal-opaque travel-card-scrollbar mobile-momentum-scroll">
-            <a class="z-depth-2 btn-floating card-title travel-card-close">
+            <a class="z-depth-2 btn-floating card-title travel-card-close" href="">
               <i class="fa fa-times"></i>
             </a>
             <span class="card-title travel-card-title">{{travelPhotoDataCurrent.trip.meta.cardSubTitle}}</span>
@@ -68,16 +68,16 @@
         <div class="card-image travel-card-main-img-container">
           <img class="activator" ng-src="{{x.trip.meta.mainImgSrc}}">
         </div>
-        <a class="btn-floating activator halfway-fab right"><i class="far fa-2x fa-image"></i></a>
+        <a class="btn-floating activator halfway-fab right" href=""><i class="far fa-2x fa-image"></i></a>
         <div class="card-content">
           <span class="card-title activator">{{x.trip.cardTitle}}</span>
           <p>
-            <a class="travel-card-link" href="{{x.trip.meta.cardLocationSrc}}" target="_blank">{{x.trip.meta.cardLocation}}</a>
+            <a class="travel-card-link" href="{{x.trip.meta.cardLocationSrc}}" target="_blank" tabindex="-1">{{x.trip.meta.cardLocation}}</a>
             <span> {{x.trip.meta.cardDate}}</span>
           </p>
         </div>
         <div class="card-reveal card-reveal-opaque travel-card-scrollbar mobile-momentum-scroll">
-          <a class="z-depth-2 btn-floating card-title travel-card-close">
+          <a class="z-depth-2 btn-floating card-title travel-card-close" href="">
             <i class="fa fa-times"></i>
           </a>
           <span class="card-title travel-card-title">{{x.trip.meta.cardSubTitle}}</span>

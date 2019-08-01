@@ -66,6 +66,7 @@ app.controller('mountaineeringController', function($scope, $sce, travelPhotoDat
   setTimeout(function(){
     $('.collapsible').collapsible();
   }, 250);
+  $('.tabindex-hidden-link').attr('tabindex', '-1');
   // Parallax Overlay Anchor Link
   $("#travel-icon-overlay").click(function() {
     $('html, body').animate({

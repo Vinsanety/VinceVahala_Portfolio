@@ -27,12 +27,6 @@ app.controller('contactController', function($scope) {
 app.controller('resumeController', function($scope) {
   angular.element(document).ready(function () {
     $(this).scrollTop(0);
-    $('.modal').modal();
-    $("#resume-icon-overlay").click(function() {
-      $('html, body').animate({
-        scrollTop: $("#resume-current-job-card").offset().top - 135
-      }, 2500);
-    });
   });
 })
 

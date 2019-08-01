@@ -502,35 +502,6 @@ hr:after {
 .resume-skills-container {
   height: auto;
 }
-#resume-modal-btn {
-  background-color: var(--secondary-color);
-  margin-bottom: 1rem;
-}
-#resume-modal-header {
-  color: black;
-  font-family: var(--header-font-family);
-}
-#resume-modal1 {
-  width: 75%;
-}
-#resume {
-  width: 100%;
-  height: auto;
-}
-#resume-download-pdf {
-  padding: 0 1% 0 1%;
-  float: left;
-}
-#resume-download-pdf > button {
-  cursor: pointer;
-  text-transform: uppercase;
-  background-color: transparent !important;
-  border: none;
-  padding: 0.5rem;
-}
-#resume-download-pdf:hover {
-  background-color: rgba(0,0,0,0.1);
-}
 .icon-block p .fa-code {
   color: var(--tertiary-color);
   font-size: 0.5rem;

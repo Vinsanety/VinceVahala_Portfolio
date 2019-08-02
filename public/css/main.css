@@ -377,16 +377,8 @@ hr:after {
   height: 60vh;
   position: relative;
 }
-.home-screen-parallax2 {
-  background-image: url(https://lh3.googleusercontent.com/KoqpIaL3l5Uuj_geA4cT3OptsPoZDona6-GnIkmoxZA1b4S7C62GlG1tI_U6auO5ipEUOfRiGO32ngbFZ1kQwhx1uRsQ8xNZ1VoDpsUbTFmqJDu1_84wWTQOr2-SuLXOCs09lsYv03meqMhw88uhyVXymmQwuUTIfmXYcBQWRBZWk-cjXyaTAQWM9N3nILARpJW9wK5q5Gn7KUl3pTpKwSn0mEj8NU50aH8E4Zyk3a1pylszuZwGgdIDCtm6PryWUknOF-lT3YHmcKqQjxEzlSQpwk3N0CRHCZp50DkcIp6coYzsBPRKVWa_v1wgMA1zbN2cWPA2HU-ji5MA_7-0z1vhD_5KvMzB9YD_lP3udK9sxt05yZi43M47BCj_BVr5rfp-Hojf2Zj6R3-e3Z0yhfvs83AGi1a0vjsCi-RMVVWB94YHv_z1tKCRoxt3zx3nbNQt6rcW7ORtL35Sy4nA3RtrrbumpOUWUxxX-7XOh9pJpvgV7sQrpkjICDa1Gk7WNw0dQXlLAfpra3y2VImdJqzqg6gznqbjJRvQkA7_Yd--NuNxAWDo5jETwP96DbsEhuvTDg7yf6hROeXl0xJtVSCdMLqUrhhuQrE7de4NYg=w1200-h725-no);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  height: 60vh;
-  position: relative;
-}
 @media screen and (max-width: 1367px) {
-  .home-screen-parallax1, .home-screen-parallax2 {
+  .home-screen-parallax1 {
     background-attachment: scroll;
   }
 }

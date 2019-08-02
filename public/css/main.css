@@ -834,13 +834,22 @@ hr:after {
   padding: 0;
 }
 .travel-summit-table {
-  margin-bottom: 2rem;
+  background-color: #FFF;
 }
 .travel-summit-table th {
+  padding: 1rem;
   color: var(--tertiary-color);
 }
+.travel-summit-table tr td {
+  padding: 1rem;
+}
 .travel-summit-table td:last-child, th:last-child {
-  text-align: center;
+  text-align: left;
+}
+@media screen and (min-width: 1024px) {
+  .travel-summit-table td:last-child, th:last-child {
+    text-align: center;
+  }
 }
 .travel-summit-table-btn-group {
   margin-bottom: 2rem;
@@ -848,6 +857,18 @@ hr:after {
 }
 .travel-summit-table-btn-group span {
   padding: 0 1rem;
+}
+.travel-summit-total-container {
+  text-align: right;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  background-color: #FFF;
+  color: var(--tertiary-color);
+  border-top: 1px solid var(--tertiary-color);
+}
+.travel-summit-total-value {
+  color: #000;
+  font-size: 1.25rem;
 }
 
 

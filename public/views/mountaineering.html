@@ -95,15 +95,16 @@
   <div class="row" id="vahala-films-collection">
     <h3 class="center page-header">Vahala Films</h3>
     <div class="travel-current-film-container">
-    <div class="col s12 m12 l12 card">
-      <div class="video-wrapper">
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CnQGvCWdLWQ?rel=0" frameborder="0" allowfullscreen></iframe>
+      <div class="col s12 m12 l12 card">
+        <div class="video-wrapper">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CnQGvCWdLWQ?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="card-content center">
+          <span class="card-title">
+            Mt. Harvard - Mt. Columbia Traverse
+          </span>
+        </div>
       </div>
-      <div class="card-content center">
-        <span class="card-title">
-          Mt. Harvard - Mt. Columbia Traverse
-        </span>
-      </div></div>
     </div>
     <!-- Scenic Videos -->
     <div class="col s12 m12 l6" ng-repeat="x in travelFilmData">
@@ -151,7 +152,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="td in summitData | startFrom:currentPage*pageSize | limitTo:pageSize">
+        <tr ng-repeat="td in summitData = (summitData | filter:filterExpr) | startFrom:currentPage*pageSize | limitTo:pageSize">
           <td>{{td.Name}}</td>
           <td>{{td.Elevation}}</td>
           <td>{{td.Range}}</td>
@@ -159,6 +160,13 @@
         </tr>
       </tbody>
     </table>
+    <div class="travel-summit-total-container">
+      <p><i class="fas fa-mountain"></i>Total 14er & 13er Summits:
+        <span class="travel-summit-total-value">
+          {{ summitData|SummitTotal:'TotalSummits' }}
+        </span>
+      </p>
+    </div>
     <div class="travel-summit-table-btn-group">
       <button class="btn btn-draw-border" ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1">Prev</button>
       <span>Page {{currentPage+1}} of {{numberOfPages()}}</span>

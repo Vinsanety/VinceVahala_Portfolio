@@ -108,6 +108,15 @@ app.filter('HtmlBind', function($sce) {
       return $sce.trustAsHtml(val);
   };
 });
+app.filter('SummitTotal', function () {
+	return function (input, prop) {
+		var i =  input.length;
+  		var total = 0;
+  		while (i--)
+  			total += input[i][prop];
+		  return total;
+	  }
+});
 
 
 

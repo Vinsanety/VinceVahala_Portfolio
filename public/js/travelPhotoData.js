@@ -311,7 +311,7 @@ app.factory('travelPhotoDataFactory', function () {
       },
     },
     {
-      // Long's Peak | 7.9.19
+      // Longs Peak | 7.9.19
       trip: {
         cardTitle: "Longs Peak Run",
         meta: {
@@ -319,7 +319,7 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocationSrc: "https://www.14ers.com/photos/peakmain.php?peak=Longs+Peak",
           cardLocation: "Rocky Mountain National Park",
           cardDate: "July 7, 2019",
-          cardSubTitle: "Longs Peak Summit Run | 15.5mi/5,200'",
+          cardSubTitle: "Longs Peak Run | 15.5mi/5,200'",
           cardTagline: "Drove to Boulder to run one of my usuals when I checked the weather and decided to go for a late Long's Peak attempt up in Rocky Mountain National Park",
         },
         img: [
@@ -487,7 +487,7 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocationSrc: "https://www.14ers.com/route.php?route=pikeeast&peak=Pikes+Peak",
           cardLocation: "East Slopes via Barr Trail",
           cardDate: "April 2019",
-          cardSubTitle: "Pikes Peak Marathon | 27.21mi/7,802'",
+          cardSubTitle: "Marathon on Pikes Peak | 27.21mi/7,802'",
           cardTagline: "My first trail-ran Marathon with my buddy Danny on Pikes Peak, Elevation: 14,110'",
         },
         img: [
@@ -851,7 +851,7 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocationSrc: "https://www.google.com/maps/place/Maroon+Bells-Snowmass+Wilderness+-+White+River/@39.1109991,-107.01823,15z/data=!4m12!1m6!3m5!1s0x0:0x5d436e036dfee9c6!2sMaroon+Bells-Snowmass+Wilderness+-+White+River!8m2!3d39.1109991!4d-107.01823!3m4!1s0x0:0x5d436e036dfee9c6!8m2!3d39.1109991!4d-107.01823",
           cardLocation: "Pitkin County, CO",
           cardDate: "August 2017",
-          cardSubTitle: "South Maroon Peak Summit",
+          cardSubTitle: "South Maroon Peak | Elevation: 14,156'",
           cardTagline: "Where beautiful women instinctively flock like the salmon of Capistrano.",
         },
         img: [

@@ -11,8 +11,8 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocationSrc: "https://www.trailrunproject.com/trail/7010213/pawnee-buchanan-loop",
           cardLocation: "Indian Peaks Wilderness",
           cardDate: "August 3, 2019",
-          cardSubTitle: "Trail Run Marathon with my buddy Danny | 27+mi/7,000'elevation gain",
-          cardTagline: "Right in our backyard, one of the most beautiful trail marathons in Colorado. Crossing the Continental Divide twice, with amazing views along the way",
+          cardSubTitle: "Pawnee-Buchanan Pass Loop | 27mi/7,000'",
+          cardTagline: "Mountain trail run marathon with my buddy Danny. Right in our backyard, one of the most beautiful trail marathons in Colorado. Crossing the Continental Divide twice, with amazing views along the way",
         },
         img: [
           {

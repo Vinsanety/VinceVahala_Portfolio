@@ -18,4 +18,8 @@ $( document ).ready(function(){
     });
     $(this).addClass("active-link");
   });
+   $(".dropdown-trigger").dropdown({
+      coverTrigger: false,
+      hover: true,
+   });
 });

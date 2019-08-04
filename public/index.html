@@ -55,7 +55,24 @@
             <li class="main-nav-link"><a ui-sref="contact">Contact</a></li>
             <li class="main-nav-link"><a ui-sref="resume">Resume</a></li>
             <li class="main-nav-link"><a ui-sref="projects">Projects</a></li>
-            <li class="main-nav-link"><a ui-sref="mountaineering">Mountaineering</a></li>
+            <!-- <li class="main-nav-link"><a ui-sref="mountaineering">Mountaineering</a></li> -->
+
+            <!-- Dropdown Trigger -->
+            <li class="main-nav-link dropdown-trigger" data-target="mountaineering-nav-dropdown">Mountaineering</li><i class="fas fa-angle-down"></i>
+            <!-- Dropdown Structure -->
+            <ul id="mountaineering-nav-dropdown" class=
+            "dropdown-content">
+              <li class="main-nav-link">
+                <a ui-sref="mountaineering">Photos</a>
+              </li>
+              <li class="main-nav-link">
+                <a ui-sref="mountaineering">Film</a>
+              </li>
+              <li class="main-nav-link">
+                <a ui-sref="mountaineering">Stats</a>
+              </li>
+            </ul>
+
           </ul>
         </div>
       </nav>

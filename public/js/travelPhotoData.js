@@ -3,6 +3,102 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Pawnee-Buchanan Pass Loop | 8.3.19
+      trip: {
+        cardTitle: "Pawnee-Buchanan Pass Loop",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/m7Qkycl00hsvVCICjMFf-013tzXy1lYdf7sVSIjQ1IMp0Xhm7J_srxu9zYw-xpxOhtlV88woDrqagaemEn1tnbNOKd7mTFdG16mYD8q41qtuz3P_K6AWwEsxiFufQ0LwhyTwSLyAxPSxUJjtQo7APW271g2WMu1TbgACBeTJ8hmXOFOAgOwcfxp-lQoOMClVowaiNHUzZyzHIOzFoAofSvSW4_B11eY8X75F6QyIaartlyGr4XDhn4OGcSvZc2fFvc53D1NoIUuBIwHdiZ64jW-BaP2qRvuRKJWqmejhFOfdArqzsT8tNWt9j2LoQCN2q7OPRpHF5ecTaRZ7bPr_lSr7puLgHODN2E87Y7HBiODNd57LOC1998PuM_Z-F21Qs93tiIH2dzGd9-cTfqwy0VNUpANLVQUySX_ulSd7lz7uSCTXgAgtitru9vAIeIlfnYLRo2xmT-HxRV8DXf1Gr27pysfvM3ddlfwRJpc9wqnVpTdQZYVLTRlXmYDSoyUmgiSNDlPfsiC-TggntNG_QFpQYQigOznbSjUzZw7lVakpzJN4U9njMV87rTJW4YyPyOiNX9zKtfZb3frEJafpi5d6HB_q_sF176yjcdJ1LiHma5VoZf9xWyqc9zvYBMLaGc0JrSmeARpCVox7HdZmr-8uBXBHSQM=w1053-h789-no",
+          cardLocationSrc: "https://www.trailrunproject.com/trail/7010213/pawnee-buchanan-loop",
+          cardLocation: "Indian Peaks Wilderness",
+          cardDate: "August 3, 2019",
+          cardSubTitle: "Trail Run Marathon with my buddy Danny | 27+mi/7,000'elevation gain",
+          cardTagline: "Right in our backyard, one of the most beautiful trail marathons in Colorado. Crossing the Continental Divide twice, with amazing views along the way",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/ww6DdVanfcNhbBndcIfSb9VlbHnfgIC6ubOTF9qNdYwGKYAxHf5del-5svT3nZL2IGDypiPErGvf1CYHqN4fg8fx2vHHQPSEB9TGJsE4Z4Yp_1q9w4xzyAQ1uQe2dbmY5VB24IM6tcm7o4zNRPISn89aWsryc3D0ASo3W_UYe8CiMoHVlfg6dn1n6g8ZJtsxXjeKNMJM_5Z9BGgqkvcjkz5IU1wARCcYd3g1powkaRUutv7hEcCRzAoFiNF0Jc9VS9BcYuuELi3WZH-C6FWLfxgCGDXIikmGtfvLl6ox1M421nycwNeB4Xp3Cv1wcaKBghbbvjqzQVtLfPCXRG5E472gcbIvwBP7As97qAvUzPjR7pcBAHlMyNLKTHCi2cazs6gHAYwNOmu4bMA12uXcBkXCcB9T0NVciSIjz-m2Y_1wtRfq79fkJOHw4lIbhKcJSj53mxWC9RdjZI2vebSf68gXcWZzDQFugddYU0qDEYNi68spHa4Ql41K09kBpMjzP4PyQNFMdnnA9sJvAKwG_RI4xVn4odIpjhVGMjF5s-PHXq4RsGm1yzib-VyPtqvX1sESZqdtxm1VGecQv3mhYgICBQhkAJGsaxMJfg4DAq7-0rD4seBMsTMXfbD_E97LR_SBWE1tpfmNYKUVlpOc_Q07ZGn7cHQ=w1052-h789-no",
+            description: "2 miles in, alpenglow sunrises",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/ryGTMqWYS890kEdfUmK3psRTpOF_vYbDCEKmwMBZgIKMskSr-x5J5KMAQKI4uQ87qlFEXWftuX4x9Tn1_-ZJUi2Jlxu01antcoERvgJj2crDzBzud96FvpMxv_UtlvLWRl02tHfat3vCRmD8qegkiFhpH_b94oecENZ8xCLbGyGF1ae8qWTFAEimUrFBeDhMB0mQucwUx2FrUAW1Xf-CFnOIN0PSQWe0zsu0KFDKH6T42q6aoGtZVXCrBEWJYbPhFad59A5DE4axxMOKRrP_5ZOQAkk1FpEUIn5iKkvvjk48gKGvVvY_UtTYzu80SRFOaXw62mC8EXk3gZ5FWDdRux5FZqtMbtVPBrIZq1pi3s_yPBLFWWwYgao4r0vCeZgWoVsCeqLPf2I7DzwvYX3v71Qqyyh2uRrpo4vq6usbfGSAabfuKM_0vHcC6fJZPs7mCQL2576CPTbnU8Bof_cF2-u-ol7VSm-PdrYOUjxl1-oQnAkvfsqEIG1oqzYqEY1AM697DDLJ_6NiZ2ISnmMaY-nRTng5S_ZNZ4AF0opTVS9PkQnERXuOsEB0QAnft1UjIJusMPYeXywu-DWiLtMUBIWB64k8NIxHE4Js9J1_aTRqG5qmkJnlpB_VwPxxk-JKXNvFPXNUuN_rupcVCNzBhamdIfTCqIA=w1052-h789-no",
+            description: "Approaching the first pass of the day, Buchanan Pass at <span class=\"travel-card-image-description-elevation\">~11,844'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/HReIdJve9EmlTt-6pcc4jcpOCxsCVv5HXYHo8BLOV2bagznqC_JBujOegJXXInoxrPJfFJNb7iGCY038lTqhS46BQCPPryBhLbZ9FevHC197JmR8tOIOZUXXveX_bwgbt7uXxSnTwRREwWgOpfElyWMVxDJq4a_sHSgqT2YXNMEoa2MJ0RfPmpyXpIVn1GGIoZ1yXB9N26K3qDB9HpaYRcZKzxjgF69KrVLhsLD0kUP7JjI0oGgPMjdlzDTb9QThIsMwrI57PqbHZdfRMqjbjGTCdXDgdULqS2d6uCTTa8jR0hKwAQDXVVtmPMzezZPypNvx5cQQeGoX8GpdRWXXA3AmKvT5BEm4KRPRzr-ViG4YiERQ7F3xkEHrtfGrA8tDYLxIEDYaPf8CRNh4I-Gvm49QRPwcXi19MVfVfYRl-132xBu9navVjHBCUUhX6yLQxGIpgy_O3p42G6aTZaJYa_KmF1-1ga7I8fp82mKTTklZQA52hW_Cs9VjKYzWZceQbOFJP18ack5u3yGiPpDDojBb_jzUFZ8eTo73ejX3wVDGEndmW9MeLfYm3pSyUwGXbW3ZGVFRrXu6xM716QzXpBOVaHrWSN4jmGfzwoD4iqgwNnJCCKB7JigXI6u4srKBO6RbPGEIrboAwSP2toBC-IeNEmh_eoU=w1052-h789-no",
+            description: "Still a couple alpine snowfields left in high country",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/SbnMYv1SycsNzfxIVHyMa4jZ7Ff2I7DfvvzmCiWfYzUlIbWDvPJ4rKen4FomVDGMIIbXFt70yl7kQeMGHqawq7BkRj_Z_m6tUyrOsvVl8ehOiuNG3t8dIe5l_RPCJevNwp1FtlYXUVOTazUYxg9rS79alN0G4qbrM-YXKKlSVOq6aRFFPSs4O6bMGL4U6sY37jn55WiTG2hrW-LRtd0nt_6t12X_5FeUJbg6NXt8K2aKIwzhkkfODm0o0NzGK9yEzEmpx_wjNVu-bxcIgp49c6afnaOBR39HgOGqDoycyWtPyCNC-hFMiJwd6tQSQSvtJX3auW4MP5Ak2fs_YG2AUhqzQLgit8zw3PvvllyEX9b4AMQSaufH2g5yqUZz1YmAdK6ioW_sFTg0U5t3bMppgDdBVc7Dagr7bGfEXM-S7Qu7htjCWxPdFoOa_HBMKGlOsAmfgMBAKYfbPbyd1DNiFRIJGKB3uChqhnb6ituGisuLocW9OtgqeLM4WvFn1FNHlzqgkCjHcPfw2hIfURLoAAN4BJJpqO-dRQqEmNf_rWaB7yDoTjNPDRBU1VR64vi_V2JluEtUTo2WEAvvdj12QBjgqmNe-u3z3TJy2MrfYKmw9XVL8-KNt3eA5IsFukuR0gYVTuTqgm5uBF8iQJIfexwOgnxP5Bo=w1052-h789-no",
+            description: "Buchana Pass Summit - <span class=\"travel-card-image-description-elevation\">~11,844'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/QZa6ybNKwllCZfFajdIw5YZRivPYSkZ6zdgzH8cP-vN62CnyvP08ZSOthGyW2aV5Sd126mqCUHoSi-pcWObWfS7hd0Bm4ix8uEDBT9MGg2QZzUJ8wG-GSXJBiImRDOZj0KSpZBEUD8rkyZnNKlNi1DKqxcY1dLM7aPqz5mPHwq0v_PVqPRlTFkeSwCvObKKHveiMbpS8z5Upj_xurb33xPsIQNp1Y1JUswGRHzYtk4vscl06GKvwpYwQN-op2AMPu3spJdEc60svDUwBi3he8lHG1Z4bfCShXu_7Na0GSu0iNwrBv0zlO1li1FFLJFJWM-3IbG1lpEDqUTn0ETeBK8l6lIZRzaaWhzWhWd-gP_uehRurXJW5eH8JYAdRnFXuu3gBunFyXsb2iFUiMB-Is_lMRG5zRauhnSJRBAS_aC_t1zyR2duNrEePCAp4mCjk8BVD9LKa6b3KEMTXi4X3LMSEIwnlqLTnvGoda0Qw81iiEZRx0quIy3I6zXjmTx6o_0o0fD9aHTzg33Q20w2JIR4hEj-4HNr8yoMlcOFWTdKqtF1-hRB7ikWbO8yyUoGpEGcAlVnXpqX0qgPI9CYTSigKLyrk7MffLdy4aSkmKH_40C5fZtICLJA4bGfNP2bd3X4vETPsLoJocU_JyuZUun8KVPHr0KI=w1053-h789-no",
+            description: "Danny sending it hard down to the valley",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/6y6t9Bx8IKLIa4ZaKLLfxk9bH7bci4zjvJs4Ts6PI-N5kqk2S73ZEaB4iNesGctRdkkVkzcdQ8lZm_zW8pEdroBLikbSidszV4_7RBUpGwWHoB9wlf3FZJACFA3i4Ue1CUjOKGXz8bL7IpI39FE_ljNAaKWY5VRHoG-Pv6K_i2Mn_AS6BTkvjC3Muw5-eS4WxUOYUbyHXibXQJZsenIbfyIpMci-61DN4DttPJzoNxO3L9kumJsSjki6u1AD7NCXUPCEh1xUEHEIDJsMsDunQrpBgGUG5gpRiY0muvCEMR5j7-rzYd_BbV0TZpL7RlnG1eLBNt9PgprdIo6Is9ZnUM3bonZwW6DayA1jggxDznoVazS9klLG76h134b9sqwiZIZLRIlkOxjxU6jPTEvKCosrPT-0Z2BXQbQ2PoEP5bDgSjihJBqnKRjRVVcDn6PX1C1_YIDWlj1gYfYvYYc9jNm9QpSK5A1GvlJTF5rWVTn0JTwihlolFMbO2FJbPXHQuVtHnN5xehvQJYNVTpl6UioK2FTo8oHx8DoskdS5zXRct8PgdBK-TC4zcwzK9KgmnHRY3jl8Y5QScuAd5rZz58eTXCaHf1vUWyYEJ9SR1s5CsHTGXVsZC5kDkuu8OWHIzR73G-B6ji3dMNkHRTrd94JtFDyOQcc=w1052-h789-no",
+            description: "To die for singletrack",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/jGMONF7YMR6i482BUbeRVKDioTZSxpyfsVXgy95cwIVN-tH8wfQcYUXv7zm7nJFpKZ5LoSGYD87VTEfjIkDE08oGgqciK3DuS5AuuxCoAJOh3O7q43Etn06pNm6bM1qVYuqeUNXmf3SAsq9oa7hxCZgu6mjS4MoXU1rnVhwYkSmeNB_ia0jKE3nCo3wqFEGenlR8TNr4o96zpqdLudKfP3n5B2QCXiwIK31IsF9KYYCoBaQy7tQexl_Xze9RsqvkZ6l4__CQ0wJyoeNp1_Y8r3YwoJfWuCU16DLrXf3j80vH8LIuYvtJoxWXZHK_jwuIkcHMQAQnLU7qbErnHm_GBOrXM6rD-TTkrVbEfOXm0SeVOqLhpBb32_R8GyUu7K3k6qOK7TDxuoRBZMVUE-5E4vwPQt0b46By1Mxm4kI5g_hjsb3mFuVo8vWU_i5V0gxI3xI1tqdLuzpkGVTxWHubuDYkWepRpa3mnx28WF6vrUZP5BjNweeuIfoA-Q_vvDOrBP1Ft8N8-JMOsNqgWfE2oYXWVs7eZk-qcTm2_lCY-tAFPtJbnRUBj8BA0u59pSVufPKcF7TYToDFE6eTm5N7-rV4luY9M3RXMImzeRnJ4qocsB9zjmAJ4h5TChcGuAYZoh60zB-JjURUIBs0_Hl7dJsXwJLfGQY=w1052-h789-no",
+            description: "Around ~7miles in, starting to wake up with the forest",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/IqRXLf6ov4acYpwhYj9ZOH5Qm2-1TBQmZO2SjCGLkvp9kDrAcA7SsuOR-iokR68Y-dkDdeifvW83gKJCl_KbBXDK38gPLEYoWlYBAE8JT28DYpyd0Pg_oARrxaqmCuAMuQrJ8g_jXj6clxNvFFsFl7e2myMlgZSG4k-0jyo3YhpkEMawRzllXXwJcHOfLEyxT-0Var-iSw-6Hom3Hy1gGtKI0c9mi8ruOswKFhfCx-zy0kByjrNnEJP-q2sj-M0WYciMB3P6cFfFA33JDUL26fPr_CeySFz-l229766RhEKpAw7PvBuyFPwiEp71Ly0LGGM04-HmfM7cixC3b3_g6gn8FHomzeL18lh6Z9K8rWHSUZQb-uTZtIxFFVCZ3U7ouFXkc9ii8tBnyDtMo0T_F4i5y0_2MPpD4CvFVKeEsPtuXEzOYs7_2qIFAV8vSyA0LagXXmnOwYlIBMjI3pduNuaZvnGN1fWU4ee9xfNOVVRSRubPQcSVpzm_uW3zvUmgu1FCkCRiZB8X-YZ5knrsryayaaIwkXMIGWezMWjghsTH2AHn2H3kwbNvMIJHGAfx5uonDkY7PvhDWfb3a5nsVpcYB6ESSX-3gKgvWxs-n7qk8kGwQTIWNFrDAop3rLAFojZaKT_fpEjoyg9iDFCiTnAuZ1PdbB8=w1052-h789-no",
+            description: "Stream dreaming",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/YGfZmqbtNUJF1iTW3W91E90IyY9dToGdXnJf2-DUx3SzQNMsPncTMevcS1U7JZ8qFI2_LTrnSfTgJBg0GD4Zary35pEtKwHDZOGux1na3jEw9BzN4pKlj0-fUPk271fQibnQJMiFTgjg8YBx5OuJkPUIyIcZEWsAVIinGs4CnDI2KKbYDLawf4XoWietmMD336NW5YrXvBgSc7PlZFZXB8_TSlzD1XteCBAS7eZ_0GSt8teFU8ui1oi3LWWw9z9LA5l3IrAlZE3bc0-mWpQZA1ztOMNX_98NFzOpodI19_5Vsedho-f0Ho7SzWAPX-QM4WXbua8ax6szh3428lsWSV71OQEJFpkxCnb8JxWrTxfHM_uY2e4Jtfxl3txlRR7VySi7vAm-NkbALfWVj9CgHDt1HfiWqM7lfKwIr_worsyp41J0Crrte8HwUVgBjUEwM0llbpRZqHoyReNk8NJqWuYNve2N6NmSXAW4KqdwzHs7AszDyChGZHkYULJg_dliek78sIk0o3suLPfDm1SLbtlu8wmzMHl71nzc_calFMS7pnfjMG7Ef88kKLLejV8i4gOJv-S17OFco0JluwBDP6KxImGGecKOaJ2iemtk7LhB4aaIGJtqGcKNYd7AwiPtfBtHfhfnGLnRPH8mQrCfLVGUb14veZ0=w1052-h789-no",
+            description: "There is so much water this summer! Love it! Free refills",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/PRzlpRr7guI-MMFwdEfZq4hyHH1TZ8OXS8-XG3OpvbaKH3tOAo9P-VkMuUCYUKxNWZAkha1JBUjsGQbXgyxTkiAaoPA-g0GOjy76ltYAgrnoHfqqYa_MMIDMCK6KBYmOCfmSakmdHLf1chrt2KealWn4RhlXVrkkFK_mhzX6gO4PkiWRlGoAC1Cp3NFASDIoO1rMyqkY5jWU_aTaDr46n5rV1ZSVSIOz18Uh6NpG-okk--cqnChj1fmkpWwVmhPyRXMe1zwEMQ5NA8RbtplG0s-yV8Qfn-tk1FRkueQP0aQz-ewlCquTFK5r6BmI3L50AkXHi5sCbDaSmMZN5JMj89v0z_CK3tKqd7YekX8BsTjK-PuoEVxKA8AWQA4qI_0I-g4-v6jhgaC5VY7GsNU_OCzjn--hwjYUkBymUuqLwRFeSGNZHBENYMVvgEXJQ3F7HKOw1OjfR3eH0docLVMj0wQRpxsYRtH5HHQhuZ9bRYEAK-AFnE7bN3Aa5KCK-gNyNfLhxJDiiCrLlJr4jQDwJ8VWF3c8xaxJuCZwARSo6E425qQWpqIHWFOve1zQkKwqaAyichH_WA7WBGrsNZXyCM0s3xkRKWxkVtET4HPvWYC8McxJYMQfMNsAdv5IRbrH5Y34MMEhjMpiiyJBa6b15exZwlp9RC8=w1052-h789-no",
+            description: "Working our way up Cascade Creek trail, towards Crater Lake",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/E2UJFiyBJhJc4Yp8fRnh-FpXJ-GhkJreMAZsQTgMprZ8wOpNRntex1tGukpg3O4nhU-nhIPEOUZyNq9YGcfyBy7pIiiFvN66nrsN6LyXqG4As2PkTrpa7x9D8ySEhjXKrCe1zs0VCcMaUjdQUFrKbmZjnwWAkIlv55vono35igCQlX0kYF0dt7SSUI61KNSrL59ypYmZJde1_1oF8GBHYc3IlJog82RsU01PSnQXJ1m5ZYnHDFQIDxqIu_Vye70Tdx9DD4oImiWXgryrLbcKzB9VtD66Kd-d4cqY55_tVRaP0-U_JI58JEn4K9PaJA4ghRoM_Oue7IjX6K5-C-pduvOhK8E47p6aPUj4ZNfQOeuqmlfXFMVWCGGtoSvDVifnaeUWzrF3a1KWNXzrc4_Za2wzIH1Z64ALTa5EEbtsAHr0yQ1_kWjetGD6_BbyHX0hkcIZy3CAC3Gsg0F3PdL6eLSPU2xVTdzZPffwoCH1o-vmFn008ZZN4CMARfW0e_GekxAq1Po8OqlnnqsG7bk7GLOHtseipTM7gZHSYBuML6YBVTb2dimI-UASS93AWw-op4yZz37py3X4gUKIX5A_4R-ZFMWJzPkkNoeg6-ymnp_dh09lEv73b1RSIceAbaBRXyXZS2rQzuiRGnmdCeOx0Y40WOkBflg=w1052-h789-no",
+            description: "In the woods, looking South",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/ykPb4qVs1GhV1RDPyuyL5dZsYeu_gHhtxuzQofiWYw9hiwc7HXe0tzW5d6akhKLo2TPtfy8UX3yb5tD3slNZpI8kPLrl3trfBtonlTEi_-YZUyumvP3DXzJdifJUpAGKQlUJSMl0AuvyLJBh5-1L2s_RDNrM9NLYe1JlU2hngzBK675nzJoDtVq7sE7DVU9B9pRWW-b2c2ABWP_Hc6jjqmwmlUa0TrBWjqwzkkOgDm-opPP4tkDgLYm5vwZXN8ph_q-yLl1w1Hq1aDv6klgxum713TWYQtSVR47Y_4u7ATVVx4EENlWPfHe1jDCZsKaAS-3cEiXs7N85LfXn85mIwlhWTAhGHjcEmuYte8ZQQYdsmB0UiMvVn0LLo3AQbtI3ZhNocRQTlRnPrBr2jiOW8oLx301_kJU5nSMOVrvVgP3BzcBdV1zjNaF0SkFq-Lpy_72x1SteLSf1dE2sHkplNvh0JFA3oLsv8mOCbAiBRCj7RNPT101_Z_B-OaOzt2yUGk2UPXn25StWtiOS2X1iCkkdKKLzulAGnttfOEpMg1_iE5jzEi21iiFLajIkRLFa-F0SMyaEPKJx1QPrnkVfhGJI0PonAwGRGsJb0lZEVA3TVtFVV-do3ipYptqSXoTuR0k4tU2HqQ97DRjOfA_aOVUIUgreoDI=w1052-h789-no",
+            description: "Danny heading towards Pawnee Lake and Pawnee Pass",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/eaSmUnbXkeY5K4l2VMvjJs-hGcGqjPyGnlpR__QIykNEFZ6wSJ4GfN3xtL1GUJRd2I2TS0h_r5fFP9rZcmBHF9704f1KCJ7BMhuJJPWnGwcUk7y_215J1QSBOTtb_SsHMHK7QcVBg915MhAYqKw6qgGYL9rPIffcE6YzmA8_2aEc2YPJ3e86X4TiwwoACbW6UL_YL_3fpwss3QtT0eN28So4Ny7M3w50GcElc30YVe7RkLq5OR0ohYFG6r0yDis0GtI0dluBudFB5dJ2M2MSO2k-Nd2f2sZYKgh4Aq37bfa5spGDTDyel3oKMjtPmxIBPeo8Th6wZOeHD-gL_dLyBVxZV0cN4Hv1Xbl7tcia3s50wnEKO3F8pIMAnZuqiht25BPCoZjGlUCX1JQ_HyfGe1vUGqxv0fy12rraOo_zbm1CDH9wTKKmRY1xJytI63lYs5QkSzULCuLyZKXiTIVqW3e4CgYRpPoJdl0n6OaZnW5I-FuIH0vKzXCmGUyNu6exzv40NltDwRYFjaNBZZ9Ji-2f5phYWRPsvJwMqJOv8cQoKf1VF3CzXL39OsOli8AV70Sa1iCFBHXsKZCeGXpJlJk5P7elx4cSAyD4wZKItBkNcPZob5Ykvql5AIgl98RfOS_tOLqrX45WF1KHDfeYxLkskMBBb2w=w1052-h789-no",
+            description: "Pawnee Lake",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/gZf0FH-T0sbe8dtgvrIeH0Lh_JVmf01Pp11MEiChgdZHozWoCpGLQtn92Pz0P6ttcljV7XLkIH8sC9F6b0ZwrevKqyhKM_eKR7deuVG8yjVY8uYg5hBTf0-FivKSufIViX6kcJN7Nq8fEvbH5nbxv60DA9MiSYCAFFO-f8by-JOm6mf0sDsfc2ZqXQDc4Nf-GRwpRkJyLKhRZ8A-MI3VTaYQPyUpCTDd5X0eWk9W15W45om3WBRJwyffZRMXGF5lbpJlRb-G-IxEP4L8_c8zmrlTA_X5vv0ss1z0aKpi1FYWi6wTSin583W3juuqa_iNqWgPGkYAt1EgQe4DQZhMIKjMQdXD0m1GveZ_pLP8ncRbqQenWi6s7U9H7zhLeNCcCyI0lU4ZfJ0PMm5kOGHBIIrBQT-NJA68yZ2OLZEWgrC4BxDE2NzVRYHcHieAsownTtZPtna7o1Dj3YPUl2WNwhnLYIniI6I7vS_4-r9Dg_QcYbx-XV39Yd0TSJerMWv3hznWdJ4HHb6q2edRwEHPKtoqZhA60BJiLu7G-S5kv6wjqiQodxX73cMtBML1zOogh4skR7lr3OWIKQ33yKlJilaumaS4VUT0h8DzOK3OQOmmuQ0oFG6Le_0X9EFiRrtCbKXwgz9ga0Xzx_KygE-VfmCY7foOyO0=w1052-h789-no",
+            description: "Roughly 18 miles into the run, working our way up Pawnee pass, looking back at Pawnee Lake",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/hzWJYCdSUDSKYPGz6-AhrQT1o-B-5cwsdHnughvOAimB8KU0kubbZSMQ76kgkOl8EiZ30lubTtYbI-dn5Ya1jYbLISB9KTdv9SvORZqybH-_zFJASGy7BaMyYEGb-p1ahanQsCDbBiCEzk_56HI46WWpeeKE8KAx_y5nO9kXVY2N_sKSeoiEBXBmwKVoo7PuBgzFDz4GotXl9tCqWXyFxCOIxIqaihbrr-uMAaU_wQ0SdwFkMrYJS3fUts2UCHHjPJ-hja5sSQjLPbBLueeo0MxUleITG_nqCDZNE_hYqmjzD0LAku3-WDQLThe3xxd7n6yxvP4C7sOqX0M8wohp8CCN3hGWimOHB3FfojyR7-HZ07UOrICp6YZG-7ZZdV70kgpqXWaODJMvFeZPWdjhtiWlJhlNCJEQGLCjNKLO4dcLgPURwlXCeVWUSphT-88Xrn-2-lyytblZbc-hke5-IWgUtCq8trcI_q77fg43-5PP5HkNamn5TcuHDPSV1kxfLSd-Yugu9nxBHDlQya_XgmDxzJ9s3JaBKOaGtBu-VN3mp7wXVsuO9Ge02OsuXouEHO5P3X8VZm_HtUpnQrsaN30SF6mNCVEgfS9fk0WJhP0OUSXL_bh2cxtSMr_yEUwuPNl58SnBBRV6Wl3JBIprqZnmYyy3v2M=w1052-h789-no",
+            description: "Better believe we are climbing that",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Jcb64ruiGtBI76DjvqaWUQ94QvjgZt8vpoDIwlGqxBlHU2X8KRGRF24ukQugQXl8lwIjUhNll2lhH0gRzdA8DIYe1rscs0mbUj3YmV81w75TyVPHQcdVHugONwLmxSVMwdXOfYbncSdKiwZiQbVtdp6oTPoZmqWDtQWVinpv2AlaINzC2nWraZk3g0i5M4j3Jgip7yXx6eftrWj-S1jxG5RnjezeF-k-BF8YnCbYZFUcw1CEkA7Qpu6HaKUlDFtKaOkdggDR_WWXR9yEupfdlao0Gyeb0fYj-OVwg3c-84GhEXn8veTOb5jxkrcYSnXujBEDmZLxpf4fV3y-3y2zjPU084x_tK9S-4pP5VTZEv-RF7LHxMTEWeBLOR6ayhjlQojYY_dy_c9gNGSKb40XzgLOLoAUMdxAjavKY6Ghx3v8k8RONsRrWDHqNxw4kIEME2EnpCA4NnoBZvR3OPC8jR5RJCI-wspAIgS3s7jD6fVmyRiRejOg8cZXs1GG7x8ps5mBBqsH_phzOqjFbq8v8KkWpWmrSPuBXlulwYHwH-Kd1zjmRrnrj_lhLQLDjrm0vQOL_UCP9sJHrdgK3l0f49bsB2o8fHcdEYVpIkQUEMSbgKtSP9qiMdAIJqq1mOtT1pSFgJuBSABK9gnKyJ07f503ZptFmzI=w1052-h789-no",
+            description: "Technical trail over everything",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/a78AFwXQCfhlzaKXBhwd1KA0dxXAdJF8E4dhrmRoam3xahYNqbNi-jrXD_u726KtWgO_5FjA0S2yXPG2tkAi5jdXl32Zuln54L6Z1dXhxE0yTbzyDvOgokG9c0L5GBS16YEVDtiGkJI9BKvmMgBK3ufDVPZ7ShuVaER2fJ2P2__VJHwsp5otKckWjFMJj6h6gwC4Xk_wPxA5d2CTvgkP1Cz0LWbRLCZdvT8CZoOoa3_PxUaebGqvSBkKksDqxsbbKUGibSFiNlfXZlvYlcAceBBtmAEH8VUHdmIFx74umOKFGlQyTtkzziya-LMoBJU9jmOcF9n-TXSUhQmJJhpFUgre2BnOedpuzRI9GHDpkhA1knLKcld-v5v4KsXdF61oRNaaQF0Ceyzkw8SVHl1tymwuv_V08JwgZV7NE5QMeV8g0B5tEbp7X2O0hBujRIYAuKZaosPl6nS0QgNjExNJm_V7s1EGEuJR-lQJm8QkEtRgX-X9n55uf_yjwNP_IfYIiswjc2bDyEGeVxcfOJXnDZh4Z2okrh2rXRYi3umt5fi2d4hVCs9WFlpnEOsF-l5-AQ5oinaZWfcbe1lNonX2_rWsH0KP4bsd-MHrPaW_THuF9r5awLGpR5vlxqQUDzVQEvg4uot70gdQucfkzsJH6PuDkaLq5b0=w1052-h789-no",
+            description: "More Pawnee Pass ascending",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Q0uwMYUiFGc-sMzD0r7H2JQrLIV7lJg80kz2UwzCu-53_ZMljzjCgbN1KLRQivsCDODrwcf70I48QIiQYn84aC_HkvxNI_gVhCdqrlCIhuUKDoGXBuj8e75TdT-tWMydVbNHhAFUAPIEp2p4bH2vKMF9g6S52olQMj2nf6ADQCDlS0MBGDqVxjoV2W0uUHR88oQ6A3Tipg0dwJMgjEy6iYKiD7Xq7jJYc0sKrOLEn8-ykfBMnVFoY9isqJeOaZeuahnz8AwuFv9Xw0NLS1IwN7llYqCZcMpci58SXrh3HB3Qd1FkMmQdWy-pKD3-QyP8XuL9bMxjp9TUPyiX3W_UNyc7qT2k7UFT4sFvQX-n_bInJnPQjtcDLvZfwvOqSlqjN0RTBca9GEf0kTwgv08WThbDikg4aqSqMB1kHOg1OKL1QUNWm3etrP-daM1ds2Ys4mLFF4dqDGl5ftcghN6qLoOiHmpxrF7BuK1PzIxjLSF0vg_pX6PzI7ZWvta3LZWkzFesPkKLht5ctgQxxuHkHvjkWJO0vk_mDvdYqL8PKmhjtm6_g89B_nnI86ePwvmMcw-QruzW6NnVQzXZ3QbBZcUS2_EsoYF_j7GDaSae4Xy4f1xwi1MdH-q-N8vj0eWLxlLXigAUWbRP9XmSZV_hQU3PPJEr6Lw=w1052-h789-no",
+            description: "Notice the switchbacks",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/TJThlLApOfRF_BobRpLyvkibRDYQn0gQyAGgG8YcI0zPmfFK6UOrC5rO6PyJmkY9X4WqdEU1RPKFoX-GmErWk4XgMcU5shfdsmCdUtsUgTVvUMn6Oi9S28QM5YdphTF_W294VdL9q1ok_bpULFdUSioCuTD8nDE2EYbYCJv092_Iuo5tIzhIt3nfmwzN7JK2bVuAr5fHm_d2EAiSpNMdsYNeYEfNrwHSAEFNdHmAyMO2mtUDdrayLUjCUgN3O1ClxG2rG2Ml_xjnyaVpmS4xLIm3yu2h9SyVMBkARXSsp5GW4CnbTlt1aHR225hFWkDRrDnL968thKxHT46GSPPwMf6yBPc541eagoghIV1_nxnFWnCD6UF_yCjYrbZ2lmnttdhrdAkWFULgwzokc6PUH7ZIPE6wKKa3IHw3bjHboijcJKSNCylCanNZS2NL0NRAH7F7sx57UJ2O9vJckJ8ed_6cW4Iz047clpJ5PrrnXeK9ilIQyDMwIemPyezWGeFCBf-uUFJlQ_gawOTJ3KeSCu3Ig2nBEFqXyxJiK498vTKMiJx3a6HE3dsQ6X17WIoET78d44MZJ3897khGk74s7PF-yxr_w6wRPv-FVpmWPmwlBvYqVC1fmTiOFasHnUMdsNM7CGRy386AOTfilbMb9UYgaG6KKTo=w1052-h789-no",
+            description: "World Famous Pawnee Pass - <span class=\"travel-card-image-description-elevation\">12,541'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/jSO11W6V_MEcAuzklNyti5aRFmpWs9BpZ0Q5N9qA36Zo_PM00ZTlgAjFn5ElXNGjhJ2zKGBeNeclnlV1X6lIawqGthdgQIoJ643rPWj2ZnGyKnY-mTW6U8YfGuSVv9Iborr_P2FrKyoMafoZ0Y0B32dVHBbWk6LAlXM-tBqrY1R9aHMtx73gLRgEnFceEy595HoD5VeJ8TUqZsKQ1fmzRNq4LZNh9De4K3IDfTFBoMVQdnbK1-H9CftRX_snl3GbpgLovavyrIxtEdxAGomV_JCgCNvlP9YX-dh_wXoVPw9m46nJHlXwl83FvtoedIpwhgEDQ0EXUSHovnp7kniPHpjuHXcgun_2c5WlO8PajzV9opwCZrkHJRw2ZZ2URmiNnElZsGV9ebPQWu6HaxLDIHODdsCJw1Om_Ekt-F4dQ80_93MWNse0E_ea6LcDhZXG14nbIt4pOBoipsxMp1K8ilcLUUszs7QyYc5QnQVKu1g2N-KhdX3U2l64I4QLCXNTsNXM8npES-sfcl7LN75s92pr9SFbaDBKCyKMw6ETwVMCUXHlkzr1FbnzRz236ykHIJgg9CuEWq4MHPUPEWV7udvFvSue01JdN7tM_IrPCvEL8WPINp28jSx7vAIGF67hcvIrw87WtTLIZu2pX2b2d-grMEUqbh0=w1052-h789-no",
+            description: "End to the amazing day, looking toward Lake Isabelle. <span class=\"travel-card-image-description-elevation\">27+miles, with over 7,000' elevation gained</span>",
+          },
+        ],
+      },
+    },
+    {
       // 4Peak 4Days: San Luis, Uncompahgre, Wetterhorn, Little Bear | 7.24.19
       trip: {
         cardTitle: "San Luis, Uncompahgre, Wetterhorn, & Little Bear Peaks",

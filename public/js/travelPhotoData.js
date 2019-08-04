@@ -313,13 +313,13 @@ app.factory('travelPhotoDataFactory', function () {
     {
       // Long's Peak | 7.9.19
       trip: {
-        cardTitle: "Long's Peak Run",
+        cardTitle: "Longs Peak Run",
         meta: {
           mainImgSrc: "https://lh3.googleusercontent.com/0VC35O-bW_jPEb2TpedAi8IgeGoAX_f9s_eaByuyPjBCjHqeEI_onmryub3A0c-7JpbsFjY0eGekwdeuTEYuqpJkZ4T6LXpgy_SK7wPNEAyBQvCSxuIGNGwpW5jsQmSPC-i4wV_zbg8iOJr4E71C-HUj0K3ne8LuNF7HbVBWM10gu95RTy4kcD_NgG9nd-yEkzSs7yj_H9-JBC81XCD0nGJm6LtpwAcIzSyReg8SJdh1xe2rqtmF-HOu3opT8LS9PUyk1c5gfm2Wg8aQKUinE9kz1SSSGIL8H-6a6yNjDBk-HjE9AD_HW2oyLVvNP5fYfbXSX3pAQBi1IQUcXOkPkdBmvbG4ck0c8qdfEZT-2PlOSW3xYrdwt90aJ4LBZ9URxHtOzJ4FKlIFJ_MlCUmp8OD0aZpjOHHulkHCFqKqPK93t_AuT6LxufNhNFNHR9b11tjRDE8IPHv3dtCexjkxFINXMJwhfO91yEEzkRXRV_Gydh6D7-0kNQ6E3JPqkDj8ysUAzEYwWCUhfQLC6BMGgWZ-jkOdiauiwBz7hE9L2zRcsQUhw3gMMJI_c27sPeG_tjVgpg0Z-gXSJ8goB6PhQ7gNsjkU8_6Omahwjj_k6hDUKnLz9j7y10CBvllQzz2RXL93Q9Fli4jCAoi2SxSGiIbh2MMK8iI=w1053-h789-no",
           cardLocationSrc: "https://www.14ers.com/photos/peakmain.php?peak=Longs+Peak",
           cardLocation: "Rocky Mountain National Park",
           cardDate: "July 7, 2019",
-          cardSubTitle: "Impromptu Long's Peak Summit Run | 15.5mi/5,200'",
+          cardSubTitle: "Longs Peak Summit Run | 15.5mi/5,200'",
           cardTagline: "Drove to Boulder to run one of my usuals when I checked the weather and decided to go for a late Long's Peak attempt up in Rocky Mountain National Park",
         },
         img: [
@@ -411,7 +411,7 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocationSrc: "https://www.14ers.com/photos/peakmain.php?peak=Mt.+Elbert",
           cardLocation: "Chaffee County - Sawatch Range",
           cardDate: "June 2019",
-          cardSubTitle: "Chaffee County: Now this is Colorado",
+          cardSubTitle: "Mount Shavano, Ouray, Elbert",
           cardTagline: "Was camping in Chaffee County when my cousin and his fiance met up with me to enjoy campfires, beer, and good times. During the day as they enjoyed the sun with the pups, I went mountain running",
         },
         img: [
@@ -479,7 +479,7 @@ app.factory('travelPhotoDataFactory', function () {
       },
     },
     {
-      // Marathon on Pikes Peak Apr 19
+      // Marathon on Pikes Peak | Apr 19
       trip: {
         cardTitle: "Marathon on Pikes Peak",
         meta: {
@@ -487,8 +487,8 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocationSrc: "https://www.14ers.com/route.php?route=pikeeast&peak=Pikes+Peak",
           cardLocation: "East Slopes via Barr Trail",
           cardDate: "April 2019",
-          cardSubTitle: "Elevation: 14,110'",
-          cardTagline: "My first trail-ran Marathon with my buddy Danny",
+          cardSubTitle: "Pikes Peak Marathon | 27.21mi/7,802'",
+          cardTagline: "My first trail-ran Marathon with my buddy Danny on Pikes Peak, Elevation: 14,110'",
         },
         img: [
           {
@@ -623,7 +623,7 @@ app.factory('travelPhotoDataFactory', function () {
       },
     },
     {
-      // Mt. Parnassus Oct 18
+      // Mt. Parnassus | Oct 18
       trip: {
         cardTitle: "Mt. Parnassus",
         meta: {
@@ -631,7 +631,7 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocationSrc: "https://www.climb13ers.com/colorado-13ers/mount-parnassus",
           cardLocation: "Watrous Gulch Approach",
           cardDate: "Oct 2018",
-          cardSubTitle: "Elevation: 13,574'",
+          cardSubTitle: "Mt. Parnassus | Elevation: 13,574'",
           cardTagline: "A fun, close-by, 13er in the snow",
         },
         img: [
@@ -667,7 +667,7 @@ app.factory('travelPhotoDataFactory', function () {
       },
     },
     {
-      // Grand Canyon Summer 17
+      // Grand Canyon | Summer 17
       trip: {
         cardTitle: "Summer 17 Road Trip",
         meta: {
@@ -851,7 +851,7 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocationSrc: "https://www.google.com/maps/place/Maroon+Bells-Snowmass+Wilderness+-+White+River/@39.1109991,-107.01823,15z/data=!4m12!1m6!3m5!1s0x0:0x5d436e036dfee9c6!2sMaroon+Bells-Snowmass+Wilderness+-+White+River!8m2!3d39.1109991!4d-107.01823!3m4!1s0x0:0x5d436e036dfee9c6!8m2!3d39.1109991!4d-107.01823",
           cardLocation: "Pitkin County, CO",
           cardDate: "August 2017",
-          cardSubTitle: "Maroon Bells South Peak Summit Trip",
+          cardSubTitle: "South Maroon Peak Summit",
           cardTagline: "Where beautiful women instinctively flock like the salmon of Capistrano.",
         },
         img: [
@@ -923,15 +923,15 @@ app.factory('travelPhotoDataFactory', function () {
       },
     },
     {
-      // San Juan N.F. 2017
+      // Redcloud, Sunshine, and Handies Peaks | 2017
       trip: {
-        cardTitle: "San Juan National Forest",
+        cardTitle: "Redcloud, Sunshine, and Handies",
         meta: {
           mainImgSrc: "https://lh3.googleusercontent.com/uUhSS9yhh92DNYGOYk5Le_btyGhXwPXmZOH07jsrNoWYttGhpBpcoaw47oIYBgcS0uGNjGFjnfCFhDs6dpE36ugNyjCv5cE9cozR2xaljwSBNAtNXwwq3IgM3PrCHs-SGdM35sb2TT4c6wR-CCgz2Cz8p7X1svpeniWhaV3PftAGRgsAd6Gu63a_Vl-bbQQi7VJJgH0GZ6OQ8d2yMUvHem8DKrHgmmiI1DoznjrCfCsi-csnvhEfjb1C26EeBH35FmQAbZRhEwgB0Sump2kWuAGoCFsyccXRgxMYrvFY0sNtFzXvH_H8CX_-3akTqal2tRcrlRtn4yKjv2T4CA_tbhqtxiUGSOEpZTQlKgRBYPYBljT9cX122Dw0jr3ba5XwDKJ7GX0MrjCcjTAKs4gfOzhQqRk6ur__IZtfaZ6fqjJVHgJPGi2pubLMrnypK-5TA93r57sRk1Aig5oRqHt-j2rGErqgA0vJjbv3--zXKyNzo6myDJCFhB62kz1Aed7z6YAYDRrCVMGxuzhrM3jEufLrESaTNglhEWSrdpT2DvfITsOvomotwzfiLCNGUSygrqUcAQ9fmRZBpI0DSIGZvOpfGwYKBjMk0LSzsWZFr1RmQFf0X4mv1AWJwRXPd4CjlnrC-pz75nVHtdbno9qIfiJggpJAXVk=w1056-h789-no",
           cardLocationSrc: "https://www.google.com/maps/place/San+Juan+National+Forest/@37.5439282,-107.764023,15z/data=!4m5!3m4!1s0x0:0x8449191b182ce7fc!8m2!3d37.5439282!4d-107.764023",
           cardLocation: "Lake City, Co",
           cardDate: "July 2017",
-          cardSubTitle: "Redcloud, Sunshine, and Handies 14er summit camp trip",
+          cardSubTitle: "Redcloud, Sunshine, and Handies Peaks",
           cardTagline: "The San Juans are my favorite Colorado range. Secluded, magestic, diverse, vast, and always full of adventure",
         },
         img: [
@@ -1015,7 +1015,7 @@ app.factory('travelPhotoDataFactory', function () {
       },
     },
     {
-      // Mount Belford/Oxford Traverse 2017
+      // Mount Belford/Oxford Traverse | 2017
       trip: {
         cardTitle: "Belford/Oxford Traverse",
         meta: {
@@ -1023,7 +1023,7 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocationSrc: "https://www.14ers.com/route.php?route=oxfo2&peak=Mt.+Belford+and+Mt.+Oxford",
           cardLocation: "Mount Oxford from Belford",
           cardDate: "June 2017",
-          cardSubTitle: "Elevation: 14,153",
+          cardSubTitle: "Mount Belford to Oxford Traverse",
           cardTagline: "Me and my best bud, Garrett, crushed 2 in a day.",
         },
         img: [
@@ -1051,7 +1051,7 @@ app.factory('travelPhotoDataFactory', function () {
       },
     },
     {
-      // Huron Peak 2017
+      // Huron Peak | 2017
       trip: {
         cardTitle: "Huron Peak",
         meta: {
@@ -1059,7 +1059,7 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocationSrc: "https://www.14ers.com/route.php?route=huro1&peak=Huron+Peak",
           cardLocation: "Northwest Slopes Approach",
           cardDate: "June 2017",
-          cardSubTitle: "Elevation: 14,003'",
+          cardSubTitle: "Huron Peak | Elevation: 14,003'",
           cardTagline: "A beautful class 2 14er; a great peak to bag for those looking to move past class 1",
         },
         img: [
@@ -1103,7 +1103,7 @@ app.factory('travelPhotoDataFactory', function () {
       },
     },
     {
-      // Jackson WY 2016
+      // Jackson WY | 2016
       trip: {
         cardTitle: "Jackson, Wyoming",
         meta: {

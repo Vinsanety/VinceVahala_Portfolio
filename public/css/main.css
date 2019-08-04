@@ -714,10 +714,24 @@ hr:after {
 .travel-card .card-image {
   cursor: pointer;
 }
+@media screen and (min-width: 667px) {
+  .travel-card-main-img-container img {
+    height: 195px;
+    object-fit: cover;
+  }
+}
 @media screen and (min-width: 1024px) {
   .travel-card-main-img-container img {
     height: 360px;
     object-fit: cover;
+  }
+}
+@media screen and (min-width: 667px) {
+  .travel-card .card-content .card-title {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 /* Override Materialize card fab placement */

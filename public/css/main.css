@@ -114,14 +114,25 @@ hr:after {
 .nav-wrapper {
   background-color: var(--primary-color);
 }
-.main-nav-link a:hover, .brand-logo:hover {
+#mountaineering-nav-dropdown {
+  background-color: var(--primary-color);
+  width: 100%;
+  border-top: 1px solid #FFF;
+}
+#mountaineering-nav-dropdown li a {
+  color: #FFF;
+}
+.main-nav-link.dropdown-trigger {
+  padding: 0 1rem;
+}
+.main-nav-link.dropdown-trigger i {
+  font-size: 0.875rem;
+}
+.main-nav-link a:hover, .brand-logo:hover, .main-nav-link.dropdown-trigger:hover {
   background-color: #4c8c4a !important;
 }
 .main-nav-link.active-link {
-  /* background-color: #4c8c4a !important; */
-
   border-bottom: 3px solid #FFF !important;
-  /* margin-top: -3px; */
 }
 .brand-logo.main-nav-link.active-link {
   border: none !important;

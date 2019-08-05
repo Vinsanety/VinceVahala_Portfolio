@@ -55,10 +55,11 @@
             <li class="main-nav-link"><a ui-sref="contact">Contact</a></li>
             <li class="main-nav-link"><a ui-sref="resume">Resume</a></li>
             <li class="main-nav-link"><a ui-sref="projects">Projects</a></li>
-            <!-- <li class="main-nav-link"><a ui-sref="mountaineering">Mountaineering</a></li> -->
-
             <!-- Dropdown Trigger -->
-            <li class="main-nav-link dropdown-trigger" data-target="mountaineering-nav-dropdown">Mountaineering <i class="fas fa-angle-down"></i></li>
+            <li class="main-nav-link dropdown-trigger" data-target="mountaineering-nav-dropdown">
+              <a ui-sref="mountaineering">Mountaineering <i class="fas fa-angle-down"></i>
+              </a>
+            </li>
             <!-- Dropdown Structure -->
             <ul id="mountaineering-nav-dropdown" class=
             "dropdown-content">
@@ -124,9 +125,33 @@
         </a>
       </li>
       <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a class="subheader">Mountaineering</a>
+      </li>
+      <li>
         <a class="tabindex-hidden-link sidenav-link" ui-sref="mountaineering">
-          <i class="far fa-2x fa-image"></i>
+          <i class="fas fa-2x fa-mountain"></i>
           Mountaineering
+        </a>
+      </li>
+      <li>
+        <a class="tabindex-hidden-link sidenav-link" ui-sref="photos">
+          <i class="far fa-2x fa-images"></i>
+          Photo Collections
+        </a>
+      </li>
+      <li>
+        <a class="tabindex-hidden-link sidenav-link" ui-sref="videos">
+          <i class="fas fa-2x fa-video"></i>
+          Vahala Films
+        </a>
+      </li>
+      <li>
+        <a class="tabindex-hidden-link sidenav-link" ui-sref="stats">
+          <i class="fas fa-2x fa-poll"></i>
+          Stats
         </a>
       </li>
     </ul>

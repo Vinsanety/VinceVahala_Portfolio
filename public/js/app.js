@@ -36,25 +36,25 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
   })
   .state('mountaineering', {
     url: '/mountaineering',
-    templateUrl: '/views/mountaineering.html',
+    templateUrl: '/views/mountaineering/mountaineering.html',
     controller: 'mountaineeringController',
     controllerAs: 'mountaineering'
   })
   .state('photos', {
     url: '/photos',
-    templateUrl: '/views/photos.html',
+    templateUrl: '/views/mountaineering/photos.html',
     controller: 'photosController',
     controllerAs: 'photos'
   })
   .state('videos', {
     url: '/videos',
-    templateUrl: '/views/videos.html',
+    templateUrl: '/views/mountaineering/videos.html',
     controller: 'videosController',
     controllerAs: 'videos'
   })
   .state('stats', {
     url: '/stats',
-    templateUrl: '/views/stats.html',
+    templateUrl: '/views/mountaineering/stats.html',
     controller: 'statsController',
     controllerAs: 'stats'
   })

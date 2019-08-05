@@ -108,15 +108,6 @@ app.filter('HtmlBind', function($sce) {
       return $sce.trustAsHtml(val);
   };
 });
-app.filter('SummitTotal', function () {
-	return function (input, prop) {
-		var i =  input.length;
-  		var total = 0;
-  		while (i--)
-  			total += input[i][prop];
-		  return total;
-	  }
-});
 
 
 
@@ -128,9 +119,20 @@ app.controller('travelSummitTableController', function($scope, summitDataFactory
     return Math.ceil($scope.summitData.length/$scope.pageSize);
   }
 });
+// Summit Table Button filter function
 app.filter('startFrom', function() {
   return (input, start) => {
     start = +start;
     return input.slice(start);
   }
+});
+// Summit Total filter function
+app.filter('SummitTotal', function () {
+	return function (input, prop) {
+		var i =  input.length;
+  		var total = 0;
+  		while (i--)
+  			total += input[i][prop];
+		  return total;
+	  }
 });

@@ -40,4 +40,22 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
     controller: 'mountaineeringController',
     controllerAs: 'mountaineering'
   })
+  .state('photos', {
+    url: '/photos',
+    templateUrl: '/views/photos.html',
+    controller: 'photosController',
+    controllerAs: 'photos'
+  })
+  .state('videos', {
+    url: '/videos',
+    templateUrl: '/views/videos.html',
+    controller: 'videosController',
+    controllerAs: 'videos'
+  })
+  .state('stats', {
+    url: '/stats',
+    templateUrl: '/views/stats.html',
+    controller: 'statsController',
+    controllerAs: 'stats'
+  })
 }])

@@ -122,6 +122,10 @@ hr:after {
 #mountaineering-nav-dropdown li a {
   color: #FFF;
 }
+#mountaineering-nav-dropdown i {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
 .main-nav-link.dropdown-trigger {
   padding: 0 1rem;
 }

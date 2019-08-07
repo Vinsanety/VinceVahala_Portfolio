@@ -200,6 +200,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Capitol Peak",
+      "Elevation": "14,130",
+      "Range": "Elk",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Challenger Point",
       "Elevation": "14,081",
       "Range": "Sangre de Cristo",
@@ -302,9 +308,21 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "South Wilson",
+      "Elevation": "14,110",
+      "Range": "San Juan",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Mt. Ouray",
       "Elevation": "13,971",
       "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "K2",
+      "Elevation": "13,664",
+      "Range": "Elk",
       "TotalSummits": 1
     },
     {

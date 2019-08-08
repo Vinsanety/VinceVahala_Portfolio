@@ -61,13 +61,13 @@ app.controller('projectsController', function($scope) {
 
 
 app.controller('mountaineeringController', function($scope, $sce, travelPhotoDataFactory, travelFilmDataFactory) {
-  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
   $('.tabindex-hidden-link').attr('tabindex', '-1');
 })
 
 
 app.controller('photosController', function($scope, travelPhotoDataFactory) {
-  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
   // Photo Data
   $scope.travelPhotoDataCurrent = travelPhotoDataFactory.travelPhotoDataCurrent();
   $scope.travelPhotoData = travelPhotoDataFactory.travelPhotoData();
@@ -81,7 +81,7 @@ app.filter('HtmlBind', function($sce) {
 
 
 app.controller('videosController', function($scope, $sce, travelFilmDataFactory) {
-  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
   // Delay collasible method as ng-repeat finishes
   setTimeout(function(){
     $('.collapsible').collapsible();
@@ -98,7 +98,7 @@ app.controller('videosController', function($scope, $sce, travelFilmDataFactory)
 
 
 app.controller('statsController', function($scope, summitDataFactory) {
-  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
   $scope.currentPage = 0;
   $scope.pageSize = 7;
   $scope.summitData = summitDataFactory.summitData();

@@ -672,6 +672,9 @@ hr:after {
     padding: 0 0.875rem !important;
   }
 }
+.card {
+  overflow: scroll !important;
+}
 .card-reveal-opaque {
   background-color: rgba(232,232,232,0.95) !important;
 }

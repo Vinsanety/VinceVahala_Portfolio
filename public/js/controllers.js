@@ -40,7 +40,7 @@ app.controller('projectsController', function($scope) {
     // Run Forecast Btn Add
     $('.runForecast-slider-caption').append("<a class='btn btn-draw-border projects-visit-app-btn' href='https://RunForecast.web.app' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
     // Vahala Fitness Btn Add
-    $('.vahalaFitness-slider-caption').append("<a class='btn btn-draw-border projects-visit-app-btn' href='https://vahalafitness-df5d3.web.app/' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
+    $('.vahalaFitness-slider-caption').append("<a class='btn btn-draw-border projects-visit-app-btn' href='https://www.vahalafitness.com' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
     // E Source Btn Add
     $('.eSource-slider-caption').append("<a class='btn btn-draw-border projects-visit-app-btn' href='https://www.ESource.com' target='_blank'>Visit App <i class='fa fa-external-link-alt'></i></a>");
     // Spoilers Btn Add
@@ -96,6 +96,7 @@ app.controller('videosController', function($scope, $sce, travelFilmDataFactory)
 });
 
 
+
 app.controller('statsController', function($scope, summitDataFactory) {
   document.documentElement.scrollTop = 0;
   $scope.currentPage = 0;
@@ -105,14 +106,14 @@ app.controller('statsController', function($scope, summitDataFactory) {
     return Math.ceil($scope.summitData.length/$scope.pageSize);
   }
 });
-// Stats Table Filter
+// Summit Table Button filter function
 app.filter('startFrom', function() {
   return (input, start) => {
     start = +start;
     return input.slice(start);
   }
 });
-// Stats Total Summit Filter
+// Summit Total filter function
 app.filter('SummitTotal', function () {
 	return function (input, prop) {
 		var i =  input.length;

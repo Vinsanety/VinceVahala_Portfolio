@@ -144,6 +144,13 @@ hr:after {
 .sidenav-link i {
   color: var(--secondary-color) !important;
 }
+.sidenav-link-indent {
+  margin-left: 2.5rem;
+}
+.sidenav-link-indent i {
+  font-size: 1.5rem;
+  margin-right: 1rem !important;
+}
 .brand-logo {
   position: absolute;
   padding: 0 1rem !important;

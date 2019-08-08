@@ -138,6 +138,13 @@ hr:after {
 .brand-logo.main-nav-link.active-link {
   border: none !important;
 }
+#slide-out > li:last-child > a {
+  margin-bottom: 3rem;
+}
+.sidenav-trigger {
+  margin: 0 !important;
+  padding: 0 1.125rem !important;
+}
 .sidenav-avatar-img {
   object-fit: cover;
 }

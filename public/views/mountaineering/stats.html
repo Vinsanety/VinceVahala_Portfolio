@@ -1,0 +1,35 @@
+<div class="container stats-container">
+  <div id="stats-table">
+    <h3 class="center page-header">Summit List</h3>
+    <table class="travel-summit-table responsive-table striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Elevation</th>
+          <th>Range</th>
+          <th>Total Summits</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="td in summitData = (summitData | filter:filterExpr) | startFrom:currentPage*pageSize | limitTo:pageSize">
+          <td>{{td.Name}}</td>
+          <td>{{td.Elevation}}</td>
+          <td>{{td.Range}}</td>
+          <td>{{td.TotalSummits}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="travel-summit-total-container">
+      <p><i class="fas fa-mountain"></i>Total 14er & 13er Summits:
+        <span class="travel-summit-total-value">
+          {{ summitData|SummitTotal:'TotalSummits' }}
+        </span>
+      </p>
+    </div>
+    <div class="travel-summit-table-btn-group">
+      <button class="btn btn-draw-border" ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1">Prev</button>
+      <span>Page {{currentPage+1}} of {{numberOfPages()}}</span>
+      <button class="btn btn-draw-border" ng-disabled="currentPage >= summitData.length/pageSize - 1" ng-click="currentPage=currentPage+1">Next</button>
+    </div>
+  </div>
+</div>

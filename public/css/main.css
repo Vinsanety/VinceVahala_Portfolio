@@ -114,14 +114,26 @@ hr:after {
 .nav-wrapper {
   background-color: var(--primary-color);
 }
-.main-nav-link a:hover, .brand-logo:hover {
+#mountaineering-nav-dropdown {
+  background-color: var(--primary-color);
+  width: 100%;
+  border-top: 1px solid #FFF;
+}
+#mountaineering-nav-dropdown li a {
+  color: #FFF;
+}
+#mountaineering-nav-dropdown i {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+.main-nav-link.dropdown-trigger i {
+  font-size: 0.875rem;
+}
+.main-nav-link a:hover, .brand-logo:hover, .main-nav-link.dropdown-trigger:hover {
   background-color: #4c8c4a !important;
 }
 .main-nav-link.active-link {
-  /* background-color: #4c8c4a !important; */
-
   border-bottom: 3px solid #FFF !important;
-  /* margin-top: -3px; */
 }
 .brand-logo.main-nav-link.active-link {
   border: none !important;
@@ -131,6 +143,13 @@ hr:after {
 }
 .sidenav-link i {
   color: var(--secondary-color) !important;
+}
+.sidenav-link-indent {
+  margin-left: 2.5rem;
+}
+.sidenav-link-indent i {
+  font-size: 1.5rem;
+  margin-right: 1rem !important;
 }
 .brand-logo {
   position: absolute;
@@ -605,61 +624,30 @@ hr:after {
   background-image: url(https://lh3.googleusercontent.com/Q13EaGcmGDeCKK_fZkgCM6rl0TqJcAhSRrAjiyvABcXDlly5YWtlAHX_Mf5u2PintRo9OzS7haUY2ntZF7jFXqPmXssr5VKJ2qtJTrgSyCCTjMALV7cvV4lzgc3f41IOUwSaae_xPUCfFV3iLxWPbF0U_wiVgS08P-TZhXec2lR044P677zYxaz6LBXuTgawRyD5aElnzpmNrNYpO1LXQQDgYnav5B_yDO81rjW4b6pVmvN8gd1vZmmb3PKvxrJjX2lzuelEPus7dQoyBy969T9d062Cu8DmEaprg9hjCvyQgZLZfcOH_PSvn3gb32eG5kC-LhaYPzbh4kuJPMJ2HBMnWo_sRyEpRXyjmFouMSh-FQ7GSYxrWbhLMtjk6GzfGGE78AGoQTvU0Ivf6k0xtc9Oj-ibcmjOflUUzi8iNrJwj3tYuE5RQZxyQ3CD7mXLz06eZQZ2au_mGRnnWQ0aQgkB6HJqK-NEKM8IwxIrLdHB5xQkkLEbhK9ckZMSFcFwnrdM400vzF_YVJBFEn1wL-x9P32IQ2dD-7sF9Jl4uvDHBJ6Mt3svEhh_MvpEceU9_d0a6iklu8ZRE0NFTtLALNA_YMYxrggz3wnk6_7yjw=w1386-h725-no);
   background-attachment: fixed;
   background-size: cover;
-  background-position: center -30vh;
-  height: 60vh;
+  background-position: center cover;
+  height: 100vh;
   position: relative;
   filter: brightness(.95) contrast(120%) saturate(130%);
 }
 .mountaineering-para-text-overlay {
   position: absolute;
   color: #FFF;
-  top: 50%;
+  top: 55%;
   left: 50%;
   text-align: center;
-  transform: translateX(-50%) translateY(-50%);
-  font-size: 78px;
+  transform: translateX(-50%) translateY(-55%);
+  text-transform: uppercase;
+  font-size: 3rem;
   text-shadow: 3px 3px 6px #000000;
-}
-.mountaineering-para-icon-overlay {
-  position: absolute;
-  top: 94%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-90%);
-  height: 125px;
-  width: auto;
-  transition: all .5s ease;
-  filter: drop-shadow(3px 3px 6px #000000);
-  cursor: pointer;
-}
-@media screen and (max-width: 667px) {
-  .mountaineering-para-icon-overlay {
-    height: 75px;
-    top: 87%;
-    left: 50%;
-    transform: translateX(-50%) translateY(87%));
-  }
-}
-@media screen and (max-width: 375px) {
-  .mountaineering-para-icon-overlay {
-    height: 155px;
-    top: 99%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-99%);
-    filter: drop-shadow(2px 2px 5px #FFFFFF);
-  }
-}
-.mountaineering-para-icon-overlay:hover {
-  position: absolute;
-  top: 97%;
-  left: 50%;
-  height: 150px;
-  width: auto;
 }
 @media screen and (max-width: 1024px) {
   .mountaineering-parallax1 {
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
+  }
+  .mountaineering-para-text-overlay {
+    font-size: 2.25rem;
   }
 }
 @media screen and (max-width: 850px) {
@@ -678,14 +666,14 @@ hr:after {
     filter: opacity(.8);
   }
 }
-.travel-header-btn-group .btn {
-  margin-right: 0.5rem;
-}
-@media screen and (max-width: 667px){
+@media screen and (max-width: 667px) {
   .travel-header-btn-group .btn {
     margin-bottom: 0.5rem;
     padding: 0 0.875rem !important;
   }
+}
+.card {
+  overflow: scroll !important;
 }
 .card-reveal-opaque {
   background-color: rgba(232,232,232,0.95) !important;

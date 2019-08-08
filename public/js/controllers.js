@@ -62,38 +62,30 @@ app.controller('projectsController', function($scope) {
 
 app.controller('mountaineeringController', function($scope, $sce, travelPhotoDataFactory, travelFilmDataFactory) {
   document.documentElement.scrollTop = 0;
+  $('.tabindex-hidden-link').attr('tabindex', '-1');
+})
+
+
+app.controller('photosController', function($scope, travelPhotoDataFactory) {
+  document.documentElement.scrollTop = 0;
+  // Photo Data
+  $scope.travelPhotoDataCurrent = travelPhotoDataFactory.travelPhotoDataCurrent();
+  $scope.travelPhotoData = travelPhotoDataFactory.travelPhotoData();
+});
+// Allows passing html into JSON strings
+app.filter('HtmlBind', function($sce) {
+  return function(val) {
+    return $sce.trustAsHtml(val);
+  };
+});
+
+
+app.controller('videosController', function($scope, $sce, travelFilmDataFactory) {
+  document.documentElement.scrollTop = 0;
   // Delay collasible method as ng-repeat finishes
   setTimeout(function(){
     $('.collapsible').collapsible();
   }, 250);
-  $('.tabindex-hidden-link').attr('tabindex', '-1');
-  // Parallax Overlay Anchor Link
-  $("#travel-icon-overlay").click(function() {
-    $('html, body').animate({
-      scrollTop: $("#travel-card-container").offset().top - 75
-    }, 1000);
-  });
-  // Photo Collection Anchor Link
-  $("#photo-collections-scroll-to").click(function() {
-    $('html, body').animate({
-      scrollTop: $("#photo-collections").offset().top - 75
-    }, 1000);
-  });
-  // Film Anchor Link
-  $("#vahala-films-scroll-to").click(function() {
-    $('html, body').animate({
-      scrollTop: $("#vahala-films-collection").offset().top - 75
-    }, 2000);
-  });
-  // Stats Anchor Link
-  $("#stats-scroll-to").click(function() {
-    $('html, body').animate({
-      scrollTop: $("#stats-table").offset().top - 75
-    }, 2000);
-  });
-  // Photo Data
-  $scope.travelPhotoDataCurrent = travelPhotoDataFactory.travelPhotoDataCurrent();
-  $scope.travelPhotoData = travelPhotoDataFactory.travelPhotoData();
   // Film Data
   $scope.travelFilmData = travelFilmDataFactory.travelFilmData();
   // Handle Youtube embed trusted src
@@ -101,17 +93,12 @@ app.controller('mountaineeringController', function($scope, $sce, travelPhotoDat
     var path = 'https://www.youtube-nocookie.com/embed/' + videoID + '?rel=0';
     return $sce.trustAsResourceUrl(path);
   }
-})
-// Allows passing html into JSON strings
-app.filter('HtmlBind', function($sce) {
-  return function(val) {
-      return $sce.trustAsHtml(val);
-  };
 });
 
 
 
-app.controller('travelSummitTableController', function($scope, summitDataFactory){
+app.controller('statsController', function($scope, summitDataFactory) {
+  document.documentElement.scrollTop = 0;
   $scope.currentPage = 0;
   $scope.pageSize = 7;
   $scope.summitData = summitDataFactory.summitData();

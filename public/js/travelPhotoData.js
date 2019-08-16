@@ -3,6 +3,74 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Mount Valhalla | 8.15.19
+      trip: {
+        cardTitle: "Mount Valhalla",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/7g-YLcHm7ZGMcZAJkIVYztWo9LRNRhbUxM27fBT3vbwnbw58CfSeuQMkei0M1KPyITgw33y-ReaohQRird1XPIxGADOTF6JJkFtHszT_Z2t_axzKbOoc-r3DleY7JSlBMkeY_BVXSMLtk5ml2FOhZZ5Zl0zhk8UyL9lXoDi_EHz2pVUfl6--bb6UT4oA0w0zGgMrOptFCvHV_2Q-O_PirJiGW-tOCQCVOXorC4tdn8vPRJkZa-HAcWJM5qCa0hWj5sfgj18rlPhs7fvGCZtr3r89GtsOp2z-WvaGvYB1Mdvf9UMF14mizJq1R0Tie_l4QU2xgGcRAxSfckxGdFLE-fohz3Ns5-RoRSe_zudVTZ-JxeXSsEsj9SB1rJK8KkeCvB3YlSc9vLFGzcgKQ0Kt5L28sG2-h09BpFmfvaKBZGYCJ7ewQMp_4ZGT69SB4K9azFIPwo8z2H-gorb_pX93IsjIduaJ3vYxsyfFYDhR5gav6hWGCcg4_MN_fgluiPmjwSX7E_wLKIlBPapAzLcGAftxMp3EWAB6xIxRUb3GW10BBgbU3dIzAh065bPSb-AbyUeHZXKRGHR-Uq9MfyziL5Mppq9y7iNkeMZ4i-3DRRhrIugt2lzYxj_9mZrCphHt-GEHEqGeh3NSNL90IgY6seUWCyWC--c=w1052-h789-no",
+          cardLocationSrc: "https://www.14ers.com/route.php?route=torr4&peak=Grays+Peak+and+Torreys+Peak",
+          cardLocation: "Eagle's Nest Wilderness",
+          cardDate: "August 15, 2019",
+          cardSubTitle: "Mount Valhalla | 13.5mi/5,117'",
+          cardTagline: "Secluded singletrack leading to Lake Deluge. From there, there are multiple 13ers within reach. Incredibly fun scrambling to summit along the ridgeline. It's my mountain, it's got my name on it afterall",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/s0ii1Zmu1f58Hgs3kyBn3p8sRNUeb1hC-PfQ-jHgUH-5bL0mH_84ziX8HSkG1z1Sdo2X1NKqVgVT5waPQlJnTnRqKvCgxJ26ikaJZhsi8KfU0FnymRQbSpmJpzEuUnaibD1JfmWIEqnuz4m6ASNbO7qRX11i5yOQqPBQ7EEmtwYQa2brD_2RSJAJKqcYFe21TBipKVHGzlmxnZVWFt8TO-kcF79FyIHPgFkQBIZ4vjPmQZ7XxYRf9ZCTIs4QlnrrFiNWzL6MLtuIXX3geImDyNCb94bdxySovyKmLshsXXA6q-_3KI65orFtN5cFcnhIMmkKIechrHTXCnGUIJtBaJ10yxOBROf3wFNEFO7pYZIJ4eH5owWBJoYFC6y4KAna-FCI53oNReSExNtbiiSJDdvdHZ4Q_CQfJ5G6k_vYBclzHsnon7riA3irGu3X3DGV4T-sJGpOg3Uwxf0f-mJafx-r8nojJg5Q0BmW5bPxEEVdkrxYQu1Twtozx_2qocPBsfwi_GmOFKQEjbxiOJ-7pJCdXttHj5G-0lGx5KefqY4MzQlNdskLn28I4mSUgf6fnmzMq8MDx8hyL2Q8zbaG3UPjjJPgRJZ35Z55FIBInNH0Ix0N8Dw8apAc2d9unsAcHYmxJRgDX9XKnYXNG3sNJa9t0V3ywOE=w1052-h789-no",
+            description: "Singletrack through the aspens",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/vEV8rKnr7_72wRy7xqDp3run-34KS8at6ohZWJ6nH_j1qA3Cu1EK6lGUI27Es0tIMX610UYLp-rBzV4vweusPvPHzk88U_0if_9TINgArwgU4YqHbeHkoJTdgLcPy5dy2aWIT82YVpnaeXFZBx89GgqgQBQ1UdkiTYnK4bUNcJTOVyTXv86PrK2dTx8pLdAu5eGTUXoPG396NGfAuFLsAfyrVMWuK-e_jVl7YBjbAgAZx9Ek3LOh0-u6xPfVtnPiiVyot2aTodlOrDYXRFY4WNgF1LeaoE6ptTGnClU6vODAmfxfWdKBzHck3NZ1q_awx5cPJ6-3bYPAfasJLxARHC3NCLZV0HHN5J7vuVArIg9qIgf-u4kHYuiQBBY5OJPtvm_AcnyyJWCrT1sgNZ69nGlcsIuBOpv11BYWoQDrLrlwEmcMt64IUfj8Ss5xqsaB3k8sBcsd_e7zH9efvMWPu2o8aYzsxrF1Am4N9PC24B-6HjluYvoIBrN6INsQsAGYwxfGXpBrcxqYU_gl9vuHZwDpPHjm90tfoOyDoC4968MmPAeRYDv8Gj_2zAtM41qFld6Az9xnwxAi8rG2PpPMUc5qBImDXcOkESwwlQELPhkNPqy1jRiwbG5aNogtODaxSoU8JytT7kZaXiK2KsQ79cIQyp8BRms=w1052-h789-no",
+            description: "First view of the Gore Range with ample water",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Z4_VLj06C9jvuQvlYrJCTRo_ULScSKFjukhZNI457q89h8a4XeeounTOjkOJTpTQvwQQfLqXx1spjAM2KdLAAEmJrqq9DD2OwGMWrw0Rd4Q_PAbvou9hJWxvC1AWQUfKtpnGlgjGo18kvkCdJa9qYO2je4neV_HdcOps0UKqHbJx2bgis9izMTqCePiFad8dkvg9T9FjL7sSkUEOwenlAPTClcRvV1UtcbC8UkT9AqCAIL2x0ceo4BOewRCURpwID3eIxJtrdH-8QJftHgyr-CTtfzvzDyxL4eBsiHx8YfnObh2vv4-HDx6k-_X7hhTq9XwuFYoKF7qGna8jOjITgjd6bvGo0tKnHkaYq9ZWKRsKIjJlm8s1vdFqzKv6TvIN_anCii29zvetMusCnHsIzvgQgNqVoLJLkneZc4nPW6Kr08-UWx9rS-TdP4fnjgr0BJ0j1PC-11DNlY-GoL4VJgkDJMrbE7uKCKM4W-piBHVwajwJC7EziMlxWEnTktBCa0iyrvc04DFXmeUdlHppNQ87zbSDZO4aKaGAO5N_L3fYM-zhODjHIQIZQohhmufLlxh8Y-wZubeIw_9FrYBEszg4KGVRtLF7NwbzHDPtOpnnX3WkCYJZ-6bR2FYza521JCtkY-125Rd6nEKZoTJkuQLMQ2Phdj8=w1052-h789-no",
+            description: "Dare me to eat it?",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Su-Dhd9rbkj07venb2gby2c68DfYC8vgEN7imxvak4Cs1h9_8Fdf29qUpRaSy__BobtCAlg21zXp77GfylQBpckBaFus9bGXGqaQ-niARQBNTHJDyy5c-V77HOLL1bmFReF6Qk4sq06xCAXXrUo6cOZnzejyJoPKdG3PxXGk_XiFguYkkVMP5uiDFC0bV7ywbeWHHCc9ZyC3cllDCua2ahZ-Dt_UiDZUXcHDOqbhreAG7yceKKw5Hj2X9JQ2vLqijoKjjWkEBUsIRgLPzZOQ2BQEl6VzAdCHgZzWo2kXpIGqJGZvTWvy1zGq07QxuiV_ngDDL9SUMH2j63VxezsY9OrTyyWimX-VosAAi76UbdQEydWa_P1gXZ8Iu62yoW-IUiAz0MihyVV5yyfUVoJC93MnSLBfOnLd0oyxtdKzliI-4uKumHELlTPKEzaWCgMriyudTyesD18peyoJOz-Ypa21FYXxeRUJgcLp9rPSYNtfJ1NSEqAQr8QyFkxorKLLGxqFX3oxvwjVuzDvuUtlm_E6LDkRoKI_prTHLi86e8-3olcGRnNV4cUjy1zDpzqHC9FshfJEd5trfNhzYkH7jei_Gv8No-5XljTMSCuNxpK89CGhUb_OUmjPZowAzOOXW0vtdgQsBxwrcK3ucied4ISkdhFFkuo=w1052-h789-no",
+            description: "Beautiful prairie valleys",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/gNneiiUyxukCcYIgemhymqVXzPaHs-pZzGqHERVCRvqj_XDLwobkDAP3Ra9EeyIw_OruMETSe4ioxJqdDJ8mS3xeaS0oIHtQhu7Bc57TPgbOam8ocHBXxJvpSS5f8IgnHXiSSRyOdvm-ybZgAQRxc_qpLbDcJ4IBHeVcDfAX0nTW5XCtPJ7J5E9ASl1ijSkPVsC4k5tar-2V9ge6EX3tCYmeU0S55hr2zwDmpSiVdg77GyLZB_XAbVhZhhK1DEivk8hyphROdBG429vLxk59iqU1O5DlvhfqZuvnmhoi7G2_18SvkWvHIojel9zFpSfpDsQ3zmOQNoJgb1xXN7D-KQrUXt17PB8BPXZfu-_ihx5vavko8jCzLOWNp7HiTlsvy1XziNZQ4CBMKl9sAJ3dRvx5OF5RiqB6SZumMGajAPjW4GyWfKCPiqv5tQv8hjr1vLwBDHMI8F0VNz9uFWwr5vxfoVBMLF6zpZ7ImkODGgrxaiJnBnix9m4B0Um6NCai5mhEOcB9d9I00dmBoArwAxrx2EO0HZxjZfEhc174-jr8PEs-Y0S9BDuMfGYd8L7gbVPq07QEjrH_Se64WSDq_tCgmSnVQ7o5sXEixZt9UMGmEWJWDOlnubTAqf4lwvrivi6902RF608ZWBcb34Q-WF8D1lqIfT4=w1052-h789-no",
+            description: "I love singeltrack",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/MLBbj-DMSmuF4Q4n6eNn98WYgQmRQ2PIVcxZoAO-fS-6RfRvNqAX4dXwNJNRB_1XKrfxaa_gLomQcPiUryUhqvV-sc0f5UQjXu-R1vPBBHY7RF9pOKSdQcnpg4f5sa8M0ppw0mIe5nIbBAQeMUhBL_kAK3pTTUDzMptXow3iGPgEy4Xdn5vTjh3EmkyL7sUeYBwQp6QbHQMupDxbQ8taYDQbkoDu6N7N_GioDR2V3Xctx63KR196ddKNxgW5H71M8ijNLOTP2hseoGwg1owEdKxKmDvXkNnEzhSg2vQY0UfbKnGpVkJkAdaCq96XO49MP2zj7NM0mSkp7t7qfi64u7Xtm0z80zO6Yzp8xS8yu5iJyyIZk_hWWYfvyinWn9H-r1w_d8sTy0kUCkabWL2RLKdM3iVow79NJMnVTI0gko4BcZt75AOxuTefPzIIDhxL10o_tXUgNdMVMmDYsfZsQRkbqMAPKXC9a9VYSl0mRp3WnK9-jQiUhpYmFldFqiNnhp2934hNrPkZC0RlYdboP_W_MPl-xgRYq6orNoP58Nds05AOPyElLqkiivHtpXPIozSH1crWCJHbPUMVE81i51RemzrCuB9ERejX3TLCqkF0v_ORtLDuBmIjlYvEiIsJD3Pjq4-qBrYQnm9es5_AhsLP0x6Et88=w1052-h789-no",
+            description: "Stream's head coming out of Lake Deluge",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/mEVLa_LYBNUmKOLRDVTZndvs0tcBxrWoLK2rCXNlh6JoTFLfnsAJDffJmMMWfh8pXFh4gGyu3qUiercCfWm-KHiX-C_JtMAL3Kgw2QIF3_ss6igR2GT8yIiHjzu8RTFmnTJ2ACNujlwdIgfakn2oy1JN0e06GE6vJ7kjreKSa_DJSBKrtmAl0hpjncSCFhY6xUvqojEFz0FC3KE_lqr41XtICIOJsWKeal1Pu6CgAGrSYoEc0cJV7tqIQL6E3_WGKPVMbRT3a8ayZOAx-IQckFLaqBI6yNwqEWcBi070sEgHFaGTl0gSL-ujXR8v7B5F6g_VCbV5ffUnF1AHqic4Q0XXcZmRx04b2tOGl74PFHJAiRgEhW-ZsotbFWIkO8OXnFTTTHuL0mx4wg6bdlLxaWZDDlW1lLlqd3mQ9PY_jfawqe3SPfdqkARnqOMgdjH6EaV2ukgl8F8-nMgbmkY87p-ctGFDo494slXl6TYwPiI_DaK_JJ3kLtyzTRkluCcMD1Rri7Oyf_IE99tLUbbsv8TuuxTSVFQh6cCULmfvMATDQCWQLwwRjeno0zRozR3bAgebE3wbrBans2Y-e3XJiid45DMMf4nI9r1a2XQZXmegJJk5WY6HLBy8dXrctGd6J3xpBqnjR8t4piQBRNdSY84q1_lJz4E=w1052-h789-no",
+            description: "Lake Deluge",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/hzDj9CoycjIOMaelcUWPbHNnrUWcBVb_kli2nSo27uciCXUWdXaqcoULSoyBroW-p8WKxPAAFi8KRDDEO5DJX_aZ7Zt_JAy4jxlMfWLi_FG-a4d44sS-udHi4_re0pQr0tuQ1feKhhlY6aOIUDt4qVV2_B3OziluDBJUWcnSK2QqnX4cbhBg6ZcfaSI_haArdfUzuw_VE3rGDSzqbHlC2vVnNg5hiifEO189nwSO1ddDEeUlg0uutGWfXiVIla_wV-J9jZnVgpS_JvZCEX9gKvepAIW7IeeUjM9Qq6q-vjYiI08UQ8y1QNV5TRLPIpDzAmKYuXsVMlxxj4Z0VyDcu4J_JD9Nc2t_zyIf0EnAbdYMa5DMgV-qnnYMTAjQxMCIxYuAyUymdMHXEhz0PCiqocp_VX2xG7Vf9HUcwsZwDIZbYanaUE5JX-iOxIapBJ2cj-V1U4hHGYYXcOXh6Zg54kAL69Y5vjol3tQh-Ucv_VWOW7zXVbkGsA9f1vOecDJN-zAOZVl3bYxSgsYwq5IYkWIJzhQOFrgNfW7ShQNuAEOiw6YM6kvueqcxBuQDmzueXMI9CMCagpmW6C0bN1JGm3CSErHN3zdPHK2aRD1Abt3xhKQld_JURFuh_KzR181fX3T8xXTDnyaGTKN68IovwV3Jc4CvVt0=w1052-h789-no",
+            description: "The path up the ridgeline",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/gXaU0D2iflEi1HCQ2NoBRNw6S8rBwucc9FvDN3SwQpsMg7ChOgUxldxX_YUISDddmXXCh8ETWlAt75Hd9PiDTlzNdr5UbgDF4P2xsWIB_y4v321oQXhSWJTynZuVaYUcbKahmZmlBaHUqVQ3Go8sZY7-yz0EVGRxSSX7OYi3EwZ4ZBDJGX7bMTGhg338ciZztXgVy7Zt58rFxHqZ0Zk3OFQvwqee9Gd-NdYwJT2R_J_s4cHSFTrDSQUIgM1wbrZy9VPL4pgnd6dbN4ZgkITIQ1PLaWNHuV-WHO_2yRWAe7K7n-8e9vGCpS-lyq9SZKQD0_IpXazz7VggbrwMUFv5bFFHH3e3ptEmfIRnQUK0vV5WPfQ_mXtLReUf4ZewtpyNMc1OajtbsWtXetP3EgpJKDviaX3ZMUdbfPadLTx71IKpz9gjd0-p2ZjOTXnqGeQE-ktNwmkZpjrY7_lVzsUSLKe7DJtU0eAs1ooStBqBRUbFbCuTMhqLHX2afuZtgDsIq6r0AKHYLQLIhk-RfXu4IMmdBHeIA8Llz0PRv5co4ED-Fbb-ai-GP7ObbQN_JRQ4N363heWxkzyR4tptASENLbnOcD_qngCeZz-NIRiKSXl8ntaltfcazoRV-f1YWRE9yXrAoWXOTBxVR9ITFEwLj79DD7PA1Tc=w1052-h789-no",
+            description: "There is still some snow up high",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/y2S8L_hTuw63qXq990iHDE0wBz7SVPwDy3ssEMq2Ub10ny95C9mxJ3Sij65qQ2h6ulia74eU5VJtwCm0SOm4Wx8C3x5sypUXz2NevPYTl1KdDQMFoeEVgcHN6KIP7DniVpc4YUCfJrotSQWIW6_XqGvVqXHpkq6_PGOGObpD5CytewV39PcdPZFB6D72F79MzlaTjT3TwaBReROzvmegyj1l5qbF59GH28Hn61YPXnuYbNWf9U_cQf0YcrzRR2-ChS1cIPI1GY-wQ4d7RsTmgVfFiKoOLayV4KXnVG_7flOgBdmYFd6oYrhBK8y-MTyqA2wbP-BHd9PQGinElZ8frTUaYhdpCVuWus_Af9xLCPlgiRm0ObyZShKnsp7pFe5cQEEcSuQzAbJq7DOHn11rWmAIO_XZRO3wspQ1Lm_Rng2yyOJm5_5TJhXW64jhJuxz4VbIjwzlYd6QlYT8clYqcYOmHuk6Xv_hxKZYMkGED3DSjlY-nwG7DmZlhwCdM0Ja2P-p3w8YQaHGrXzXai1-HR9EujxLkS4-rjGUjhgNNmDNXJRrdXBIC67vk41ZU7zpIiEACXa2bDizukcUTyyI6jGsnBbloqoFXXx3tonh9oIu5wB2sxf1yMtgeTWqxIJ9KJHuKm0qggr0tAj_tsdEnUWovZNDalc=w1052-h789-no",
+            description: "Summit views",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Q1tEM4I4AYAyET_7UpS-bLOlKGbbEMQuziBb802MiT5iDgDV7KpK583EGg42WbRYWqmCfv141Tvss_1H7hU67PLrACM2Ve_IfI8es_6TuOy7OxeoSYMVlEtzLeu5h0r40Y5Vjkfu74Bm-PdvNoNP60udQvACi_FnuTJYF_qAuEwkjE3Sbw9rVECqEvKUNAVsSYaKin4Km4qLL65ZshjA_P0UZ6LDKozyFgBS-d9CLucid7UxFQNOaPsXOatIjqaRwdgwc47oaGOCK-6J2Bopc_hAoUERMR-WTzfB-eGmYYxXiD8dEcHbAoObG62GZcFMVN35KE1104wlxkfoUYTpMhzdmcfByscoiVBO387wvIMe5ZaygMpxHzyvJIjTJdcgduSGndEp99QKYDWsn95o-hFp_c0poOLIwGObMPhusOI5z_9To-p6KyjfJ4PJk7DeVpB-t2WCfIQj6yJAOcYTwpcWX74NdD35CegUe0iQCPLkHbjXLfbUzOCNa6hfrH17SN6oBMsKRfEUda6JN82jxfKm425q8jeR_nnFdZ-NYKbN7I7nVme40RaLdjOgHskygUlzwAoIsWcQRp-GnFZ3yZtmzS9HASnC9djY5Uu2TnDaJC4tXQ8FNTWuZLwptBVslg-hottXZXZKlgNqeJrH6aiJds75e7U=w1052-h789-no",
+            description: "More summit views",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/gUeKmThfwzbeH1fqB6y1sEoxw_B9IEZCvP7ZH5zjalJq1rxxnOLCkafvcTzOhWupcKqUubys4DlJINwJdAlp7qyGzLm-eMmQ--JWRAu0QyKAIH_b3DytzChnKkNka9kI8cWWktYVZX5TQ6HxLvVa7SofHx8pVsJ2InHpYet7RLJgRMH0HBMtvUloHfU3MsuPYvJjUSIOPbRoVZdvqR1zHzSxhu4v6NqXmmhsCyMk_QLGlxI9WaxevTVDQdgd2NNVBB4hTwm9IAgWEULgN7B6a8ytgrsjn8zHdAlDQUsX7D-6QnzJ1T0zmeTfxRZcvf-i8CTeaboLCeuHJ8hj39lrCMt5Q05-Epngg9-KZDYMsm_JZa9ozTCh5K-BLE3VnyPqbXeJzuyZ4x54e9_iUIE7608qu9bXPoms1VR_A7UBxpS75zAb6xGxNYEeFleeOXVGWnx7Mr0cb-EMqxtIZKAKiMh1XD9Be8pYBcXpj0rDVBwC9-2ydwftjN5V1_Gcbks2xtabVdQ9IV8cbyc8biFerR6iK89NwRcrvpsN4ahN713Qiq5zxu4GfFbDVLlFJGNDW5Ls0C-fmfMshpNs_rI8mkEqOv7U7GcjpVikz7ckBuzrxHCvR7hWqkHByo5ozgw1UzzDqhiSElPpIsa-e1wsD1E8zP8UlY0=w1052-h789-no",
+            description: "Even more summit views",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Gfbgg8NwjWYv47NZH-El82Nb-tphpNSouCG0pc-Tq8ilnhjzNnkJt3AC1ZWtqpomzTaFl0GRIL2miNEHjIussq0hqCcF1n16uKzBpVx0bBVyiLxjTFNxY1Y7Xh_fUinDh6rLlhaZLfBFTrR7XpqDGKcPhKQWG8vCxXrNkCsPM1SbUOfQZUz69qLqSAmmCPrl942meuB6-iwX6cNy1m6iRB1bdZQ_dQT6IloNGlf4IP_3ySJOqlrJVblIpJke3MEl2MQffqOIqDsnYmVI7NXiIEkw0OBwa5bPr-IvpdDTD1sU87f8oDLGmOlrhtC_kmPS15pUwZpvQqkB4LfWCL5nQygWoM9SkcFbFn9WN8eLJx1djBuP7-ErXuE_u-QvUXji7S-wZxkgZDdafN_9EYKE_d0DddRUkTzh8Ny6A8yjebRAcLduWpsAlsGbB7juJoujjnTFJ9sZspgssRyXN5Vp2MfHkXEq2a-nVKSkby9-M2LIb0C2kjuf6RajNse5H15n3T_-Nzfk4IHGhbJR71OI9SVoMOhYEeyIykX2KIq7hnfhJlgrx7TJ0YkEqvjHwyhx8Q1PMRQotVJrDxQcHhMoc71vQm534XSJNcxkvgETB-hd_7zW-1YwRELiKiP3W1Xp0ut32REkUMwVM61QDrCW0B6fRAjIzkU=w1052-h789-no",
+            description: "Back at the lake for a swim before running back to TH",
+          },
+        ],
+      },
+    },
+    {
       // Torrey's Gray's via Kelso Ridge | 8.13.19
       trip: {
         cardTitle: "Torrey's Gray's via Kelso Ridge",
@@ -26,10 +94,6 @@ app.factory('travelPhotoDataFactory', function () {
           {
             src: "https://lh3.googleusercontent.com/zNB9LD1rY0euWl45WNCMfV8a24dP7U-Yr-1OOjK--0OS5AN5paB3XYvt0GG_hyiJGW7VWZVwh6y1LWKScukJyL3oHTu7hAryMCwyrvoX75PkXiBzvDVcwvwa_bzSKWUXc2yuua1GnRLZvIh1QIYO6gR0su9xVFlaefiTtwfxtzvAM1KvO1HvNFBrTZUIC2e0L326PnQJZpTxYGPxl0J3tDKc9yRcXj1QeI9EzWVQXePD2IgXl0HUM_-iYkpuFLkwwmbLHJKzhjkBveh6Yf5QFzaRaVDry2hsxa7WjuLZgkkJRiP132sSw2JkHFfJd2dcE4hzVeYxIh4hL241xkR9dbM2PxKGBU1qD9JFD9O57W5yHzUvSkfO5GZV61G_49bLNREVkLUygoIIIgIYgXMbl9WvE-T3v_EJJIXPV9dDsYHw9Lkv0AUJCOlngXtAUxQ5TWxb0PlJkq1zMdToZtnD4MA7TKHr2cExXnJKmFHt5BD2vyJLIIQwDsBBBSmNnLj0wzakEXQooewMKcPzyLogw5YNVquI5FzFj7ByOgeC7QOtsp2X5bvbxNwBgbDBZVsuZLNYuCE36FGdvUESYKPgTaRVAcGVCsMK25mgt2O4JwH2EDyRI1UqjE341KHC8y-GoQ70XJxIfKovUiDZdnHpjbtMfPxGMTZxJ9Ykhtz3RTpgAGbA675KgtDqWKhbM5L3UwfcQrPVXBqOXOsTz56MFaic=w1052-h789-no",
             description: "Grays and Torrey's",
-          },
-          {
-            src: "https://lh3.googleusercontent.com/suzjI2FZY0M0GMvuxZgiKrJHgRMxVtCEfbkim1s2I-JNkMd2eX8fP8iQOwzqZIrJ_gMXTT0LeSr20iMqHgQYg-4fLT0qGEVtSHTr149gABGcgbeD8BzhcOrn0DfmvEp5bAXU7Yp_jOI7DbTN7yRMT3Co-tBVvEAg0QDzEaowetj5Ha7tn89habTTlnq0t7uOtit8fC3bS_V4yn_IlbYIATzZ_rI2UwsU2AuPNS-EybbjBjQoE4DsnE7uDCMJT74prBDaFPOilapu3rQ5fbZx2KwAnXmHz6RsCf5km1vX4wzvOy8FXgKhxMZJR9cPPT3b1Lzm4ct8ZdC03kgeeTEj5EmagULiP4-sa-YxRJeAmqMwKOmMZhxLSsV8FErdtKxtnjeg09LYvMJF35TFZ8AB3qh_LEdJoG5ZVX8ddcc5VmPnG4BlQMge-esboUynqUgF8TLJjwJJQKIhNWetPHV07UPK-n0ZOSUzW7UbeV3fZXQgRq5x-PvfJlAdHizZJUWLwFkdY1Zl8u1k3wf0YBwpv7G7yuJMpnRXS7zjPqDDg4mpsNN_NHmn6LX4CCewTlXjxhYwkjiNGsn2ZV-NkIotdQx-2DvGwzQ-nlrU0aK1R5M47RNnFrmTBXZ2pWPjGija4uy9XMl7ujXlYyPrRdBuwNeWTRC60VzYHlN8pZVsEqf1CpKvpEUO2mercK8FuJybc2mzqgd4i9AHtJ3-wv7nQ6A2=w592-h789-no",
-            description: "A look at Kelso Ridge",
           },
           {
             src: "https://lh3.googleusercontent.com/5acqQ0kaVVDAMG4v3H6VmnoJMA5s5S2m_S2qD49KvIZLEuVgs-TIAL6RXl2qlLk5hUmaDboLsxWPkuaOi4KrgHU-FMdmbrC9b5ffgDBr5NJAi-OcqCInINQHQqLMxMCWKqOurwig-l_red_v6qnYfXRMw2ejHc_UrwsicFzsSDRE9G9W8zdUIw6q5k10sf33XEKsl14sctIlJapxmNs1p7pMq0iH3VIQYkT8FosjYqNsd5KFujmEdFRL9BmkOa-53_uffAVMLLibbvKm-S-kUG-A68cSOeOaKoLNmPQkJJVLrt5z0EyKGirb0J8L3rI9e1pAVZnEimpioVJiFbV96bPlCmoSm64uV927VrencmGWwwQgIe6za0djO90YzS9zEvm9JwkU6EQyDLYnDaW3kmr2LEz8zdfUnkJ0GoDWjrc-ix1B8wpytdHZHJPldNqF221tXdttG_BJsBkFzfELoolbyofakF5heXji5OXptaeokI-wyXSMO5fK4zzVwlzSY9s2noMsb4spvStyZ3vB1fFnQ77x_M7rcZDS4H_kMuK2eefEUryB2rgqC0AY0sNFFHsnEy8qe1XeGSCLIo6Cqx3XZtEeSCFyUQ2lkVk69LNat4FILB8pLUBFwN1WB-K8o6_k0aq6kI134rr2ARhPsfKnxGKIW4xVBQBYoBHvVekc_KjzhxIZylzcY0HEwBG5aKdnqIepHQgjg7wvqwTZErdn=w1052-h789-no",

@@ -3,6 +3,74 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Torrey's Gray's via Kelso Ridge | 8.13.19
+      trip: {
+        cardTitle: "Torrey's Gray's via Kelso Ridge",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/2QJcNvpfDdT5Svodb9TEg9MgtXDXaK42bMAEkg5O8VhtXLvYo31TUOqtHPdNmpXNUOWmc06ViNuZ1zMvehbAtBNW6LP_HzcDDlk2Lq9u5ut3nDOYx1z_irdKwXK4ld9ESr5cJZFzx52Q3uT1pQd9yJg_V_oqSdkv9fpbWV3NyGdDYHw0ckREdRWMKcsYF-jbYaKB_AtW1MWMAlydosTgivEd8dtNdxCi3xegwcVNCBQsQ-hi0VdLZpgcieAgwDH6pQKmKJLHNu36l1K6kRx8IxMN_kmfs8mRa3P085Ztx9OSGP5HUrKEI7vYm7V8sH4phb6E7qoz9oUhVcbbCqg3XtpWTHfraHm9EusEtkkpvYhxdAz1vDX3yg30OljvQ8lfiOwWrLROJRD5jh9vjmxsymMmeX6faZVxLk1rmYDLsI6HvU3-FNTZJ-hl9kd5twpgkcJjERvKI8MzZCxGayLPJLQ32iToACRODTovsRoHx_oklwcz3zGj41nEA3eHgQqFodqlxlq6EKThHG1YmuqN7YAxiIWsozaRW9vKRn41XzgLJcxXqsqxnnTPXb3_v_9ApL7KtthBH7rjPtueO5SVlaH9YOX51HM0T8NdjWLgamtOcgy6E1zuJ-E8E0VR3eS48t6ul0urdbCHJnYDcjBvupcAW6GQ-f1c2V5K-Lv-UxgJLORYO7Qn9L06OrclPscZg86yXoRK46ELN0tMjGwp0Y_3=w1052-h789-no",
+          cardLocationSrc: "https://www.14ers.com/route.php?route=torr4&peak=Grays+Peak+and+Torreys+Peak",
+          cardLocation: "Arapaho National Forest",
+          cardDate: "August 13, 2019",
+          cardSubTitle: "Torrey's and Grays via Kelso Mountain Run | 8.5mi/3,585'",
+          cardTagline: "A unique new look at two classic front range 14ers. Incredible scrambling up Kelso Ridge with bomber downhill running back to TH",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/ZaGrj6OMWnm96nQ8wribVPXLsaGm8wUmuqhGD2zlXXXtmQzkqoe_lPbCyWrRbQ1gsV6OqLg6ABWi49hhawIWW7Fy2jaRE77GJRRmBXcr9rdcuHAacqS7bQSRxr8pp-FeSXON4PaliMpKB0aWjHCStRSvkak9ofMHxJ0TsPnxToXB3Qtb2aonfmmloH4yt1-GIGseVBXh-gWqR__huZwIzGHlLgYMIJfSXQ-L4IYCOH_-o8-CZQMnHj0o7v_m1jLXLzqWOj8I7BJpJh3Rb07MBsLp9-M1gHpEjJAWmAHDBzPpYe6hRu-NHkW-61xZ6eajtyAoxwsuHJt9b6_vIyQrq4I-B5MstGmtN6KkJvLEoqdEq1Wz0XUTzHevuU36qjCKTw5DZKzDZG0WP9E6jAtK-LwCWyrfgc2iQnO6D_VHRocs5BmQW3lrOYkRKg3LWpH2Pz03gTjXj2RKQ25ePFHhTX2aNosEM-43SqgM6ylBV230cMphExWYpw8GPt6hyBDBCxXgIgR5UEtf4fDEzGz9hj-_FfJ1oDiwaQm8fx23-0lTgFkWTtvrDfOHN-ZEphoD1P-fWIUb7PD9QuXCQzi_jkKIbF8lDbCsuBZcZDsqHKPqIC4K2gqoCaphUqb-cWZ3Ek3QoiUgLWkqJ-PHYbvhNxVsxLjhN-U8eMA9glTyj5U-zMz2FmiAoio4t3X1vnGNHFLM4z90t3cZbFPfK_AxJoEd=w1052-h789-no",
+            description: "Starting up the widely used trail",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/nUVS2Any6BSbVsceBy80ZDm6jcFLmFJJKDDDsS0UMr-6fvXIOusluJCJcQjK1EwZrjX7SQt5j9qeSlC5b3Om1yeXOPiL_jPFtNDuDISDKBusPeF8UrRoo2b8liHegMo7LNOSpIUGr9AJkB0HIm7NL5ZnIdSzPAt3Q701XQE0uAsJxa_aDa1qqiDMDvrmo05b9CyekuQPfeq2x4anTi3-a9V_pL1LFtODvVJbenRLS3blscBt4XQN6ZmTe8PtirFJBMGJBAWjcfqAxxF-e34dJsEMPG2mYJCvk23bRACctsoJKpoxjgdFL1SM3gHJ1MzcUiwGaJhakjnlzks55R4-O4iirGW3YZK5J1SWv2OOL2ZEut-x72iJI4UHadtWpCGEE9elH1W2UEjHHEGd5wkfmF2ujS8AALzhVqD5W2GSUL880E1cqyFML1xdP0UwHuni-66UMAKtSyZUM4bxd4Rs57plUkywTcoUeGILaH7QWEKr08phzvhgsAhk2kJ2wiljl4isuxX_lfqyzWBK_K8oHqzH2aA6RMXrZvMSpTkJhc9CSLZcHkLE4eOzZefRwDDpeUdUotJgr7tdqxzBiBbJGwUvIz2MNbTiwRr4L_7JxsDzC0GW4yBsPqk00-Y97ET-evlvlqjwC8CT2Yv-WWdCibVaVN0D_RUdoxNqA_OcciBwufarpojljz6VHJ0xYqjvGZXcJGoy3PwaQszKy4V9WywW=w1052-h789-no",
+            description: "Just passed this point head right up the beginning of Kelso's Ridge",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/zNB9LD1rY0euWl45WNCMfV8a24dP7U-Yr-1OOjK--0OS5AN5paB3XYvt0GG_hyiJGW7VWZVwh6y1LWKScukJyL3oHTu7hAryMCwyrvoX75PkXiBzvDVcwvwa_bzSKWUXc2yuua1GnRLZvIh1QIYO6gR0su9xVFlaefiTtwfxtzvAM1KvO1HvNFBrTZUIC2e0L326PnQJZpTxYGPxl0J3tDKc9yRcXj1QeI9EzWVQXePD2IgXl0HUM_-iYkpuFLkwwmbLHJKzhjkBveh6Yf5QFzaRaVDry2hsxa7WjuLZgkkJRiP132sSw2JkHFfJd2dcE4hzVeYxIh4hL241xkR9dbM2PxKGBU1qD9JFD9O57W5yHzUvSkfO5GZV61G_49bLNREVkLUygoIIIgIYgXMbl9WvE-T3v_EJJIXPV9dDsYHw9Lkv0AUJCOlngXtAUxQ5TWxb0PlJkq1zMdToZtnD4MA7TKHr2cExXnJKmFHt5BD2vyJLIIQwDsBBBSmNnLj0wzakEXQooewMKcPzyLogw5YNVquI5FzFj7ByOgeC7QOtsp2X5bvbxNwBgbDBZVsuZLNYuCE36FGdvUESYKPgTaRVAcGVCsMK25mgt2O4JwH2EDyRI1UqjE341KHC8y-GoQ70XJxIfKovUiDZdnHpjbtMfPxGMTZxJ9Ykhtz3RTpgAGbA675KgtDqWKhbM5L3UwfcQrPVXBqOXOsTz56MFaic=w1052-h789-no",
+            description: "Grays and Torrey's",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/suzjI2FZY0M0GMvuxZgiKrJHgRMxVtCEfbkim1s2I-JNkMd2eX8fP8iQOwzqZIrJ_gMXTT0LeSr20iMqHgQYg-4fLT0qGEVtSHTr149gABGcgbeD8BzhcOrn0DfmvEp5bAXU7Yp_jOI7DbTN7yRMT3Co-tBVvEAg0QDzEaowetj5Ha7tn89habTTlnq0t7uOtit8fC3bS_V4yn_IlbYIATzZ_rI2UwsU2AuPNS-EybbjBjQoE4DsnE7uDCMJT74prBDaFPOilapu3rQ5fbZx2KwAnXmHz6RsCf5km1vX4wzvOy8FXgKhxMZJR9cPPT3b1Lzm4ct8ZdC03kgeeTEj5EmagULiP4-sa-YxRJeAmqMwKOmMZhxLSsV8FErdtKxtnjeg09LYvMJF35TFZ8AB3qh_LEdJoG5ZVX8ddcc5VmPnG4BlQMge-esboUynqUgF8TLJjwJJQKIhNWetPHV07UPK-n0ZOSUzW7UbeV3fZXQgRq5x-PvfJlAdHizZJUWLwFkdY1Zl8u1k3wf0YBwpv7G7yuJMpnRXS7zjPqDDg4mpsNN_NHmn6LX4CCewTlXjxhYwkjiNGsn2ZV-NkIotdQx-2DvGwzQ-nlrU0aK1R5M47RNnFrmTBXZ2pWPjGija4uy9XMl7ujXlYyPrRdBuwNeWTRC60VzYHlN8pZVsEqf1CpKvpEUO2mercK8FuJybc2mzqgd4i9AHtJ3-wv7nQ6A2=w592-h789-no",
+            description: "A look at Kelso Ridge",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/5acqQ0kaVVDAMG4v3H6VmnoJMA5s5S2m_S2qD49KvIZLEuVgs-TIAL6RXl2qlLk5hUmaDboLsxWPkuaOi4KrgHU-FMdmbrC9b5ffgDBr5NJAi-OcqCInINQHQqLMxMCWKqOurwig-l_red_v6qnYfXRMw2ejHc_UrwsicFzsSDRE9G9W8zdUIw6q5k10sf33XEKsl14sctIlJapxmNs1p7pMq0iH3VIQYkT8FosjYqNsd5KFujmEdFRL9BmkOa-53_uffAVMLLibbvKm-S-kUG-A68cSOeOaKoLNmPQkJJVLrt5z0EyKGirb0J8L3rI9e1pAVZnEimpioVJiFbV96bPlCmoSm64uV927VrencmGWwwQgIe6za0djO90YzS9zEvm9JwkU6EQyDLYnDaW3kmr2LEz8zdfUnkJ0GoDWjrc-ix1B8wpytdHZHJPldNqF221tXdttG_BJsBkFzfELoolbyofakF5heXji5OXptaeokI-wyXSMO5fK4zzVwlzSY9s2noMsb4spvStyZ3vB1fFnQ77x_M7rcZDS4H_kMuK2eefEUryB2rgqC0AY0sNFFHsnEy8qe1XeGSCLIo6Cqx3XZtEeSCFyUQ2lkVk69LNat4FILB8pLUBFwN1WB-K8o6_k0aq6kI134rr2ARhPsfKnxGKIW4xVBQBYoBHvVekc_KjzhxIZylzcY0HEwBG5aKdnqIepHQgjg7wvqwTZErdn=w1052-h789-no",
+            description: "Working my way up the ridge",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/VJaQbMm2Q2tGTcqEmv_pYT3xhqANky9QqC9pqO45qELf7tsW9fw8GpQotY4KWgEtTzn7upeTvZqo69gj4FFPnNjMi2xZXQfL_D_9GGLlkJ-g1XNPiGygpoJyObAZYRldQEVykA94UmnciV3kaKA1-2zxKKICr6YNle6aupWy5fZmuEdLJCMuSqeDLhqfqr0JcH-1lC4K8zIGeVsSPCnpeGmoa2aqEdl4KEY3NhQ0VYRAUrq1FzrtYjEuPZog46CEF56pTz8iYCluA3n65zM1pR4JxMsmXkLiSFxFADiA-q3RnPFjZR6Pduxm87q3kWT9dlxlMIrgObL2XagvOIRjYIe6G4Zexqq9Jxo7q5Wo3K0aIvGVx3xn3GT63WKLGd8Q5lHuFe4XfWSrjVzIf0CRJ9m40VDHVz0qXRBX2d_fqw-nFagA17dFlmDMlTXMxkEqnnlKl2618H58uyROlYtrPMnjHHoHdUqiMKZ2L5uV0pryuRzArWORJNCXEwFuDTNv5MiVlW2DZ_rZqZ4sQa4ooOldsYM3gEo_f9h0MvhjqveCPDUtmXnMzsIt9h7KCGzznhvxj4NSuCelIZdMuAw9TH4oKecVIpsxjwfaMG4nYt04KAperVHxwvC6Mmbu5ybQDbBjA7DmRTGZlckFYESjznOlczZc9wxK1WOR4pd6-4E_o33QRed7YnCt7ptPKCCUuc6RrJ2uB-NXYdMSdT4Lu-9G=w1052-h789-no",
+            description: "A view of Kelso Mountain and the trail up Kelso Ridge",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/7u6kjlPDtAXrBq9rp7eIARe1gYzZs0-j_dO3wvRcd9Nb2wh99gLqupCMn_hZoU1mE3fae5oTJuIaFBWSNmAHjZLZWYSCiTk1SETCCNr-8d09wIyevT55QxFswJMYoCQlYeDKsvwPyNrjBRhCK7M8yANhIZrKwkVWVJXD-SrXg9X3iOg5qF3wfV61wyKaPXy8xCUzPSEkCASMNETpn3qquKdmhhajaOIepEe90q5WKZAABL4EZkKnZ_-xbLhDrAgJmEZGcK86HVRI7OrDxp_b57QhSQx_r_6MyunKyr_Ro8Gqk603i2ep3Mxw9rMCLi4BVPcHs52HE-unzsjVNqtrcKnsEW3J4aDAN-rsR_JSpf_OsODZXZ49g56DR_P26z7C-qaf-cbQj0GOVvvI2Z2dxNR4VRiKTV30ClyEa7orxQjmr1V2h_agn8HbRaL85KyhhcSChTtyHgaNpWNJThGeY1Y7aQ_E-qUqJhrQN-63m1j9PxxCJ7mT5H0BEIubphXNBMACbzwYAcVWfjVqhAqt0mjkD8OXu8843sdilRySR9Lnj8nHZXv49FLgza9cI6cQ807y3iSeiNyvIQTBEMcaSBL62dAwSfbtBXUsjyx4i2jY-IBpQePCFH61C8n13Bz8L3cRlwVAHTouSOeVpUhsmYsaptw9T9JOsN6xWV5yPnPKNy2z5cbrPUGKO34LAGPlBLibHF-HLJchmCzSfpo5SLKA=w1052-h789-no",
+            description: "Some of the technical climbing",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/svi-QpP0Q88Z7v1XiA0wZ8yp4cPXVFh7_xV_Zy0BMihkTOHHw_7kev3xu9jQUNeEzxasVs9oz7R4DO6GVV1J5M8N6BRRrPyX9O9Jz6LTw_RDRhugzqvYxzEOABv3F7XBuIWHYkW9ZeqMNPeWb0jhCEgeNoLOr26Qywm6b_X6lDDFrzKGJ1FPs34Fs1wK0S_YzRUGvLRmhJtPR-51-vKg1Zfux49aR7wppkfbh82lGXBbxS-_Bi8SB1RN5uSC_kSyzTMraLuPK7pP_Sf8WYgc5KTYpFVx1HAwQNeFsPY_CrFEkNdoEfR34osfmlu1D0ugISqv4uOIFf4R5tfUKWSMjmij8M6zRQeQhvsUchug67jxJ9d0VDb6ucQYU8IhejKwne-0ByajsSckA7Z0XRFOFkc2KjPiBEJQr1L0f3STcWE6EZZA8HYRd_paavnYYmZusn6xDLyT_YV4fq_QT0urAsj8YDS3qEiuC1pGadLTMfUVBOeP2PgCvzDuqS2iVHBt0E4IYSyy9bc7Vq6-9fLylsuX13z8qkhFaa-7pB5ADHHhruSaOrY5Ko4UVnswf55rNPO5M6mTucbvVZ2wESzsXfapLrEofysGOn87m1B4-5ghRyi-wdjTMzCgOrbjghPdkcRRiwQZuJ-MCRmNPGh2LryuD2D6DvFSYdIhiq-e9yQ9mPXR12tYN9YjHQKkBMc50xDIz64SLs-7sgW4t9n1vELh=s789-no",
+            description: "Torrey's Summit",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/7I8LTIpCpgFZbq3Thm4SZKd3vhogE3ZgxHLrxaZC0D9a__b4kwfo2n5cfXpV1JyeimfynMBP7YS3NbnsnNOZ24dkAZ8p9eYjXyR4I276mIfAd-wZgaC0gIK3D_EfLk-m5ll2q7L3Pbs9IudiIWJUOKUdO34IH37_NcFgA5NxSlV-llJwEZ1ZBJWBNrhBT9Gz-iKHqvpvPNgOlEe61sBgDonDa7yW5Ootldv06Ot2jrj9pFIsKdwyEqVB5gPYpEipCkrjW2RFVJydKwGkTBPBteA4VW1kkXN6cwvYfDoKKDlEDCJ7FLpS8Rvtq8iEg0xp-crC1XPTpxLRRHA0J-MAkkUBwvp2RVLSI1XeuCV0TrZp8nvFjhyFcjuEpetZhYHweautYoPK7BYB1Nwqid8O-9SCO0zrAQe0P-HwAlqlFBs3kWFOAkwPNdbsxBP__ECIxVOO9FY2cHUa7iVP9tVJgwC5Jdjf-rFG1TcKiQXxH9yiou4ndwTz9Z1nG-5CiyhFvjtgPoLOMsrY2Lr9wjqWuYudH_ZAF35ZR5nOSDkPL-1wFphTMlyOnTSdvWdJtNzCorQrxKtkqRTqCkbs5TZweRXjdrAdHN82YTOWl2L5sCoSFpbVPlJW4qQ9AXrqqqn9t6GLwptavNGmTzsQ4ek4ClMl2NMiN8N7DK3g0Besro9XwgIzD_x4Lui6XLOEC0vZIlZx5qNQXKcSfSS0tB_0Nhtg=w1052-h789-no",
+            description: "A view of the saddle between Torrey's heading towards Grays",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/vvzdguvM2Z42bbdxVTP90JPNXIFW0iMbjKpIC59-2Wjh1AvJx-_sd7IYExWwva5WafUENFWZxlazLGFuw4hzHsDYsNA_86uMDns_dP2unx4JIq_vh1o2LlIXjZgctMFSfW1Osrthl5acdQ-51BaFnrc_L1GoiLWG7GT_KwDsK4ipx1GksPG7U2_P6xeZnLzEA-9JvuJaihIwDm65KiGHC_yl5T_z0mx5UmV_WGbUKR3_VP1TMW4ujcd9N9Sbth2dBaxm-5gkaND-Cw1og1rC44xRxfHWcMYv1VprtERP0WjEsiUbtdJxMChiKfZXGE6yK8VcOVQcOIo11OKBtygzXd95VZC2K6bNMg5YtQDy3uwpNaxjcGsxFGpyDTAuU18uqcjZUSwkYNFQiVno-zaeLwnh3eG0AOIZlfriRaxclWtvFkOuSsrDGH4ICO9bHCwoyrQ7LZO83RWDoaO4ezQVC7u7FVUQarnf5iU6cmWRoGH_C0FxzQSjSiMuVD80ZWX3Ofjk-dNbvqf8vFvqvKAj_9XAIArTa7y-o91yF4572qTCZHEzwnmlX7szVu41y8JBJVh8a-jttt1hA7zMTucS10T5ku5vkxiEmPjAaUBnZgFGnbCmOqGO9AvLBY8cos5otwz5MNHyGGGLIjS032OQMfsOIPLk8SmTdGaJZm6XoOmYFa6dKNpzpjNBXbdUcSIa39th1rK68HWJ8NTGXPxwdWX_=w1052-h789-no",
+            description: "Near the summit of Grays looking back at Torrey's",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/KTRV4mgPRqFnlBbu6O2iJjFOt9YsfsWOOZwIPxZz_-BMUipF3LOhgKsZmQNHBIvsC1qyPzPokVki95DJgaIMvVVcaquevPol7Qb8bTxouIdgUP_wgDx7s0597NTwMho5adc9QT9uW_BEOnOSLVnuyaNZZ9qY3VEob2EvfCRwoTi679GGn1CpB4dD8yo5zKESc7grWt42O_489Dll9XtFAd3PuNsJBHDjHC0eSAyF2dnub86Te89T3WefiFtYU621YSrsO-MTg2oJX7S_3UIj9sk-KsZRdfsF4n8ailTp1pREnG-L_4cExSEvhf5HSmGJclQG1jQNKkRum8ZZpqD2DPGoaoYTR4exNRHoDAFdoq3NuLYtLPMI00L7dcVwUMYGwKP7aagBKCwDWK9NPuKqrHNOMGmMq2TCWL5CTfPw7OpJMLOyW8RKoZ8tZ3IbmIM12pSrztVJR3YfV68fwdh789gjgoHVvUiea9mZw4cv3F3OlbWFDfVVM-rcIh4oUBPmPtN1rp_xsCq4LRUFn0DhKlXelvtfRnpLkqURIZMce9USa92LyQFun-yRU4nDmCv9tt9sfPcD_-c8_X0srY6T5IbT9txl-_DJOW_UEIDFEtur965z0Z0uWy6riVv-xb9JaVAEyAvJfgEJwPugM-MYh36dcSqcaePhKYrq7DsFtSx6JYYwC2zc1-uK42MKNYS9o1fRIKVHFa0n2RjJUE62VuZ5=w1052-h789-no",
+            description: "Mountain Goat on Grays Summit",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/XXFln7hNqWphZ_qD0lGylXrl5bfKPPL82Iclkf1oFGLmt4d-vHbIsMPXwHd1aYewLHqHn8jh5fIKSSb69TZ35tKKgQsLbrpHt_dQEIHriXalmYRdkAGj5Wzv9e10t5NETqNshY1WtUGgjd1vds2VfyN_x96GOUe036VZK-EBe-V81B4D3sveLgMi_PQ8c0T4STvAX2SG62-bzgaNxdIKajVTxISKqn49U6N8i-HNogf_szosKzngTf4N_P7MQLD_-KG1dAgeZP2BIIDpslDMIjmHqGpa7pmI2CUAis5P2pWxYfe8Zd3yiswmDqWnLSecfA8mugJof5eOtrJQ82O5bnz49hooaYB_Zw_R6lZjltekXzgM8yjvPbDBpwzUjMDxUGck6V9jR4R-lhT_436AMBD947mxSSKdSBUa2U_0Wiw4Tm6Hp0BdVqeytUj5AAkzsLOGVP74USoezpKEGdDUz2ugPm06fkRNaminduoiUwkhlV81iJbk_-PkBHCJYHtf7J0hGJzKHHGRoicD6j0HbevFEN_Ox8IWt93980bttLqW7JbiDjxwNog4w-D51vIgpymThw4gkKrACLHIZmXeR3eAFUJ-_TR6-0IXD7rmy6jIr8m8pxqcQzoacs4Go9kpp4mrVQpxCLY3JY9Z-VUXkYPUFP_iKcqFKG6MLETDP6ezbrLE6wmYSQhlIniwD_nm31_OAjt_Kb1IXZofXz_s-XAS=w1052-h789-no",
+            description: "Photogenic Horned doggo",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/6SEq0FArAt_Ng-ygvAYoKdjIkvc3JfuiKtsuoKEit8L5ZssSP1rDDyIs0HbT3euH1P3JDq71SJtcLOiIPLBx9-F4ToHXGkkAXbCCK8vft8L8k4C0Bv4Q3AlJV88SLWrc_LbWHLmI6MuvJIu0XF6a2xrtaTT34b5MQ-jjeboIO_zG2b7Qzbj01wnbBTxxFplwSrhqKTwuoqqlxhtdYDpARFroaUPtMD31tAtgDb28SLGZWOrqwdrawVFcefQCWwdVqYnWXemGqiQrvJLmIc2rO4Xijjy7VNftTkZNQ38G-HnBkhHYXExrA2kh7nq-a8Bcc5nKOOdlCeWzqXzqS6Ey0kVvyxsrDXabyLil2wSqUhp8XC01Cu75RK6IQBUMHrw6lF87216QUqAcCdu-W8SPgJ7UZh_1rpnMdcOQLSAnHJLcRjAy27pVYUIe-EBVKeBphqV2EHifRfww9eE-cjjF64X74VSsKASkQ0mG-Ffadj8oD3eBm1mhuHPwTz8RgRzZwtV9X41VPk2bkEJt6HkfmI4MpNWlrxSTg6eExd2fefLLKV4tIMHuJ-iyYnidi-xUF2KtVWt3JgN6VmA_rJVskPggn47bD0jb8TueuXg2xI9cyG6TUVdil_qcM575szD4Gzp5TbKOl2oxFj9GgVLbbKhA-omW42mAUHcxNrrLEE4pHFAc1gGWITzKL4ADPRFvMNsoywdLZj_UEP5n8u_TitCC=w1052-h789-no",
+            description: "A view of the singletrack heading back to the TH",
+          },
+        ],
+      },
+    },
+    {
       // Capitol Peak | 8.6.19
       trip: {
         cardTitle: "Capitol Peak",

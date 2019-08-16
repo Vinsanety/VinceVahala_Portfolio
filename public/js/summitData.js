@@ -107,7 +107,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Grays Peak",
       "Elevation": "14,270",
       "Range": "Front",
-      "TotalSummits": 1
+      "TotalSummits": 2
     },
     {
       "Name": "Mt. Antero",
@@ -119,7 +119,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Torreys Peak",
       "Elevation": "14,267",
       "Range": "Front",
-      "TotalSummits": 1
+      "TotalSummits": 2
     },
     {
       "Name": "Castle Peak",
@@ -347,6 +347,12 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Audubon",
       "Elevation": "13,223",
       "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Valhalla",
+      "Elevation": "13,180",
+      "Range": "Gore",
       "TotalSummits": 1
     },
     {

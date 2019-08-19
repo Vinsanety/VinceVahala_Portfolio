@@ -32,6 +32,18 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 3
     },
     {
+      "Name": "Grays Peak",
+      "Elevation": "14,270",
+      "Range": "Front",
+      "TotalSummits": 2
+    },
+    {
+      "Name": "Torreys Peak",
+      "Elevation": "14,267",
+      "Range": "Front",
+      "TotalSummits": 2
+    },
+    {
       "Name": "Longs Peak",
       "Elevation": "14,255",
       "Range": "Front",
@@ -104,22 +116,10 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
-      "Name": "Grays Peak",
-      "Elevation": "14,270",
-      "Range": "Front",
-      "TotalSummits": 2
-    },
-    {
       "Name": "Mt. Antero",
       "Elevation": "14,269",
       "Range": "Sawatch",
       "TotalSummits": 1
-    },
-    {
-      "Name": "Torreys Peak",
-      "Elevation": "14,267",
-      "Range": "Front",
-      "TotalSummits": 2
     },
     {
       "Name": "Castle Peak",

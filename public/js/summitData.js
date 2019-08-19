@@ -344,6 +344,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Mt. Alice",
+      "Elevation": "13,310",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Mt. Audubon",
       "Elevation": "13,223",
       "Range": "Front",

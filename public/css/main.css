@@ -852,7 +852,7 @@ hr:after {
   cursor: pointer;
 }
 .travel-summit-table th .fa {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 .travel-summit-table th a {
   color: var(--secondary-color);

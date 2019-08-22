@@ -869,6 +869,17 @@ hr:after {
 .travel-summit-table tr td {
   padding: 1rem;
 }
+@media only screen and (max-width: 992px) {
+  .travel-summit-table th {
+    font-size: 1rem;
+  }
+  .travel-summit-table th:hover {
+    background-color: transparent;
+  }
+  .travel-summit-table th:hover a {
+    color: var(--secondary-color);
+  }
+}
 .travel-summit-table td:last-child, th:last-child {
   text-align: left;
 }

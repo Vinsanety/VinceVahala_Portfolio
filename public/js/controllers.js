@@ -99,9 +99,15 @@ app.controller('videosController', function($scope, $sce, travelFilmDataFactory)
 
 app.controller('statsController', function($scope, summitDataFactory) {
   document.body.scrollTop = document.documentElement.scrollTop = 0;
+  $scope.summitData = summitDataFactory.summitData();
+  // Set the default sort type
+  $scope.sortType = 'SummitTotal';
+  // Set the default sort order
+  $scope.sortReverse = false;
+  // Set the default search/filter term
+  $scope.searchSummit = "";
   $scope.currentPage = 0;
   $scope.pageSize = 7;
-  $scope.summitData = summitDataFactory.summitData();
   $scope.numberOfPages = function(){
     return Math.ceil($scope.summitData.length/$scope.pageSize);
   }

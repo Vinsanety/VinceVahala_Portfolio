@@ -834,12 +834,34 @@ hr:after {
 .travel-film-collapsible .collapsible-body {
   padding: 0;
 }
+.stats-container .stats-search-field {
+  margin-bottom: 0 !important;
+}
+.stats-container .stats-search-field i {
+  color: var(--secondary-color);
+}
+.stats-container .stats-search-field label {
+  color: var(--secondary-color) !important;
+}
 .travel-summit-table {
   background-color: #FFF;
 }
 .travel-summit-table th {
+  font-size: 1.125rem;
   padding: 1rem;
-  color: var(--tertiary-color);
+  cursor: pointer;
+}
+.travel-summit-table th .fa {
+  font-size: 1.125rem;
+}
+.travel-summit-table th a {
+  color: var(--secondary-color);
+}
+.travel-summit-table th:hover {
+  background-color: var(--secondary-color-hover);
+}
+.travel-summit-table th:hover a {
+  color: #FFF;
 }
 .travel-summit-table tr td {
   padding: 1rem;

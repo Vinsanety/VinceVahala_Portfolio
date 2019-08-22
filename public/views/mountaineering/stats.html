@@ -1,17 +1,48 @@
 <div class="container stats-container">
   <div id="stats-table">
     <h3 class="center page-header">Summit List</h3>
+    <div class="row stats-search-field">
+      <div class="input-field col s12 m6">
+        <i class="fas fa-search-location prefix"></i>
+        <input id="icon_prefix" type="text" class="validate" ng-model="searchSummit">
+        <label for="icon_prefix">Search summit, elevation, or range</label>
+      </div>
+    </div>
     <table class="travel-summit-table responsive-table striped">
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Elevation</th>
-          <th>Range</th>
-          <th>Summits</th>
+          <th ng-click="sortType = 'Name'; sortReverse = !sortReverse">
+            <a href="#">
+              Name
+              <span ng-show="sortType == 'Name' && !sortReverse" class="fa fa-caret-down"></span>
+              <span ng-show="sortType == 'Name' && sortReverse" class="fa fa-caret-up"></span>
+            </a>
+          </th>
+          <th ng-click="sortType = 'Elevation'; sortReverse = !sortReverse">
+            <a href="#">
+              Elevation
+              <span ng-show="sortType == 'Elevation' && !sortReverse" class="fa fa-caret-down"></span>
+              <span ng-show="sortType == 'Elevation' && sortReverse" class="fa fa-caret-up"></span>
+            </a>
+          </th>
+          <th ng-click="sortType = 'Range'; sortReverse = !sortReverse">
+            <a href="#">
+              Range
+              <span ng-show="sortType == 'Range' && !sortReverse" class="fa fa-caret-down"></span>
+              <span ng-show="sortType == 'Range' && sortReverse" class="fa fa-caret-up"></span>
+            </a>
+          </th>
+          <th ng-click="sortType = 'TotalSummits'; sortReverse = !sortReverse">
+            <a href="#">
+              Summits
+              <span ng-show="sortType == 'TotalSummits' && !sortReverse" class="fa fa-caret-down"></span>
+              <span ng-show="sortType == 'TotalSummits' && sortReverse" class="fa fa-caret-up"></span>
+            </a>
+          </th>
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="td in summitData = (summitData | filter:filterExpr) | startFrom:currentPage*pageSize | limitTo:pageSize">
+        <tr ng-repeat="td in summitData | orderBy:sortType:sortReverse | filter:searchSummit | startFrom:currentPage*pageSize | limitTo:pageSize">
           <td>{{td.Name}}</td>
           <td>{{td.Elevation}}</td>
           <td>{{td.Range}}</td>

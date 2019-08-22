@@ -837,6 +837,9 @@ hr:after {
 .stats-container .stats-search-field {
   margin-bottom: 0 !important;
 }
+.stats-container .stats-search-field .input-field {
+  margin-top: 0 !important;
+}
 .stats-container .stats-search-field i {
   color: var(--secondary-color);
 }

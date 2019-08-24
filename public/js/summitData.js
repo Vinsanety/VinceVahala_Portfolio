@@ -20,6 +20,18 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 3
     },
     {
+      "Name": "Grays Peak",
+      "Elevation": "14,270",
+      "Range": "Front",
+      "TotalSummits": 3
+    },
+    {
+      "Name": "Torreys Peak",
+      "Elevation": "14,267",
+      "Range": "Front",
+      "TotalSummits": 3
+    },
+    {
       "Name": "Quandary Peak",
       "Elevation": "14,265",
       "Range": "Tenmile",
@@ -30,18 +42,6 @@ app.factory('summitDataFactory', function () {
       "Elevation": "14,264",
       "Range": "Front",
       "TotalSummits": 3
-    },
-    {
-      "Name": "Grays Peak",
-      "Elevation": "14,270",
-      "Range": "Front",
-      "TotalSummits": 2
-    },
-    {
-      "Name": "Torreys Peak",
-      "Elevation": "14,267",
-      "Range": "Front",
-      "TotalSummits": 2
     },
     {
       "Name": "Longs Peak",
@@ -338,6 +338,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Grizzly Peak D",
+      "Elevation": "13,427",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
       "Name": "South Arapaho Peak",
       "Elevation": "13,397",
       "Range": "Front",
@@ -359,6 +365,12 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Valhalla",
       "Elevation": "13,180",
       "Range": "Gore",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Cupid Peak",
+      "Elevation": "13,117",
+      "Range": "Front",
       "TotalSummits": 1
     },
     {

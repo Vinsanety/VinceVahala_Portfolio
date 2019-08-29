@@ -44,6 +44,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 3
     },
     {
+      "Name": "Crestone Peak",
+      "Elevation": "14,294",
+      "Range": "Sangre de Cristo",
+      "TotalSummits": 2
+    },
+    {
       "Name": "Longs Peak",
       "Elevation": "14,255",
       "Range": "Front",
@@ -104,12 +110,6 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
-      "Name": "Crestone Peak",
-      "Elevation": "14,294",
-      "Range": "Sangre de Cristo",
-      "TotalSummits": 1
-    },
-    {
       "Name": "Mt. Lincoln",
       "Elevation": "14,286",
       "Range": "Mosquito",
@@ -149,6 +149,12 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Belford",
       "Elevation": "14,197",
       "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Crestone Needle",
+      "Elevation": "14,197",
+      "Range": "Sangre de Cristo",
       "TotalSummits": 1
     },
     {
@@ -352,6 +358,12 @@ app.factory('summitDataFactory', function () {
     {
       "Name": "Mt. Alice",
       "Elevation": "13,310",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "James Peak",
+      "Elevation": "13,294",
       "Range": "Front",
       "TotalSummits": 1
     },

@@ -810,6 +810,10 @@ hr:after {
   height: 100%;
   width: auto;
 }
+.travel-card-image-description {
+  background-color: inherit !important;
+  color: #FFF !important;
+}
 
 
 .travel-card-image {

@@ -783,7 +783,6 @@ hr:after {
 .travel-card-text {
   color: var(--tertiary-color);
   width: 100%;
-  text-align: center;
   font-size: 1.0625rem;
   margin-top: 1rem;
 }

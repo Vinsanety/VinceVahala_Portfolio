@@ -3,6 +3,62 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Loveland Pass Double-Double | 8.23.19
+      trip: {
+        cardTitle: "Loveland Pass Double-Double",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/vEbZN-4zJO8rOQkr8UFn3a0QaIoEIsoeQME0FvQ2bJe0DzLbirzmcU58AbXc_ccmAN0p1adtzxYBmQKk-My0_aUTk5MrqaouDL-eQT-msFyaKi3TyzZORTV_RJHwic5maHmrJihUANgfrFNrfhChkH1VimxcmqukZrGt4zZL2IsgLCWwnqx2TiQbIr_eWKKHYFdf40Ot6pJDVk-bNmcN_NIA_YlGifzlBYwnB5B7xPcqU1IompOKIRbeuNIVrrcF7I2L-wmtNs8bmaA5xZJgvW3NL-A3TnDuWN6gn53MfhppdeWknTWdB2fAU3V8yjrg2wi6Y_-fRrpwoIm9yqIhX9RZjijt-VbhcLGMxYlKj964FGBYpHYYap1UDP_-rPI4YbHZ7oyn868Qz3BvVxnLPW-JIf0Gi1hqWNDovvFlFEbbk-rit-zDso_RdveTx52klL-VgWBzG8_NoP_i_yi0D9YFqgXmuVaRQpGDvRk8akzUqeWxpBPk0o5n0p8zKQeQTH8cZvMqiZXNKmf-g2tX8yLkfgS07BjnJwrZgqaweQD4F2fpZ4kDCpYGw2DWqkXzWD96IYFp2kKMmhNxh-jsu6S4TGM7t5EgYDkEaZdhF6j7V7JexYMf4z3rzcM8i34cLv9z78KLQYe3bN3DiycH2mjNYo6mO4niDEdeDvSmsyHQWOnAy6d4JE8=w1052-h789-no",
+          cardLocationSrc: "https://www.trailrunproject.com/trail/7053217/the-loveland-double",
+          cardLocation: "Loveland Pass",
+          cardDate: "August 23, 2019",
+          cardSubTitle: "Loveland Pass Double-Double | 11.42mi/6,091'",
+          cardTagline: "4 Summits, one day. Cupid > Grizzly > Torrey's > Grays, and back the way you came. Super fun elevation roller-coaster of a day",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/q5Q43YX4-2uwBPa1tJDN3EAOLkcZUbo1YpHrRxGLT-15Mx7UO5BqOny8bvuh80pLSssuanZftF4qbJfyQ6-zMRdYnzkMFjCY4x11IOxD8vdKZMoFRO6_NTNnujZdVjKmbZdNjbtMXyE6pNSdGbsS2H-7L0hpp8XIUKofjzk40YwnHeyCLZqxy_60crDarLXsZYJSyWdwAmyKJkT-uOHDFAbRh5UXc1s9Y1IC-Rj5RyqxWgq2v-FoJuyRBttxzwTzIUdYP7CxyqcUBX4SLmlTTDBd9l3SDv5GmGhP2DoT_qT6_lRiJP7RVAs1QD65Cjz8oDIF7lSKq9HEgGrgmgzsEIavg4eSWxgGAK86iSka-dbdEvACrUWTNmLOYjEHk2XMpMdnWr6QhQVJBYn2eSdS66-pfYp94ESWw9TsWugh_HpWEH7-g2-DnUz467psw362ZfLMTK4x4fCxLn-52ZR_akaIfKBTfA8A6yJVZKNavQ0k-_mBM2O2ARWsiZKp21abXRgUg5xn2Sa5onV0VKJjGPagXW1X44j9lLaLK3RC2Z3qC8jpQG7GhVqp_N-YCQF-XjSNTir5itQx72iaUE5bEIMkLv82Z0rhkbaEL-zPNyFhPJQ-2QleK3jdmhcfyQ-QZyuC_IL_Pb39tp9xqpNGgpwuDcbPJTyg4CtUrfZlmykIPgPMNQE8axs=w1052-h789-no",
+            description: "A look at Arapaho Basin",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/eSrkBwZKUdH0s6qIaIBxeKCvhtQ869bbdAAZXSL07iKTdyVq0dTOmna2xO4lINpHTgTZXYDKVpiN_kfJhjj11m4_5XXUXGyFxtR6B9hvAP_uEjsIj1_T90l4oR9vpq3-ZYcTbKlhjHt-6ObXuFosQJ4Zk2NP6q3Z1ggMqaqO5LAf7yRvg7YbQuDBL9gRdKno6kBmY5cI4893i67vRway8kqVHGM8jj0cQQ_q5PROLupHlqUbfun26Z6UEmioKWfQejNjrCcenxivu_Qc2lAXxSI4LEX361Wlf1IvlkqtchOj2qka7dfW6MbaoSEK9G4PhiiDfazMfjY-RXTuK0aFkAND4UJbnGZ4h7ykdmnT_yFoP3ViOUMzd1rn6qNL837NYMsWotmgJWsSgMv5RfMlgDhk86p9T28W0ldnSXhGIoFOyRh70_R1OUTLHekGjtxMeGLKiWs01pAvzLrk07fB1hOfYC5RAYxtDVWMxFBOUa6wTPOYriTbG7TxqOWVQ-7-8ljrczbZ_fOGajz1lPtcK0mDEaWI5JpRdTLetRA-KYShXNwXT1ePGvUEmt2yhoEbqY6J_sfeRlnSIlc3Ux1ZMKJNimdrGKHOsG6COQngt-rHP1dJocD6hMDFfDM07ej56dkImFzNNWvK0WR6reF73BJ74TLfnxAUsxCe0L9xymCNze1BX-zwL1I=w1052-h789-no",
+            description: "RIMBY singletrack",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/_CWtOMQg2KGJmNdGQKAgpypyV9zhunauSp2Dbic3rZMHjbEhbfE4Io1BfhCHbe6I6yXfZE5LunXV0gXBYrO06X1Rj03MIrFjaPodYmWFx6T817LS68eI3jxs2uszvkHAph-Q02uOfFig20XN2XUlRzQODB_xaHAokTXJrI76Ss-VKc4vzEGUx1g8kfhIGZ6uCavUexkH0xxCFlGvvqEbMKXwh947ILcEfSyoeHktDuEEJjH4t8Xxu9MN35hz2s18hojXBWMPwiPrwLdaC_pmJSPgVnP5-GjfHTCHEzeyHHiqgtthyUGJmJSGycuOVwrn4Sc6yddT8EuC_Fi2_5lchaOgTkyr3popMZpMy99sqdfnyFMhuGbn4hePA9X6dKUHYZTJJO2FRzYfMMUSc7aGWJONuHAjAuxmjYL3E4aQAM50qf0Pi2YLqQtOR6N_47x8D0PhY8wFlWdOgx0Zdj9a9SfUPK4XIheHg0IO5BjsqZ3GVzQvvSjRi59ZyT0sT5wkMdP7sfl3pNkD9ubGtQjSS6LUWoEQvQNv7FhV0Ojv4dy71GcWznkuj69bZ_ExIYS3a_cp-IyTlBMPBwiGOREYs7SYxD-18uBmsIRdn40NJXzKq2EjICpMyyTT58vZrGOInSHv-XAsnXmB6lIpNK4jwQx1Di-EHERXA1qUY0gKQBMxwLLyY1pN-qc=w1052-h789-no",
+            description: "From left-to-right: Torrey's, Grays, Grizzly",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/JSMwlYbMsiAFl5cd6bbIcl926R5_WBK4FVfzA8tQb2JlcyO6mR2qast-JuIrIB4cPVwyhrdf81hVBP5N1XD1zFFtVviR_NH-qsCbnzFK2OU_6cB8BeeIZmkSTYRIv_ZiJVfzwwi8xdB1XRyeeH0kbgcOQPMeYjMSmKjWGJM3Tws7kgf5JTuu1INxD9qsoSQO5_6pQ8qLdZ5i835Rdh4PQams4XI9GBURW4Ppiuh2YCCwQk8pKKLupM51eOWeD1MO_jeIYZmx9JQCDqpaZZdOkY8lkBXt4_w5gbJZkt2pT4T3nfRxD2L5TC3c_rVDuXDYro89EtDwhRYROh5r6VzcfvZL0G6vh0Onc3aRFuskSc8Xu7ykZ4NqOJ6XQMYgBB8xmXO0-judyX0QNXAtTmWJzp98K2KwIiJ1m34nhqOAkpAkxgN9q_Ou-64e2Jz1Aw5W0LGYCMTez1IQtP2MEvgUv71DutBBH_OH61YylemWvuyOvXmgcEBQr7i766qrd_c3W-l42rTXCCYxYhH7VgWsJd3fQGLGMqC9plY-bF4NT28xITg4VnF6VnDk5kiqEueeZniFKEBtuPG3XO_RzfgARuP9G2p0Q94UTcoaE1vKZsWr1hZrhZyMEJrkT5QWtXfoctULLMzvNLYlcZczTbCNZRjgde9qskREQN9uZBmHazUQKV-D6wdXf5E=w1052-h789-no",
+            description: "On the summit of Grizzly Peak D, at <span class=\"travel-card-image-description-elevation\">13,433'</span>, looking towards Torrey's and Grays",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/kMPF7rn_fLs-SDhRvBDahM0GvKsyzoGBVTj7AtaHDKOfj0vNSXH0n0jjU4wxOFKCPPTDo02acNB2M4kFLcOKSzrVjIyQIKGCSV5vS4PPsxY71fB9O4hekWfaF_ijUEv5qugif_AwX1C-xkidyshoIKe8mtyL1sI8TB4U2KTfrKqswK2p_3yA1fQ9hkuqv13yB2gThz0JefNaRrcKV8DIAgvEpsGZPa01lbQAlXlqHPXnwWKTNdBr7mCyTZTy8joK4RRPPAyTQ-0CxXFKpNkV5ArRcFRXGYT9aRVOcSCjuS0p3odAG1qWaACF_15KRioMjNjN6qAp5gbu_KYrTnJa3mqRkVyd1el6YS7naOtiqz8y7d73J0vlhkaZaMAwLp8kS5YTChPExLUrtk5vuIArHfBmElVZrVd7NfnAV5v9KVvOShRcuXjlAZWzXUhjiRnvqtMVDa_WZxlCBpg0S5jZ9u9qBRM0EM7mJpzKkCExo6LJcC4AcUx1JuYpx_eSERT8ijllJPRZJYLc3Ra8ocdkZ0Q4OjEjkc7DyaT9S73OG4bMy6A9nrZBIHfNyPMZGTXkhzpjT9xIRMZaGt0FswmxftLtXcHfvx54iMkREwAbxska6JJRnPY66kGO3ajmQn2vEGXMBWazB05brkRiPAbSl1yqb7a39XEf1-PCRUTaPEHLkWVc7QCYdks=w1052-h789-no",
+            description: "The Approach to Torrey's",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/r1pQln_JyT-7VoRcOuJfpT_tLRKvERenuFuc801aoWZwkluiRg25L_Jldf3f9p5ixY0190cMMsNs2c4RrJIqJ0TCb7FEKZCtVOcyjZQe2Fjuv5Us7ZFBIp4IK-9OeuTWrCf7xswywjWlr4lNEHNMUBZLCoIP5T9qfIJ3Eusq8ejilLMFzyS7h6gm3pvEZImNns5D6ZcPObMNnJwQmNsDzfrr6yRyyXBQ8KbtEmzo6IdiOb3TVRHlmiglXD_Ie5B9QQm69feK2H00XoB8py3XcUWukLAQ-VGRcV-ZqDXFeawpxvpUcw4vsGS0XZYB_6BUudxSrrpcKeobJL6r_htR_CqYO0OxGH3pA4NzYyXPeQgO8fHQMce62AvajhiShtH5d0L2O1g0a5NdKFoTdHF6rytfguDz6xYzSJddZTgIg0yfzkwpX7Jl7FXWkm_edlKrN6nctka3MMJRtFZoTHWrwa4NtqhfWUIpFEd6dwLG2NDPqGYYJRz0SNo369J8wBqcgnO52UQ5FpFaMOCkFYULsl8Tpmrj1XhepxWcMF0qKoID18fdTTpqoII1Ka-R02UJt95otQgtVkKV7r1HdrLOjwpVRgcvXETvH-VmbTC4WbEJA3m20CiieuRJLDeI_pt2kod8baSFQO042MBWzT7_SO0YoMM1hgI5_MjJcKEwA9VdYgfQHGQWL8k=s789-no",
+            description: "Summit of Torrey's | <span class=\"travel-card-image-description-elevation\">14,267'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/kiBlUvF__vzBeCwO7st5OzE-Bf0WRHGfnvx8TP1agch8T75WafY57xASQcVqSsqb7snrITw8Yw7R4X49Wcz7t6gDMnpq1UO3nC0zwfP0fhfLEOVmqGxGG1W4t1ghep8p5lGZprEmo96CAoqqJpyxDjaGwKF23aisPwKn3pHbh8a2rxaxecg_1bRUGWyQbrTeFdeFOgQAI8q_ZuvFyCG57xlT3MRQxKNg9i2pmDxtR0e66KWRMwImkcPdIgyR9auFN8FBaxHFOt7N6fWffewmR2QotwnETSH6WamadafJl0rlims1jO53WwoxPv9C8WS1wolUtW9ug-e6bGfxq0bQ_lVBJCWG_yoPKUiVMOog-ftewDDo77zv86l4wjs1wJ_KaThA9LOPdqfzpDSHNBQodbZwNw1HOx0qSbI3ozEOGYOz1DJs43Vd3sNVeOSybqBsLe4JysfYOBWpPu_NXJuqpA1yUDc102toxGDOK5P2PR5rdQ6miWrmU0RSmfga2mcE1yqEgjVZvkxPYKEmWiE5WisMCGSBYy5zrWBStY30s9wniGVxCuXXnfcey0NuR-Pjgm7Esg0o1EvZxqN3zFUDI3_szd8bGexr0mfLTzm-GnYa280atbJr8L2BC7h-0dNSNkvpIpXPDAZDqku7NFa_JcWQNKTZdIlrXePbXw4NIwT9jTiu5pqjb58=w1052-h789-no",
+            description: "The route over to Grays Peak",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/n39x1a6FNPs2G50u-DWMx_2Zemhk62YRyEv4K9yJQA1Al3tQPylo9iymEQ9vYQvlkoHWODxdE5z7yaVCtIVkCfT9ilgWsPxYVRna7_5QseTPZZe3ZGOVMClEgibqQVnmmVlnPiixe3ppNTcRNzTMR3ZLUZPM6sw3MEoxbWLIM6XYowsMuUbvP9HlaQSBtfbdTimQhxt6yHPGAle12NSSAPji6MQs7Oeo9ZgyUySuFo60OdmknJ_gP_KZ7fCllkjDls2SA_yXNFWZaIuNRE6KCWlwyVCGcFOhNeVaMavGS1JzHnEyd-wUnrEe6yjZBxep2LKtfIZCki4Q-ZLgzSk4xV1G6ric9dq9Hfqf550cSVxEYrPL9_M5RZuIseY6A-dAnqgQDLzIfL6JXm2VxnViUpU0Ph4WWJM4D4qWZet_bUNAV8PsUFOZZiLm9piKMGfM83szfR9nIRSamWvK5299yFnCGZwk96MJxZOZOhgKTy7C8rPEPgdkkwzvvaDT1otzd8xWXLT6r3EnlTX0qL6I9cR8Pf7SP-SfkdvtgHoFiz1y7oYMIhue7AuDe3EwHw_EpHiAvFsqXcw7G7Px9xiKcDkxGoVSNDI5ScqIUUyGHyEw9LptB2xM3PeZkzeIvlkFzygqmmFPxY7rwVvYGjZpSCgONzhGrPJjLIolAiPTDsPRDirF9XS9Fu4=w1052-h789-no",
+            description: "Summit of Grays | <span class=\"travel-card-image-description-elevation\">14,270'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/j6WqZxJYL721vpNvPYpTS_ToRC9VOyAva7DxtNBFuAwZSD2gqBKqAjRZ97PNXhJ8R54s84dWbgrpVbCEJkYi5UVNYR7GuAl_Rucb8EQaIBQ7VhBDWHSTAaseT6bVsypv4KkLoc7H9e0CSJKpl_YrdaR4dbeocf7WE9Fy8QxD-O3Z3tiv3alr2kswUjCsm7paWt0_mHG3FNjc4hxNFTh6tyKYYSSbejEPZXdfNmZt4460oMXrgr64bp1nAulHM38vcbhWKsoFGDdKkMh26p3IMyDI47UZsby_eURR35D7wB-94e8nnpmGScITqObM60DLsSIi6VITuJ6XCA4vSD6Yiobon8Eo5KnZaMmvLfZmeM87Y-_RIN9BCd4VP_vFRI61-BPQ8FfOuVoRQboX5t-8dNnsppDnwTU3ezn-LxT05EGhR8hHZk6dnlrZR1igZGUL_XA3G068TvMAZ_4H66b2Z5tsPXhBhk1lHwwBn7jSwyZh9WfLI-PFoHRhISJNMPkXpo30vnqdCYzpJZO5UIM_hLD4V1SZolsDV0LGeyi0g6jnRUlErgWFpIarZ5Hw5f64Nge5JwYslmpUP0UfyGRZlY5L8vmfqe7ZP1_mIRG2Aq8YP4LpdlCkakAukv6RicmHKFgTpY7kak_wU3oI0TUDZYaVyBr1orH8FIboK6L61nsNuc5FJL9LTZo=w1052-h789-no",
+            description: "Moody Continental Divide Alpine Lakes",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Zdc8ddwHR67Y9VpCSnhEoJ2mWk173ClHr5tLAnKP9cwde6z1uu1jNsrNs0hWfg82rdxjYNSuwQCdFMc_qw1x4ZnHEy3SJ7cxHw8GmP2xfC0sUrolbd610Iy4ETuvMQduALaU9gdQxjBCH_7ZeKWFCLmggMIE-YrJnYugvJIoEcsO0Go7dfGR_E14Q9OMR6yVBoggBeWJcVQpgeZ6gXNuCpaUgOzN0r8zDAEGN1feSb5U5VqI4MIJ-0-QF0Jy4iGBTG8xR9oWa0i3L0Jac-ipcx9pG-F2CileBoBvFatqURBz8vAWdXpTXcgv7uZGgKbgKRBtzY2RIJWXUb6QsFlo7SAUxe_XfwtxXkeSCtkS7RSfO6aWNs42p4ZMUZN-0rD6mC46SQ0IJZnUKcnprUjHdyGkX7i0vXlmt07cekmbyQD5Zg7AFaNTO8iik5Y_WKfBT-DhPWcWPWYMUeuOkDo_eEonElfX7ZYljiNtypS1Udaa1cuhmf4OAufsJUu61RdVYfcCNc8fFWFIF3xp2SyEmfef5CYRNJCXpwkUmPtEkK_D-614cVVKm4CyS_X78dYsm6AAoGzqKocVjN65WJi7Ydn-nHbNlD85RMdaHpHMwPm_qLOzII-A-C3ChtYWMI4-tAM0JO0BPjsE6SV9qa5mtH9h7zTFz3XwMBVHVhIMGRKA9dF8JN0G3TI=w1052-h789-no",
+            description: "More singletrack goodies",
+          },
+        ],
+      },
+    },
+    {
       // Mount Alice | 8.18.19
       trip: {
         cardTitle: "Mount Alice",

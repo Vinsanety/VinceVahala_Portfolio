@@ -3,6 +3,94 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Crestone Peak to Needle Traverse| 8.26.19
+      trip: {
+        cardTitle: "Crestone Peak to Needle Traverse",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/1PYZhzWR36mRMwIc2rvSytmjGCziEtJOmK_n719kw5u9WC8PudlkNc_wtiQZYiGmdDItQjqXHa5FAQlGtMTx4pOWlSPwCCjB8wniupqnJduZlIUIVYtSEy7HIPDyndp8YiVP176JloJgA4JoiIrNqKKlvc6K_02cJKDaKRZplrqkS56Xw8oBsKgeOuUOvOa13FLWmNfQMzpdHsIzYDfeyaoj-dssVv92rHJSrEoE1o73DFfSFA2mu7CLzq2inpB-EoRq0WGhXej54A2OIV5pmBQynkhD-ZGjZMkAteH38yGgscUzCqoUG47HNcCl2paPMbz4flN0qvImwR9uvV_-SOUXdm6ZvnddDa3708-z6ciahLwRn1g3BASaj38LlCe0MZpeo6-pcPKSRXI0hCWqkWCTCsE4w9pPwA57ToWvvzXTu5F8aVGsz126huBtcLwH9pewbCz2Mmtn-IlDSp9Z4W8WLwszeFMVuD4gume21mhRlBK8POsweVur0M4-vZ6Pk9iUcEt4XT9KzmQ6s8mCaIgIbCm8BxeUpaxo4vg7VqA9FXVgc6IbWs53vJjF6lm4FyRMoQ1sHMTZkwCSUiDfIHuKfaEuC2C49TRjadu5TUinntWJlTemlzaDuDCxdBUAUM3pBpH9X1tvi3otttcFhH0vIZED1UqYVBpYZTJtu4jXEZZ_QnBCa85l=w1052-h789-no",
+          cardLocationSrc: "https://www.14ers.com/route.php?route=cnee3&peak=The+Crestones+and+Humboldt+Peak",
+          cardLocation: "Sangre de Cristo Wilderness",
+          cardDate: "August 26, 2019",
+          cardSubTitle: "Crestone Peak to Needle Traverse | 19.37 mi/6,946'",
+          cardTagline: "No better time spent than in the Sangres. This class 5 run was one of the most fun climb+run combo's I have done to date",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/IlBDFTFSFG20XklIqoRtVdpq-xLBewpYt6t0SQ_bIrOTKydEmPscnWmiT-SJ0uAFk068rydokHweS6f9_g3iKBn8L-YmHL8vrSp_F0KbyF7oNyYvdn0qL0n4wGSFm0_-6f_TjmbFyR6ESFntXluCVNp03tgZeqizcHxwSdmtborJ4xwwCNfjwXevPNME8iuSVL-ZtlgJUEm1naDGu3CK7fg9JOGgFXc9VoUb0LrexAFvPS2slAC9-zXByauo6cJhfsbNwSEF3CBLRd_tZchoQ6yInjfa0eMWDfaXqFyy-edt2m51rCWK9HfQfJd-NcRl6LscbmZuNkgwI8JBEd2mE1TwVrgKcSusE6vbfHzK1zr8Cg-kgD1WIc0P_ZsoRNUTW5OF7EHwcOS4CDLjqwq-iJoALTk1kxN44hzoe-CK9x4J0rXIFQIftBaeFeOrBUStnyVahLbVL46uRbPFjc9b2hGUnCChl6GppBUGpcDnYrjinDd-ZCNTq041IuIiS7pfeCy5297W2xX9BRoi6uQm2VMRqHftrmmhbEoYc6Eq2e-Qd-jPBXZyk4QmZob03BXcIrxnXHDYJ-fMcHCAoFJaHJM29yk0GN189bgRLUCXRP5sNmHC97eyxPzsEI33eJBPG9v0njvNqtp6dVzo_rlRrqPUx7tvspTQbqg9bdXG00-wCnh6Cd_gSqyP=w592-h789-no",
+            description: "Camping the night before, I love campfires",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/1QqiKlzOVY2qGOVoase2klAqQ2akCueZpHkvpMAvLEVRtvwUW3KAlp19BhV8MHqaJms5tKaRhkEmK_8O9aOHA6TPn-eXuJULEp63vqsMwB1pfYorZeAQm33xjO_37Eaun_5x47Xn0yFpPfHu2iyEYDg2BBE4rjIATagOV_uYJxgVH7xx9GY6EIKEKT_oouCcIS4Mf7wHr3mnftUXNOzl77pwbXQPUA8t4EDhizSK2Cr_Gf8IfRf9lSIUAvkPew73cuCA-77gMDJIlUpkrufjWQZ1H6kgzLyv8iG7CFw23DMD_tqTo_7_q2rrLsuxffdh0sLmxLN6m2Ory43dGRQsalRqnf2iBUv-fq_FzBEC5aXj1xQW_oFAEz4jgQwgQKwfCselr_6BxAYgqLunuUl1FPmVmHmSmrtttB_bDVlDs0rQVO9q5P1f0EBqtJ1BkpadhW2TyR-eHyazuXkW8ZuC5gmPDB32olQW9SQCywVX2RTLow1Pk1rYs9y27u1gJLOUVSDxIG4iHwoT3VWO_XufwvRUJ_42QKG9Go9dygucRED3HxvU7oGrssuuSIEbt8phoeyFj-GvFULrPBnZiYOyP7nes3wIvGzWUeJv1PJinvck8gBiiCFyJWnm62VliLHXkbrac4MPBn48LU59ZXDrYVnoGp86astrjHRsP-Ocrr2taZub4WUk2tSp=w1052-h789-no",
+            description: "Around 4 miles in, you leave National Forest and enter Wilderness Area",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/1nFaQ9yvifcMdEqkX0suAsb4mBZo4mD9iFevSn0RhKts0ZlPBdkljT7uPs1JewG9MlZmTAwL2p8c6NPS6l3Oyc7mweCuGCRWAbKFsTh77-vMorHYzkDDW2t5IpVa3Rn8Y87CnKC0eZKfCbxZRUGWeAIOXH_JmXSk9eYFU9oW6EamurjjvcVYu8VENm4R_kednhoQXwQmjfsJaMl0QTJqbBwjdR5QcigeoUyaf7xkbBGfxi1yk45h10CAbHV_aW37QYvnamkjeb_Vz5gI2aKa1bsH_2Tgk3d3h4MxYDAX-QQLzc1uPZUoRIqIpi_u-OgV1emzxwk2isJ_L8McsAxLS1QEusB0wYU1MoBOdA4mEVNJIgHkQWBu-HHkl5C0cghquP3k29KdL0FumDgGEiQNuWLtSR0EE2urGDWYaMPDtd0hC11fM4FeFFV9EklDhQV8zQPwO6e1OdbOseuSbax9ftvxzVXWoPexwCWoQw5xBcR_pXNJEh9l3M7dqxWli0aJZN8XYBPelnlE1jLZt7ruD-zlzQSlHBupq6kAGNaBc5k-_FdwE2SqRk07tOUPL24o5Z6gSx6E-KxSBvvaBIvPCHgG0iUnzqQalu4-jPq1MoUNY32VsYiaMaJyPCBfMb0CsD4OLVjBnDq7DKj5xFzcjkKSfZ0h51LLk7nsU7e_-wrD2ami367eEbhE=w1052-h789-no",
+            description: "South Colony Lakes with Crestone Peak in view",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/xLHRkKjJ6G0QVq0PqKcvTJJPtSBfKozBOVxLKfgk5hNGs4CsZi7cMmVdE_RSfjZyl_Yb8vJxFZHJPr-ANzZPjRIIb62ex_VQCcrTjOefGxcj4F946Y_eCOkb_cC5y0yiVxavy8peTB-1wDFBQNVO2WRKJECbGIj3zbPrJ79nOTxEyVSJQH9OnLrbZy8S-wFE64oOXqoN8OqIhF7-_iALLx-1UQk4mRadLvsFHvC6ipSawW5Sy5jJWOS3xs2Z2GbcHB_KL7W1MqJLcImNHY-5PHEg6CstANcO0Ov6x1m-UO1s0hKczvEzjzBOMKO0BsMYOFwzUfqruHrqYJCYzXO6CIwDJN4dZ8xIuGExoAaNEyoE_CB0EZWjh19Tsd7IEV0QOglwbdnxsZma-UtZgAJ_k4Lg0War_Dl5_9bMR0VwIE6SKPS17FdvR1ZU6RJa7zWUCFBFK58e7dUg5ejvTLsD-XZA4EzbmoaCmgvZcY3RMMIzYyBJMMg3LEAfLQTafHXsQ6nTJ1X4EFKPnrTpdlhIrBa8Ks5B8EE7RyQKFPGnV56RzppQeit89BnTXrmUad1BVaJvDX-orVPG0b-g_c_fvpMImxN2LAOJPAkil8_KMpiZyqfLtfRRUPZsXgeEXNElTMqKWHTBjlyVTZPjIGgJrGEvCMRosl2T0xDnGWw9b1P4dQ4gkVN8aqZg=w1052-h789-no",
+            description: "A view of the upper South Colony Lakes",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/2Op-fx4BX5T8dn_muKH9abGaW9NLde-7jHcJGr0kgXbZKFY48K2imrfXFZryAmVtlCKZhcX4cpD33jv1rX9461VRII5OLxf1tPmHkxSsLsUeTsUpqaxvn1rpOqPy-SedhZ8UNlih7c1PXIcqG7koO8KNTIwh9dpAGtNj5TZvVB1Lf9pYD-l1mgyOjHskY1EzQnvRlZ-M7Vbn7UOvWA_KkU1n0Y36ye8xtC0bF25qa2BEhoVRj2d4jMLbfy1GvW-y-JYlAZ-oAm9RjSBsXYkAlOLJ3VswWwV4ow4HWS356nelBcBYX5Xpn9GEEA2EMp_d7p8z5Y-7WBKPSSh2MNj7z_Xvzzhv-U2CqJFcPn0bOYsJ0uQnqhBQGMXrTt1z13IMCU7E1lewRZ0XY1CC5TpmAXyqqjdFZw2LNLzl3vmFhdHuv4xZRLFC7mcm5-RiPmYSLL_02wtv07ubIAbjF3ObXWqemUvIWJR-CGUyEeX_3_fOgcOGiEzystCeDqsfkDNZJgKuhxefjcV8zI5jsTwRlMxMgVuBCyVC7myLikS0lug9XchyPLPG6WipqaVW9ym6FWDgp2BdH1U0ETzWfE6KT5k7sF72FA3PAYMKv6ExqpwfL3sydSLamvXfDEbaMjpt8g2SCmBw5bHxf3_dXtpmaXXmbN9kqYobIFL3z8eDr0vQw1v_rxevsELS=w1052-h789-no",
+            description: "Humboldt Peak across the valley",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/43H7KcbPXOA17ee8kymr5ZvT3fgElyccoqt13LIxoDw--4fCWkDLfyB-WgW6Bi2Ch2WKM-3a6DJNvmJuKIe_Wstkm0a1m8md066n2Okzq_ce4TTzoeR_eYGHyI3-2slD7wixlltdaigXu572bK6CDat8IjqwzRfSzfVsOwsemMYshWcm7avAs2bzEUMEaMonYd9Dk-IB69vgN9YJxw2m4G-R3JubevXQJLiUxpGe99JXnP1EwHj4bEkAPvZ3M6Sd_0FuG_1v_EzI0vTS09w_LCOdO4Zhrb_pcGjJXZyJ6WgDw-LthEKU-QMIZdTyw3SAVc92_p1p6PgwoK1w9ODmsVG4s83HsiZtRJeDs0RHhQZJ2ZSAsw9srwqXESRnnuzTmzh-M0RPuItGQUHlBlKQu_7kJTsRWSui4PRt9UqtezTGApUQIp2bdk1LI5LNW21rgV3OevB_b9YTRgcLSX42CfgrtUAZH70lZqVu5xYm_B1VXjG7xXTDF2Pd-EBzlLMyYXL9IFVK7b0q--U81LjaPHZocW1FV3iUZLR8-BkgFhf-o4aE8R-hTOAepb5cTDM4u2tOdPsNXW9HNhN6sIfV5s595vTvy-7Wv78dGBEBQNLAjUYMi25qdMWBPkIt-Jzz8EajkKUxpTDe9-AWPPkb8MEXHrj14yzphSHwWXnCJTiU_FKQBxQGgBtD=w1052-h789-no",
+            description: "Broken Hand Pass",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/1JQBdaHhj0umU1ReB5SBT1Wd-k8JUiq3FxDbs_fngnCOop_17OxaGkST3RK4wyXBTgusZ5fDyQDkS1ZYBYj4Vv1no1IyJKKlTAZuve2UyghUaT_zsvc4xoezT-Oa9rCkIyNIJpUtJiqI1MMQOoc8ek1bDhIvRUmclXPqqRsFIfJ-tv4fldNGnesyys66id9QrSDubP-HCu8ZZyrkI6X5MblhdldUxF2xGfcmrU4DJCt8CUYkptLDTMKRowPnfPrdK8KB28lffhCYBUYDL5-EYyvQcliwMtgaRde50xhVSf3xS4LdqQxzixHgSq1lSHIwK5S3naP1PeyEiLjAKj57KTWR5tJCm3canpKRXnaPU_DIjIhSrVtvLUIB-t8HnryPgfCDd59fUz_wggR_4bX27z-xDlbp8jd8p68mHr-0KQTF3lie3UlX0gUfLhcJRyd_qbyK_VBpJ2kJZG4fYcCOJx83sUcyXL-kFAWz-GdL8WFQj4x40l393gh1orko4-yEyX5tvNb95p8uqsk2FY2G7_8LVBvSj_I_bUFk-Rg2UjFgilQIMvw95RZsssMGwvORNSmRLH7ZN-j9EW32B6NK_NjHugvihij0H8pNxm-g9pr7sgMra0zsqAIqrBRO5GfPOmHvXsHGF80tPN-nlyR2mh8G_E_OI0GnoaDxwNGrsSJXzVSPeyGm53vR=w1052-h789-no",
+            description: "Another view of Humboldt Peak, looking down Broken Hand Pass",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/29-m225cARbxUfZmayHWmF80Dg1tIQ8dhLci52DwdwO6VtQeCDrQ6kaYjyqbF-UodtmBxj8AnvFo4GvZRnqrnOmfmTzs1vgVowoQhNidWDeOb01an3paUT9MJub5eZYJBrboTRfms6Jt999IDNc2Th8ZKuF3jipxzR4hdHH7K9G-HQ1KUkDjQrOb1kP-MkihfwLs4XzovlX2TC1-lDjzR6cIFnkKABZVHtoUBO2U9ZHzhFF0WtR_cnWnf3hytrMVIX5rtdWkFlG6NQIu3ke4DU3FuQVancUBWuFENBg9rL76Wmwafr1Jcysaxxl7b5BSvqJSCmD0MB-8Yn26sqeeu9bdMS4YWU8n7vOhE98yB6NW1JyNcEclJd_TdHnGwlNJCFOzUpzbu8IjeehuIyIZPkl5Oxug8qZWtstVtT3vVmFDiV6Jyg-lu8d3CWuQKxmAkexEvJQRrBbjVNeLxaKhd219iPQr91jM5HZI25Tyky-DMGczS44TnoIFNPB8PjE-92oI4kTyD5mlpifPIyPkzHL217ZvHWU1-OSBCTSdlUrpvisRj-MBaT7T9yzNOEFoYlb2JgH6z1mcoCdIznW05MPIH2vZ24SRRjdhwky2QOoqBXNpeGsQfX_KFwVhbb-3R81KwNigDEhnxNDihY9xAA0swMuNxRhCau3OZZ0DKkAwT32eN2vsBrF8=w1052-h789-no",
+            description: "The next objective is to make it past that lake, Cottonwood Lake",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/cVNgvAEoHRjD8GwbcWsOBGn_2qSvUGu1z_Oxa_2Ci1BysU_RNpMzHkt1qQMxa428I8sCd9zwcOevlwORp4NgnbIp6RoA00xmxHXbS3Kq67mH-DAabstSIPe5FFAr5x1p31yY2VRIFvy9TQhBK9AuuK8UbV4RGkMH7OMaRPWTGVrYh1Lf1Ud7Ne13pCUPrJLxSyvZNNYUJpNYYBl7TbqA0vSrwOmayLCCboF_-JXBTgLpgAjj1pxZVb_uhwYbp46KY90DoPi9xQ0V-XqwN9x0BaQvdQHmt04JKjyWVMDpqOTyy5KrAsP9Cyr3xbTHXFm39l9hPoVlQdJye7sZq22VkBzzNxY99WzqFIuGCwbEAIfjP2GOf1R4ifGa9RfLkpTfFuHrj3-KbY77E06FrlLTviqEVeSCuXWg0u1sOZq1Cuzshp7rw_LM9bwHlPRps7xmoIR3kPQiJDbNUmiWpKQfpSRBhfZNO416mhebjY2VlI95aZoo4Cy9HWGI2ZNyHI6Loxppjm1GB9JSWPk0O2hSavVoCffbK96te3K_movrw8DdcZDX0afOV0pq8btMIdoo_4iqf6my8VKhMSnqDSDiF-dQKxwMmRE-d1C3T9XoJPGFgb4UQfZrF4Ok67b6pM2cHQ-ZEGQW-iuRS26ezPEwytn5JBUKSz0zRHrND4a2zHs_R8wu9ts43XLI=w1052-h789-no",
+            description: "Cottonwood Lake, 7 miles into the run, where I stopped and filtered some water with my Sawyer Straw filter",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/WZjidPSMWJSbDg3rOUdfi2iQdMf7qMpptVPWNntp1ot24XHkMnMjypWjcNlAtOICq7SzZQ5qfTOSNQU7AYGtj1k6VW8pQXaAspFSiG9ru3J7WCvgjFleZ4V2CikpyNNt5voj8T9XR0uvqN3F_gbzHJZB22WMpoDz7P2Ccird2CxeY0qYIdDaEB5rDOSsbh_-GU8D91m2Kn0SL45yJMi3OqtZXhyaLMCeMSNHyyir11LoN-PoOSyyFbOAM7eDA4AoRLdatwd_JKpM6HpLmRXXrpp24qlcg6ModVQ__L9tcP-lPy1Bji1C3y-HKrpv3TKguoo_l5Q72PbvCvf_mmQ-_68lBVYaQK-5XaS2osKBwim6ze2JJPWHYSPajmhVVRjFXiV4y4Bbg_chOAbBDieRioxudBkz7C_Dxecxase_YP2-FTa9S5hg3SmAbYfYuuZN5BBsHjS7rMYtcO3ybYkZFUmx8KL0PJI1bUYmKHQIMk_yW6AztniZpGDQfDhUWsxjcdTAzKEDkxCC0msJmCQzAjYaWzWUOBNO4R0NPEBlP_C8ghEO9N1ooIynI0-KftYj57uqpyWkuAK2U5P7fXraT3x1uVLWDHDgPVBaMoRVmAFDhvDkzCfh03Ff30vw0Vn2WKB6iRxKZAOCLrKvjFs-pnGaPMAQrVaWXg-5boF9ZsfsnL4Fa-G8pp9W=w1052-h789-no",
+            description: "At about ~<span class=\"travel-card-image-description-elevation\">12,500'</span>, came from the left of image and you can see the trail vaguely below",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/C1W8Ex1LzTMbpfK_25RVSEynU4x6wkChL_8vN0uhPc-u4alo7AuFwqPOF1yjI92vblXgNvC485Gw_SPobwwXrn2Nskss-atHhoF8mfhPOagy9jj-ABwepXgFjx8d_Pyyqs1U99HFEL155K8JRTZzpBKWg9Fv5IbSvjujAupfbvM4A0oiw2m3_ugpgyC69IYi2fcjqWzhGwWGTap7NYlG13za0RvnpZmBKDYOJczsHegHoVnIEMF2wNtfS9lNACuxvdwGrpnUxZBB8faw6Y524iedzNDn5pq4mPJmuf9hiXIglhRyYNsPqQmbK0aCs19pF_WhEdNcwzYCm19gMz_LVGU52tBySmCcU3mCbNtl-YUl2IsJRNDNHrIYcdw5Y2IT6STzF_TGvvFSSC0KcULmt4ZPBykiajKLqjMN7CRqQFeyPZdqhKOEiziFfGZuyFgQiXnoyoxiaWoe0b1U_dci42XEIO0h2hc6v-7oiHKzpHLNmQCyXaGkO175wc5YuaHEnKr2rMF5DbH0_EObrp_VKmUKNXKqlAeIzTuad6VMJ12DKfcPy6FC9EOjv5MHUI_RfwH4grgCJhlFNKu2YJSWKIN9_Bt_TuTkD9YYTygoxCd0c7vUWvENHieRlaYNP6PcE79DfiAXClgnZOCH8XzAG4TpOszTqUJWMiUiQsTO_Doyzt3qQXmIkeZ1=w1052-h789-no",
+            description: "Starting in on some class 3 scrambling approaching Crestone Peak",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/0i6PPdT6oMiOxYw2XM1zzsGNA-rxTqbR0lzbsHgNbEL7Tr2HHDNqe3YPsm3ML0BivTdQsA4UMqRF9Hf9pnVH4D-8WNU05FqS3tk32Qfpvy3Ant8_nuYYXh-6olSr28EWqtNS0BbzFX-fSoQjeWLMLlTDWzrAL3ncqywdXLslxbg8EaNKX3tqme2V0_EUQvsUOsF4UKEN_204fPIzQWCD3mknJKg4SWPFlyu-v6IbCjG5Qw6Nr-zeflDu4f5qISH-Ed0OwmLQJoZhP0KwbXAyfCNuXszdP2n4V1Wt5wjGElMD_eOXKplXWnZKhz7FXLlFqjY5zaNXuYvRsYVArEMvNUgDjAgpcWSxjTgaFMaL8sxt_YhyNx__pHZ-FJTv-RP6OhFfx5oS6K_sUlePjJHiCH09DHkvmWmxHg6BAH92fbjc4AnsbdjD559Y6lIhyify3C8gaJ8n3FjhAm_dRYxLx6HW9qbt7u0ZyY0azy0jUiT_nWTlGq_6f9u2IkoivmxvpFa_9Le2PUBNg-cizDeGCWiYjDAApgu6GNtgPWsvnJyDoGZEs9r-A4Ce5q-ohi4R1-TytzOOxtZN4Vycvngxtl5G7f-sb6YF9GJ67uj8wOuuuv-zTBXKVXlpUFwJKqOvqPDsNuo4dSVD3jKK8cAcRXf7V_LQK0euEHf3c3P-6OPZZiL_T9qelG4n=w1052-h789-no",
+            description: "Halfway up Crestone Peak's main couloir climb",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Gr8MUk85YGgVtCo1-tdGCx3kZOW8auA6yH4rDx-KLgRLbzgnztwD0AGOZqeL1l4ev53zupYXEgaw9Bz3Zo9sXBQf_C1QoK6AVoqc8552GZjGLp99Z8IZfITYuCxIBfZgH8iAJzVcD8h7d8Z40lyQFo5LXp7YmpAh8f35kkwA8nNFpZ21VvmhsDOAXghZOaapruNeJisI9Jkx-OoFHo5TXmabnnfiqRbNJdR6EBkZkIldT4re6_Zb4b9v83_HoRNWJCDTQw9q2NQ-2aVtSKHbPMr_2bAAO9pvpRRxo5MMWoLO4Qul2fmJksISWOwKoBdbzpwc4J-yb1GKccVOZ7GQqAgWGLmy9pWSz1VgdSHV8DqolC_T5JZi_b-VuzhNfHOi6ljdW6qe5r1qbUIam_qOrNBQbpxtDVpcCR-FwxBqbwU9uh7Ys91iQHmQCY_6CQiPat4ilXgqZkleS7r5KqHjIMmpLRiQzPHc9_H5L7JR4XJ2aN66ZUGDh1OvfOO06trGZ0fXMIdQRkQEZAL1hYJGviTo9_YZAaV4vtkpjdGLPmYtqcWvzdB_MATifAR2DOGLbFth84FziuiXwOgr0saNsTpWYpWQ48z9IaRxbD6Umz77ID1svObnWfFaWYasSIfgQZL-Eo6uLZ42Co0ycxe6a9Mi4ILRbAVbEyu_qg3JftNm9dF_waf4hoXa=w1052-h789-no",
+            description: "Summit of Crestone Peak at <span class=\"travel-card-image-description-elevation\">14,294'</span>, looking towards the Needle and traverse ahead",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/ylpDdsR3YT9NxmfT6scuv63KB6dufK9iLwH5p5Kcnb05jmIBslBC3-P8jNfNLsi-GGlqs4pmb9nXB1llvSmWPeLDKEKLeU2ocJSFcnjuBbXFghoQ5xVfSTKz2TZEiCq9cnBXyRP6nIP2pRhMeyQ7p28skv6wgoFf4qDO5aJeBsLHe9r3tZbgytvRE56-TSPkndyf3vVMFpeIywl9WWDlxJYDlxU6e34TiIUahzoU8K-8kZdQ8cyLgXpv4sWd_Cx8o_FXSnvVd9TiiSF9OcxQthMvQ77LP8HtFMi1msUGFQDiNR6qX0Uv9Q3YUL1nWZBd6Gj1NO8NhI1AiFsIBewHjqRWG7Zz2DPOBC6bo_6PNZ8eTcNyEegYxR0h1cL7OEiJ0LRRc0sKshYZRZp07TouQ8PphdJdQ4Y6bM_yARLdTe8aHnrUCetl3wo29ftoQBx-VzToCUcwRAVYQ9taxWllDrGVKwqPK0PMELl3-_lDE_5l2t-3tdnX7TVAQeuTfGaUSgS0KTW6p1FSzicjkRrPK5jqU1Gv0iAcG9-0D4y-WlHHoVcYfo9vv897-DhguIrdvLv1uexFyRnFOHrsMt0XSYDEhLeEyUcxtiB0gem9TeqhKYDaoGQ87uSu5_an7-cDKkAJtubVERQjNbJ7VPxlxsy0sUJgXbMmqG52a3CDhGi4yAiqq75Ub9xI=w1052-h789-no",
+            description: "About halfway through the traverse, you want to head right of that large notch, where you'll have some class 5 moves",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/RZW7AlmwdBcvmWab6tiG9nU_FffIRGnjfuKxUAAM0CxePWintlfnQ8gaeWN-Q-PXo5zpHFca-MYffkIVrNC7zq21dZbJ7LJNCuyrw7aMGBXp7Lh_8M5WCtK55BWTErYPEEcCWAXeBNU7qutWDVio0RApFHeprBi23YLvVRAmZ0-8ZpYVKv0K4yxJAsDmzjp5P1nbaml0vOh_EKy7Er797F8FnYfkyPk1ph5yeXd5KMq9DYe3OIJS7InOqAtzx0-F3pH4LZPedGr0QvBLxo8j4gWq4ZU2fviCHsJtTjpKhyf4zMBAeQFhNli_olLv9TAgbCwwaDgEbUc4vcrpcNoGuHOF8ckFHI8lYMGmackuEzk-v57IQFVHzrrPROAVDvPJAzUA4be_xpDtYjczNBR_aIQCbiUG-q2Waco04ERWOuhtAXpvaEBae3qVK8_uVe7_hNVPzzscYHAz2Ap-KS3sRteiR7ThZfXtXWNkyBwHK4tEvh1qep_6ne_79R3KieZAOraSKBzK_oOFkSE4vKaXyJK084cgLx5hHzCkl71EmpPtTFm019IAUBFQT5bMfszWGwIxmzVMxJaFDWJJ8C1Sq9AcDXuw67Tq5mnY6cHnxjJIkJ91bPzZ___MYFMWjRrOLIK34k0DHuOasLiUfvjaWvTawVEKll2nJ6ly1uRowT6dP5Q7YJxbLrRU=w1052-h789-no",
+            description: "From inside and right of that large notch, looking towards Humboldt Peak",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/VDbhltiwFJaYboJjx5yfRj3VI7zaId-mNT2e7_SSeLeXImStJQ4BP_4R0WuTYGyKJtwI0GujOWaHDqCIngS3CcE8xBf9MHi1RO-X8vV3xVGrlBvtbFcKvYbfOAFedDJpJQ12GctOelnQujOUz4NcEASxCtM5HDGq-kFBBO8mDf_q3GF6ZNwCLOxS3GB6OpgLzyVI4x64u8qmtR89Q8WngXtRPmeIEGd03DU7roPvPpHiJ-8Ko0XA8xEeAWDNeuk8_dLFpugTdEmnBtiJyCmeRZODsAoBay0O6e9oenza4IpdE5Qqf_cE5hPh-XyGFEjPd6rgaP_6ckHO68hLYoPtQgaCoBoEGVK4uTlYvjRAC7BoPE8fiqtl8o5cRLpXczhESxUpGI44Ag4YeFN3SdjyvVnefVrNijAkU9FjjX9NRz0dqr9fK4APsIIsiZipk0BjtYQdARnEUXD7CCkam64edlTjRxf1CuehMCYJPo3a3CB80svhcW1XU3dfqMXdSIO8NM-d2A2D1LQw7nq5oy3BeCw-qQ8AcLSCulHocrMFjI8qYy67ZnBM3ssUhFQPNxARNTrc8MgMrOrugELxAe3c57BYA9IG-sgccW7DeRdqQADTKy2o-Uv_uLjOaaWKQz7tnTcLN9KQySSbSul3DC7m7YNZD_8i7h-RYvt2H7EJzt8rmbCxswLxHksC=w1052-h789-no",
+            description: "Love Techincal Only",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/olngnjGaV4_q8zX_PCNdtjY4_e4EyETQEVr2jDecPK4HSC1Vp6ldEhI3s6_8GGJSlzQxBW18W-Z4igSw2M4h3jTs3vhwIg3Rb8rAGmPf0za3vqteQd_baCKxhkrEXOuV6-DSVRNIhOnEzfIypSfVKJv7dmYoYDgk7vXoyeGoSdkb4cRsOdqLVXdDKbkkIavT0p9uSn3-7bwtBIINtIaRBve2gATHghmeacFUgIDP5XDYog00wL6vQvq-CE5CQS67jBeGVVP0BLa0PdWZY2IiXZFQSwom-2HT0oilZzDtLNL2yv4cQF6V7rQCjI9v-H2LuWAdLjABnnc8MnimuubMTGewx2QzseDbsLbwrSmetVkzPGPpoKFs-N4xM1dCI0sNxkwlR6scw5RZqBKET0xdzCE_O8aeid8FXEr5rUsy0hP_blesydrDMDLTU8WVHnk1CuHKymnFirsmlh7QvHMTswg1wtqkGpJRWrZeh9L4S7ILpNHz2yRcE7zCzhMsNQAgXpUuCx7kmtE7AoXdnm8xltGgjnGQIfmTG78P_Q3poZqGQRXKP0oQwc2QKXLinfAtbMectOeaS6anDS4CILiZDpzAyCuk3IHyGnsQs6eh9F31XyApjCFo5EdNST_h9jKFTsL_z8D52Izg-_00ZHoPg_AOMFanSoT2pAbDOuQJb9Pkd6Fs2-lgC24c=w1052-h789-no",
+            description: "Summit 2, the Traverse is complete! Crestone Needle at <span class=\"travel-card-image-description-elevation\">14,197'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/ceEA_4H4ANNl3U7DtTdgLd5SY4vqAgyfE_SUNhg5luyu2wZ48uFFvaFKllHZdrCYfdjyWcGrKBUF0abPDoSn2gP6hvaCKgvUUQMlguaKjklDCkgM7LBSgpfe8nwytgIoB7h1Kxo5rBt-8_MQptlHpmby8RIoj20zQkuG3iGCXEYhYVdjmgyE2oSNnAv1-e5DuTyhFoDjhCgsPVLJXq0gkJkb5JSlwvA78VD1xnV0RdTIgOw0YthAd0zmazG1CYB3Lkh15sps65wSAESvS91qR1c5kJfNiFHkD02QWjMQnIVudMX1Tt5gPnGaJHCPdwUsI-bYE7Yf0Q7Q0W2gsgIxgEnMFuijLbcXD0S_uzRfMxfL3XRmD4_feBwfAHsJYTyumNxwcVYMTwFmQzz5LMRvtWJcvpC4FpOBajALdILSUukvqOdP1QHtSy_Txza5lL9XHVvXVFrpl38kgNnjFSU0eOxNYD--WvMOaskwfujbb1sjlWdl9nKF4d9fLgHkyx5v1qgeHMSA0X0QHmEGlFNlAs0Azp0c7Tw5fURUeaY2Jdl960N2vjTKa1ZqiG1F9ee9Fiqj05XpNi26v_cPcckwNgmSEtYf4q6-ixTXKoBBWsPm5b4WcuoHvdlltuqT4m1Swxk285bhvpnI2zmdhk2cjxd_7hfjKy-uqmyoOi8RNnAtRm3dNXAu7-qZ=w1052-h789-no",
+            description: "Late in the day, a final look at the Needle, as I run back to the TH",
+          },
+        ],
+      },
+    },
+    {
       // Loveland Pass Double-Double | 8.23.19
       trip: {
         cardTitle: "Loveland Pass Double-Double",

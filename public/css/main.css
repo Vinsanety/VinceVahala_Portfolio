@@ -783,10 +783,35 @@ hr:after {
 .travel-card-text {
   color: var(--tertiary-color);
   width: 100%;
-  text-align: center;
   font-size: 1.0625rem;
   margin-top: 1rem;
 }
+
+
+.fullscreen-card-reveal {
+  height: 100vh !important;
+  width: 100vw !important;
+  padding: 1rem 2rem 5rem 2rem !important;
+  position: fixed !important;
+  z-index: 999 !important;
+  left: 0 !important;
+  top: 64px !important;
+  background-color: rgba(0,0,0, 0.875) !important;
+  transition: all 0.5s ease !important;
+  transform: translateY(0) !important;
+}
+.card-reveal-info-container {
+  background-color: #FFF;
+  margin: 0;
+  padding: 1rem;
+  position: sticky !important;
+}
+.fullscreen-card-reveal .travel-card-content-container .travel-card-image {
+  height: 100%;
+  width: auto;
+}
+
+
 .travel-card-image {
   width: 100%;
   height: auto;

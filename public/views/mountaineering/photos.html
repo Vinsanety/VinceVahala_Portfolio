@@ -16,12 +16,14 @@
               <span> {{travelPhotoDataCurrent.trip.meta.cardDate}}</span>
             </p>
           </div>
-          <div class="card-reveal card-reveal-opaque travel-card-scrollbar mobile-momentum-scroll">
+          <div class="card-reveal card-reveal-opaque fullscreen-card-reveal travel-card-scrollbar mobile-momentum-scroll z-depth-2">
             <a class="z-depth-2 btn-floating card-title travel-card-close" href="">
               <i class="fa fa-times"></i>
             </a>
-            <span class="card-title travel-card-title">{{travelPhotoDataCurrent.trip.meta.cardSubTitle}}</span>
-            <p class="travel-card-text">{{travelPhotoDataCurrent.trip.meta.cardTagline}}</p>
+            <div class="card-reveal-info-container">
+              <span class="card-title travel-card-title">{{travelPhotoDataCurrent.trip.meta.cardSubTitle}}</span>
+              <p class="travel-card-text">{{travelPhotoDataCurrent.trip.meta.cardTagline}}</p>
+            </div>
             <div ng-repeat="x in travelPhotoDataCurrent.trip.img" class="travel-card-content-container">
               <img class="travel-card-image" ng-src="{{x.src}}">
                 <span class="travel-card-image-description" ng-bind-html="x.description | HtmlBind"></span>

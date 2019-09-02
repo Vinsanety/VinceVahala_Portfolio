@@ -819,6 +819,7 @@ hr:after {
 }
 .fullscreen-card-reveal .travel-card-content-container .travel-card-image {
   width: auto;
+  height: 60vh;
 }
 .fullscreen-card-reveal .travel-card-content-container .travel-card-image-description {
   background-color: inherit !important;

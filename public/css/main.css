@@ -4,6 +4,7 @@
   font-size: initial;
   /* color */
   --primary-color: #1B5E20;
+  --primary-color-light: #00C853;
   --secondary-color: #1976D2;
   --secondary-color-hover: #63A4FF;
   --tertiary-color: #774A22;
@@ -791,7 +792,7 @@ hr:after {
 .fullscreen-card-reveal {
   height: 100vh !important;
   width: 100vw !important;
-  padding: 1rem 2rem 5rem 2rem !important;
+  padding: 0 2rem 5rem 2rem !important;
   position: fixed !important;
   z-index: 999 !important;
   left: 0 !important;
@@ -800,13 +801,16 @@ hr:after {
   transition: all 0.5s ease !important;
   transform: translateY(0) !important;
 }
+.fullscreen-card-reveal .travel-card-close {
+  top: 1rem;
+}
 .fullscreen-card-reveal .card-reveal-info-container {
   border-radius: 3px;
   background-color: var(--background-color);
   margin: 0 3rem;
   padding: 1rem;
   position: sticky;
-  top: -1rem;
+  top: 0;
   left: 0;
   right: 0;
 }
@@ -823,7 +827,11 @@ hr:after {
 /* Mobile Fullscreen Adjustments */
 @media only screen and (max-width: 812px) {
   .fullscreen-card-reveal {
+    padding: 1.5rem !important;
     top: 56px !important;
+  }
+  .fullscreen-card-reveal .travel-card-close {
+    top: 0;
   }
   .fullscreen-card-reveal .card-reveal-info-container {
     margin: 0;
@@ -858,6 +866,12 @@ hr:after {
 /* Below class of -elevation, also used for end run stats */
 .travel-card-image-description .travel-card-image-description-elevation {
   color: var(--primary-color);
+
+
+  background-color: var(--primary-color-light);
+  color: white;
+  padding: 0.35rem 0.75rem;
+  border-radius: 1rem;
 }
 .travel-card-scrollbar::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);

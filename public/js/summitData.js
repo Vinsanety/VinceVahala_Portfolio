@@ -326,6 +326,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Mt. Spalding",
+      "Elevation": "13,842",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
       "Name": "The Sawtooth",
       "Elevation": "13,780",
       "Range": "Front",

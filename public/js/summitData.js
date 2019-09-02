@@ -326,6 +326,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "The Sawtooth",
+      "Elevation": "13,780",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
       "Name": "K2",
       "Elevation": "13,664",
       "Range": "Elk",

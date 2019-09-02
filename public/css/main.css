@@ -800,19 +800,41 @@ hr:after {
   transition: all 0.5s ease !important;
   transform: translateY(0) !important;
 }
-.card-reveal-info-container {
-  background-color: #FFF;
-  margin: 0;
+.fullscreen-card-reveal .card-reveal-info-container {
+  /* border: 3px solid var(--secondary-color); */
+  border-radius: 3px;
+  background-color: var(--background-color);
+  margin: 0 3rem;
   padding: 1rem;
-  position: sticky !important;
+  position: sticky;
+  top: -1rem;
+  left: 0;
+  right: 0;
+}
+.fullscreen-card-reveal .travel-card-text {
+  margin: 0;
 }
 .fullscreen-card-reveal .travel-card-content-container .travel-card-image {
-  height: 100%;
+  /* height: 100%; */
   width: auto;
 }
-.travel-card-image-description {
+.fullscreen-card-reveal .travel-card-content-container .travel-card-image-description {
   background-color: inherit !important;
   color: #FFF !important;
+}
+/* Mobile Fullscreen Adjustments */
+@media only screen and (max-width: 812px) {
+  .fullscreen-card-reveal {
+    top: 56px !important;
+  }
+  .fullscreen-card-reveal .card-reveal-info-container {
+    margin: 0;
+    position: static;
+  }
+  .fullscreen-card-reveal .travel-card-content-container .travel-card-image {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 

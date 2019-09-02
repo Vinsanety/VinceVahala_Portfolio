@@ -801,7 +801,6 @@ hr:after {
   transform: translateY(0) !important;
 }
 .fullscreen-card-reveal .card-reveal-info-container {
-  /* border: 3px solid var(--secondary-color); */
   border-radius: 3px;
   background-color: var(--background-color);
   margin: 0 3rem;
@@ -815,7 +814,6 @@ hr:after {
   margin: 0;
 }
 .fullscreen-card-reveal .travel-card-content-container .travel-card-image {
-  /* height: 100%; */
   width: auto;
 }
 .fullscreen-card-reveal .travel-card-content-container .travel-card-image-description {

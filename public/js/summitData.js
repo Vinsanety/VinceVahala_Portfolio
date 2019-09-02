@@ -356,6 +356,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Parry Peak A",
+      "Elevation": "13,391",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Mt. Alice",
       "Elevation": "13,310",
       "Range": "Front",
@@ -377,6 +383,18 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Valhalla",
       "Elevation": "13,180",
       "Range": "Gore",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Flora",
+      "Elevation": "13,146",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Eva",
+      "Elevation": "13,130",
+      "Range": "Front",
       "TotalSummits": 1
     },
     {

@@ -71,6 +71,9 @@ app.controller('photosController', function($scope, travelPhotoDataFactory) {
   // Photo Data
   $scope.travelPhotoDataCurrent = travelPhotoDataFactory.travelPhotoDataCurrent();
   $scope.travelPhotoData = travelPhotoDataFactory.travelPhotoData();
+  $scope.backToTop = function() {
+    $(".card-reveal").animate({ scrollTop: 0 }, 1000);
+  };
 });
 // Allows passing html into JSON strings
 app.filter('HtmlBind', function($sce) {

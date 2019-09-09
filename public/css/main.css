@@ -824,6 +824,7 @@ hr:after {
   color: #FFF !important;
 }
 .fullscreen-card-reveal .btn-scroll-to-top {
+  position: -webkit-sticky;
   position: sticky !important;
   bottom: -2rem !important;
   margin-right: -1rem !important;

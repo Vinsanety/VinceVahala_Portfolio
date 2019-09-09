@@ -824,6 +824,11 @@ hr:after {
   background-color: inherit !important;
   color: #FFF !important;
 }
+.fullscreen-card-reveal .btn-scroll-to-top {
+  position: sticky !important;
+  bottom: -2rem !important;
+  margin-right: -1rem !important;
+}
 /* Mobile Fullscreen Adjustments */
 @media only screen and (max-width: 812px) {
   .fullscreen-card-reveal {
@@ -840,6 +845,9 @@ hr:after {
   .fullscreen-card-reveal .travel-card-content-container .travel-card-image {
     height: 100%;
     width: 100%;
+  }
+  .fullscreen-card-reveal .btn-scroll-to-top {
+    bottom: 0 !important;
   }
 }
 

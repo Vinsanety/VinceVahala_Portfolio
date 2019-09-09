@@ -796,10 +796,9 @@ hr:after {
   position: fixed !important;
   z-index: 999 !important;
   left: 0 !important;
-  top: 64px !important;
-  background-color: rgba(0,0,0, 0.875) !important;
+  top: 100% !important;
+  background-color: rgba(0,0,0, 0.9) !important;
   transition: all 0.5s ease !important;
-  transform: translateY(0) !important;
 }
 .fullscreen-card-reveal .travel-card-close {
   top: 1rem;
@@ -829,7 +828,7 @@ hr:after {
 @media only screen and (max-width: 812px) {
   .fullscreen-card-reveal {
     padding: 1.5rem !important;
-    top: 56px !important;
+    top: 100% !important;
   }
   .fullscreen-card-reveal .travel-card-close {
     top: 0;

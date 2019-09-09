@@ -50,16 +50,22 @@
             <span> {{x.trip.meta.cardDate}}</span>
           </p>
         </div>
-        <div class="card-reveal card-reveal-opaque travel-card-scrollbar mobile-momentum-scroll">
+        <div class="card-reveal card-reveal-opaque fullscreen-card-reveal travel-card-scrollbar mobile-momentum-scroll">
           <a class="z-depth-2 btn-floating card-title travel-card-close" href="">
             <i class="fa fa-times"></i>
           </a>
-          <span class="card-title travel-card-title">{{x.trip.meta.cardSubTitle}}</span>
-          <p class="travel-card-text">{{x.trip.meta.cardTagline}}</p>
+          <div class="card-reveal-info-container z-depth-2">
+            <span class="card-title travel-card-title">{{x.trip.meta.cardSubTitle}}</span>
+            <p class="travel-card-text">{{x.trip.meta.cardTagline}}</p>
+          </div>
           <div ng-repeat="y in x.trip.img" class="travel-card-content-container">
             <img class="travel-card-image" ng-src="{{y.src}}">
               <span class="travel-card-image-description" ng-bind-html="y.description | HtmlBind"></span>
           </div>
+          <button class="btn btn-large btn-draw-border right btn-scroll-to-top" type="button" scrollable ng-click="backToTop()">
+            <span>Top </span>
+            <i class="fas fa-level-up-alt"></i>
+          </button>
         </div>
       </div>
     </div>

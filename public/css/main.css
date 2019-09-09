@@ -787,8 +787,7 @@ hr:after {
   font-size: 1.0625rem;
   margin-top: 1rem;
 }
-
-
+/* Fullscreen Card styling */
 .fullscreen-card-reveal {
   height: 100vh !important;
   width: 100vw !important;
@@ -850,8 +849,6 @@ hr:after {
     bottom: 0 !important;
   }
 }
-
-
 .travel-card-image {
   width: 100%;
   height: auto;
@@ -873,9 +870,6 @@ hr:after {
 }
 /* Below class of -elevation, also used for end run stats */
 .travel-card-image-description .travel-card-image-description-elevation {
-  color: var(--primary-color);
-
-
   background-color: var(--primary-color-light);
   color: white;
   padding: 0.35rem 0.75rem;

@@ -686,7 +686,7 @@ hr:after {
     padding: 0 0.875rem !important;
   }
 }
-.card {
+.photos-container .card {
   overflow: scroll !important;
 }
 .card-reveal-opaque {

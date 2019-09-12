@@ -374,6 +374,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Hoosier Ridge",
+      "Elevation": "13,352",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Mt. Alice",
       "Elevation": "13,310",
       "Range": "Front",
@@ -386,8 +392,20 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Red Mountain C",
+      "Elevation": "13,229",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Mt. Audubon",
       "Elevation": "13,223",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Red Peak A",
+      "Elevation": "13,215",
       "Range": "Front",
       "TotalSummits": 1
     },

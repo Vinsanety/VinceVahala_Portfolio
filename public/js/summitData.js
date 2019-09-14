@@ -356,6 +356,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Ypsilon Mountain",
+      "Elevation": "13,514",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Grizzly Peak D",
       "Elevation": "13,427",
       "Range": "Front",
@@ -436,6 +442,12 @@ app.factory('summitDataFactory', function () {
     {
       "Name": "Paiute Peak",
       "Elevation": "13,088",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mount Chiquita",
+      "Elevation": "13,069",
       "Range": "Front",
       "TotalSummits": 1
     },

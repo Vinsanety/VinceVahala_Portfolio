@@ -115,6 +115,54 @@ app.factory('travelPhotoDataFactory', function () {
       },
     },
     {
+      // Mount Flora, Eva, Parry Peak | 9.1.19
+      trip: {
+        cardTitle: "Mount Flora, Eva, Parry Peak",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/2ntMnkO_HmxUfCyYwUENgvb6OD130esyyy8mFLqaFDGqG4Oarj8StAzdkM4kv5-yN_Y212IFn9ARtXtx60pa5XbxUxhp2yLdvboVVwHIZPmMhzoqFQ01AvojPtfzpA8_yryDySqTXwbhdkPfW_LY__cgdPAWR1goNRriFruazk--jrSnvJ5JyEC8tSvnn1HAYpWmTMLdgyCqopQWRBWyVRaQSjylX05pLQiUilrk9KcF8-0cYuGQtVsvQEJkPBggEtOIqO8v4QrVGqBKnQcnpQPIzmkzivnrtc9shVjrMoZHnxByN5OYTIIhFw605noNMfBO137-60GuywZwwkDsEkg7gugyYbnCMsg-cxwhLQrwSdRVGxp4gE4PT-hkDxUiC5hTQiALm7OxJzuM4AOTzAgr3Zq0NZKwE9q6DUplicWtgaIfHqZzFn1ZXJd2KqMrF4Zlcb-0jLM6MIv6ASfeSa3VxnQDtesAxaBzr0tmUGnbHpgubBJeUD4LafAVvrEFUS1GKL7MmN25FJJAVf9HCqYiWuLYG-mOcsjIjlP_8Uelw38tjSnU9ZWFn_UFGLc9LDmgN5_FSADwOLT0azUl5vaFRJOdUVQ-KFArYrj41usznmO4U5RoIiJGEN2bsx-HEfXUWFeGtGKOmINFpBRyMxN3CIimwiXPBRFm0G6GdmTQ2I-oAmRo590s=w1052-h789-no",
+          cardLocationSrc: "https://www.14ers.com/13ers/peak.php?peakkey=3520",
+          cardLocation: "Winter Park / Continental Divide",
+          cardDate: "Sepember 1, 2019",
+          cardSubTitle: "Mount Flora > Eva > Parry Peak | 12.51mi/4,268'",
+          cardTagline: "Parry Peak is the 13er you see skiing/snowboarding at Winter Park Mary Jane off the Sunnyside. Tagged 2 others along the way.",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/784UuWMM23ke9dufsh5bGgfKhRKoccelmJ7Ar2MBpfApVQIUd1-1LysA5Nvyg6ZPzgFhH869jKy9kpnQkX6uACOG38YwBt75KkJoJa-ZKGctrBudwJ6rP7nRWP--piF213UukirQb80P2T_m9o3nQIQBiX0tO9LGgM06KbiYug-itWqlnIScHzYiWJXZH_v12CUxjg_8TvWeLFEW9OfqTT8vLa6zuttbIriib0UKVNdos2AeyBS7a-sWfR_e3iSa9xG4nwN40d7WX1cgiXcInUwjr6PhLeF7wbtaGVcIDyB30XXZSZ90BoRMiuzNLQFU1qsni0u8e4PNd9Y0LLPvovG8ufhRvF49CIYKLsPG3RfDgbNuYp13uxI3pIIwCcARb51hCQOxrXQm3zFLrkBasui2TjorEI1-ZMIorTKFtKl14jHHw2GSItqHkIUpIXOVko6kvlyYQo_ri0pCs7joHEz9xSL_ivavTlPNA4_xvUevV1PGmx-v5dJ9ZMALGoyrbKdgPrwI5y60dVgUdDXtt8LCXVgFQosOPb5oJvq2HKD8tdw8b_qkJ89n4cMAAL0U8Hl5LLahtqVq2Js0uWc6fWxs2z7JFoWoqiAp2VbUylITZtot-ncG823xRrHasJH9q_Ptv5_SjllvY0pbmUjXDySA347MWW6lTm6v6Y4tJRHI_HRPFBrd1Fnc=w1052-h789-no",
+            description: "Right off the main backcountry parking lot of Berthoud Pass",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Y3nHJrxRzkpYCgN_TsvT_0qtEHg04naSiKrR1qP8YRniXN3v2ckixuFtR-OfLD8k57LTZQ_60PAXwgqDjjay6unVAIcpzibjrIe_ErvcPZyOOOp0e9eoSvK2yN2k8i9Cat2hU-grhY645h9wVOfhKLI4gNuDWQPAC3KKE6ZHUyaDk5j3jFmXt-oHvlpIlZ97-TKqWdu6d4cv4n8M5vMUMryW_vrJpKoZCiIxRobnziv1ul3NzInlMbZLduwkm8o7iT8_RVYgVbYjhildOjGn-lTaA1xTLuJgNdr4623pxoCgHeFhYbmlvqHY9d77dWqPfMnJpdsGxUS1m2_D4VJGVEqFopGYx1DkzXbQZa2KsVHZRANHUhF8_giMcJMol9BPM27nsV3Z4l60njSZf6ANtIV9gfxx1sUTVsurskvgghGQdmHwonfSktzbju0EpdoCxz0cYHtop9S3JxI9uigJaajrWhUoWe7Ccfk6qroYVNgrkWwiIH2_FPjU94EwEzXuHH5rZO0TxClv8lHDpCX0iURU-q9uwNlTAQUeIZciSfvGJw6WPWm2_nhaXXMmWLyayMX1PCmMmZ58IuvK0Mo_O8XdtkADCB_ozs56BQUPMQSwxHwgUyplsgne_mMt__CQNpMbvrQ9H9PUn-MTS6crJFxpj8DCZUHKdCXkO4Hs5Lb8Ztcx9o-iysEr=w1052-h789-no",
+            description: "Glorious singletrack",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/lf04XzgjCNSXX9S1sJ6ZSspgq7Iwituu5eVP-4NYtuIkZCDkosgS-NrtNPvyJ_GB3Enu_vnBkIMWGtz0t6NoSMcNH55tkFLwQRb5ID9jyTFgwSGZsQlVYSp9NKf2-k_aXdM3VlpW3R8juLi1iHOpp1m_ggdNMMt7eaFe9UY9DsXvM8cUPhwEO7uUAJe4vQcTiFgyw38i9Fhmhc__mJW5lgluhI_MHNLRNudBHbpQfxmh40NO1glS3FekCjSx9ggbC78Di94ipwiu2PfpdHglpVw4kihoiiYPrqTQOk4tPv4ioz6L19Y7iUikwUw8PJzntb1nG-DfINDDn-TZXuK8pUEaIvt5KmjUxmogb1xhKzeYSlLb4bYqOfuqerdCChyelf8Taclm8YtHRk-SWdWuL-F2p_9y4mFAYvDe7QKQrnNkeFA87siRMwVG2kwDQUSUGcwaVS8Lyklxdgdn2rDPzcA-fweDA_ll0E2805Vk42CoKKctKLdb-EsB33FNsCoSzTqrLP3mV33wzBJ_0m4SLgRVnYomLjKxz675jwcqPTj1_NMh3Xbo8TUzz-F9rmhTwRtnYPdVEJvQ7X72GZZbinvTNjyE5Zm01_PnkTHjvbn4gcjDaDKwc52rpgZPRR1yBqcYDv3JNWcOAbiX9nEfabK9YEvmJxB6S3R9oxpn7xJpfodpImuG25D1=w1052-h789-no",
+            description: "Grays and Torreys way in the background",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Y3LxFVrI268o-vbG11gGDLa9jZALt2t6fYYmKhuG4GjiLyCH-8FaYc6p0xm-d6W4--99QfERd9uTV-wx0uWwqvx6IYzB8U_ap4p-p8kEga361_hFV4j_tBHAISVgwep4lJDT-TRRGtANwEz1eg-t3MjHqf6vgpgNEP-HKDGWKF3xFS2t-SvtDidvlrbmjuMYBLoLzV2acrRdrRx9GwYzaAEE9-q5kVrAzj5tJ1GeKIFQoHM_RcXUQIy_3Zno_WuIl4wtPRPrJ-gOpAi19HX4pVM6z-Z4pelj6CEoHC5mpL2ts-xtYs4yR6Qjb381SVz2XhIo4o44qpJphTqz8CuvZkpHp5kDJBkodg-zYU3ZnGnkNv0x3a0zAEtEacVYYrzuVdbEEZYKV9rHwbkIvxUXcxdecOjnc9Z7h_87JfFZw88PTJzFnq7QEag9cfQuNrVs0eiC3fRwD3hzzHsICRWZ5QXvZWdcFjHWPsIQnYPsxLPunuVtt6uhZjFyjsXAzjPzb1tTPEDcmI-sXIN6V5lkcKJXGYl26COpF-un1EAoXT_DVKd-MsVu1PgWE9fH39vAnbkRgsvNrlXVxgl4ufeH3GxSRrsoHb3i_4z4THQF6bCiuJ7W_haVWKg7KhSuOEPKFtcu9Fzo8Ep5tDwPJvVq9Io3D1pW4hC8jyaZtHFqqIuOd7mhJGLv62kV=w1052-h789-no",
+            description: "Big Sky",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/brNFSw9oHNxGY_4zBiPFSxLK-RpvLK7tVnPmKHszj4_JNy6di7Ntob0JwVwIl4lHd8TSGtbOiqMWtOigrdUxzxWVO5ble-ICRqe39S_t_Z0Xfrjop6mZQG57S3m0ae5ue9LSv3vHk9czTw4FqHh18asMzJiKwae78x6Fo8gTTacitEjMExruI93rtX91_PekCIuWJN3OT2w-wonfKceH0asp4r9tiBW6zuH4MUjCfXdYlxGeJUFfFWwDYOV2VBfYjTY8aP71XZ1okHps3c47Bq431ktEaIAzUwCUsr09Lm6zVFDOufJRzTszti6-H33FnLiAIa9-Yc82NjckPrzt5NRKKsLfQs2N3N86U_EItw-i3p5_prlG_I5_gw8hW8FDVSVwoAYWI02us6NJXetkx2ZIRTA1lvwUAOA-33Z1T5xetHW6oK7zl8Pr2SNM2x33B-dc7OhmCaO_dEcmf_yMpg_BTFSuskkWtgINxKM2VWfAV-zvO6dK4KVxROnk2BBnx1pkkzw89FeNCy5IqxNrpMAw9bR8w6yWRvmE4j9URP-8o0WMnqyyM_FTNgB6bYV-W3HKln9QYVfgjlenU4O1DlhcUNTuNFudDt5f3qFMU3ZsmLgLDzoeh9ktok9SUO6wWMfD38K1oPiDFJO76NyARKGFFbIyCpM9WSc3h_shxOWg92p2z3dV_hZ_=w1052-h789-no",
+            description: "Approaching the first summit on Flora",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/wSE_Cf-Di4vAFmp5x22RzlQ5PU2TniUmegvnv5HDDbPu5mLU_ojrwtXZcbEtAtvgYGI78YS0sP84LNThKzCz5dU4ISNNTmkZ4wnYlkahjC8anmLLs0g-FJB53j-f_fMaBqgUyDNBwEC2nYvCIPWdQuZCQhwKjkEqTKcm5fsbrcJBE-qPzfNkluJ4ll4aGOHAfSl5ex1S8NWsiPDBORKs7s3BwHfk8JpExRT_fH5hH52oHgbOfMQJtCuaViqrTaOkBZ6JpWF7nPTVHuOKFaSu7cuZwvtQTvhBHMSiIvGiAF7jfdWozCqQSC6kIAUtX-vODu6q6q0tiehEUyoYTIXEpvbPdT8PnO0mik4B23OIamkCA959M3fAmvVlVLXC1DkKMbsFWjaXwzz_g4A6zQrSywF6kRaig5AYhZ6pvIKaA7w3kHQ_rNEZbWi2WONoL_UMt-csKykL5IrMur8L2sDrk4cJWdOyM3ErO3VtOZkW-WUkvV5ODppEXQd3NFof4h24Yfj-I4FQwwdDLkHvEdcMg4iqSpbC5hy65C3VLh7h2OQM_MuibIvcLm-4EX7zVcDZQqPgPTzd2LVz4ritWDBaAAIOldmyO0QA7_0D9M08rnFe0TOMpeDLkVh-MXkakwvA8i5TKIttOf3sg-wfqc40Jvwi4nENDljHwdJA1hlKNVuIICIP6cOuRuXm=w1052-h789-no",
+            description: "Mountain Trash, blown over communication tower. The divide gets windy!",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/MHNWxRbxQlpoF0kiVZftRRgUm-_gr-iJa1PxjN2SBL9ITIVco5D80yLQmqRuZVUWlAqrag35XdKwzlbbQNvlXgbjHqupdRtD_FjbCdwRudx7Wd-HeoSfwCScJ27YqdKZo0QttZzEmQIaINT6gSD0NRC8dEJsqhUwQurpTM02w21IXpO14MUaOFtA2gqc8eTeK26hDb6EoMxFuEw_KI72D9L6taHhniK1gq9GIQ9H0qv-QIedB2lz8tz423mrVjf_nWNKu3plM17rorZUlEt3rD-fmPXdX5AK1IowrlBBso-c69l9B8c99Xaq77XejouqxWkRVwRXPWqSvXDEuq1bP3rUzkF7CSmZsCbn0zoDbjaVYvJ3MsgY-61RUkYQC1UYjazZJAge3BY_L0J9KUqY1SbOyjur0Z7MTHJi3j8Nz0wC3_rf3nTB1q7xSnyKnOjEL-v7L9iaSrw7QNn5YRzQbGfEJBRIEpQL0zvDVp-u7bHC0YAeDxA-ceMd5MB476NrZW5zl2f4fImclpySfLItgds99_qV0nAuxrXaB6AxuxA8BhVtoz1Qjpvl93RVoMlXWTxiaAkqUWLXgnpyqnMrMx3gqNWnWmejxvgayZ1vjTM9mlyFDt2W9AN91F_UihpNbgwqLzsXy55LExRbWT6EHFcxhH4wsiWC5pV77AFNJIDCUo1FOuvcYzsG=w1052-h789-no",
+            description: "Summit of Mount Eva",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Ol1u2teOikPQ_uPEAQ2AbUnNtHdNQGCmCRVqbzZ1DBEO1xCcB-TiExdF80qTkfDPZ87CEvzdmGg1lFBLKw24sU0FAYyGBFv5MTKZ0s0ZbKymwbmT3e94LVJeEiBSZBcoBGpq_q4ZFxk0RjyYAB2WZqKOMK7OJYOOztDU2rXMjTErS7u0Utz2hCsCkq6gct2s5SS_Q5I3_ndC4h9zHZb6GDfQWkIYu-mKtzrqa1YW4WZvZ50XcfebFS0f-h4BhfESWAS5pJHPkamchB0CtgQ9Ng_SameSl7Iqgba1atGqhlQZsF1zSiJN_gtjD-oGefiosI9L8s65JBPf3ZsqxgCSFwfKk-J_JcWKTFeQ58JsaxiBNrRAeFLsGhAllNsTn9Xo5dJfExSTk5knCCvjfJE4kSx4ep1azXPcYE0Ld2_UR8P4Isl125R8I-CFoFYSfR2GXgJ75DDQp-KD8B9MyNuRc2ZN-Jo7gtJB0-NirClszbrSyIpxNFatjR-OYNg65D6Ygmi_xQv4ThH39fbej-SnFnMRIxribOqrWEtqeJy1Z-glgkGsDXvWlpczwQZm82EjCEEl626mj4ISoHyONZAK-2dSV2TXqyprMvIlA9IF0nfBouXXdcoX5MMHqI5l3n06hUCdfq5JNz5BKIWSdRemw2sdn59sO28F5jAQVO7IZU5MUlxVmCIB38Cy=w1052-h789-no",
+            description: "A look at Winter Park from Parry Peak's Summit at <span class=\"travel-card-image-description-elevation\">13,391'</span>",
+          },
+        ],
+      },
+    },
+    {
       // Crestone Peak to Needle Traverse | 8.26.19
       trip: {
         cardTitle: "Crestone Peak to Needle Traverse",

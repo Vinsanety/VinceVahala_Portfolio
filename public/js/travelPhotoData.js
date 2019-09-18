@@ -3,6 +3,62 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Hoosier Ridge, Red Mountain, Red Peak | 9.11.19
+      trip: {
+        cardTitle: "Hoosier Ridge, Red Mountain, Red Peak",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/9tO0Gb_U5r25st3wYsriYc0n-yqnaEWFCvmYzuto4AcOQjHWGomIx44-wUJoab8KfuJQzXBUOvPhiIl2mJeaic359sLut-bK-FwQAVACluaWd83vfld9x2BpfUITBZ7pC9m1CYCro2vQoETtiEO3dRp8eTUS8nPQGmskTbRPoS4MhEnJC-CjTAB-FMaEoiyN6z0ZE-agXsewERhMNGJfKO7U-NXbNle3guGKwmai4U0Zod79eMrFodPF-_bYAhbXVoFrP_B8jXO0C2ZitgptzOIcT4kkSKb-lau8RmWOf5f9D7N3D6LPZTZUAjGfUjGnZI8woId1NbxK3wSOVRlJhYPOpE_ovjMalKeUoyH5zCE318vLHsop62J-ExzLV8I3AdvsTOF9YnEttcAgANjySqNAXx3ooxp3ACSkmiOXZa-6M9hmQ0l509IEh4-5stXjYYGZ_FNZKHQLzLHJNuB6sod5Ta9vFze1liHFyjgY31mk3zRLjREjO0yQCT2oykDyRCTyYDMG9GHUC2Uavk_-WCm2YaDjgLrpFW7WKGnFRGBgah7yUteMBcMWiuruiryeWZ9iVMNHMz-hcAxBjLMgTF2WyycegCJu-dwlvlZ8qXR7bK0jYZ_ZQJ4Si9F2OFYGtSQY2IVUAJsKh7D1KPHApMZeiZ1koOQSKwKATeYPhnDu87YFOKDbEwmC=w1052-h789-no",
+          cardLocationSrc: "https://www.14ers.com/13ers/peak.php?peakkey=3830",
+          cardLocation: "Continental Divide / Hoosier Pass",
+          cardDate: "Sepember 11, 2019",
+          cardSubTitle: "Hoosier Ridge > Red Mtn. > Red Peak | 13.19mi/3,976'",
+          cardTagline: "Go Hoosiers! Running my alma mater's pass and ridgeline! Tagging 2 addtional 13ers along the way.",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/KpextNp8tsDbkqHqcqZn-b1GkauwUWg4Li93ncvQg_q153Um92YW2_Jc9E5km99w5YIXNNwYwbNbP-E-kVhWzeaA0wbyjdy59NVF_tJhTYwh6Sje0D6NGnIEZin7wYFE8RjYDO0Y_a0fc47BNtZl2b-migmDSEYHE2Lw3KIkwaKaZGA66hRr-9irc3P_Q0nISZJb5H3AvU6RuV95jUJ4ab_5zEiqjH8_0UKNATaNsti-EjmAJzq7ZWVsZiCtl-2KhF3yDnhVMo6BLTDHh3N4fA7bcqX1z-9PbJrsEAAoHMaoK7Ll3Z7KpnGxeKF969chM-6Uyb0SFy1AGjRI0bBcVtoSeAREP28iWH-gMwST8eZf396YGPK1yKwxGVXQ40bkPfTLD3oJ9lARl5HrSMFGgHhP8LR7-rrMC5TEcx4Ynli4hktuCsS-1pXQRTKLVvrjTwSR918wgO6qzPpcAgCcA-IK05shU8u2EGPvXtowQloCOBb2Ss1StP3TOvnHCNxfHMVOBNaZloKzGICFghUEWQfqbTM9ud2oXXTvhCJXzAIE7y0J8BeUJJY2AvOlBvhVKywMrm52lYqfO31K1yu3hK-joCP4FwNx0wdi0eOt6MejP5qNhvt23uWKKtJmYYPV6EzBfyfYx3zY6dsP34_MIghFQUcCDRfexwy0nnxviIPILe5vBnLy4mk0=w1052-h789-no",
+            description: "Beautiful morning, starting up the pass",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/fsryZJtWOQIwWFoLtLX9kDjhv2mqPgD_9HpXPSOuuVppbUWyfoMnjQTKB-a0LePZofA2vbF59-vdXGGDM3zwk0kpQpiLOLWUoCSZfYAVZAynGpHdv7J8QS8e8xK8Ho6ey5ltp-YRXV3zQe971h7UgQrEOUAIJQvLqzEk2oIBWUuw1A_GNZCvLC5DC6sob6fXfR9pIq5ibc55ZsRjIRNDmxbt-SKeSwm359SGe-IFmH3kfg5LlTsak5J5uZxVvAeg3WHc5tqL0b-g1uSL6w6yTmXhFofBPb7oSJmyNCRIbSfP9bk_pSMWCmQGUGish9wCK4G-dR4UFv_kCmc4m6vVcL-UVdbjr8t_JNeaTgG9RHJze7m0dEKL2w0C74TWyyby1hHoDWwkPJDT47zfBDL3st8CLtCbOKPe94E9z2FVtmeHa98jZQQ9NL9BFle-Z8OLjzqDN8tVOqqhQJ1Q9HAfrNK3k7e91fABh4GafQRUDdHHG69F_C-ngsBC8tadLki4MJWVKMuLAui33L8pWfP0yMLm3XCLacKr0SHasxrHISMDWl-gkG2eHoCvrBuJaz-zF2D0Is-XjE6OUs_X3UTnstTpKxzwitLjaakQZputZGXp-WLe-ikZEWqW2IK7ygVFUSNR73koaj2WWH9a1GjtS2EXjUWXt0ajYVyq92hp8LLszBUjTUXZrBG0=w461-h346-no",
+            description: "Sometimes singletrack becomes doubletrack",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/_pwgmyEZX4rHJ99h0GlOrvwIV9jaTgHflgt5Am9iHEsrV9mptoXdyCcJQjOhPJp90VNPlc3MZniMxFD2-dnEXuIzRpnAeSJTaF4aUEF5zAY1Der8I8nEq_Y0UUAgwWO-rFqGV07ZmpR_HDNZlHQbCkCtF3Kt3wFs5Gp0n_gtzZ7xTfs8U2lJCILpe_nRGaOwj7u_I6bw086Ujdxv_HJ-eijW1vb903YLH-2NiU8wvvS0ItyNK85EDqyHOheigjiSdyW01cf5-QwmYVhOPxne-jneIlXcWsGM9fjoXykf1NCx_6S8a9RL2B_trq3zh9BTx9ODymrexpq7IXwodpweFPn3vP-znL4sXUq4Ki-zR3CYEU39vbbqKFJbKhlvrJgYi9s7oE4RdfO1Hcwu3MiIUr6yyaAUet_Yi7ld9gedkuyMP6PNMTPH4GI6c9F_8pR_mTUWcelwVkO8TuP_EXOp9ASbWTeRvMh9uXGHRNfX7DkEG0sOh99m2lIMar3tePdY3zjQVvT8cXLgSeF9P3NdCRm-XJbIpkMp-26eMUnbZNYX53uEO86nvK-WhS8pF34LMjZRRAepDBApFVw__-eNgNkkeldmFGfKHAOgONn3lLXwqwcHZtf4_8JKQ-hDTweoEwEockhVirnv7Kz5Qpgo2OgqsSuOs9jilKuI1er6mMCzsoZl-3C8AYHu=w1052-h789-no",
+            description: "Looking West towards Breckenridge",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/8rtLao6FptqG9d-1_mxk5eRHFRFCYQ69-M6GbM0YTx2c5LR3BHMDPYIYJu7472fd88i6WKPOGmmk8CuhaEpcijFYmktxCo3E64yuXashk_GSiEvgzAWoLuXs-WZlH_89bKbFkMJU0XSoUSiKgdm1pkelYZqw4StB5dqFOaNWrTp4345teDC_YMSetAeT44zVQR21xOG2xhJd9aCKovlcpxMVuus3AMqwZXirzYIE2vOYRz1e2bqhPr-bZ3AoV3nZljAQkgNvdqsrki2B5zlCNyat-o9ieJ4nmDMfFAaJW6qohsj5Qjrkyn4tSprrvQ5-DYJr93fAm9UwtU84Mp2MmBeR6sU0xMWemPhP5p689TSYz5_XXV7yKuof-PoinaZ0jgV4kbeoi9igikS75lTScTgwYxDQTC535e37opS4uOxhLdzAhz1wy3penesjOIJ18aE0jlXG_fCNRFO2KRvF4wG_HRacNEhWtzo-df9lSxw2DZ0qwUNlHBPM0hPuMaV9LJI74Ee4tuj21BlxEIZSbFY1LnshopRP9KxlPPLlHP-yNe_c2sIYz95k4Fkl7Mn4DnkXmPHOnvYAapVlghlm-fG433Hrn2dtRoa7IW2z3NqQyUSYMFuVCXPikLZ4kY-b1eXXWhKfyY5CLkPzGmusxWpUoYt4gJpYyKXC2CQhK4j1THCU9UDNOqTs=w1052-h789-no",
+            description: "I've always felt humbled within the realms of adverse weather",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/_Fm0npjENRcnvdj9gUcgP0-PhuqkvRCTKqmT7wLLK5gXX2KF_ukdJM1qDfVHtQtfxh-sOzp3PmeLOY3WPPM50fhBiKB4NJfzONQvhOCbZBgKGSthhuLWqxD40QDEduwfEYMhHSXBlSDZciYKnpTCvH4TG1LcJgOtQd4RXN5wuQ1REua8j3LxnyAB_QblXN27TfMqMJRE0_DJWnjuXBMaikKXfTuaEWPXZNXoU2c5-As5e4WaNwELFx5ff8YyqVytXRHdVQl9YCCOdTErHKKVlPOPAsp790zDRT7FSSYMzyCkgaMcIkGCpG2BR3I6cs4Sbl9upFLzLGIifw0umPg97JCq6EmxI2WK-z0UmtxFcfchimEdIXglQ5OOGHZ02uAAQ2V8a902FnVEynUZc1u-5Xvma9fSsKcRu9LcRIHssOMgWk6a4RL7ORkzSIh782pwmB1QJFYIhxbEhalfhloxicOnels_KX7IfTv0h2zPJcBjI7JGqca70kf88NCgy1tNKVGOUT99HOq8sHV8SxSg-9f_f3Z-mTdCvYR-9eSzB7ZaZJdea4xTkFxKlFVsvsBMHcyCAgAAuTh_lBE_G-OX2u96B8seUWJYpsB1IKQUnthOBlXK5R7TMNzdpEclzXSqwK0OBcJOqnIZzuCISO9_4I7EGyhTj9iveirONzaETv-9q7GRUhqVUEbW=w1052-h789-no",
+            description: "In the clouds",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/7a6a-XAZ6hS8236hCoGn5XdLzVbgnKLCxE3-X2cBohzd5weNcbGuNvQKwiNj2PlaaLz2w3oVi_WI1pWtJi4cKebkOygFQGsMtXOjCJ_nWk3ipQTeWZThtaYojwgvSr7CHIC3dev0qPk7qD6QP0VmMHkr6GbaYRR6bx982u9mHcq-T1t3T8pwCu38tvM0TetSm1WRT6K-QYkC06Z9jekEXWWhGKmKliNygLt6F6HecVlUyWZ5T9NImuffb_Kh9SqEY9_IOMFdyfRoUj0HDEooj18Wq7Ztap4Zub4culy6BPFtvcU_H-rwUkmXBQn0DiI-ZqtxaZZaB1_svesHZEKRW2ZIJ7fX57DvouYyFOWt-qjL4tpJy9o9Lmr0oEIIsNpxGtrm3T42HnHy0KzYYfxxDT7yes5sVN_myeEtKAJtmPJCkBeeEoaf8aJbeFEWfl1wirKbmBs1pyYdMJt5joycl6ZqkpgsaH2d-OLjSpiJ9nHWOYS_P_vOHTfuJO07LhSgldqo9FPmDig1o5vAlPCtxYGQsLNkpX9AOIue-g_zfpFMcDcjTkGkiOvesR9BYF7OwQHrW8V8PM8AdlAeg1DZBNrxi1iuWF55ehZedz6DPdgNGgsLqWNHcSYc_sF2p9JtG0bIHfSa33kZpLRGYN1hxWlajyQh9vffZOKUfykQhddZnA7cLySxCd3A=w1052-h789-no",
+            description: "The ridgeline taken to Hoosier Ridge summit",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/-jHPJVbqDfNmJccXWg1RQ_xQp5crsk90Dffti1ChMHZHgPMdwSPTDg_rD2kn6M2TQNoZpSOpk-Vc8uU_mjQnnZmHfPTbrhaN9wod13zKJ0_smeElQGVGxCw8PUOQBl70hVGsX8x7hx5jBRPfy7mWSnpktc6ZT2JmS0_2SFmbOa7T7g0Pv8XXvq9qDD0FDLLr2ev-_zee4gio9WvArf40fW0gHWCjZtlM9BLOoFAY_vdA_O3YlDi8iPW-Db9Aspc5cRBmpzZhpvg6q2dmmQgAfqTNf2T2k_j9KGvQidvYmECji0BOlJ8yIyUvjmnhP_ojwBHEeuCCbFMe_GGUleaKYsXORpH6ac4JKddt3Nc0bPi4olfaJn_6XimRc25OckvMl7MkpRSN4enx5V91cFRG6OvJzuTLmQQfM8KkmQQ8iHSy25KATlTSHcKfaTkEYgl3oYZV1MM5inZSIDvEmSQM-Clbb5DU4w9UvUomuhP-MWzojHVeUAU7C4CpW86K6ERwfL9zitQ8o79-4xNyWMN1pkux_i_Ad4s5EkxOk6GpxYt8dDFQmxQ4HZg-PbzIJEqeNuDR6oq1On2y2B8ajj79tjmVIjMgm5AlH1fg9M3jdj0KfKzxozXcLHYegrjv57B5bLNrhyTcpG_Qzc7SqrlHCOWCVEEa3GYsLnAk2w6dMAULu98NtEPaUe2Q=w1052-h789-no",
+            description: "Hoosier Ridge Summit at <span class=\"travel-card-image-description-elevation\">13,352'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Bocw75vEGy5zDabPul1nvwgxJL3AAWiZbP3I4r1FkRl93yJj91bsTUN_7CddRU7HY5taq-KJvGf6NoeoMJggYWS3XbsQHfS_CbXFOvBmj1p25PSlr4Ms2MDM1qojfxUaenBKrQmLps7cHB565pmGHPPTW51-hMVyHaM6DT-c9YesFxWFVc1Rd97tYvQFr4lY1B33-dAPqdb0fr0QDwPfUT3iS2fH5ZsSaD7YSMVPVLwFIaQB924Hw_Pd72xV2mI3ThEbLkmRzoLo-g_I2tyIgwwIvKd2OQbUHvxiRBN2SZRqJfJxG08BS2pct8xRTbghJhRoiIaL1ZRXJ1FWXz8X9KqHT2ff_AEj0qWjn0KX2YkGw8jvXztNKflj6lzwu33zH1N_lk7qliJQsA8iNzwJ1L_r5Jbi682pLpdtTewwXIu9zkQ9unP99rQCiCrqDEDZYRG-8N2mizsqsLOtXt5j9BWA-ANgeDn0PoDjrn7GGGG833CeLy6AeIZ9DBZmhb8tJXWytOmvxEMM-Dtp3MwNDrtyCdJ0qPgACCY6F23_SF8pGG63j3Bwv-6JMgMdBgRXlXsLyPTb5_xPxY9rQbNBT9g25GFcB70Tf8JTcF1wAm7H4B8Srno8W04Yr5hLeasQ2_BXbaE8c9QgKTLuolt8xMkmR4Hi4h9bDq1XykpqLSIsv_Grk_I0dPbp=w1051-h789-no",
+            description: "S'bright, must be m'future",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/8eJ680pH7Ny3WIfg6DQQez-BQjpxhip2d69-uTIKjYi0j-oPs9jDEPPuHxEvebQE_c6j41u3N9pyMpvBNNWKmXG-_hLIBMN9-FBooQ85d17RlkD6lcAb4kFaK3_N3vPz7Z-EaakBts1nz3xtnfFoaTXsynY4MYPCgv6otQ6AliMz9llt-ztRdqYQev6QVEx3lQ6DD45UqQGc9YRVVjnRySKlFq4md3Ffcy8_rjSatqNM9AuVagbvRhq2Yb8Qpp06zTxzS5t_KiKDoKsN86VKF24NbohXuR2gUR-Jcx2c1hQFTUcb1bF3iDrrsOmYNYn_ibRlUTtQI6PFmc5r1kHZDntK7e2nZQV7bvOZ_rRhXCJfc58Z1cfQ_Y1_GA_0mjPaY2q5hLx-7Urikvyo_-Me3KIGY3zjY8S3e9mcAsJX5KE_3H58_-ka12-zdLUBCdPBE3SWtgqD-O7bhT7MxcExW-BQ7BB8hDzwDzpfVDj8ZiZ2nCfkuc-Ltcc14AKyvygYSBPjVAj2kyHVsxC1liAXqUgghC4jF_4pgKxI0KjvSZLp4jOpquD0-zPcrV27DpB2ohr5lyxvcDLuRhJgh1YsBD7lX8zZ6idVVQaydV5MfMWFHzcD-EbmTt6hs_5Xjw3G-5XloZ9yrq55IMcggNtQpiCGXUtYtWysSGz5_DrDeCc9vyxHaAcCUnDp=w1052-h789-no",
+            description: "Quandary Peak on the right",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/4felJ18TFMD6DGkJXdL-bCV5-4mr_SKpfXT1y58Sqx_lJziiRy0ZbE_wP7b8mKIYkn-pJRJeVvvMqSLhm0WXD_0c33O_GHx0W4x1vYqWjhq9tvZ2A2mGPS2sLgbOz_UZumgAUjByWqiGJ72IYqVvRAgZXd3Oj7csfeFtukixFhTAKNsCqpSrJOBdXdm-6t4GXvozDa3Lyi1wYHLsgfyf25ElzCkiKNF43R1v1q4Egt27ErCqGJbBzco0-TwUE-ENCoS7cMDRBKA28EaKwhc_w5agSjneZasH9dKR5lIQoyzurnBkPyprM8lONeZcIfnjbXuxGjenS7j_jHwTsAkeBXTRDYN8jQHxMr78ktH_5yt2dycFHXnvkWf0qM6IgOCBr4VWeGzzvw9EthRgfD6RDoA4hC7RVoSnXodnLm57dIi1JlfACCUZzeZ2EuOuj2fAGAghmCHukOmTowcrKX4MtWqQBKFq6a9iPap-kur7S90aZ3KmwS8Fw6rLtYKImLvJliFkKK23BIBBzxPjtLLUqVcTxyLgi-21m-KFhtBYLTdfuRw5_rXRLOyW0wFzRAS5R7xQ9Hit-h8AULDaZt2OWjmCYwfvxywyPchnmTOYvgNpnLfwBQTnoegUbXXAe18x7LRwDt5LTzoHXbjImlEnZNOJUVYxL1jms4VqzfwvC1TI1U3R2qhaB5DS=w1052-h789-no",
+            description: "Perfect day as the weather held out",
+          },
+        ],
+      },
+    },
+    {
       // Crestone Peak to Needle Traverse| 8.26.19
       trip: {
         cardTitle: "Crestone Peak to Needle Traverse",

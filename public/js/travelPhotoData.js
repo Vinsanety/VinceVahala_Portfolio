@@ -3,6 +3,62 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Mount Chiquita to Mount Ypsilon | 9.13.19
+      trip: {
+        cardTitle: "Mount Chiquita to Mount Ypsilon",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/WP1Nnq1op3HoEqdNzYYAWS2UvZXl3oqynWvvy7nHLXw9T9P-i_0GATpmQjVGtpn1Tu-bsGEHoEXIyc8dWCBfnkDV5V1bZ4ohzjiuLwohO_TPI56CHexKpnInETMNBkfIjeFVsdo0jddfVlkoOF7HffXngCJq37-x7tDMTL2uh4B8jPCFjGZMw1n3W6rXPhF5QIz6wYtF8jm1c0KNB3KfPgEzw1DsHikDns_RDprp10W1w-WlrDwJk-M_ASxHsgY2sb9WlKH4pUr3DhqdrYhXSCjBEGNgsBsHrgqV1HO-vJWDL3cvg8orbxtEiySLLXVj1ZKnCEK8Lg4cQh1N4j5DgthnbgjnKKQJlMw_-tvTrk_ECOuHLYh4WOFIZsxZ3OYMvY742LYmj0ErNBGZ-A81tvHxWfnQvvVyXPbFIYzFCG8W01xgi6b5VVzaJOKKgnE2mlSSGKtewT18MOwWJV94-Km3H6SSKfpQpbY0nJ8ZGb9m63BC6wUvFChpL375L0Eubkh272zaOe7jk07CAWN4i8X3lLL0sFSe6GRqNdnBGi1a3gHSUtEdsXgSpI4Uu0i-S-lQp_M_xQQYlrwJ-9rhtrvy58jzW0v5fChA0rscXqEPz2Dq8jI9HxwuvD4sOsIN_VA9szsoZx7X-ZcR8ZnFf1k0OC6YAlYV7NC3j6OkCTYQKB8DVkgLOkUw=w1052-h789-no",
+          cardLocationSrc: "https://www.14ers.com/13ers/peak.php?peakkey=2530",
+          cardLocation: "Rocky Mountain National Park",
+          cardDate: "Sepember 13, 2019",
+          cardSubTitle: "Mount Chiquita to Mount Ypsilon | 9.33mi/3,262'",
+          cardTagline: "Set out for 5 13ers but slightly bonked, still tagge 2. Every day in the park is a good day. Also tagged Mount Chapin, a 12,000' peak.",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/S_XE_BeFscXPz2e8RY-WU7DuzZXGB3R6M_6hw6E5-pMoIt9THBB8kZBP8DtC1f8RcviGnQqJvWr4-u1Uu_zInUxg6JEJyCUSOYA1OA4vB5fKvCWvrAN_cRLv1Uiasyk16qePrmxU4BeS4jjrbfznE_T8eS8sJQXuE6oJZm92MSs6NoC28LjHH-6A8zw1uv8TDK5u7sjxnEpxjFaTzGO5fu3OEl2BPDlraY15Xmccwl4zitdWsKqzGUgQE5_o-g_mFU6Pnf40l9s2hFRmgDhz2oqxYpXncUTUaFlP5jrwDajWQfc_b9Ttidd20ALP7R9sl1s7Ud0Oeq-OCISMH2kAs14JzcBAhSG_chPTk03w1_6fKHu91EnrW77GiJEE6xGqTq7eVeJh8xxL3LDg96KviVS5D02dsyCsy23XKm42udsbJF7N5yoD7jWa6jTG9TVPbMRI_e0FfS3Bg5TLWcaZa03NhlWAdzQexf4bgESq3OZP07k9iuYdCUVA29XtzyNdMKgjjOGaTDTgIofwDFH8qvMkspDCzjpHypWgSrTkes9YvGtqjRu8tsRfb8PdjQJ2bNCcieIAYijroAF0kKmeMQRg3EyZZBDWmKed1l-A8LbTj_OlD_blWwMRcxzXOzx5j4aCbcvKGqGD8kA5O_-Eiou3HUiphlUyLLIdAbUOm7IHDqJyKj99HSd4=w1052-h789-no",
+            description: "The park (RMNP) has so many amazing options",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/604jY3AO_YgBhJjQvazybtEwacXwaXTaIxVssQsmAZh0bWka35wPPyrENoOWUWgw2nSFe-GMqu3rcKEtf3nLCdZynY6s_KtT93jvvJC4l0ODabJZLfIeVOBRrpp-WKa7RCMepmAt_mZRQhioyRZxvsMsvsybwrJwI1dCkA2G05iA_weaQe7QL611_PCcjQjqE1nQBWMj_CX9qOI5MjvNISQESPy96mYNQDwYM_8dhgqZwrz6-VpJSDRbofvbH9Vof2I-0q5n6a8C5FVmMd66XYPOOyyhN80aHGbLxLMC5OlqVbL_NB9NQn_c7kRoO3vLV2LdHxFGgwXO30tsFMhukDAcTovqLqeeMsoEAUKC9Ewr70jTlIkCgqpqciqz7S3JpEXn-rxSeVPrgg9-NlwXu-nBM2BfH6nnpisYz1ySLjAtE92XWGs1OJcfaha1Rg5yi2FaTK5u6_KdR8tqMvg4dJ2WgdjmOE13She3xD0pRXLglsptV4vtIcr9iNEQ_YgAk5PkTrfyifZFZZLcdLXSgp6wwRnihzg3TJ5nODwqA0EuiSfJBS0SPDPUtroJwguesAhPsfCOyDCVStIEZPkAFyW06oZr_h_I_QE1j-7h3TNN7DthPqY-9VUBUwbmwFOqQgorQwVGSNhyTjoYH8mHwNSj5O6Lgc0VNJ55h3F4fmmPud69NhpkQu9S=w1052-h789-no",
+            description: "Bluebird days",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/WY3TB2R8WW0wMmXCDEv80PuThmZ8v7T_i_-tqYbNjR7uuax7BdXCl-lK6cJ-N2tsMM788QlMOjB_W3CWZoO0bIxIK6QMggs-f9cUBLkcOwSx41V9pjDbEOx_Qi_jDJA1JjpXDkejQoqYr60HJNWSQK_QmtbkU-ds2laGXFwSt1_1ypcJ9QWNDf_wSLY_sZlMDnod19LP_W0mG65hjr2XRTM0sjdGnreEwciDrFFYYfIMoadGsQ1KDfHAySctyJEYjlD3Z4G2dtyMwK1U6jQbJ3tSprnASA3eYAWE-Byr4ypGe4Ml1eXOgwIMC4DPVW7rDpRZFWNrSJutroRzqSa_4ST098nWdmEL3mzXpy03IJNHs2qpM6EoUPKH1qvFoTxEFTFCD2nrpP6Re9p7nfrw66awknEeVSHcjHz_06dlOuGktNwR9aODwBTfR17u09I3m8mqBW-JgW7Y56Rc9avSrz8HF1G6WvWvvvofum5bAYIXgZ802jDf5lmixw0oT37vHWq1jCA5bPBgyT_aXc-B0jC8GQMfiSWEPeO3Bwyvs_mBj6IGRutRckyKPFUpJiBvQ-cEccCYy2GijJpu669XcuvhS04hE9JIo5euaGETaINL8qxOY1_tTKxKaBVaTZYVozD5kmVGumBdWVYYtgSNQWQ2qms7eZtYUe7sfo2oKeSXo7FSTCytqGs2=w1052-h789-no",
+            description: "I live for alpine singletrack",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/8mgjDmOdsbXUI6y4x633edqeyFjKK9Z1x2_YkJ87canKmgow8i31WDt7wc0wY-Yt7hc-0aSw7_tCcGUgh-H726XIZCNRVNNhXZeOerWE0iXrSPjecWeZDnHbnIjHIuLdyoSQ9gbKNbvKNpSqUc9k9MkiG3MdyxjBbYT23BJ--DFYX5ytxfK-Kkx0DpWgYu_yj1kCip6579qyyziKeuFXp3WJfitBvihmzGZRCaE2oI2ejOZ1XY4XoUqmCoDcfxHvseBOJW4jlynNkjPG0VikJl0hpyvfdLtjCES27s3zedHXBJUhIBpPlwbQMbCAof7MMC8uoff2VLbilUTc7y3AZkQgynHH41gAn6SIQ6scO41t1SbB7-eP1pxwr23_dXu1EYdPFjbzLBhThxkTJGq8XNuoNN87y2DiIQc8rswdK95ZBnUzQQVNN5El2syW84VzF1GPrSsMBoAsxDGYULUP5vsoCTT5fPWi8STcz2Jekd7rMNBu0dydruSwDN4WTcxcf_JXXOPgHufMBYoYbluss6SJfkhFIEG1yzdU1A2xiylexA0f-9gTgnlJi7fOpuK_fyojncDFNPxFhT80rXt54_fXbFHc01hz_24YkU3TBL5SV-VegJDSxwKgYlm96XunjFIfo-42mSQkjXhVCHVSodANsIeQpEGGv_nBB5YXNb3GQwSv10M9mPwJ=w1052-h789-no",
+            description: "Waking up with the mountains",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/zYxqCmV3jvYA8dzuKRM9YDnc4ajEe2pYk1obv4eJxR-3OVxoHAAFUGdkwfT95nUbKDr6UG2zRY4PjUzkJKDJPxCEPad4ROUvHtSFpgWC63Pnpg7jUrwRsHUMk6WoXiPnAzSAx-8-3QNgnYwlqTT1l4jfVVrW4sWihyV-BZkg8r3h5vTADGVXESp0JNDCWYq9t4e-vppQTwXTf79sTIc_iWcY9ICg6kVrcwPWXrnXSNOXUjjULkoc_qCMFYNjXin50a0tqEGlEdLmeIql0mOBBEIPIrSP5g3kCY7dZW-AKFEDjgSNXlHWWxk2BmG4pNuTtbQNf3K7HPmFWsyN6BfrPQj15xjU-Jx5HrMvEdg8RhBdHVkXBRWmrJwM4k4A8oicl4_EW0rp3Eni82KMpnUETj3RHkLCjOeUb80qyjDNnz0428j3TloRMw6c3LlYaAIk7-Rf2WhDu2fo5O0G7zVYCCCEc6HO4e4pqYPOd96z-iBe_HwA4AaVUN-RpSaorvPmbbCtniV5Z42_CK_Br8hEqu4Xx2dfjQAsCb5kQQ6h14PmxyGhkUn4kSbyaYH3bUW3fGwkO-3Exc7fl6rVqvGKmmn0QeXQDUutt7RBysMXEtZLgRjLGqpP7Xs-aLbGuXYHcKNk3_zunJwZumULnqFcr0WJiyaTFCDlklHut_4reBjbTqMM4Na28f49=w592-h789-no",
+            description: "September Calls",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/U1GoZoo3k_JDsnDU-Zy9dnRh86cziiXkevZv_iY06BYVkoVZBN79V3kUkg9eghtgbOZqU5CBdJihFJotvVMtYWunO-xTiHbxqVD8Uaqn9bEiNCScOv_MQX_UVqwhOcUeTf-UJNq4utPYkIWmQHz_CIfJHRidtFFBv3aYOIchBxQzW1eiHPuZ0DMd9mwP7TU16Xzwsj-ZnUC5vGp8up2WXqFZt5W4BJ78QcD8waMw5jucHIZUEMJT647UJZn0TuI4NlX0vJvVl2EVo-mOHB4megxxE97t3yR-gg44BU2AW67ykmQ1niI7ZjLn1ERpRuaY1tFvCQoxBNoZQGz5IvtwdqaUmv2CyuNU76Zf2neVbYbB4wRube6SZU3kyL8tEtTS2QmnTogWppt3zby7nH2w_mtZ7mNTzFg5mfChP1FM_kvsgTMGulELaAhUQcdfqmtSMngp3qpLzKwW3LyukOTHSUbArnX7_sPxRmz-cUdnrVX69EPj8VVdyKbQxFU8ISxFOvzr7KgmfFd0vvxWQgKsigP8565Zk_Wo78LfutolBhhW47JrspP18hGMRx2n377tn6ZROghJvFcLxfwTjC2trzDXxTuCMsq2WPWzs7EpFora80xaKrZY60V6Pg6SXM84qOiTUTQaAyX3L3xn-fzT73Tm_1bKOJdQMrsQX7735lZD8kgtYpI4jYat=w1052-h789-no",
+            description: "More Bull Elks",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/RMbHnrPXOGQ5ize4CM4iZF3_PeHv-C5bVaSTGyI1cQcIQDV_-a9Xgq1qTyWt5NjZdsv23nZGFF37KD4sr37A4TzFyIUdaloCdyorclUwJMAY9OoIachn-jONtxKvnx1Aq2OdB3tSEAo0BAdorIkb3Cq6xKbLrv4jVzpZhy_Mr9YT2Rqj91Dl0a3JoJGb4woHn06DyYwPHKwcBcdWMjDHmCT707BrIQg0OAeDFBg38PFRBm19ff61H3jpH2RhYFG8kLMiWy1QX7xS2uwPwHFz2cMO48eei2ecd3SUuUlKm3OR5lJUoPcECIYMiL9EPGSf3UaiXHq4fWJ7qFDDhqquj-GoKBbnuILcwiTLSD1r9lpbVnVrmG9BWnedV4rKlSDrK7yoMe1SUq4R8Hszs3pMJ3-H8ZH2-RZo2AmiKX-9luy6uVYnsMCyaKRABOXpf75XBzRowQWbHRnPBlPqjXd4KzpZ9iNDqwiewU3ddXPFiwVfT_lXsqtDHgz3LzM6bImnUvo_O7J-jOBWKkrGJR5GtSH7o-9o1zZhqxGU6AhctPx14OjDM3eQ0DdLj0QHeBjbv5RePb9OWFJzXSrRToUsq5ochxWWDQsfvgmfcw4SVRco0_wAljFGBgu71LgNUthVvjqCxvvLA3rQUjrDLrp3NfGEyejn5dNSyLv-yl-1aph2gNi3vdDsUbH-=w1052-h789-no",
+            description: "Looking south at the Park",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/3LpvoAWzOYQHi_KthH3nSYuBaVrGgEWjcuApOzlgiFenVGqKq9ayBdbUyOYWeY3-xormW4CVSnlRRmSYEHwDqaBhgrPRZDesCp-OADJh2NYDhLvMN5HyfOwS2l1_glkdCcOXSENu58XRZ4p3VcZ82o0FE6DR9V3aLPHhSdsqaGxrhgfVMBTU1nD99tJuy6q75UjO-I8q0OY-8HRki1F2FukfUaVvK2VJMEcy2zkQLBTtI69RFFZDYQAcv-et4SPTKuS3tWYvbG4nBGVMuEOQxGvjjBS5jZgxpCHtR3LYGWgf1s9D_r3EbGWvOLwR9RDtxvqhlPz8vPN8yiBNtH7mgEoaUbwZYE6pWHK-qHAhY-ibA2cPbHK6aL8ibrUY_F3XpQ62QOQOl5Z-RlzlXbhcGT910QEM2A_XCiNGD5o1YSbYhhjk-zf9wLF2BDfY3wrEur-ow7lj2zDQx8Dwpja_9vriIP5ZHghVOFzJMhQqIAoviIDcTcdFt_rihPX0jjtZK5MPFZQdYe0pzxSobaYidaqi9ozyZeOb2zk0R9ZRuGx4ir25a2aDzj4xMLWXpt7bL1dFeSFx8yACaACY4dLKEUNY2P16hLB_CZS6XsDMdK4GBfa6L_qTvzQ3-TaGza1EEcqcix3xY8hQ8s58fdc5Iv_WHVDNRDk3YWwgrXPZwEB5wSwlQ7tl2ATQ=w1052-h789-no",
+            description: "Longs Peak in the distance",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/9R1rxYC1lH1gLmofychJwg-b9uKa94aEup-vK6rzvjqG5Unp8QSA960BRY7tSwVc83V1iM-d7tBr-cu3sBp6oVd3R6h-Kl_6z6Mf3huBfS1nnJlQqz4r5R16vlb2tbP1vX3-7VLtCcOkc8b5Z7WY0czvQpWwtHw6c4BFKtFYnCut12XOIm6wmAIxgYc_tnqlwoTPJpH_wKG0oqZ2pljUM-NUrzIXk4SfURTN1U9kmnTqM2-6NtvEGNmalXa9mytSfwyoy_dy33epsP80gmb-_DR0tO6GiAODK3QzkSZzo-B2MJ6UFC_GC8D24ZEqHdxp78h8oOGhWY6GyNa04y77Zg1tIZywN7jka68kusWskBS4p1lhKFRJFBAEDmFUzE1WiqXO9ucA774HTpvc-aK_0cAIJqQLxbQbyANAEVCe_h7e8U1GD_515jNyR6cdKp6U2a5iaS0NPmVAg5u9ttdNAf91m5bqVe1OdeFFL0Pj701f2PLFS1JfAB2iX00tnocZaX6YjwnN5_ZmzAyDEQ1SoFTHIApFhD7oFTvyfsklsLFOTHNGQMUK5bu6HDsZhi4-QhTMPLj4hz9igmPpf4mAg_IIHoGfGI4ZsSViTAhrjMl_iz2Oe07TaMq2rFrq7-iMUq9nDRA20rCHZWkObagRpli9PfRtWGi1ZmE1EHefNshkOCCT0ncEUjmm=w1052-h789-no",
+            description: "Summit of Mount Ypsilon at <span class=\"travel-card-image-description-elevation\">13,514'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/f8sGWwkEqfjQl1yWM3ONwsK02qxthVpCdug0QTUz18nt0tom9n3-zxSYr6VzB1LsurGFktBGWwIG8VMVaO7FAWNOGKg7C6Mh03auSInvgtBz1gcEyMQ6ONK5S61dYOPTmR8DSBtb5p_TVX9bfhdTYPpbQDDHdE6ZMoHxTUF6P-dnK2SePYyJVNMVzQEqyBOg34qdQyO9LjyGgpO7-206ojxkaqwgL-T__aflhgssmGHrIGaP3djhBptkzVmxRJ2AzGjOvfT9uIJyxQaHCfq0c4H6XXASof6ar4fi67dARsl_AjU_qGxkSy_hb7PCehLh7OavL8IVGF_WMk5wjXTkAw2OWb0yDxTETtQsg7AP-2EOtf3fCYKidmFB3ZvE8qiYFkAD-dPte06_jbFB1dVgIMm7Md5hOKHpkvd8nnAYQCn4FDB_TmWh_-9yKBTbVVSXzsWQzOSns9VbPetgMzPKIOr0Ayvv9rNQGoU7T6ayky77xRRST6_xSSXXKogMm1lFrJ_j1HzBqqueW5WbHnDPGYs9QJPd2LyTo2hd-je-KhPYsv6svDjchzqbmV9xhQt6tTY8_cxAyE8-e2kvtkxW9fSTcJiiMsh_I6y-FzxgClwR3tAD6bK07Lt6JycuNNixpwQLKc3yMMleyKKlB7KdMJ0A90-JnCHwr_KjodlM_ctGUCZVq6rUCfpj=w1052-h789-no",
+            description: "This sign gets it",
+          },
+        ],
+      },
+    },
+    {
       // Hoosier Ridge, Red Mountain, Red Peak | 9.11.19
       trip: {
         cardTitle: "Hoosier Ridge, Red Mountain, Red Peak",
@@ -59,7 +115,7 @@ app.factory('travelPhotoDataFactory', function () {
       },
     },
     {
-      // Crestone Peak to Needle Traverse| 8.26.19
+      // Crestone Peak to Needle Traverse | 8.26.19
       trip: {
         cardTitle: "Crestone Peak to Needle Traverse",
         meta: {

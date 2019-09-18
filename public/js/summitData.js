@@ -332,6 +332,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Square Top Mountain A",
+      "Elevation": "13,794",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
       "Name": "The Sawtooth",
       "Elevation": "13,780",
       "Range": "Front",

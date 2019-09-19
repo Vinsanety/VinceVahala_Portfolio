@@ -56,7 +56,7 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocation: "Rocky Mountain National Park",
           cardDate: "Sepember 13, 2019",
           cardSubTitle: "Mount Chiquita to Mount Ypsilon | 9.33mi/3,262'",
-          cardTagline: "Set out for 5 13ers but slightly bonked, still tagge 2. Every day in the park is a good day. Also tagged Mount Chapin, a 12,000' peak.",
+          cardTagline: "Set out for 5 13ers but slightly bonked, still tagged 2. Every day in the park is a good day. Also summitted Mount Chapin, a 12,000' peak.",
         },
         img: [
           {
@@ -172,12 +172,12 @@ app.factory('travelPhotoDataFactory', function () {
           cardLocation: "Winter Park / Continental Divide",
           cardDate: "Sepember 1, 2019",
           cardSubTitle: "Mount Flora > Eva > Parry Peak | 12.51mi/4,268'",
-          cardTagline: "Parry Peak is the 13er you see skiing/snowboarding at Winter Park Mary Jane off the Sunnyside. Tagged 2 others along the way.",
+          cardTagline: "Parry Peak is the 13er you see skiing/snowboarding Mary Jane at Winter Park, off the Sunnyside lift. Tagged 2 others along the way.",
         },
         img: [
           {
             src: "https://lh3.googleusercontent.com/784UuWMM23ke9dufsh5bGgfKhRKoccelmJ7Ar2MBpfApVQIUd1-1LysA5Nvyg6ZPzgFhH869jKy9kpnQkX6uACOG38YwBt75KkJoJa-ZKGctrBudwJ6rP7nRWP--piF213UukirQb80P2T_m9o3nQIQBiX0tO9LGgM06KbiYug-itWqlnIScHzYiWJXZH_v12CUxjg_8TvWeLFEW9OfqTT8vLa6zuttbIriib0UKVNdos2AeyBS7a-sWfR_e3iSa9xG4nwN40d7WX1cgiXcInUwjr6PhLeF7wbtaGVcIDyB30XXZSZ90BoRMiuzNLQFU1qsni0u8e4PNd9Y0LLPvovG8ufhRvF49CIYKLsPG3RfDgbNuYp13uxI3pIIwCcARb51hCQOxrXQm3zFLrkBasui2TjorEI1-ZMIorTKFtKl14jHHw2GSItqHkIUpIXOVko6kvlyYQo_ri0pCs7joHEz9xSL_ivavTlPNA4_xvUevV1PGmx-v5dJ9ZMALGoyrbKdgPrwI5y60dVgUdDXtt8LCXVgFQosOPb5oJvq2HKD8tdw8b_qkJ89n4cMAAL0U8Hl5LLahtqVq2Js0uWc6fWxs2z7JFoWoqiAp2VbUylITZtot-ncG823xRrHasJH9q_Ptv5_SjllvY0pbmUjXDySA347MWW6lTm6v6Y4tJRHI_HRPFBrd1Fnc=w1052-h789-no",
-            description: "Right off the main backcountry parking lot of Berthoud Pass",
+            description: "Right off Berthoud Pass's main backcountry skiing parking lot",
           },
           {
             src: "https://lh3.googleusercontent.com/Y3nHJrxRzkpYCgN_TsvT_0qtEHg04naSiKrR1qP8YRniXN3v2ckixuFtR-OfLD8k57LTZQ_60PAXwgqDjjay6unVAIcpzibjrIe_ErvcPZyOOOp0e9eoSvK2yN2k8i9Cat2hU-grhY645h9wVOfhKLI4gNuDWQPAC3KKE6ZHUyaDk5j3jFmXt-oHvlpIlZ97-TKqWdu6d4cv4n8M5vMUMryW_vrJpKoZCiIxRobnziv1ul3NzInlMbZLduwkm8o7iT8_RVYgVbYjhildOjGn-lTaA1xTLuJgNdr4623pxoCgHeFhYbmlvqHY9d77dWqPfMnJpdsGxUS1m2_D4VJGVEqFopGYx1DkzXbQZa2KsVHZRANHUhF8_giMcJMol9BPM27nsV3Z4l60njSZf6ANtIV9gfxx1sUTVsurskvgghGQdmHwonfSktzbju0EpdoCxz0cYHtop9S3JxI9uigJaajrWhUoWe7Ccfk6qroYVNgrkWwiIH2_FPjU94EwEzXuHH5rZO0TxClv8lHDpCX0iURU-q9uwNlTAQUeIZciSfvGJw6WPWm2_nhaXXMmWLyayMX1PCmMmZ58IuvK0Mo_O8XdtkADCB_ozs56BQUPMQSwxHwgUyplsgne_mMt__CQNpMbvrQ9H9PUn-MTS6crJFxpj8DCZUHKdCXkO4Hs5Lb8Ztcx9o-iysEr=w1052-h789-no",

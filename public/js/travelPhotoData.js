@@ -3,11 +3,55 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Square Top Mountain | 9.17.19
+      trip: {
+        cardTitle: "Square Top Mountain",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/p1gD6ViWPvazS1HfuhhwuFz-hM5wpzTefYV48OuRr4wXncuEh5IjRwJHA6igH86ywD-5Jc5XDpj1mIVqyidfz1TtdPogobF5oevE8FuITVNT7PDwIeXxXA4i1n5dRmMGsOUukxndpTU3m2NoQzrg0FyI9YttriNbqrmsSKX-lQxWnnpD9o9uvojm4Wg0FqGI1W1Z7sJWxarPD2KJGdUo1vKwXVuBGCn8vWXOKfLaGiFbaRHxpd1GHIRQuX8t37-Qpgse8gN3MCBdq_Rt5YzFjGozOMea_ia2wTI9OSikzMLlUhXciqnAL0wO45i87QZIOCaWQJyvlP9pBJvieNSUVtKrW0RxKg-WpiaHyjxKXZcuTC9QMUAB_XXEpm3EySSUQ7tyxS7tj6mpj52zdT2g9Wc0EBF8shzIuhdwOIDOSfkOR-hjqpKMTIZt8NB2TOYlhwZKB-RaYmWA5rXEAsSF7Vo_xQ_FKjTs0CYeRrAz4umObJs8_x-rDV57hs0sxH_3z_DXM8YDGXOoMVsTonJ36_ZV-VlOslgzOST-es4vBosQOLL2_j-65XKlmv4WC0jxe83kAFBSNNUZe9In19G5dOHQqoYtPU6iYU3_Gcw58zR9RHqAxb4atqvBIkcZjjiPjrUX4sJcWL1ET98ORSz_3QUmW4eWCfYTD2lHC87PosQ3AayrBd9K2ZqU=w1053-h789-no",
+          cardLocationSrc: "https://goo.gl/maps/kNATMA9KF8dHnG7K6",
+          cardLocation: "Guanella Pass",
+          cardDate: "Sepember 17, 2019",
+          cardSubTitle: "Square Top Mountain - 13,794'",
+          cardTagline: "Woke up early and decided to go for a spur of the moment mountain run.",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/eqkd1AbmYrgNh9BZ0sEJ69i1Eo3O9fX1L-0ARLLyYv3HyFy2XYfc7E6VSy2a3QZDDYG32YbLHTFaEbfHXvwXcPafMD2KuLMbA7M2-LQYnFSjBmqd04JQf4AfZhj2ROO5ZUu_01GiKePdJkZg10SfNHeQm5xX6pXbjHzvJVnN6cPl8DTaLSybY6svyWu3_6A50be-jokL1IIoAFi9Obr1CG-bkudk7ZDU8YGObuCHEP5Y__6rsdEpFjVbChWM_xbAhxF8YrKKKOMoaFT1atMlpSzBwqAMA3jgapYbZYY_TjgSARbh3qI_l4FVE67qrKy10gii9wT4ZoFHtRdNs0ZGqQtT1rlAlZoIxqfiXQGf7GOVuMalWXHtJkV9iGfJnyy7vAyGfWIh3uM6xVFUcXI-1udEzZymyTgQkRTQowU9_V97cWbeUKezL9E7lj1opI7cP_nXe_asmleR-JWDi42f2tVnVB5H9NcjqEYoR9cHInKFSVDSIk3kfzRtNat9UmPvmI_8wFMNSMh99JCYKmk0eTCk9EV9VTSaxf7hGdFxVXuPWv_SeY30ocnVp8IKJwXKBVGbMWJySdcza0W6a-_7Cmt_pd7yp1HiyYCUt0MLRJRRVNlC_98VSabQhpkfQTH-Dmf5yvn32lyWOXsmM44quR83fra_PR14fvPMVz_c7Skgq0ClV5Qn_iUJ=w1052-h789-no",
+            description: "A dreary morning to start",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/XFrB5B7N_rKbYwAGnFqWwGWDzBxnQJ1J1y8gbxgoqCh5bU0m_ta8XQQHDLNyH7OKFm-dbx6vlviKFgSjevqoPEUcfpZJKx_kUw8zrh4QD6qN3-DRp89DsAdMCZtrFQ5S2_bdRJALM4ZgmsDBr8MVImaRjFUPyVlAiriZ-ferh4TWcUgoewQpggoD792Jh9Bg7qKezE7cx5osYGw3wW0zBW8smSMph9sgM-ahQbbaCAezA59DaCQd0wEpp2-xesVwHnLVTM2PM3fZMMYwuYdx_cIs68oEGm4zeAvHT3Ft7ypAlB6KmTll8No5k_k_r-Alv3g2LfaUAwluqNO5qbYzzFgORK8ihUBAhz_lAXnMKnTM_L1PrhYGdutHRGdfpIpA8hxnWW9pjMXlT7KvIEYHpfa6EF69S75ou0EDrt39iiK6kJPT2bb1aFhQ9RekgaFAi08TueB8BHB0y8mUPw-2DeBbhMlKArE4mN4kQRGSDy5BGuNAAj6uNxy8JwifYKA8J7eZzy2TkuV3HZMv4Nn2kACj-n8WxBozfrFOc7H_O3gOKEYWFOHloHEILwLHxQtR-UIFQMJxlUNQNA3SU0er6NfK4_4eK-GMM3GLOr1B1576AyuQFJtNKLdkLxSiaQw4NTpGy7nbQZtPdpoqbAbbXAl4SDezdYPXWWSg_BS2UchzP7IndZog4z-1=w1052-h789-no",
+            description: "A look down at Guanella Pass",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/kCg1gje0ml0BDXcAcDRLqqeQGcqAYRqCufaBWwbeQ6J9QCT0Qod9vG_FTdVXR6un-gXqbro8XgI6dfLZ8Owl2MzRi1_dPR48esqNtfLPEK_4HboN5jsNuxkyD5lTl14pVFGa7q-Ho3QsjWSauMFMWstN_w2CPxKEFhl-nIIgRi56Rk63fJPlmKh3tMpV8sCfwAYdJSKCewXD73FdsrO7TIE7JV87A0I8mlNi2ibKZJkvoaIQS1mehh77k9wPeXFlgSGOT-3FdOrJHaOEgnmUjFhrQA9sr0QjBChcGk4fekEy9a2e-zEIvansvxrp1OKSZfTEEmkBjH4VL3tW6_PSlii0pTkwkdIOyfx5LcOYHULyapSuzSAYpZSrh46aTftjvPQwC00mMRWlC1Bm1NRNUJ1BCBHctO81NxwFVuHoRMgYN01TT0KiTnspWkzPVUqFmQosdaFKocGUt9p3syxa82ZaChwZ_alAf2T0k3JwKCHboEYvGeHdwNmJRTNQbf0Cxj7l7ubNzYxM_c8l8cLlwhzZu95i9mr2DUGZ4GrbOFZAuqtJ43oQb7lMOspmtrBsblTSHoLSw_8AdqKOmc5m7wWx3MBC9xY07GygR6T2MNG8NM9T3fZrPpP8dn2X1GNu93yS4eMUFpxtp1bGAc6M70322ntnEZtkdXatq4vrWD9EoACoINjxiY5K=w1052-h789-no",
+            description: "Heading up past Square Top Lakes",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/2PYgRYn08Pps_e7Y5Dk9Y4sTlXYFaVkNGnKmDBdlT8pXSu9o6oUsid6-dQalQKoFfSO976vhcCg9hwqSXMIUIh0WZmO4T99E614Eg4D6sFQRQqp5Ig2AjtnYP4_KQKIqEp-NVaFi099Qi1yR3nAA8yBKkuG2WjAmh8GfYYk7ut046QBCXLMpklexMWl5-x60yQsOXW1m07ElPfGA9TmP2Pl7SWC9rKe98i91iUHgyuIBEQ0HFWV4TGRSWfy4wsP6XsqucZUQe5nianUHPLLQAz5jQZq6kdanp99A7ZNYF0ahlKsjNRVOaNhBzarD2TsknYZDDHXmI-juuwkGuM0A70TuMhqfnlTeqwbvKZo6Ckr5zntYRJ79F1KqIe1FwCDSyGJ6RSaeGl-t2JSoUQ-DBZKnsJX4mPfsOmmmGkZzjw0AvW8VzxWNdd5sGDtZ10iTp6siUBOdjJek4nTnC7HL9vJU0BLol30rdkze1q1RliZcbibvDXa1VYhF3fAd2VjkQqV3ZU3s2Sc84VvtPucjL9RH92-a8rbiy2fAu06injc0KvHN2AF71yDpXZCgTjOQRnBIAbBfXZ-grVm670fMeTp5Nh-PMxZmYupOGkCelu-qJR-r110nJ4SASzDy01VHYx0Kt820AicJtsRTs-nw9mJS092mzYJsL7TBiTnCWQHcGHh8DrKKbelb=w1052-h789-no",
+            description: "The sun starts poking out",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/5iGKmTlAB21o3DqQ11BwCAljP7UwKUzsVRwVmm7WaAC3R_7fLlrkCqLfVrWTXy9uSaVmV4ekydLTgUzZJGoU6wjv53oddr7QDO8X1avmLpGo0pVoypHBkkamuruh7TGaE-0A7QnnSYtZPRO0ep_hcJie02aiu4CG_RoW_r5uIWB01sRP6nRKog8WxUMhqwHpHYqGnoC9bqL-6fdqMuCM_mtTw9JePUtanLwcL34VjR5n_CfspX5gjGzbdqabZmCgnPg5bBiE8tNybEUlrOwpXqpstAoPnh5TZ9eI_K5g4l6UZTcYXZ8sW4LFmu23d16X1lKb0XMo6MlQPz268wCD2ZfGLfY8SymV2VCLAS3KfBlLnmssQgXDTjKFUbgIQAFcExBoZNmbIIvZ-lhG6b7hhhaRrogBLWNj4TMJom_a7KqWhvpnrVdJLaJLQs4wscjG-eo8Fv-IEYvpDIFXqgsraw_7hjkl0srq5x-hhiENeVXFhLP6p-If565ljteKpinoh307nRHZSaC6Kw9feBvGxPaDB3nEI87L0cDBq7CSdbIkB2PBe2QZygaUmBDoyJQCgzZ9Q9279hNXjFAdZlfEOm8YZHmWIwEhJLsZ64mR67SzhqGWCKvgZ-0Arti0xLJfyf4HNseMC4Q4jjQwj6ddmKGGtjEkJy03p8oujSmUDWGjFyZ4Cr7S_kuu=w1052-h789-no",
+            description: "At <span class=\"travel-card-image-description-elevation\">13,000'</span>+ approaching the summit",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/iSjZESL6H4FrkzVwoPUmPTE4YyJcdYnPjaj1_XL3oC7sq9PbLIAQx43ImXoA3LfeJOo_qjaWVa8MFTv73ePsTrokQDCzhQYfIZ60pSYYU_M2PThAmwOn7D4jV2OWwqWPba6y_-KuG0vIidj8iW3jeyZxlhDdYBnkhdKliFzSYjb-O1DJdjoGs04RKlkHDxBgTpD41q3wtl0_IEl2BGxl5T21-unqQIfar7khiupTK7Z9x45CLdp4vUo7V2yjuq_FJFHwkr4It3K5TwvaW3-yKY1LDXx93z1J6BFGNGCqyvkUxwdgnjl3IQDil-Mfo_0w8o-LBFf9E9y_yeX4SAN4YiOeJvprmfqIU-RlBgJx_tCtyJ6y6WzyWG4izg6cV4ZYP9HnE2jJajs9PfAhmyJfwe21Le5R_91u8GWeFq2KDu2oOLDpGz94G_iiQOhDw8Pzb0jOQqZ8jFv7wXmDqJ3vG9HTvaBVNYXu9_24ys4TQEWDhQtSwveFl7z1nv65bOv9yTioFxPwS4DGsJILyxZJPa-RK4CDxVwxMyZiBETjQ_PUEAagB0DdE8lSYhsoAXmNTuYIncb69cRpoXQtRGTsapTXcQUva6BdmmoKCVe9EvpEULf5JZt1If4BvRxBW0yFaQBITtm67oXih57Fkms_b0JEew86kYhtAHF0ZtsWw6q32-FYAjRzM0Lu=w1052-h789-no",
+            description: "Summit Views, Grays and Torreys straight ahead",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/tuJmablAPSCQgfyA-lDaUg9HUByvFPMC1tGKWL76D2Lur3Uosd-nXdCBrlmS9QLVywGfZhZXmC7lZF0QbwEN_llBUBaizWq6UOAuXfwiwFgxnq6ZAcP4joLEemXuktOuWibOSFK0GgrUbhgHpsHRpaZW1djYiRBlzVnM3aakHox7Ldfzf_YvArScUSg7Ckj5C9DLdu5srV5inIJHiXtx7ZkPIjyfB2ciLzEkChShurCCHuFbKeE6-7UeNOS8oDam9VE2Ion6NATtEqxV3XwSSbDqSQ0poUX0rIDrUiDyTQikQUEVF1y9xRFApxElRFSiVV5coclJ-PKNbbgRjkr5iUQzQFBeBKjkNAnkxe_wBCryPM_TGQdLLf6pXauCs66jxdFnJvi7VscvfIqs8FbArtHAfRS9zw5oip9YjET90aTHh_q9GveCkW8VnTH8dMWdvqyEonrd-c1xO5PbTIX5vyDi-3BW3MFYn-Nvoy4TA7704_n3rA5e2qwAWEmWDrj0b0pWZHUdF0ACISxYUY-xbaqrFzosj8_peEc6L4SEnQFsruK8zCHp-afpy5p-qyID1KbOf5ohFk_G39MZK56ab5SAEanDSmZYLsERkosIjCB9G8hYNdnYnpiahnQAGLU2-NyW809cN5i7WTi13BFgR9DSPixqnYbqMyiPx2qqC_iMm-RQn2IMlz8E=w1052-h789-no",
+            description: "A brighter look back down at Guanella Pass",
+          },
+        ],
+      },
+    },
+    {
       // Mount Chiquita to Mount Ypsilon | 9.13.19
       trip: {
         cardTitle: "Mount Chiquita to Mount Ypsilon",
         meta: {
-          mainImgSrc: "https://lh3.googleusercontent.com/WP1Nnq1op3HoEqdNzYYAWS2UvZXl3oqynWvvy7nHLXw9T9P-i_0GATpmQjVGtpn1Tu-bsGEHoEXIyc8dWCBfnkDV5V1bZ4ohzjiuLwohO_TPI56CHexKpnInETMNBkfIjeFVsdo0jddfVlkoOF7HffXngCJq37-x7tDMTL2uh4B8jPCFjGZMw1n3W6rXPhF5QIz6wYtF8jm1c0KNB3KfPgEzw1DsHikDns_RDprp10W1w-WlrDwJk-M_ASxHsgY2sb9WlKH4pUr3DhqdrYhXSCjBEGNgsBsHrgqV1HO-vJWDL3cvg8orbxtEiySLLXVj1ZKnCEK8Lg4cQh1N4j5DgthnbgjnKKQJlMw_-tvTrk_ECOuHLYh4WOFIZsxZ3OYMvY742LYmj0ErNBGZ-A81tvHxWfnQvvVyXPbFIYzFCG8W01xgi6b5VVzaJOKKgnE2mlSSGKtewT18MOwWJV94-Km3H6SSKfpQpbY0nJ8ZGb9m63BC6wUvFChpL375L0Eubkh272zaOe7jk07CAWN4i8X3lLL0sFSe6GRqNdnBGi1a3gHSUtEdsXgSpI4Uu0i-S-lQp_M_xQQYlrwJ-9rhtrvy58jzW0v5fChA0rscXqEPz2Dq8jI9HxwuvD4sOsIN_VA9szsoZx7X-ZcR8ZnFf1k0OC6YAlYV7NC3j6OkCTYQKB8DVkgLOkUw=w1052-h789-no",
+          mainImgSrc: "https://lh3.googleusercontent.com/iXZT6QH8zUB3GRIFcLBhy2c0e_C8cSX-ilplGLsEpIQlk0W6J62eAog7kMlTkZteCEIQDq3FckIolpdJeqeuA8yOn9H-7AAvUjaTEehLuG7iCuieFaMO554V_CvLzMd-f7wRClTtsvY0wszSQI5bZdVxbLf1Qh4cRziCMRWknARRaeyxmqCCBDqfZ1efuzUn8wA3BWAdN-QwPlk0Wx9y1uo6tv-FrZ9HQcnatwi6S_McYQfbjS6bhzZddqNRwVUjMFJurOgRErLgbC1gnHq3zf5j1k5_BesaYbEIXrdF-mzlE0VV6c6VQHwZYM__7DmPbV2Or3o90iiiP6BYTADYRlsVK3ckRTy16jAUxrdgiFSMBVfmMCLDBjcWxSFviD71eHLjk9TtmWUf4Fb6Upa3M6sIhwyxo6jNPQEqG459tElOcIk8gXMhXF8pqUpir-16u-gFTZkOMlshjTkiCnPfyZz98k6Ccfgsk_OSAsDzF0Su5O9_P6Wm3KLJaRHaO-zxSEzYUwnD8zN32sJJPiG9AByMV9Ck59omET7lLZtECvDcI-S2JA4F7Qiaai6kAdphKfKHhj3BGEfw6TSAbAOdrPAY45gcxIlsPUXjIpO7EudfPzypOPrKwwwAQgDl-XzREEzWkwUHni8n8du6X4wVruM_fs--4NpZcrRANlUFQNKO_5UZOxiQOMWg=w1052-h789-no",
           cardLocationSrc: "https://www.14ers.com/13ers/peak.php?peakkey=2530",
           cardLocation: "Rocky Mountain National Park",
           cardDate: "Sepember 13, 2019",
@@ -30,6 +74,10 @@ app.factory('travelPhotoDataFactory', function () {
           {
             src: "https://lh3.googleusercontent.com/8mgjDmOdsbXUI6y4x633edqeyFjKK9Z1x2_YkJ87canKmgow8i31WDt7wc0wY-Yt7hc-0aSw7_tCcGUgh-H726XIZCNRVNNhXZeOerWE0iXrSPjecWeZDnHbnIjHIuLdyoSQ9gbKNbvKNpSqUc9k9MkiG3MdyxjBbYT23BJ--DFYX5ytxfK-Kkx0DpWgYu_yj1kCip6579qyyziKeuFXp3WJfitBvihmzGZRCaE2oI2ejOZ1XY4XoUqmCoDcfxHvseBOJW4jlynNkjPG0VikJl0hpyvfdLtjCES27s3zedHXBJUhIBpPlwbQMbCAof7MMC8uoff2VLbilUTc7y3AZkQgynHH41gAn6SIQ6scO41t1SbB7-eP1pxwr23_dXu1EYdPFjbzLBhThxkTJGq8XNuoNN87y2DiIQc8rswdK95ZBnUzQQVNN5El2syW84VzF1GPrSsMBoAsxDGYULUP5vsoCTT5fPWi8STcz2Jekd7rMNBu0dydruSwDN4WTcxcf_JXXOPgHufMBYoYbluss6SJfkhFIEG1yzdU1A2xiylexA0f-9gTgnlJi7fOpuK_fyojncDFNPxFhT80rXt54_fXbFHc01hz_24YkU3TBL5SV-VegJDSxwKgYlm96XunjFIfo-42mSQkjXhVCHVSodANsIeQpEGGv_nBB5YXNb3GQwSv10M9mPwJ=w1052-h789-no",
             description: "Waking up with the mountains",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/ncSdHKLWJnizlIQ_z-0XFf7Tatq-al00tYEJiXYIT1cCNinqa8QwfR4okEhOqPCd3eu44Bj4BgcJNeV9Qh_zo6HDb62RFxPvauQ_iwBw7ZjluxKhFxHhLMvrOxQRveu74hnwpopvPhWWkigNs2QT-k_5Xu2p-FSHAGUTUx8PcuvzPjmE9eGu_oyP4cdznUMXF3baoUN3wCl3C1KPCG8J8vw2FxF9sKPq9xAx3-MvNGONGDEzboOHCX6pNV32rmYfD1HO5KIQRBsmuQnSjzEYmHv9yVDcvdVg6_TLIsU-4tLVkTSw1cJiJD5-t1GxPR0UoYD7le9_opnfMcVutGEhNNGpPt7xgoBt4alddkiWthjK_GzxaHvVs_YNU0mYaW562GNS6BSWgyI9B8qLput7E8JlccNiQKrxy68wtkHt18D-jm3M4hZqUGNr55W59VYOC_QNYPhbb2P76TfnsizVl_AaVaiNHk_AZhwe91yCh04YpRk-JS8mAULTUqL3yxvNKVjSgrzvbvM3daNJ0knXH6NDNuRw3H2Nv64N8CZv-7uSzY5dmiOmVpcWRAbcj5vDO9aENd3VvAOficUuYrnSkIJDXKjIn-sNQv7vY_Xd_SgjOeDX8Qp8YL1q0I5kvGPdT9egEo3Wr3sKBn1UQA2tzQ_nmXXpB3lehMqVY60k4WjrVvbVB8GbD8LD=w1052-h789-no",
+            description: "More perfect RMNP singletrack",
           },
           {
             src: "https://lh3.googleusercontent.com/zYxqCmV3jvYA8dzuKRM9YDnc4ajEe2pYk1obv4eJxR-3OVxoHAAFUGdkwfT95nUbKDr6UG2zRY4PjUzkJKDJPxCEPad4ROUvHtSFpgWC63Pnpg7jUrwRsHUMk6WoXiPnAzSAx-8-3QNgnYwlqTT1l4jfVVrW4sWihyV-BZkg8r3h5vTADGVXESp0JNDCWYq9t4e-vppQTwXTf79sTIc_iWcY9ICg6kVrcwPWXrnXSNOXUjjULkoc_qCMFYNjXin50a0tqEGlEdLmeIql0mOBBEIPIrSP5g3kCY7dZW-AKFEDjgSNXlHWWxk2BmG4pNuTtbQNf3K7HPmFWsyN6BfrPQj15xjU-Jx5HrMvEdg8RhBdHVkXBRWmrJwM4k4A8oicl4_EW0rp3Eni82KMpnUETj3RHkLCjOeUb80qyjDNnz0428j3TloRMw6c3LlYaAIk7-Rf2WhDu2fo5O0G7zVYCCCEc6HO4e4pqYPOd96z-iBe_HwA4AaVUN-RpSaorvPmbbCtniV5Z42_CK_Br8hEqu4Xx2dfjQAsCb5kQQ6h14PmxyGhkUn4kSbyaYH3bUW3fGwkO-3Exc7fl6rVqvGKmmn0QeXQDUutt7RBysMXEtZLgRjLGqpP7Xs-aLbGuXYHcKNk3_zunJwZumULnqFcr0WJiyaTFCDlklHut_4reBjbTqMM4Na28f49=w592-h789-no",

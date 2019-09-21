@@ -326,6 +326,18 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Fletcher Mountain",
+      "Elevation": "13,951",
+      "Range": "Tenmile",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Drift Peak",
+      "Elevation": "13,900",
+      "Range": "Tenmile",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Mt. Spalding",
       "Elevation": "13,842",
       "Range": "Front",

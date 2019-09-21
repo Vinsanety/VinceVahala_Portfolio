@@ -464,7 +464,7 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
-      "Name": "Mount Chiquita",
+      "Name": "Mt. Chiquita",
       "Elevation": "13,069",
       "Range": "Front",
       "TotalSummits": 1

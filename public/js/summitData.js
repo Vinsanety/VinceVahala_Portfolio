@@ -266,6 +266,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Pyramid Peak",
+      "Elevation": "14,018",
+      "Range": "Elk",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Wilson Peak",
       "Elevation": "14,017",
       "Range": "San Juan",

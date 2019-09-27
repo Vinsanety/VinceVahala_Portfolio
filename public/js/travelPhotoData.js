@@ -3,6 +3,86 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Mount Fletcher to Drift Peak | 9.20.19
+      trip: {
+        cardTitle: "Mount Fletcher to Drift Peak",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/QEKzQKH_3Ey05QqOYGE2DZ2XLI83dSrJPYfHoVch6y1UyX5xMJLnkfrjrgQzUyIwSQHU_aoLpY9AAGrrXCSaRbbBhDJNSUz1G1UQxosXl8o-a5YAUhyuWsp7cNPL6gP6Uslk_oIg4uZffMd36ToP1e-aujbZJeIij-t0uI3NWxGUMEP6UluXj5mXHjtuZZWAaz99q9xXe-y3mlVzBJ_UHBQ-My_w_smGCdmnUZH4MRgSiduznEI1L7AjV2GTMf7X2r2ci6NMAQeFpH6II1Poq-3yt2Af8o9Hie2vZfwtlc0nUdpGmS6Kw4PASrdmPCWWvOQIh3OsEWGeON5JcwFlRQDXcn_nVjyKcldDGRn4twCYgwm-xO7hB9gpH9nRAXvWy8EOo8RLnB9dFRenCeZ-z-tws-5ugIUmee9EEdG01B3eUfJyUe1I8g2Zvqiz2VEiMse27G84z08_Hdt0qfAugpx-mCAXWrl0I7n5OZ22Jt020YA6vop5bna8PPRL9YCqJ1IAZmjd4jSlaelhky1HvRGDQtsa5MNW5ba-hhtIksM8gwTIsbkKvJUywPQnjlwPbEv2CbtZ2Z64FjCz32RMOOfnOUFkYZvxcdgpzIIM900-QddoyFDBWRtRHbxTfxSqzbLiA0GPMg4WowXCQdx0b5SahLXKQL0CA0F208gSx6IGjekaeALUiHDj=w1053-h789-no",
+          cardLocationSrc: "https://www.14ers.com/route.php?route=201208221227123&type=13ers",
+          cardLocation: "Breckenridge, CO",
+          cardDate: "Sepember 20, 2019",
+          cardSubTitle: "Mount Fletcher to Drift Peak Traverse",
+          cardTagline: "Late summer traverses in the Ten Mile Range. Just 49 feet shy of 14,000', these two 13ers from Blue Lakes TH are a super fun short jaunt of class 3 climbing and singletrack running.",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/u5Hbv-SNXtj_dA010F-71FcPhUWLlZ8jr1Vd2Nr45wPO0zIq7ADt16CduSX--170vHbG0xkZgxs9csQM1CIiic55GS_5axvBPGpMx9i2cCj5ySWD3TBJ_fkntDAu2NUt8yElmXqa6YGcg8bN49jwrNmXKl-rdKLlXqyVbyDjNmPQXJH4DHoIh53crboqv_gQsZQjWuU4QTkA1vCdjKFnyoREMBKVuGWqqpcMlI7v2SnWyrdCoCyXNXD7sv8W9TDHx6Kcplw2Q_vujOSSMjQbfdAl_OH4g_nC57qMW8nI2TrHvdzECmOeUkNvexfEqlmg8Ivhv__S46ktkZ6EDJke7aEcuW867J_XzSJoiurFS_vLAVfFfPZ-a-8Tm2CmfCkdwdaX8DAKOSl5v83-bMDpCukJ2uNqzvYIijk1gFDlVDTXEGv2NcuFQxKrfpgRrPgmYb0RC_s2dF530vhgvbyH5W8xSFWXKdEHvROdKIFnBhaANa5Y0ZVIfy-f7h2JuwbAHyNjR-I_l4OytFLRSoCCiW2FoJWPxIXojQIJtBDPuMgEzmYxvm2a5XZqTPKkVAGtrPURPoCWHd7Larsig2iLPe0SoYVZcpXSAKMsGyuT_bXvlLJ1W14kvFoPqaY7bLg-k9EW6_3fSmZX1VpgL3dt6DuYY2un3NMcmOpOFqY-YQyU5fRTMJscX2kd=w1052-h789-no",
+            description: "Beautiful scenery right out of the gates from Blue Lakes",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/E4SO4lDu_3bLY9_APf85tLbGKlgxs0TtknXM7GB73kY7kDwk4Lk2WgKu3-dwlszBV_gacWgZ4u0xWNtQ30ewpC2IHKt787RAF_NCGPhXfiJwkK0AhMKaU5OnwrYSCUQ4doBU8XfmbYfMK5bmh8l2nmi6h_EE88qNAdVmRMVvpuOqC-6KPCBvOflLKX3XeYAeamwj-9Rp-G1vGcm1eUbUAWjeDvmmjaFJp1q8QRkBBdT39wW2WFWlAAdIPAdvfh31_JVy1Nm_8jK11HMIfEU4ZmZqA6zVrnyH2c_makcmCMBnZ41rBGDG-Ru1La4Kt5j002KYU564KfRBPtd0aKFLnI2S2DaMaSnOx7zH7wDopm5d23puxV7tlgNjUrY1hVX4Og5FnMcXPCnBllLDktWc_5mWoNzjw4O2BS2BGDgChM1831us7iwLLMPcohkCvSehpxWpLTLhChH9-B0ZMQGE9vEDij2fWqhs_CewXwALZAooIOUryCPKc9Oa2xgNUK3mXO35EoAZnlmrndom8SBF3V1MiesEmC2dLhcrpvkPcnALJPgTZNBgdeR5Uk8z02iEOGyP7UnIt_JpHpvhVx2g6DiCRbNvaBWKhsAEhnI6OWr4UgCHbWQez8vA6MrdCImHaXWTJfVdj5otFNPdLItfg7ZfFvTceBf0P3Bz4dtU3WwLGMDS-H_7bPdu=w1052-h789-no",
+            description: "The runnable approach",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/FxcTeSdgoDa6SeetPL-e4qw9xKtrcqJoCn4J2ESp_Y6i2DZ-ZnzwXotgahiRVOT2nPK7RcNVnMiBq6iXsD9v0VGRQgFe20vwl7IIkAPH_kIPXt5nR_t15f8kGgylXjXQJaf7Em4qRSzgS80xxGpkOk_RGzcL1Eg_vK80UaKpsEcR9O7c3ysv2yF7LWzASzjkqkpCGKiLa27xgBzFiGSZsE1K_o7uW6rr8o44FqMCoETxOx2PkrDPzyZgyDHYHURNlN4h4DTOlpse1r1w7Wx8NXlfSXFDYpseicaTYcNeBr43dv5k7gqBH25QijO00K7-U-3ZqmhWIbxcSO504alMZQ6gBtdOS6_e4PfNwGJixUqd0nGSRid475CfsaThvVdXePh4w16UmwdR2Z_wDuD1h1YVQbZAMThk5TLFm62-DBRu2qQXzXXuXSAEvHasMSS9QMM08aI_SB3LzSb5FJWr9Vv6_YOqH3yb0Tx3BOFMm0209rbnBOVey0tbvO2-fFs_21WPBGz-vzIXdWad7EMNIRlHvtHXcASwJKKqxjvYRg8jrILFntuVJj6HcfHMDRlF1ZubPyS7JoXtYd58mEGWFB-nUIiCImvmkUW4WCWdWM0BUTlTtPZcMW7In87d_Z0LGVzAgkm2-jjLdMtyN8lQ9ISFIJr4_FlT0Fgrake5RVI3ULDWVltRVPFR=w1052-h789-no",
+            description: "About a mile and half into the run",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/tBlQxZMv88gF622i3EJ1qRAXSFWNHLsFx0Hr-X5Tt7MTOWgxa5iY5NVR0ffZKtisSiFATcCvqJrt3KwrJKPK-mMsG28KtFrHq2aRMeoZOB7s4TCDvN7bdl4ePrs1AgQiDeeyj3cbF46-xUPQ6TKbxm_mB5N9zRytS8ZCxIJLG067H3byIXQbEgDBEFyDgjhXAhkIYfrX06xauVfPsXwj8VHPW-_hzD7oywnD7YKEubtILQrgwpkHoXPcuWOG8sLULOfgnmX-6-YOTTPkzxPvh4EuQRv9n4EGOfkNUnOsl1C0tGXt_v0-5kroXYArOw21O3JruGKkEbMDPww4cErHLcwqhg_LZcgLe2nnDx40qNY5q-M-NR3Nm6xwjCa_prgGFxnC2tE9zIXVBJgu384NJv-YoUVWuJtI_AhXfydo68lOspKnwyrE7ggjR2-x3F09e6D8YwcbahdzwteFaxWur4CqlG3sez-ZOpwUHVB_MD-2WPFCQTivLRuSpo5WjX8CkjEP21X_rgNHxDtj6bnsp5iCrANtx4Kdveq2_kio6aTQVkQty_AWv7KD5y8wxL3vrpqgPU_rM7djw0j4zBlKE0e8UzrRy2PUQVZbaiylJmPO3XMQJ-K-DLA51utOPMtU7ssRdwwQhxmDPzzdYakydm_5KB8UKaxBOlkA0tt85FCpZ-3dEr3_HgIS=w1052-h789-no",
+            description: "A look back at the trail as the run starts to become more technical",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/oHKQdaIcuWe8JBSsvtWUgCwVcDLZ9_ZEsrmvOlV0iU_k2an5kHBn9PompLTiXd4h7kiJf0MNI4Ji4VQUHgJ8ksPpSgNuvAufD3I_PpqcIJq5bnf7ljqQAFAb2I--ZolQyrjzupbQPhvb7MogUtMAaq-AWDTgsyVmuR0zgoivqgoaiyF4D0nZZqSWCTLIRX3G3kjYzb3G3jL0xX16PhlO9KeRy-tiQympjc1j7ltiZuWojqTjGQXJIQ3ij5QMKeCVV2MXXkfkfRF2Jk9r3MV90U8PS1r3cXBecZcI5JIwFCOwHXKKoBfel9RGDaHIKNMYfBYtcjLIpB8exVHY7FGSR0Eyp2t4MUi4UlBnyNRUnzI9jRUUmCjMJsxi7w1h0nDZtt_qW4f-xHa2VaLMSZ-Y-xE3GgfFn4UsUE1Ur0VVzR0b6DlbWEXwJkdy5hxDBsdxOFTvtIDCJTaCu1dO2__f7KyanQK_JpF_gNWsP7BY9YhP256_AAFTz2P9bZ8X8iqPkKAff5oAMmBGGQcS0T-2OlgjQ3CFUOT-n0I0Uahq7wg1Z4k-l11eZMBJlKn9FNQMTAA7j65X6htJs5TAVUoxlKGMh18N8kofLpIG-uRMZKObT_701FIyVUu9nbBWR8DkLBoKVQShf98FsI2lxf_EghsnKqZKJdhEAMDFpo1RAoRabIqYcKMAUMah=w1052-h789-no",
+            description: "Some alpine puddles at <span class=\"travel-card-image-description-elevation\">11,000'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/0m0CaZ7KMy0F4TgUTPDRJGTozqJ81NGZhL6wlJati3-YcU1P9CAHSZrPye0YBZ-fxAkKgk6773NNuIKTI00G2dVpIqOOoY3pHh_YHfQ_bt5U4BC0d9OWGgFp2U4yyycd_EV72ykGB5fqAJWO46nPNLTNASUJmb7antDAcXGk0f5dYtR8NIwLagvf5FwrkLCVWW9llE78UCW4TVMQrBTUfCZpvl5K8SUK3KY3wd-H9P9ZoeJ9biv6OY8DSQZu6iNQRolOm52epDZWv2cbCOr1L4tHwqy08fhyZYnaYAdX0xJADTse1dDijPU1LuFzdvgaTwZ907yjtJiLhhWbYLIgIK7Nl1N3FuHU9iS3omEOuYI34geD4i5dv6THwfQtHI_BS3hvS9YFxdBqLttyPulIBPE0zTpeZ58Dh0Djeevm88xPvw8fVWmZ7WNUYG3T-6wq3g1E9CSCvJT8xJxT8E1S-HA7EGxbdMar2-5ReiEwJB71xzPUuMkMWkuRGetYIYuwvdOatK107vjcRnNAnw7JSM8r07qZr05PU3dFQ8wo7n5p-4b8kKxzjY11uxZoanAwYhBmhIcCX6G4jVgEnNv7CmGvdkCmLqtvrpDWh_wNXvybaAOse4FDPd4PKs02TUi4_kCHNokXIFF-96ObEBe_rK8b4gOw7M3UWGtZt4F30s6jqRV_zyAhMoMW=w1052-h789-no",
+            description: "The beginning of the climb",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/L2bM6zNNe2WHIj_gIpTxL742reKzPOFFV1QGlqqrygb0q-9OUFH7ikyjB5eSAYF6r5n_7ejrNq-jn9ZXSGSDu03g-t1ViPm_Ij9bJiRblCiXd-rrTz3ufRfrOaCXtNjmOFBfjWBN9fTrKs6I6Vcvm-WP_Cpenh7j5wuII5etHs_32xRY1LgRuyXc5clGF6uVqt_iqHTJFQ4TsF1sW_yKYtyYUHyQgP7VSLL_SmYDlgZFyEIweMxU9IHAFXBfLMQ_0yTq-sjQZ7wvCK4mbtoINjkg8z54eJOeL4a6GULmmG290SKP6CD7HdDoOoWq6GoYMi9Fi5CP2zlJg-z61uj6G0wiUhZegxuqxHATJ_G6_OVLMsdo2Z-9ujBksvJl-k3i1eKxkVG018R0UiEqYI3XcVRbOW0L_0hJwE7iwpLgMSEZbrafqSN7IUohy_KFU8rTGuOE0ydM7RVRm_dv0ZMojzhApxWjAp7S9mYTJozyKV7OJBdhR0m4qd6fIyuyzdvYy_dvdB7gYQYCw57ptqpW1EVgAz73M9hopPjCuDoM_ZIreB5iGhHIeewbuK6eMeXVapa0TRYZO94225pZPECrsTb-yMC_9nU_gqi5YHnjYqDXAIDfVx84c5hHPlR_9GeqmsjyVN4kH5fYpdhhr-SLrRUTXla4klQ5jOlPg2zfwwvEYZoDohnDDXVk=w1052-h789-no",
+            description: "Quandary Peak from the North",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/oHCDbC0-YU80Sb1VQcKvav_BMyaFtUtndWNQpjvTnt9Snm6AUQWM0tXB-Tp92QfRTL6-Sin7FwgNJs-nx5oslzQAxSmqvROMvgWYLeN2MwLPQ5y7_LA0LQ8fMDnbTBq0f-6457cKuGcpHKwF0lkZGJ9Hbahk2MHzNi5UbJl7Aa6rB-UkSRvnsly5vBu9TKjtgdYuyrXJQlj4uOccw0KSI-gITDpJZb9HIvXHFgZnUlqtgDzwXN4RiHbfpw8EASpndzexpOddM57VS6eJ1pfhs7XRjAmkYFT9UmGH2uU09p5L9--PKJQmYZJq_NBmtwx14zIvxxG_5ptcY2_A6-RPan33Nrc25NcKZk_VUJ_WgZoaWFcA4JhfQ2xPGMCsczg4Fu4woyND_TRU-vOBYTpvvwhRmoGWodPv3t6IWHcOYEV4DMjUkskytwnF16nvpqa79XtiJbxAa0hhTG6xN6-d3ib_Zyr3fl3-qoTqERSUFk1AMP3b_DfEH-5IvIbNOeI5UEq-U1c-Iz8KaC-MiqwPVRzuA9A9mmhntzlqYoXYSFcYbVvWBoOJqYiu1_F-nfR1KlwqTDRQnjrY3S2C-InoJR0gQQlaafVJR0B9RfucwVBsKxBlY4Q4HrCcRP-kz5WBEnHDuQpg7yXQKHAuzaPMgxSBlzLWUGWAwV49Ql6rvq2hLd-zp4jQce-K=w1052-h789-no",
+            description: "First view of Fletcher to the right and Drift to the left",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/FALFQNGDRG0Cx05wNV7swSG2t4NxD8DhrPHHenmoGmWUtjgrAg2yDQ6_cq_oX1S5c4bla06ZmhOtRm89xn0iPqn7hA-hkRj8IATPyIdvD8iI1a59wBOHAad2Mz34ouLRJLTtm0mZy7T_0M55IMhN2HpRxDmdXSSlY7k3p8Avnv9BwZlsHQWUXY6N0zpo-V4ih6Ll55S9wj753TYwTgsOZgpIVpoqYKy_I7BZ8lN89dx1CO3b_zL4C482m6-8wMD-jsiyVh41HmkGUJM-PuAruvMqYenGBgg0wRCIcdgNQve8o2capdG4ouZreaxcID4nzetL5kMEG3NfXf3ZkpLNwbls3tIpWR-i2WdZlFk0GozgTKh6FpgB0ZSHcYOQwNR6tlI6ztEDfP_PWnvZ2wBQdT3cSo5kYJ6CudeKvX8DIUpN54JTuPH2yXT1RQD3pUvr5QQGJlvRAAZ-1p4087gvIcVLheHp0G6DPhh25NMmkF7f45BZNKjjxyDtzMa1FJVEgrFSaj7wSXza2-G5-GIESUi1_yGnyiW5SXnCtNes-kBRn1ANuK26NMrIF_kp5_9dSJDgiu2YD3I_QUVxWVJTGUgR3tx68brp86pMe8LJG9h-r0byuFQzG1Kc0b6zjquh0xNyqXY6rNHvx4PRT6Gp5KE5A_hIs9dzf8l9kQjtKCh0kBYUulM7th6S=w1052-h789-no",
+            description: "Climbing Fletcher looking back at Quandary Peak. Look closely to see the NW Quandary approach trail",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/LACjC03MOpyyd1r95bCr3usywHczDRATmaS9Wb8QElrARYCjKC6PjXgtN0p0-JkuNYe9DS9LVy2ubltz_wZruy1nQ-4kYjtFJ_cbxl7Zq2Pnwl8A2jDr3YSGjdvIewTVEDzeBU_-W1Ye_ZbKv3f_OF1iv8G1bnZDX6oQidfNglnBEOtIEZMWI2AzW2Xrn-BKiQnTKxzKFHu1KABAHAMzvCqXyFIdVleIl0P0abL1jDGgbLVELCPbewL9yaNCT8z7fyywpKuF_wYxcJcnUUWpSTqGMyCCv1Nb5AaTtJj1Z-Vgbhj2WV3reOAt-un880URay75xYeEreaEE90d3g8OVx6cEhWUcfXVkdLLvrVacVkhQsu0XLYAhjQm8-3Oa76KPX6t-uTj-KE6j2vp2GlxO8RMQuIREM5tOt0jJ18ok9AdHVjEuNL3e3yl8vuq-ZXrezSbBxcLFpAKVsL_9-B75mCY7nlSBI1FVpOwdi42SvlQTYFSRd1NFOonr-ac47vQZhfDQKDAlMDSnKO86xYBieOu4ptKqVps-icvWnHBKpKOpvezL4UzpffNh3DxMQHSDSaFL90gcylEjGwHvHGS4nw8oCDvxGxKssSIYrdjxSucoP048VX6Jv9wjKSubkBlsTmgM6GUXaDoGCNRnmXFaSN3tCSjZaTQctmYoxThrCvPBrM4E-NYU8zl=w1052-h789-no",
+            description: "Remaining route to Fletcher",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/-jajf_F_-2bw6YiZY9O8dW9EJLDUsp23-NKDfKw7PyY8lyv1PoONE6C-OQqrFkimzll5_xR7riYn6DhGxBvGcWuFAqfMs9w5u-dwZ9I6PkUIsVxLuPZ38hnzM72EA32ucOdHAw6dy-8IOKL1Dzn9U74vstXo9ATP3D25eFm8LmtawZmLBeXrqWo3N_T1z8YWGxrm4kQ-q0QacOxRwgG-FgmStewshSckaX9BuzNDgZ_4vm8TyAmwlql5q1JjF6f1rmjqDvugYr94AK1luY41Llg8HFvFD31OcFaErbMRlXqB4aAP1LZdMfauJC417VoN530hMP-tJR0PkjSigC7FYK0_P8cj7bApo2yjEe6bkT7fTRtstpEPGPrdTGitTD4kr9zgJCSqX7xR35R-dC1nNXa-10eCAnemEPabOq4c3HXYzVrHKyVJPaIwG6Uo-awWG4UhBpJUOG96_YBCEh1-jbvJMYHfCYjKS5lgtBQVm0xEJAesr3NsEeGK5hN0znpLTYyt3IBMZqXpKCAvn0xtYM_HIG-Ky1wjuQ1DGsR9ZWUJr5qxUH3QM3Prn-jSg-Adt_ox9mb1VrbvVwTzX0OD7DnGlKE_3TrrKRSxZr6I1NBQUvjmYwKQYaAkOTG2A_-iNbWfOGgRHQ3i5CUf8KE7AZd3Q4-v4hbwfaOudEctm6B2uIlqortf5HTP=w1052-h789-no",
+            description: "Summit of Mount Fletcher looking towards Drift Peak - <span class=\"travel-card-image-description-elevation\">13,951'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/x7VJ4rJAP5Aw5245YmfyYQZ1QidkCPP_WGekPmGkULASPhSzlH7zMJMuwe8scEA0-hKPMeRyb4yUiN17GEhVCRT0nIuGYgHMshZ5FC_eGymukzKVOrBpRQw0F54mX21mNp_vqP3o4hsftX5gW2Zl35pCrEpzEiNKZldvdsD_UgqDAkZm3EzuKgnVKlieZjTHKCJ42PW7rsGMcAc_gz-HvW5Uysf97W6fpSjFdRFIu9Lr8OjoRopvu7h27OoBbUETP-_siBz73vdsirxfX-aZ4zhbUCgHmSWALpCIE2-mp4t3uzZ-fYyl6GPE6Rq0h1KAhBKF3VbkSgyugKWYDpJVIn5u_5YwoZMsoUvRZJGCKgHh_jssVbr4Yg8Q062A2Tb_ZT0iaju5Dn14Day61dmEUg3n-j2BMsSXUp-9IIq5FSbz_KfWzMyG-NQjvILiOa8CMTa43omqGFWy3TSK2ZenfaRlPp43CF_VQ4ZZeovf0bk_KOeYTcXBovOr7eM-l2HgZyaIiBf6H1tPMU5ZXAUtKHKckRdHZ-3Hsh-ccPsl7HtTX6qXao4PbmYEaESHn8lAffkXYakRsCZ8fFaNx_OEAlsMC8fuE-HVa2lU4eoVgdmVXG30ze8zYaerJfUOzpdomE0v5PfKofFVNA4ATQLJLvbBsr4HF9Ol5h_WNitiFL_w1JdAZomspAgX=w1052-h789-no",
+            description: "Incredibly fun class 3 scrambling towards Drift Peak",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Jh-TSWFTOnfdiYZbRE-4slgXMfvNRSgWROmD5LXMIV9OCHys6aEQLZXwH3NxpWAM3DzT7Y0su3m3fznuvTjv40JmaH4Fn242i-u5oHUvCqZ5pEZuHRGgMvbqDlhCvQxojBQLm42pn8pTnqSb_DQkrod57TAXuAP-VdISh3Bn3sfdxaAoBDhUtw7VPjTxXkXSeb4ANZbRSe9LLZ87RBfJN-et9Q29BB8hbYkT9DdZb_A_vhbO4hX555ktKPhstQJ7wD2J9RGOzBRwVOHdbbZaip6mrGJ3wNp5-C1gxs5y9Y8YD4OfxJCC7QluojshoVoq_wEJJAiDsmHt31rzcvML0dyzM6X0Uhae77qH1w4WFxRl8tWDJKLxcDzHhO0UbNZopmhziq5KwSY0sUwXikph_D73Nmqbhd9wF0lEQKBxnRgDk_mXgEqaMfeDhekUbb5nHvjPD9867gaw29pC5HPnOILytpZHxwH_rECsz10ewB-PUeHNojS5QEujPkcmbeXH8HRmjYXortpnbtkS2Fe2g-co5uFtxx78ak-XnVXh3osO0lqwYUfGGpZgqZSpk9wI05xYS3G79-Py0QLxFQldzu4DQbpE3BEjLxA33kAGgMWQc_Rso-qMfpUbJDO6YRXfpSKCRlqXSWkfvgFHQdt4QnERVIEKJjAsb_d_iSUi7P4a27vH6MF8nSc9=w1052-h789-no",
+            description: "Summit of Drift Peak - <span class=\"travel-card-image-description-elevation\">13,900'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/QFV1Bi1mXehbiFRbmaMtRpBONxNfj1PpJDPFpHXNpuf7rjahSJqr0MgdmFtedBhuGfm4740fD6FehgGzN3_ijj_JtR7J5npB0BCISk0Hy2xNSS4NjNklc1MMxT9wkoh1ha734vglD6gsWyf7dicwqN8XZPdnMMMYhDAqyxDXsjTo4jC8jNcrCtOt_eSW6PWY3_efkoc49D9-xmpdTxZidDq67oS-jvz5npB8S0j-02ig8kKPN0ixjQfwxnknUVn5nyxjW0NEam_QNj_ndKfz_DaHf9RRHNvaLuRHt1IbV28F3_t9Gt6qJL-PbFW80RNJbilXjZezWH3DD2WnAWa7yzNzVOSbUy6M41hBIgIBXJaCdq-0NiR2o393kF9gylqV9iGuX6IY9zqDpRf_UqYq4MLYZiSHjiH8q5tE1Lu9RwBvNuWuUdiOvAeQgmw6ampyIfrv94Os_iPyb9Mgmxcpu06NR9ewCvRczE6qVlSnalF3sC10uIJ4Hmjz2GLbMfJqq0X-NK33P_kv_IGmp-yKpgtRwmVLB4DXRgbbT12zZAUDrFHq2ReUD2Tg4BRpSdSOEjcJ8bHmv4lQ7bHqtNtQmc1cCMZEoCEZ6fFoJ7IMFwKmZibFg8W9Y7J2tmivM_3YeZE2Uk3qkaLD_7l8X62Sgvw3fSLxvhUxsBsi6bQ72-77P4yL4Ix5Cn1x=w1052-h789-no",
+            description: "Looking back at the route, Fletcher to the left, and Quandary to the right",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/8uZoiatPejWwpTT4H6o_iAY9ahGVVviCePqWuJdmxPAfC2hpWCrQ0mgT2xbwmY84rcNghdZEgdUofBHsMnFaebaaSfhkkicZnf5YvpLKUYhHdM2wGQj4qofqt3Z2ta3ZcrF4NOKp5aW3USNmL_lHsRC7uCXIskA9GKFk2KZnh_86PHCqCcIsYd-iwVgRYh3xiM_XKc4-ct6E_khj8SBUXkU2O9VsPtvzS4E_lS4FkFoAqZ70PvJw8Nh0PxZbzRTnKeRyHVX3WEPTY-IrKLcnwypRFbjMs8xLUJcWfa1nTEISqgc4ImX81K4ZyvyrWMI610gAPYhTIZ3jt5SvRjAA-50TOjmj6uOOPPTWdMSHHM9F0Rr9AOyugDxjkjIqVMFImBos1ViIo-KFzSM32OBOIUwUfQo1nH1M_NnZU1LtYkAyF8YLnTgfEeM9CbGro6ELFWsCWhdiXk03Q4ntVWg2tYJ1IhRC9a9jqepKm0oemyMNpO3yW6dm9XwB2UEOa8P4aAfcOz27QjVySFbCGQyNpD65ZMSSpLvKqAczZNgXIFyHsBPpp-IwaNw1tvtqo3TGnIH_bbMXJMB2nYhjeUZsw27OEMh8XUWxXE_RS6ZR4oRX6uy-KeTbKox58fbJNMxOWzqu-HJhRV_j_FLHE0D5IAS6mQTj5bVTQDEIxmAsEITLcCsl2g1vkj4a=w1052-h789-no",
+            description: "Traversing back over the class 3 scramble",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/EqIxdSjLmVKIOKMWBXZr8ooWfbajKqH4vqLKrrRHwkaayvVuCmPhSGqReIwaqBG5-q6EHnHq0fSWr90KjUFEbkl40ly3x6zhiFjPHfiWTDfQ_M8C5qvOKfsxcC2cxtUrtjCrfN6kOwSwwfg1WT0dMxWsjyrGA0eB3E8UTYNZdt8aUtzaGVJypirp6K7Bdi_Qlq36YZTwNwJJkW0Hfy_lZxkAUO1Emg7H3VrbvskAYQ5iXi245o-cW-vZE4I2q5Rzj6OTVI8-L-Jg5alQ9XNNzASuLIiJSb3QcRPDeXGxqWdzePmxgXyHjsQAWFWamY_1Sk1gBBgvSQ2JjEhmf0oMez7HK7jmhcBCpYKJmiKuPj-iXxxqowh8slwQRLodpn4T5KCpeF5Bp4eYXty8uZ9tmoEqhJPpbMvpesdCbzba947gizXoVaLRJbh64fsuuHMR2YWQYMDN0tZCnIu8ikyWeav6yNOKRVINQwtDQOG9r2tAp73qaFwDn06hf9pkDPaUKgidnlySbG-w4Oam99Rw3jtR-7-dmBT2uMWRljorl36BSuk0k0XSlj3KczrZq7yJpNoirnYc0wgCCOKW5ZPd73xV_EupYaf9DXLDI0t1pGOlr67Ug2E7HmXWspiLwBrkX6qQZkwZYmh8hG3duOBl8WUALAX_kQ-oaXPvBgg_pLxR9F0EW5Cr3vad=w1052-h789-no",
+            description: "A view of some of the exposure",
+          },
+        ],
+      },
+    },
+    {
       // Square Top Mountain | 9.17.19
       trip: {
         cardTitle: "Square Top Mountain",

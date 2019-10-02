@@ -3,6 +3,122 @@ app.factory('travelPhotoDataFactory', function () {
   // Most Recent on Top
   const travelPhotoData = [
     {
+      // Pyramid Peak | 9.25.19
+      trip: {
+        cardTitle: "Pyramid Peak",
+        meta: {
+          mainImgSrc: "https://lh3.googleusercontent.com/fMM846LQ58q4BX83fS_Stylj2o_kAWKnjda9ZdcwHiEXOoizc7mTm9rPIFBMTOKXaW6SgU5y3_UJL4h3B2URPT86PL9ANKdRwX7IXMKlK6CGDH4Twzp3-NodoIBYTh6eOMSggrMa6oO0n41px3cXJYWuPCSoRk1OpJOKyt7X4SK0WgUG83nVNKrv3b_Iq4tMv48PNcnESFsS5lrHptmHuQaJ0zMCsjoBe_80D3woULmx1EeVxEsz1B28kUQ4o1ML-oI9-OiZS91u6E3xCtXDYXZcHFdj9-mEf00Bplt2XXUZfAczmpfOD4TrJhY4WPgt0jP7VpT_V0iM6NWFilTw5E4tITe0nkyPYgn1mTgHbRLkFE6n3FLtCss6eSGVM4hEn8Vzv0UOMuNk0jVjKQ0ARrP4mYW5QgdErlx2A0Lh9M8YMcU3cqjCZ1-2Yuh5SQ0U2sENnxHqbESL7C0Fw-tDvUjjBtu_CZgeemSBCb5reCqOZ664Ssr3dxl4bm5yn2sdGunLhxmweJs76QAgc34y3FG1bW11_grV2EbXK_PflBsENjcTWlu22PdIga42P6gRfFQfrAtDIXcLZbqj0hKYz1pEaeHL6gO9jYppleJXlXY1auAVflkD05i99FHGRzZiVJDCMGZocRrGdXxU2aZDa--qEncidh83kZOhU-PHPxOp13waDfbTIEQ1=w1053-h789-no",
+          cardLocationSrc: "https://www.14ers.com/route.php?route=pyra1&peak=Pyramid+Peak",
+          cardLocation: "Aspen, CO / Maroon Bells-Snowmass Wilderness",
+          cardDate: "Sepember 25, 2019",
+          cardSubTitle: "Pyramid Peak | 16mi/4,393'",
+          cardTagline: "Camped Tuesday night on Indepedence Pass, fly fishing the night before. I woke up at 3am to book it to the Maroon Lake TH before it became swarmed with people. As the masses were setting up their expensive camera gear, I turned my headlamp up bright and dropped a Class 4 scrunble - 16.66mi/4,393'.",
+        },
+        img: [
+          {
+            src: "https://lh3.googleusercontent.com/fI5mm3Sj_7YvMS7QPi4Qrjxlp6qJSODMSubd6r0QyrUXmjgB-zNGle9AnY1nXS5QYb8DEPEhWyJ0j5CBHnlkBESjtJiPp5GHC1rLLDcVfKPgtxiZKQcB8X4uYv8aPCWcS63ELeIpXbaQinrJFUhKT-wiBuJ_EqpjY5bbeWd8nDOXLGe_L1Ba_VvTDL7lPU8gP6bwtyJx7apLIcwcPpFeaCkN2NX_HPOqxJeDU9zchQBOStXWuSduauicI56wB2yegSF0lcYfxi1P3NDeLy1EvpqjYW0S_l9PfPZPxXlpULMbfG3czLhzUatzvtBt0xaDkeKovMQYB8e-n3Gt3hgWmKoRMD5HBcLKWVfeLSvtwZbg9FMYVExcIvhDF8PkHQ7qE6sZIvj3Txw_vp5XwHiQibr8XECPcrD4VngpHbb9rHRvIl_Hmb-luM2Ze8RpQC4Zh_saNxdPvQeA6cOW_YFqaDimMkegR8pGtUEG4T7tslVttnsiPUNgqx82c14cNvZja5txeyLemjYUj7mqWAha1REzhiQ_AdSMhZveiQraDd5nqwyntNV8xVXnGLDMv_o7SblSCr85TtxxNEuqafDiz9vo7wWOBhLbRTkJvwlW_V0tpNEJX0f751CejsucOmcVzoteBMARKGsK0HQHjz0vS9-_DsKnpAabPf0HEoiCyNPMQGs4PTXGHIHc=w1052-h789-no",
+            description: "Trout hunting the night before",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/KTFbGItqx4E79ZX3ZVBEz5ZQ_4rN8eoUPTGcFPDg2rOTFMF8Nfr1Vk0WZ-vfTy_NBpJKvFmXJRrdBZxHuF_ZL4YWhzfjJvtUpQm3ITDhuRloGYvj0Pnm-2VyMcinTR3LdrFdo9fxOLaALQPl-NZh5O5xlH17xcLMLsksQNDruSGmfyHnR1VF8lJGqFyChqi7JOOvSfUORHFTRplTG7o10Xwv7RX73b5ewOuuSuNsQcvdCGLG850d4pDwgg5kPqDW6QrL4U6mUWuOWQtPSaY7pRQQ3cA63yerbbx-0DNqy3dv5PfLA6W0jOrSM3HsFUFQ1MMofxRq-ZmA-eoPgS4RFdx_-vAONCMFuWRLbhpaDBzlTO-Jh3HxiuamoXVod0Bb1WEbd5VMmaWFgv7hEaS_WdKLN-GSZM9FtDE1vnB_B8u618f-ICU2LtXeduW8kcAFYSXjQbvdwKwx39bdWlWwjcqErNpr9fMyUeXaU4rKDfy03VjW-sjjDXaeF4aUe3-CS2J87piCQPxBhmEgJx4K9JhkQfZkbwtt8G_2U7oALiTovvmP3bxQEMCXnFGq6ABpmOlGWRNwZFw47k4ebcs8Me9JOheBt_UB2xC5ugDbWvH9UZxMqbh-XutW_kQL4sqN36_HRBG-ihB0h8-Lvy1QUdX8oC-umdATlfDar0hk9abNKJ_iJMqhaOAA=w592-h789-no",
+            description: "Muddy Waters - I'm starting to really love this sport",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/mWk1qZIDpI6Sg_o6hBLiUPbNu8nxF6M8cBIGBwCOoqDxUBS2AihVRCNAFbxdH8YtPVmpWg9quWiOlktFZKqOgAh67bCoqzq3VwXoITEn-B-0iIlnfWfKYCxNWPbiADgl-YO04ZjFgEh3CDg18sjGHKoPN9IgN66SzaQQdMJn2OfqJw5aFAd5wdhe4cnuU2MMWTP3gYS05DwFlr-0oPGRZLQqY01mS-QTeKsg3-ExHdO90A7i83RUO0Zc0TaVpZHnUqh2EZvEiPSPJuTjGm3mp0T7kRmiVfX6SczEG6qdaSI3fm4lsSjHiC0mgacbmPhlpDOFhwy95tRhoPUdMgX2Ca6RmEJW3io9uJIsgnD0HWpbHojN9lj26J35j94J-L4Ozd6Cu0vVKIKKGAT3VVt6z6Ip_oYWKgWBzkUgkB1vAphUmtSMHuWd3ivK6go0_ffqpX0J24iL0jHsFmFlDWvTG79nvYBz-P8BddaC0bEYHFOqWUKIWqtIZTPIwN6-ShECcZR_DE9rZrWfAsZosxhIm2c4gkcA-KuPAhAmFH3k0_XM1TDMotk4WrcS9ll5q-DfrSqkLsGfPdu455Y3pJH9daCU2m30JUxPEFXPmIeWH0SJuLfaos9nLE0tltaisvUt5O3qrO5uIebVCgS1qtTw3y6ruIdQFp96MGMqGLeMAMUcLGOo501BWzJ7=w1052-h789-no",
+            description: "Starting the run",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/TNYfbzXNcV2i3CoaZHmXY5VQsG_F00oSYLnDiUyv_PPNzXVYyPQRzuJUVCoAbgAqn8q8_6oGKEpr8qoiI-y0TR7yasI9RItC2CW8YeMxFfXVaksgQoWeo_sW0p6JxgMilsEupkrUbwfSu11X8HpbrhoctiXTMLtnjvMxHCU2yjciG07VVf-3LtDGcnNEeTR9KATfKJFh0QIrSB1AXzEItXAd5kj4m55_ve8umTAnvFIVcaohJUXP8PmzJMYv-cQzpoRNw7KG5nCWNC7NFbT7cAtUKpWPWRKFIvlSQb19pi01WCnlbmH-8HcC7VVNI1jN4K7mnQAkas64PZpuQ8l56On53CkpNdJIBK3LqBgHatF_hCqJrQHg7tLcPNuWK7hRb7-u1_W56SE14i2AkdN0Am8w-_LJ7wqajlgMosuHxAhimxq-7XepHnJq-Hl2gNlFYDUACk4fnVTutj5SYJnWpQ13-iSL2R-Q5ZiRdtiGFJjjV7A2nLxXOfTmIPCaHllK8YOly-SVmf4Myj4pzudqHLVOi9ib1enkkReEosD2gwMGRsaKbGaNK59AtM6hrBJy1nxkq7bGAl8fBNxJAcMrTW9xTldRqguva9lY_Vh2KNyIOx_sebvblCs4eJDTR_fTgtbycS3m0cUZDZq2nOl36kVQIqqc73vQ7R0DJ5MsHh65sd96V9bF2gJL=w1052-h789-no",
+            description: "Waking up with the Bells",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/XB_WLhMbupBMqPWSTwGjaFJloLR4Cop4SuwH3Bl6QnHwHdCxjIWg4FPh-q_s3wGNm9OTwHbC_C5lwiFjGmvOAxdlKJNFhtA3OgplFzOG6_QRPMoE-913G9FUBkuf73WhIBiM5jfmjSaatmNBl0IelfCnH1E1bknrMZR_IzmHZT4imtwFopct0lrOykSqRQUwL7JfQ8_k1bLZHz9NU6ASHzPTDLR62linI6diDCG9HdJBvslP912Gd-WsCTGRnOv3zGnboPf63qP6-U13CvOYcWxxKddQzHgouTnPZr7gxCgCuMy7oM0Rgy7GxsvKKT4VmTrX1IgzeqB_m-sh-x-sqhmllHHPwgQRejyAKKUQ-hYhwrXAGsUjS2ecAtdJV-r6Ua2J4ubN-TtbBcgqkxSRshtIoZiPjBHQUcYUekE4IYqGkHjrpdJmGWKwqP6JuUYdHwnxM1a1V3PlFaOGN_ga3C2F-AAve4hODoh-JA6v1G3UHoR3Y_SkUmn_b-Pn90Rr-7arAs00JBlfaKENWfpBjvi4Epr0l3MXdtUqf849G5TBnp_4n1qf4jKagDxl-WOL0WewoNGEWhKtA7wmAip0JQl3TqmaqrW_IrD2dRQl6X3YdHlNqK__XVoiwpyBdaqrhAhMsxNqJ9uq0trEcBtPYp9l-_5gYfbjj2q1IdW4cL9kYfI33s4dPk55=w1052-h789-no",
+            description: "Incredible sunrise views",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/RWVNs8hNJzpV43yUt1Qg-lu1bs7xFIvBJ9KNLKjx6snLkCKJZQt-A5xhq6Q8809HP4l4OOnMKHqMRJmtYsJg1RpFwFPTrHt458_tTQSP8ZqB7OZLhPNsdDENR9nn2M-3c4XdvyRc4Cv-ti5DfhEiW_XeNFDOJv9YGQLz8hNtIn1WH-cJt9ZeTKmkDt7NX6lTeEB_NisHzhWtrC76NzKuR7gxZDVlCDhecFhAhTpgbIZvMHtKt25AhdU1n5w8JpD7ABaINOyrXRFNowd8qb_Hcchoh51nrvNNY-Oqa5h-xn4aJsFHDqHbVnLltMfe-xzoNuAZ0j2OOrYm6UtKusQOaUZdI3bBblc3KuqHOPFOegWpUFWgqGC0ZEwb5lkBgtxrqfSwafVg4IbBw9bK463ZPtZnDJy72BG1J0Um51R53Wd73hQq88zRUEbpxPT24pWoXzuCs6nWJRLzNOF2AnXiKxjT77ob-BwTkjwGYZLVbHsKXXi53k_DXU2e1DNuXMCxEhNUcSYhMFevcgSgRQ4VzEMvOu-PXQhN_bIP4CEi75RqDcPWq90paFdhgD3w5tr6px1J7nsTQwgIgmqXocLg1k0fKdAqIytjKTrDrJgMzcFEhoLOCtwnI7woiauRqynSs9AgYeTp23j1yRajpCvaaO5gI7Bor2NqlJlK-BQwmLbMoyqg89VdwwBZ=w1052-h789-no",
+            description: "About two miles in, cutting left to start on Pyramid Peak Trail",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/d42AkXY8xrAlAgSsZXwgOmXpo3lWuZbYZw-5K3p1QsqtlYLxmoqmcaNmJ1xVD0yRZRFArVuDzA9tJaXHH8oKbYULppJkiVHnh6ZGMVGkdAosmsYEj00Y0ff8LKwcFQedagu7VciMiGSOJTX9YF4w9LxtYSpaPNuAN5VCCHfo4XX_lhbYIDlcNi9jP8kMQveiTA7UagD3P2tFkOmchrPkSjz7HGMMLISu1WoIw02dXSyaGcmgV12IBcgy89-JW3QQcxpbyyPm8zolG8h0Ru3I1w4WFacaHhuFv-bVHjGvuNF6wbZCWmmQm_SwTA_9giRiGp9WmJjKbT7s0hbWzYa_isArM_tk9JS0QYr3qBOONhli1XsEfh7QbhMeefiZfVqdZGRh9zaOuJa_uQJno-EiRhFOQZqcrL_5TEnp0yO-fhvcB9sNE1pvr5IOHXWcGPPtISsSqtGd04boXnirkzZpIjMUq5sZKpY6J9TGNkzZG2uOLZWD9J3zKYUzf5M4hzFZx2XlaJS4mGNIkGN5P3SI6ykWRb_3cjjNun4PSzORxn8Eg9QOKI4ruyCScW8f0YgIjEWxhztOnSSd_BTbDSswjpPrPuNR1pxXwZsadzuOYd4_MnJ9kdymKUOcNnC2TGKodJ8D4neXbJNsugosP63mmoxguFqrQF4Zr3UWHr8IkxrhkBmy-FrKFRjv=w1052-h789-no",
+            description: "Someone going overboard with Cairns",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/ZZpLESwUoUkhh3Khn0mmZ3u5inecsGSWZKZQj74LeF3otb4G0qj-dELo8kWUWoIbT2rU5FEIW1WVcZgFhHlJu4Ks6nc8oFMKEFISqM0vw4BKv9AAKSvleP6X0QWWhkoHIBeaE3o-xPdO4-TZwXJ_lviGAYHOYPx0IaEbBYIGLfLM9f38XlNB4PGFbWKP9uj2vuxNEUl9AhRPAm-X6GP1RMv6SxzfV2ypQfPLYvEn7DPWCK70V83ATBZYpJaisNoZlLA99o5PdthCiMwf0sXKuYDApVRAWonEgCycfsu_JtWQ8d54rJmKDxH__V1v21UVdKEFlx0UuzCbnzkRDD125XEQYTNoQI4zn0DexBFpozVfu8QiMZVIH1CpzOLCLJ7ljSC4nNcZ_HFwyB9G5Hzeflk8vObcmzoRjwx4W0QeEIGEJXYnq4sX87FYHC1Jq9fsU2P5OLTCSY5O0we_lZ7isERt3cmfvXPHS63FgjY4dDNnkUebY7f_oNZWbKeHj45od4gDgn-hW-pZTETcoiEhbsJMB2OPJMhBmdTyl7g8N6x_8WUOlFOgIjG1u1EDsrrWXn3VjUvQs82HKY2uPoIEXwHVGJ8fv870c9MjwF4gMaXc63P8EE_bwIky_sEFFTPpo0zGWwUVxJ24texUGdINPVXlxSOPQYTBJx0ICCDFU7FTG3cxrOYWnN7T=w1052-h789-no",
+            description: "A view of the Amphitheater, Pyrmaid Peak in the center, the route climbs up a left couloir",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/FSeTz-JTe5TZqV3irxxyGBs-Qkd3UXChUUALvJkQOkbf68mdRa6MMapfOg5KXQnYIEzO7_SKhGL6vlwmSm8aSg_mlybPoqwfYPw8-Liq7JKIbG8XJGKe9PF9W-g1DJGZGxddced0fIpjoKTiRmnbOtyQGWF1_yiGqejKqhd8R3ojaowiXaQp2hCPRjA-k0-uZTSpO-TUwReg6VDrFr7GoGBD1ZeaIgxZvaPOX4XnWwVg5V1ZRRbDcSFkTcVvhP4FbUOSbi0bbA05LKk5RZgwJ93dsFwDIZ4T2eCQkjTpf97-9AEPmrrmZhsWJsLYC4glNnWSdhOosBYfdpkhdTLVXDcBibjU5H7MgEYBQcjPZM7Ns6xnishuKeUfsICV6lJCXccwN5z7SJIZyIIaC5sp_TaCPMKsVZYTayh2kClpVsscroS088aW_mnZXL0teIG2_CIpNRDZxvhEvxa05-WtWFtRXV7ykM8Sd4FUcuRRcgiDF6kNgolVXunOK9I2B0ZIAtH7cT_fV4DyVvwz1-9md7NLHhx4G6eKyaeVYOtpF_wx_pKXidPfqCAIQ4OAS_Gh48qwijotUrJMzzarpK0aA1WxZy4OlXVrLqYtgFydMAPyxPxtpWJQLzobQfnjDoSoQBaUMeKBDiMIBuFtmpNe-8qzz6PXX1O3rNJUqxp9glFHfndciqqQVrb1=w1052-h789-no",
+            description: "A closer view of the Amphitheater",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/J2_Fj2iEzwuTNrhHntBurbI8QEGwQS3Zjj5UwT15XbVI7mMM7p6VIYY1FL2i8wF9ESCK6GrEiGEMZt7fMu7vsW18ee4QwfmCC1XgOhLKPLfJ-Mb-DKd-18Aj_4HyZW44KV_jpdGll_hFLteA0u-a0dMc7qxslagO0OF84OJ7GJp2acsH_bUBl4F6vqiSD7OnQcC2zK3yX6SQQtz76Vwhu7u76dEs5rQV3FTuuwILcjSZzYZ-RJZxP38aB2SI_jfuTIb1hPjJefPkrn8innO5D4LBb6qYMjINIG6-F_P0dSu_K3Dk4npnZm2Y8vlqi12MACF_qNbMpl099UuqrY4hZ-b6tYjQ9_An3E06CQ64VdiQ3uX9grAbTOj9YmLcCxha39K7aZC8goJH213msQbGVd_loHB_H8m4ix-JFuIZDWhaVUVxjFDGaYNRPSBYfMe_yLAoX-S8suvWYh99KfjchCXx_HENyzqtOXJLzOTeCWo4I7-38pHTSBbBR8NpTD2DymBO3IrUTi7UuNxmxbKa81ooK0nAK-TGdUbbAx33Ubc-G_MnSAqihkZlXTO0mtTYLmIUKuDOBz_zMzGDRcrj4fORJTJKUVdKnUc-14Ycqe1KUTNCuqLOZlizfwRnuHQYVXdI4a-Vsn7B3JdMIOuWlL10RlLO6y_Pe2UM8jN_iY6ZSRxJH3E2YEok=w1052-h789-no",
+            description: "Entering the Amphitheater looking back at the trail",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/fFyC5drpHPsFrN6vWm_8BSoeGelCgv1lP0JtpVuTNfZc8XHpwwJGC2yLBuK1djgKMlS4g2QypssNgkR0qk03TSX1LvhdG_n7Tkabliyxfv9txoGNMnSD_JWkqnB_kBwEkODlBZuapPOK3T3zBHbwP9CmOJFpUa4xI2zR2AZLlA5lGB9fb8jwUN3ZpR4uXP7UxJjXVqueUM0RT2nPBR-AAmh618nQ04-bRn2UvR524hTFhXtfE_6-7QClC7kuBdkSPX-wWP63VwsNZ9K-ep2S8dMfv47ktFowUdqas4LVkvwmpe81SUYPt_ULQHk8zGvpH7DmvaTzdljMW70CPfTDD3Ydytuofyi_L5d6KKPxry_xTpuhEbbJQqsR8S5Uw1o-j3Ygp_HfffC_cnxF05yQp9hknsYssgUj4PY4uJ3S2ZVh1_e62lWyiwj_t9v_h4qHPl5RUGIWGfsE5AmKm8vYagrDK8RTxyuCtLmN9KGVsKMEd-GwnqBpQsa3xsjHbliWBH3RbVG5-x9DvRcJMp-N_7CaHoFp4P10c-_5sXtKaMPCxyiP0iqlU7Qg17loKfA4kfTy5s0L0QdEwrYch1C8ubLVlMGouV558Di8WifM3Uoz_mZOeA1Vn0Z_LQ6kV9ju3oExFrfVYY35s7bZaT_VhHN7XCPr2y7uk0VyLVqGfOMxcyD9DwPzWodn=w1052-h789-no",
+            description: "Almost to the top heading towards the final pitch",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/U1c5-uDwuhV68Dpyqlk1vbn-pVXMVV7UPTtrRdEVbmxeZbxp6R0ck_Qsb6GBvfwTiaxPhRnz21ahyHLG4wcfaGA8_g7BqWjtunX6ielTBcMPKAi35KAApWDbtnsotnFNkWH5DV3iMLD6s_e2ENazblQ6wkfqaq4rYbNt6FVM-4wF6_NUSkYBRHHVXengrXV5lEQgGiGFdBJ9S9hKrkD3geVUbH0oINmqUAovetLatbjnBJPdCjl7Hy2e63kKJ7pP7KQBkyrJ_2W8s7RcZeNXQ4PDMPqJ4hREj-jpsoq9Y04HVoo94in5LrtQOMDsaA8LLlwWFNSejccP9bmuWlVzepEAPGPc78HJ2qK8T66v1UkiySd6_bOALP88gfXorKpR6viEQmujt1rYFgMqWJGK3ZiJ5Fj9g2OAnmdkbrs7OubuGuFM5coRprDVk_M3bzzycphx0CcRId4uJrmqYatv7fOvrmvz21AXLAy22q2Mas3VMKzzw5uDgj-_6N8seQ70QGcA-qX1hSVl7xL9b5UU6dxKmxJjp46QFfimRyPht1bF4BDNkG_QUz4pKAt7KRh_Cpp5-CbeA0QZ-wdgL9CcfZgtrGSO-ZUV5F1bd8BlJoKavpsMIo6clEhrmhmXl6eAeUz3gRwFyjx_coeymnrwD18fN8onupqKZE1ZtaDCUMx3PqkDAnnWCRI5=w1052-h789-no",
+            description: "Reaching the top of the Amphitheater, spot the Goat",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/3Cp6XGBMtiMLW4m7ODg54VErMTn76Ui1jA9dEbK-fCoHg59r6YaUHL2gg1GZYMexr42A_4e-S65YYmXpPFFfSL7qJvrBiATRAVoHyCMk-VomvcPnj3Um43RuRLNMRvPPh0b4jHoLSb5AE_jHocUwjOu0ljz04rMjtYZuS0Q6N-LV3O3E060uBtQzCx48SA-GMBzkci-EbUcAFXB2p-CeRynWqsVz6hZsvzGtu8jhbm9ViioOKlVteZ8AKRsQfAmE23XQF5g4R6Z8_-PoYKVAa96ccHXWT4bKfSlqSqTBc4U-I1HYxTYmtmvTMMvrUO9RWYJhazKIUiGJSsKF3xRezSqxrgesciONuUHzVVMt-ZMUPIcJnrApqmJhu4-DZczEaTChCpaGO5i0ng8fPShzyd4v53oAVe5qvjd78kXWMYb64T57hmt3kxxbjoTvxzSWr3cesH_bTQJZQKtzBImRP_zKKMaq-Oqyt61ADJ1_b9p3juTMlDXBnKTzymAcUzxnAFQst6lbW5ihT9J5Tcq19txxEddIk2m9eMsNFuTBj223igeHUYveCWS4aqbPD4DaNIUlPiYzSCl0vSdYT2hLUQitncxfNhkahHh6H21_ppqH2PKMcTqIv5ZolAc6mF2sPYBQ1xF3MFiHQOkspiuSnoJxJP137kklMl7CqoPKqNcs_ZuLbESS0cgx=w1052-h789-no",
+            description: "Making friends",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/q9ag4tF4uAbBld6w9w7byvHou9Ep_qG_E0h5kjuIohc1uUEH17UdwA9au1pB9wIlCTMyiuGQzyQPAKtOzy1lepmKORdrF-JE3zOPo5i6XQzm53d_xa9LLdm_xa31R7mGXKtq6CK74vOGmLsiA9bMy3VkLbo0Oawj0GbGr3Jr7gSmUH159PgrWFQHj_MEXGhCefqEecRRRrdtPlbi2IeIllsnzRygDUZTQrQFfIsBbpJdh23GzCGIsW53PAPrBLbFGTHvOlxtAGvSvL-yy3YpKhGZWv58JH_4wV4v8EdPuyCM16naGwLr-d9n92wr-9pVB5VNGc_JFGbTgbgZoC_n3whiOzYseBiuyzQVi1uWd9p5HW6XMH1EXg1WDB-a35V0FN9iD7T7rjtRWgS0f8o56LdJ-uBxMY15Kb5uwqPVuvpqed-7_m3QrfKS8nMG3eJVemwUJzYzIvx4g3D5b5iS8QXlCmDiwukXugtz9Bx3we8caLB1pXv1GeVBfatOnscj3aB4ircCCczcfpZse5YcACKQYRYQRgeegt1zrARUoyxi0QirBgSFnEoGzpXCDZpx8JtglkAc6ES1Bo17Ya5FLS33rKbBrUlWy_exVZMQ-ZrzeoNhn0RD3xtwcKfviapBpu4aK94tjeIAn5rfDbgLxHSpEX5cNG-elm2I-emRivztg_c-pvHEGrfY=w592-h789-no",
+            description: "At ~<span class=\"travel-card-image-description-elevation\">13,000'</span>, looking towards the end of the Class 4 scramble",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/geEKVPAOQhkBaGL6Nzcs5tdEJUMYHzND3MebOc7z54MwXnVjXO6OsODTYPGqN_-2EirzACPuhAvtKEj6cZEAUoLN0JL4fjcZmyVgvlgShTfchS5hUlEgpbQ3O36YHg6G185WlsNrZnLG2mi3U2mhWxH4_CMYEj-pbpQl6_LQYSlvt1cjkHE_ewrEfiFFwnSJumdGk8l_fraPyWyJiJqolS0xORXagF7yZyBiTLXQddZxOSR4mFHmiaIn8tOryq5po37rLjNBEG34P56tdvJJtkc2ptcOfaJjlPgl1TQ9ZGNHsINfmUcoe_2Un5emFHRxAPr1yArSvOES6sRcNpPKUlkP8ROqmbjCwqpeep9a7Yqu13BGWfNlKeVLnDNyX7tNB3p5UVV8it-mDODSodhtP3X5ne9Nfk8ITx1KlIC5lLNZztOQX4Qj9lGE2kMLuYYQD3Y4tmC4f31W8Riql0gq_XmOaKQ2kSBx_YfubUvfqtFueAXdPbER-Jqar2LNkdjcLdnREK1u8WFHRvrzTZCSuqnIAUuBwQAXjRISeuDb_jVl9ILH3Fyp1aaxZviOq63YYU9i3tqaNZPVkzlc83XAhiFwSFmGsyXxlHBSq0_iPk9-9c9qqen2_jxl6PCQX_iO4vnVeJDMCgVwYiIGlQWIaAXVfU2zXhZ3LNRR6sIUoHTw2FF3URmg_8vg=w1052-h789-no",
+            description: "More of the scrunble",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/S2zMRV-I4S76dIUaGwOt7IL12o6a9hJQHNCgMCcHUVaqHTDDTS_S87s3ixC8YlRSStnvrvUn9_WsuUCZuvV0uHQpKqXTUXFjEP0KfsIeKXufnTg__-ys3XNflH_JNqt5xf7z9TuGX58TOpOSnjVNXe2JZDFmY1u2wsiCvgFpPDPw0XBIKOb9lWuAxtuA65sDNVmg0lAzn-hcQQN5Ef_y7qdM76lTUt3JiZOPvNpukxnu4S5FxlRvQxr7Dri54s-3iK7boZlOMHKGb3BqjdOwy62-oiy6I78hfNNy8LiwEGl6F08Wj0UGUzCsXTLGlFjwXHaXi2i5DGVfvkHWM3q-mdN7R4dupjctSAXHaRqpjU1oe56PHOJcHOh55wbwfZQkYIc5vwbSgJdd4TvDTh5WodTIZeYJA1AqALBWA5BoxLIZXEjqnPdvpnbKCRZwOTwpo8g_TeXdvIVCvunT3YHmevq_eFL63AUErJ7Dqezbv06JRlsGM0F20ld0XdeNS7PasolJo0ESvjQ6rADgrwFVytJ4u74sZ9OOpnYe3hHU1dAYtIC8zHWWyg7v9qNBN9EQN_xhNLyuYMnDvGYfebh9FlgS0V54zs-9ZlzAvOqBaDK778Z--xcudobQuA47N0ssKfvrAzfs-m1wmSsKXol9ORWlXkVqTDG_PYretTt1X7jIl96YwNr4U76V=w1052-h789-no",
+            description: "A look back at the route",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/Y5345_-BB_50eSBC3xtRWJIGGZKmIbkTOvsuFvVD8C6UJl-4brhnRbjQel-0eGfWSk6H505tHf3zEFpEmiwTnYX3VOwh02ZsMB_S9sqdOAN6onMYWu4WvvT9Yy6JnWiRDEEDE2Dw7ROztX656Ys--rFXEMgKS0BO_ET3cC3lmFsbDTFDT0wpHD2-WZlylCnxmPq_8kmDS65_VfIaMsTohpLuxJAG8rnTa9HP6xLjMwsXOLKXW7UFIsBwgAUIcPI9PMdJsqTccRna6jnktk4pirV0Gb4Faeovx4_WT9vaK2NpO8mQQzhq17TD69AM2R9ITPKcUCR09WsgAQ9fbn3ouorNxMfxlLDus_NGkTq5M9Jo19xpRrDEtNHS05Y_CfmeGpd5oZogFeNdf1PkGVfjWErEsak9psKQSDP2CRWd7rOgbSm553rXfxNzU5T5ZmbTOYH7-iahFu9TPnacMaKObTvo88h_T_P33tSju33W4825p20oiy5w-kNw5Y3NLylCJG3VDQHJxM0DnsEDrxtdTU2YqgkeH_t3Yk2m7-y7XksBxBK4irlhdN_T-Pc0LG9GtObiCdrb45dPMr11KKwYRPzZeR0RlEaSv5bvHOv7svoQ-O6870J3UPDKZjIt3uOzY1ngguliFMErWf_LzjSwQjOL9xu9opzZ58hkv6ZeDTHQf8m0rsHYGOdh=w1053-h789-no",
+            description: "More friends on Pyramid Peak Summit - <span class=\"travel-card-image-description-elevation\">14,018'</span>",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/eygC4tsLwWmw7tT15P9u9ygO5MqC9KdxeoqSW86h3r-ZNracUlWoW_fdNGAAI-76nYpINXNxYV8lXwKVrVTrh8PMfFe1JFRX0z0FYRU54nrOE263oRzQRiYOzRWcP1PjW7oQMnjVJXRGklFrhR6eufzEAyoK_56oRxugWcE8DFz8su8o1OnacB59vpWH0wk08Yx1hmQ_MyuAQpbCeaNfnF5zlxg_2PR96JqURB3rweBoaJTwK9xQ9HnF2onYv3ST3Z4L0lXi-FJQnPjiFMterl12u029kLBXqP60db5i18TbqzYfF12AKF5FiT_j8QlwYtOGehjrQHSw6mX7Od4cbZnhrKL1iaTVMTixmA6WQ4Z8VIROHsHTF6pa3bKLA0K3dFjVFC6-OnGvHC84Ypp8QZXxSdqarQ4QvOQV15B8gAFHbw92TaKoNX0DJeZlgieEZN5UtPEbYgqn0TUh6OD2kE-GvAKNl90zgp7wCjYxDVSHC0cuU0kk2lcPVH85BT-OkVyCEeWF6w8XUrYikrfoLRiW4XIiQTPT7AGVCRTfgxW1mp3zMPkc3yHhH7T3UClK8-BFgQLnNw0OFuUlWY2lXM3LRE8YrI2jCGGYyWfd1OWMBb1fOBqmv4nUwSfZ15uv5EwCqpDPDgonRtd6OSM0HlMczoO9DYpD4iT0UQPztc8zGif4M-75yqw0=w1052-h789-no",
+            description: "Summit looking North",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/zxfwWJ1OYRQbUXUqqPqkXcAVJNTXN1l63W-UkuOaB2riy4pwBU-1fIyU-6dUgzTx1UtGDdGmS3zvtuih3RlBl_5uLkao5Gzx9VFNjvhtdhfQG7fNRYPj3DwBrfOATp1k70WcOLIst0Vf3xMvFi_XT293y4Nk1fnYgS-QVl8wLecOkiqL1klUzvMRMOECS_GCn1WdF0SOdE-5odO6gopz9wJho-qg9WCt73LV5xEU7ZNlR0Rw8rZ_JhM5It9_tsQE43cegK-2nZ7xEbUrF9xNMWTZPbOVybNPVEauNX7HlbRbZpzGDf4MhD2lwkkTzWYULerxQ9x3puBt2S2MU3xJDD_lXJD9nbTpVsoH8FX2OWWNvAoufX6RUKDtzRoueq7iubeJPmNbZHjHGyMXt2RREzpwg1jn6ss1qMFTWC4KDWYA5vXENv27-UABtO0lwglSsv5O9p48fsNj42Y_nIkgqn__fyDrFfAp4IIlKt7U19KBMUQpTygavRxY2geZF1a7xU6vQFrQyPTJJXv4h2wkRK6iHnZlWc3LedOmHHH0tPVFqIziULqnr2fsjuYuT7rlsQN5ZuDMuok2i4VsCC1Gk4a6zpNDrcZyJZnv1PXQnztB84KqZOlTLi6y08De-7NuhQD5mYBLsl9St4Vkod8OgAV1pdcjftnXjHq7KA5wCsTXor25IkW5KVzt=w1052-h789-no",
+            description: "Summit looking Northwest towards Snowmass Peak",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/c8BwIFnp6cRk9ZxvUnY0jc9CGf_7tmjaTGmWO2nO9umqz4tmZr9OGqP0loGeMxUG3b6W0Wdu-MuWZf3DT2he5C5AQ-xffaeIcbIEypnwxM6Qgl57cauTI_ebsz6gsmDhujc0DfL1Csek8IjpqyOkSsmckz1NBraMNR4FnDhpJObng-XrMyffvFzNUbZdMwdJpsCJaGOturCj8t5_XPpn4_FoDJNOmEpdXk_MJsQiUZj0ZzOYIPJS3z7il_sLuAUVhaJMSv0xd2ZwY4jFwFZGdoeInCfCzYlr_w73ZJa_MYo_c1HzkpNaabiEQLgmB4g-02j_AkubNeg3IVJLfTRGEWHgdhnh0k-0eI-roHiqqm6VCtbhTkEAK0HtWCBMN4z2ZIz5zWcLRWQXhDbQuD-LV7g6QaZkP3IcarVCkJLHFdPM-wD7Jnhyg8nIIcSAm3S52U_MuulGgw6Q20QzRIK40ZzH8zq6r7MSG2DBwIX3sxfheLE20__B8W7lEFnaFFRFZJ2wOwhApe8d1p6_mIdc4cJKqK2a7_3-Co5unHMj0RpyGbhslJdtWGxV-AKZLji9z13nm5eDML4b-tIleRutpkBLyViCcSeULZCWr1l4FSw5FX7OKQvZbcyULFnxI3-ae8GY1w6EIfsHJp_MtHxaDlRg7alxpJqECbUXNKdhxvnKHGAVrlJm_0Gd=w1052-h789-no",
+            description: "Expressive Elk Range",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/NmIvjfQ0XbpvovjikB9fzSEnZ402AgrziFfSGxjWPdlFJgYZVRfrOWd1vuhMyn940Kic7mNzybWz19mnXU4akVcICxMuhsPjWPd3euEg-NCsyBSm7UEAyzYKfij40ZcZfGTHkNj4_NHWL5K63CPRdQ9PbzgqT1ahmuzK79tFLxbWfhlUrOCNRG3DXiy5zsNth0SPzj1diPD8nZrlS3d4S7LUXtTAVcp1XzQwtUVrpr1Fx8dDAg9j8KXo7t0WqD7ARZgcjJtoQhQQxVmtLabRi_m1POWB3hk_dX1cEB4DjUx3CEtvtPKMQFwBDGNIaYAJVXCq_0hV9mNQXdTLWDRybAnCAihtAqSDBq-utvk7WfVF9IrenpZzs_z9tF5pMZWTG6sAJAHjA_zPvdLBU-u4jSxmissDPigfm0aS13R7tbawp0ZpWCMapdXBDmx96ZHo6ArcQT4NC2DU04yOQrQ4bS8kbxX7BNIxA-qQOUx7bkAGkvdoLgsGtG1IaqcGrwaM0ygqkSckJctFVProqBAlIjTMPnGS8tSRcJdfxLDX1UYAeJ5kmProcHtZvfPtIfQhkkB8gXBSqvsgRowSV3LD-47QMA_HJShbxQJzD84aSKiREfMqb_6BUqYLQTDgK_vzM7EAzYUv6kC8OP0RBMdN7llsWqkEBY7zXObeCQmoAV1HAMa8aOWvLDQr=w1052-h789-no",
+            description: "Working my way back down",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/fNpiGP15YYDFXi9HHfL0_jkfdrBRCmhbSuPwBG9IXRzvYFv0d1KSx6H-3-wpofVe2jLn3qPDDwoFpqUyTlIRmxD7xCgpduxc6ZYMtEUYrxIHTARHL6643RV9u_kPXM0GceDyUlJC29QSPBDJelwsI3ODkujz5OQ_HR0lbdC5_orhGFhuGyobdJNGVya22Xgyn84dtf0ou2pMmiLiJuMlQCW09crRkKV86md1RIHXTM-T0De_p71LLjrz9DHoAk8xsBZFTKS5i3iWT9uieAJzlhrhPUF-1evDUbsSXPggwihPlnA44y0mR5vyMLjph5wiI3vz2Fctp6-5qgpjCB_W-Sd17t95U_p_PlTfJJvOQiZu9QaRjddZ5fGwPATw_IpHORKzgk9taiYZnB2WAmkQHWdCD95RVvfVaEC7ow1wvB1XSxC-_EIQJbx17yv4HB5QV0wreR0lZ55pTqgRMKvLG-CWVuc10Cqwq5RjJI5ybGvlt0qIy6wY5a2b0fpOi9Fcgx4XJEFe6GXssEoezZOyXoclxfraaTm9FizkBuj2Dwaa1bwxNSqrJNwLOY5IMR0CnL6V3eSR6jpCtsf0d5syTmW6iGcxO_0bguxzvsQAOqqv9YLnceDOOsJYT6dwUm1z2umCN1gZH6ZL9BXTGGMt9l9ByRVZBPn8sNXPKSCy36a3lqVldtmlzNcW=w1052-h789-no",
+            description: "A look back at the rocky trail to Pyramid",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/V6oimMym7UXLfhysNYPHsNIKm8HUjCeyjk5e0ddXQp4CO5pbi2ysrBU1r00MoXCNyeZSEegmfaCz07cfBcePZDcVH4f9_UeN3WiLVY-jWdBY2-bXAIna65-QphQCyKGN73v1DKS-9r0BZ_ENC6mIYg4hWqIiHPZHFuC2vpfBiD8R56U_X6kTMiSyRQX6o-w2xNgRm9rlIbJXvwbP0o7srNzTVnAfz-aIRew4quusjXJF0O6kYFLSlpdHGF5dqAvYTQIfUcWdYdKxXvRFTgO4Bz-ppnegi0FmX3GOJlEN0F4BtSLONtOGXFOgmbUG9_W-ajnEEDU_OKQ8hYcsBzWb2cC8G6wB3SUxNBxPX_AfqmFg-w7Z3FzPPH1hxN4gntaNemfjclgIvJJfB5teSp3pIXsDNzY7knf9ShqR0lPSG8mTp5COmfz9yUt-iAVJvpErLUfJjWvtvdGSNFvR7NfAfm-OGkzT2G3PF6njxKYop_GQdXpqayL6B9uHoq65SbEmhEkH2goBjyOLDjXmiK_pCCsRM7qCUeD98m7CTn_N6a5_UoSNnXWLBC6Ecv0rF-fs76pT_UF2Hz35VbJzdEqamfxkbl6OqPMIInP4fiC5vvcHZncZx5kP87ycxSnqDCS1JmYy9feWujn3gj4-BjMjnyHlEogfey5uPux9iwCkGvkk0krSvvNgh3iH=w1052-h789-no",
+            description: "As the noon approaches, the Aspen foliage starts to pop",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/dxu1OnKEbsxl178Gm2sCHJlGnz0NLtsfz-5bF2YcICT74TdxW7o13FRVxysMpWKhs0ceNCJImYhulqhMaSoeanl2mqL56xfSZJyTEOwRr9CfZ_MhINdlGZG7HvnUbF_OinLsIEVybIzX7W3g5TTeH5cYJxCuIwMldNHn16uM4rU8AOWrarrt1HChF3aTUHNR7fYQ1dpiL75onEVVbPEm3IfLogNt7TMfOrgbk_Fc5h3NPnvuU-GQN-c-Yp28dnSXCaTL9bSLAAZXZJGsW0WvU-rumKWh0awyXCfZwWwdfVDZv9M50_wYM8wL55Fc-8lQR6uUTqM_UAu03eA-S3S354uf8nmaDUU1VY8cbBORy-yV6oSuQpjDRJFZ0BIBEg4mMclx1-TQGSORJcKWZWAaHOvx7Zio1nL5QQJw17jp-NkQcAsVkhQlU0oLSJgFJcleGzH0x4QiBMfwQrzCtVmEeZMF3yvmgS0B9j1CoNenbe0Ye0Zm6OLF3AzMuUyV1hiBgqiXsvabHkhgwVnEEuwrmbexcXZSbEiy4ec-YBlNODUok_DDk9k4Rhl--qeeAy9kDuJXNU2HrsOVzweC5j31fUIWWfAKWO9hRt_Dm0QB48Q6OXqTJcr7f27b-Jb6q47UZpmOnBwOMubTVcZfY03uvcXhix3ByZiLu5cINm1_W_moQbXkfe5HGZ2d=w1052-h789-no",
+            description: "You can't take too many pictures of the Bells",
+          },
+          {
+            src: "https://lh3.googleusercontent.com/ib_hvAoRMrM6lsaXVBFQJYRx6Q4_9zkUw_gT49GyRsYFG-yGnqbf6B_flDb1M69ANwVqeW3sNfhAxG_59unB7tKOD-TBvxlWSBmrBlbMV4QON9eI7XY9gpgwj58nTJx8_RmMUGk9u11EJLtcaq0kfdbIhVX6KkhkLK1xLDQqvD3Ro0ApomCbJ9VxvXTiq3Khs09Q1QXENRkR40Zd2JgChp6NkVfAHd5DHVLE5WnESOWtMkmiXpVmT0QMpczSATLbReC-jkSD-atpP5VRLnQd2eXHODvlVc-WaAlyGm5caa3siCypGQUfelNOv6AdHIWCY_FqL0Xkwj1GPKnX0I_POTpAYqtw-aEAP1F6txsvGnVsHHodSBbR3NT-WHUiesN1fo9T75mXp7aeQ3daR8iVex3jiG7nQtPRRMXrpiAVEuJqcDOKUdpD47ksqOrs-H1TQV0abnjSPxy0DnYW9p8GtSy32r2Pa50qnroR9oHhvxoen1DHhFli8jwWr1CvtpxIxHue9wcH3NI6JzxMmtXcyAT5-ejjsAnox6Cgu_1E18Qp3B4Z3aybSgA5Z3nRiBEZ5CsEgb4epza2I6KzWc_Q1wAbtcZkoLZfOwPBiTuwLzoIWfjxEiRL2d2qqyUmV2VxKSDxocF3-a0AdTutcFFrQbjShSyqRQ0JUOpN_pGZjfM2h3Di3tUa_w6u=w1052-h789-no",
+            description: "Told you",
+          },
+        ],
+      },
+    },
+    {
       // Mount Fletcher to Drift Peak | 9.20.19
       trip: {
         cardTitle: "Mount Fletcher to Drift Peak",

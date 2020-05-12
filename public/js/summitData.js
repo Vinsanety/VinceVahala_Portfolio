@@ -11,7 +11,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Shavano",
       "Elevation": "14,229",
       "Range": "Sawatch",
-      "TotalSummits": 4
+      "TotalSummits": 5
     },
     {
       "Name": "Mt. Elbert",
@@ -53,6 +53,12 @@ app.factory('summitDataFactory', function () {
       "Name": "Longs Peak",
       "Elevation": "14,255",
       "Range": "Front",
+      "TotalSummits": 2
+    },
+    {
+      "Name": "Tabeguache Peak",
+      "Elevation": "14,155",
+      "Range": "Sawatch",
       "TotalSummits": 2
     },
     {
@@ -185,12 +191,6 @@ app.factory('summitDataFactory', function () {
       "Name": "Maroon Peak",
       "Elevation": "14,156",
       "Range": "Elk",
-      "TotalSummits": 1
-    },
-    {
-      "Name": "Tabeguache Peak",
-      "Elevation": "14,155",
-      "Range": "Sawatch",
       "TotalSummits": 1
     },
     {

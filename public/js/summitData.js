@@ -86,6 +86,18 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 2
     },
     {
+      "Name": "Redcloud Peak",
+      "Elevation": "14,034",
+      "Range": "San Juan",
+      "TotalSummits": 2
+    },
+    {
+      "Name": "Sunshine Peak",
+      "Elevation": "14,001",
+      "Range": "San Juan",
+      "TotalSummits": 2
+    },
+    {
       "Name": "Mt. Massive",
       "Elevation": "14,421",
       "Range": "Sawatch",
@@ -260,12 +272,6 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
-      "Name": "Redcloud Peak",
-      "Elevation": "14,034",
-      "Range": "San Juan",
-      "TotalSummits": 1
-    },
-    {
       "Name": "Pyramid Peak",
       "Elevation": "14,018",
       "Range": "Elk",
@@ -305,12 +311,6 @@ app.factory('summitDataFactory', function () {
       "Name": "Huron Peak",
       "Elevation": "14,003",
       "Range": "Sawatch",
-      "TotalSummits": 1
-    },
-    {
-      "Name": "Sunshine Peak",
-      "Elevation": "14,001",
-      "Range": "San Juan",
       "TotalSummits": 1
     },
     {
@@ -377,6 +377,12 @@ app.factory('summitDataFactory', function () {
       "Name": "Pettingell Peak",
       "Elevation": "13,553",
       "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Whitecross Mountain",
+      "Elevation": "13,542",
+      "Range": "San Juan",
       "TotalSummits": 1
     },
     {

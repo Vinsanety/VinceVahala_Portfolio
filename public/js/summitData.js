@@ -44,15 +44,15 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 3
     },
     {
-      "Name": "Crestone Peak",
-      "Elevation": "14,294",
-      "Range": "Sangre de Cristo",
-      "TotalSummits": 2
-    },
-    {
       "Name": "Longs Peak",
       "Elevation": "14,255",
       "Range": "Front",
+      "TotalSummits": 3
+    },
+    {
+      "Name": "Crestone Peak",
+      "Elevation": "14,294",
+      "Range": "Sangre de Cristo",
       "TotalSummits": 2
     },
     {
@@ -412,6 +412,12 @@ app.factory('summitDataFactory', function () {
     {
       "Name": "Hoosier Ridge",
       "Elevation": "13,352",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Storm Peak B",
+      "Elevation": "13,326",
       "Range": "Front",
       "TotalSummits": 1
     },

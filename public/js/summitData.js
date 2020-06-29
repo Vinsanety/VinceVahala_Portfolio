@@ -56,6 +56,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 2
     },
     {
+      "Name": "Mt. Yale",
+      "Elevation": "14,196",
+      "Range": "Sawatch",
+      "TotalSummits": 2
+    },
+    {
       "Name": "Tabeguache Peak",
       "Elevation": "14,155",
       "Range": "Sawatch",
@@ -173,12 +179,6 @@ app.factory('summitDataFactory', function () {
       "Name": "Crestone Needle",
       "Elevation": "14,197",
       "Range": "Sangre de Cristo",
-      "TotalSummits": 1
-    },
-    {
-      "Name": "Mt. Yale",
-      "Elevation": "14,196",
-      "Range": "Sawatch",
       "TotalSummits": 1
     },
     {
@@ -359,6 +359,12 @@ app.factory('summitDataFactory', function () {
       "Name": "The Sawtooth",
       "Elevation": "13,780",
       "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Bull Hill A",
+      "Elevation": "13,761",
+      "Range": "Sawatch",
       "TotalSummits": 1
     },
     {

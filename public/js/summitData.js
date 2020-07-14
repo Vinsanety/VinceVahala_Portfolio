@@ -5,7 +5,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Bierstadt",
       "Elevation": "14,060",
       "Range": "Front",
-      "TotalSummits": 7
+      "TotalSummits": 8
     },
     {
       "Name": "Mt. Shavano",

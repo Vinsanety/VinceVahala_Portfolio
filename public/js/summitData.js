@@ -329,7 +329,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Audubon",
       "Elevation": "13,223",
       "Range": "Front",
-      "TotalSummits": 2
+      "TotalSummits": 3
     },
     {
       "Name": "Mt. Ouray",

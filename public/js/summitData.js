@@ -5,7 +5,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Bierstadt",
       "Elevation": "14,060",
       "Range": "Front",
-      "TotalSummits": 9
+      "TotalSummits": 10
     },
     {
       "Name": "Mt. Shavano",
@@ -26,6 +26,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 4
     },
     {
+      "Name": "Longs Peak",
+      "Elevation": "14,255",
+      "Range": "Front",
+      "TotalSummits": 4
+    },
+    {
       "Name": "Mt. Elbert",
       "Elevation": "14,433",
       "Range": "Sawatch",
@@ -40,12 +46,6 @@ app.factory('summitDataFactory', function () {
     {
       "Name": "Mt. Evans",
       "Elevation": "14,264",
-      "Range": "Front",
-      "TotalSummits": 3
-    },
-    {
-      "Name": "Longs Peak",
-      "Elevation": "14,255",
       "Range": "Front",
       "TotalSummits": 3
     },

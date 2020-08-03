@@ -5,7 +5,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Bierstadt",
       "Elevation": "14,060",
       "Range": "Front",
-      "TotalSummits": 10
+      "TotalSummits": 11
     },
     {
       "Name": "Mt. Shavano",
@@ -452,6 +452,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Teocalli Mountain",
+      "Elevation": "13,208",
+      "Range": "Elk",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Red Peak A",
       "Elevation": "13,215",
       "Range": "Front",
@@ -491,6 +497,12 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Chiquita",
       "Elevation": "13,069",
       "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Owen B",
+      "Elevation": "13,058",
+      "Range": "Elk",
       "TotalSummits": 1
     },
     {

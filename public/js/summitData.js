@@ -380,6 +380,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Peak 10",
+      "Elevation": "13,633",
+      "Range": "Tenmile",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Mt. Parnassus",
       "Elevation": "13,574",
       "Range": "Front",
@@ -460,6 +466,12 @@ app.factory('summitDataFactory', function () {
     {
       "Name": "Red Peak A",
       "Elevation": "13,215",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Peak 9",
+      "Elevation": "13,195",
       "Range": "Front",
       "TotalSummits": 1
     },

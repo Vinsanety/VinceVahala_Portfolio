@@ -8,6 +8,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 12
     },
     {
+      "Name": "Longs Peak",
+      "Elevation": "14,255",
+      "Range": "Front",
+      "TotalSummits": 5
+    },
+    {
       "Name": "Mt. Shavano",
       "Elevation": "14,229",
       "Range": "Sawatch",
@@ -22,12 +28,6 @@ app.factory('summitDataFactory', function () {
     {
       "Name": "Torreys Peak",
       "Elevation": "14,267",
-      "Range": "Front",
-      "TotalSummits": 4
-    },
-    {
-      "Name": "Longs Peak",
-      "Elevation": "14,255",
       "Range": "Front",
       "TotalSummits": 4
     },

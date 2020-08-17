@@ -488,7 +488,7 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
-      "Name": "Read Peak B",
+      "Name": "Red Peak B",
       "Elevation": "13,189",
       "Range": "Gore",
       "TotalSummits": 1

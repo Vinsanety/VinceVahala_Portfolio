@@ -74,6 +74,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 2
     },
     {
+      "Name": "South Elbert*",
+      "Elevation": "14,134",
+      "Range": "Sawatch",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Pikes Peak",
       "Elevation": "14,110",
       "Range": "Front",
@@ -314,13 +320,13 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
-      "Name": "West Evans",
+      "Name": "West Evans*",
       "Elevation": "14,256",
       "Range": "Front",
       "TotalSummits": 1
     },
     {
-      "Name": "South Wilson",
+      "Name": "South Wilson*",
       "Elevation": "14,110",
       "Range": "San Juan",
       "TotalSummits": 1
@@ -383,6 +389,12 @@ app.factory('summitDataFactory', function () {
       "Name": "Peak 10",
       "Elevation": "13,633",
       "Range": "Tenmile",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Mt. Cosgriff",
+      "Elevation": "13,588",
+      "Range": "Sawatch",
       "TotalSummits": 1
     },
     {
@@ -473,6 +485,12 @@ app.factory('summitDataFactory', function () {
       "Name": "Peak 9",
       "Elevation": "13,195",
       "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Read Peak B",
+      "Elevation": "13,189",
+      "Range": "Gore",
       "TotalSummits": 1
     },
     {

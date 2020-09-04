@@ -11,7 +11,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Longs Peak",
       "Elevation": "14,255",
       "Range": "Front",
-      "TotalSummits": 5
+      "TotalSummits": 6
     },
     {
       "Name": "Mt. Shavano",
@@ -356,6 +356,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Crystal Peak A",
+      "Elevation": "13,852",
+      "Range": "Tenmile",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Mt. Spalding",
       "Elevation": "13,842",
       "Range": "Front",
@@ -380,6 +386,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Bald Mountain A",
+      "Elevation": "13,684",
+      "Range": "Front",
+      "TotalSummits": 1
+    },
+    {
       "Name": "K2",
       "Elevation": "13,664",
       "Range": "Elk",
@@ -388,6 +400,12 @@ app.factory('summitDataFactory', function () {
     {
       "Name": "Peak 10",
       "Elevation": "13,633",
+      "Range": "Tenmile",
+      "TotalSummits": 1
+    },
+    {
+      "Name": "Father Dyer Peak",
+      "Elevation": "13,615",
       "Range": "Tenmile",
       "TotalSummits": 1
     },

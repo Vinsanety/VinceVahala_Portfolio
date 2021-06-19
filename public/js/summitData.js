@@ -5,13 +5,13 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Bierstadt",
       "Elevation": "14,060",
       "Range": "Front",
-      "TotalSummits": 12
+      "TotalSummits": 14
     },
     {
       "Name": "Longs Peak",
       "Elevation": "14,255",
       "Range": "Front",
-      "TotalSummits": 10
+      "TotalSummits": 11
     },
     {
       "Name": "Mt. Shavano",
@@ -35,7 +35,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Elbert",
       "Elevation": "14,433",
       "Range": "Sawatch",
-      "TotalSummits": 3
+      "TotalSummits": 4
     },
     {
       "Name": "Quandary Peak",
@@ -59,7 +59,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Yale",
       "Elevation": "14,196",
       "Range": "Sawatch",
-      "TotalSummits": 2
+      "TotalSummits": 3
     },
     {
       "Name": "Tabeguache Peak",
@@ -71,7 +71,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Mt. Sneffels",
       "Elevation": "14,150",
       "Range": "San Juan",
-      "TotalSummits": 2
+      "TotalSummits": 3
     },
     {
       "Name": "South Elbert*",
@@ -227,7 +227,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Capitol Peak",
       "Elevation": "14,130",
       "Range": "Elk",
-      "TotalSummits": 1
+      "TotalSummits": 2
     },
     {
       "Name": "Challenger Point",
@@ -395,7 +395,7 @@ app.factory('summitDataFactory', function () {
       "Name": "K2",
       "Elevation": "13,664",
       "Range": "Elk",
-      "TotalSummits": 1
+      "TotalSummits": 2
     },
     {
       "Name": "Peak 10",
@@ -482,6 +482,12 @@ app.factory('summitDataFactory', function () {
       "TotalSummits": 1
     },
     {
+      "Name": "Belleview Mountain A",
+      "Elevation": "13,233",
+      "Range": "Elk",
+      "TotalSummits": 1
+    },
+    {
       "Name": "Red Mountain C",
       "Elevation": "13,229",
       "Range": "Front",
@@ -503,7 +509,7 @@ app.factory('summitDataFactory', function () {
       "Name": "Peak 9",
       "Elevation": "13,195",
       "Range": "Front",
-      "TotalSummits": 1
+      "TotalSummits": 2
     },
     {
       "Name": "Red Peak B",
